@@ -5,7 +5,7 @@
   "description": "qr-cow browser extension (Firefox + Chrome) \u2014 generate styled QR codes from any page, link, selection, or typed content. Fully offline.",
   "scripts": {
     "sync-shared": "node scripts/sync-shared.mjs",
-    "icons": "bash scripts/make-icons.sh",
+    "icons": "node scripts/render-icons.mjs",
     "build": "node scripts/build.mjs",
     "dev": "node scripts/build.mjs --watch",
     "start": "web-ext run --source-dir dist/firefox",
