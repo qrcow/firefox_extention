@@ -1,0 +1,122 @@
+{
+  "en": {
+    "extName": "qr-cow — QR Code Generator",
+    "extDescription": "Turn any page, link, or text into a styled QR code — instantly, offline, and private. 13 content types, 16 designer presets.",
+    "actionTitle": "Make a QR code",
+    "menuPage": "QR code for this page",
+    "menuLink": "QR code for this link",
+    "menuSelection": "QR code for selected text",
+    "useCurrentTab": "Use current tab",
+    "openStudio": "Open full studio",
+    "moreTypes": "More…",
+    "transparentBg": "Transparent background"
+  },
+  "fa": {
+    "extName": "qr-cow — سازنده کد QR",
+    "extDescription": "هر صفحه، لینک یا متن را فوری به یک کد QR طرح‌دار تبدیل کنید — آفلاین و خصوصی. ۱۳ نوع محتوا، ۱۶ قالب طراحی.",
+    "actionTitle": "ساخت کد QR",
+    "menuPage": "کد QR برای این صفحه",
+    "menuLink": "کد QR برای این لینک",
+    "menuSelection": "کد QR برای متن انتخاب‌شده",
+    "useCurrentTab": "استفاده از برگه فعلی",
+    "openStudio": "باز کردن استودیوی کامل",
+    "moreTypes": "بیشتر…",
+    "transparentBg": "پس‌زمینه شفاف"
+  },
+  "ar": {
+    "extName": "qr-cow — مولّد رموز QR",
+    "extDescription": "حوّل أي صفحة أو رابط أو نص إلى رمز QR مصمم — فورًا، دون اتصال وبخصوصية تامة. 13 نوع محتوى و16 قالبًا جاهزًا.",
+    "actionTitle": "أنشئ رمز QR",
+    "menuPage": "رمز QR لهذه الصفحة",
+    "menuLink": "رمز QR لهذا الرابط",
+    "menuSelection": "رمز QR للنص المحدد",
+    "useCurrentTab": "استخدام التبويب الحالي",
+    "openStudio": "فتح الاستوديو الكامل",
+    "moreTypes": "المزيد…",
+    "transparentBg": "خلفية شفافة"
+  },
+  "es": {
+    "extName": "qr-cow — Generador de códigos QR",
+    "extDescription": "Convierte cualquier página, enlace o texto en un código QR con estilo — al instante, sin conexión y en privado. 13 tipos de contenido, 16 presets de diseño.",
+    "actionTitle": "Crear un código QR",
+    "menuPage": "Código QR de esta página",
+    "menuLink": "Código QR de este enlace",
+    "menuSelection": "Código QR del texto seleccionado",
+    "useCurrentTab": "Usar pestaña actual",
+    "openStudio": "Abrir el estudio completo",
+    "moreTypes": "Más…",
+    "transparentBg": "Fondo transparente"
+  },
+  "fr": {
+    "extName": "qr-cow — Générateur de codes QR",
+    "extDescription": "Transformez n'importe quelle page, lien ou texte en code QR stylé — instantanément, hors ligne et en privé. 13 types de contenu, 16 presets de design.",
+    "actionTitle": "Créer un code QR",
+    "menuPage": "Code QR de cette page",
+    "menuLink": "Code QR de ce lien",
+    "menuSelection": "Code QR du texte sélectionné",
+    "useCurrentTab": "Utiliser l'onglet actuel",
+    "openStudio": "Ouvrir le studio complet",
+    "moreTypes": "Plus…",
+    "transparentBg": "Fond transparent"
+  },
+  "de": {
+    "extName": "qr-cow — QR-Code-Generator",
+    "extDescription": "Verwandeln Sie jede Seite, jeden Link oder Text sofort in einen gestylten QR-Code — offline und privat. 13 Inhaltstypen, 16 Design-Presets.",
+    "actionTitle": "QR-Code erstellen",
+    "menuPage": "QR-Code für diese Seite",
+    "menuLink": "QR-Code für diesen Link",
+    "menuSelection": "QR-Code für markierten Text",
+    "useCurrentTab": "Aktuellen Tab verwenden",
+    "openStudio": "Volles Studio öffnen",
+    "moreTypes": "Mehr…",
+    "transparentBg": "Transparenter Hintergrund"
+  },
+  "pt": {
+    "extName": "qr-cow — Gerador de códigos QR",
+    "extDescription": "Transforme qualquer página, link ou texto em um código QR estilizado — na hora, offline e privado. 13 tipos de conteúdo, 16 presets de design.",
+    "actionTitle": "Criar um código QR",
+    "menuPage": "Código QR desta página",
+    "menuLink": "Código QR deste link",
+    "menuSelection": "Código QR do texto selecionado",
+    "useCurrentTab": "Usar aba atual",
+    "openStudio": "Abrir o estúdio completo",
+    "moreTypes": "Mais…",
+    "transparentBg": "Fundo transparente"
+  },
+  "zh": {
+    "extName": "qr-cow — 二维码生成器",
+    "extDescription": "把任何页面、链接或文本立即变成风格化二维码 — 离线且私密。13 种内容类型，16 个设计模板。",
+    "actionTitle": "制作二维码",
+    "menuPage": "为此页面生成二维码",
+    "menuLink": "为此链接生成二维码",
+    "menuSelection": "为所选文本生成二维码",
+    "useCurrentTab": "使用当前标签页",
+    "openStudio": "打开完整工作室",
+    "moreTypes": "更多…",
+    "transparentBg": "透明背景"
+  },
+  "tr": {
+    "extName": "qr-cow — QR Kod Oluşturucu",
+    "extDescription": "Herhangi bir sayfayı, bağlantıyı veya metni anında şık bir QR koda dönüştürün — çevrimdışı ve gizli. 13 içerik türü, 16 tasarım şablonu.",
+    "actionTitle": "QR kod oluştur",
+    "menuPage": "Bu sayfa için QR kod",
+    "menuLink": "Bu bağlantı için QR kod",
+    "menuSelection": "Seçili metin için QR kod",
+    "useCurrentTab": "Geçerli sekmeyi kullan",
+    "openStudio": "Tam stüdyoyu aç",
+    "moreTypes": "Daha fazla…",
+    "transparentBg": "Şeffaf arka plan"
+  },
+  "ru": {
+    "extName": "qr-cow — генератор QR-кодов",
+    "extDescription": "Превратите любую страницу, ссылку или текст в стильный QR-код — мгновенно, офлайн и приватно. 13 типов контента, 16 дизайн-пресетов.",
+    "actionTitle": "Создать QR-код",
+    "menuPage": "QR-код для этой страницы",
+    "menuLink": "QR-код для этой ссылки",
+    "menuSelection": "QR-код для выделенного текста",
+    "useCurrentTab": "Использовать текущую вкладку",
+    "openStudio": "Открыть полную студию",
+    "moreTypes": "Ещё…",
+    "transparentBg": "Прозрачный фон"
+  }
+}

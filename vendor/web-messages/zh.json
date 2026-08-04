@@ -1,0 +1,2422 @@
+{
+  "meta": {
+    "home": {
+      "title": "免费二维码生成器，支持 Logo、配色和扫描分析",
+      "description": "免费生成带 Logo、配色和渐变的二维码，并下载 PNG、SVG 或 JPG。无需注册。动态码和扫描分析每月 3 美元起。"
+    },
+    "generate": {
+      "title": "二维码编辑器：免费生成带 Logo 和配色的二维码",
+      "description": "免费的二维码编辑器。选择形状，添加 Logo，设置颜色。下载 PNG、SVG 或 JPG。13 种内容类型, URL、Wi-Fi、vCard、加密货币。无需注册。"
+    },
+    "pricing": {
+      "title": "价格：永久免费，动态二维码每月 3 美元起",
+      "description": "静态二维码永久免费。带扫描分析的动态码每月 3 美元起，API 访问每月 9 美元起。支持加密货币支付, USDT、BTC、ETH。"
+    },
+    "about": {
+      "title": "关于 qr-cow, 由 HSN 家族打造",
+      "description": "qr-cow 是 HSN 家族打造的免费二维码生成器；我们是一小群工程师，专注为开放网络发布可靠、透明的工具。"
+    },
+    "docs": {
+      "title": "API 与 MCP, 从任何语言或 AI 代理生成二维码",
+      "description": "REST API + Model Context Protocol 服务器。从脚本、CI、Claude、Cursor 或 Zed 生成二维码。"
+    },
+    "blog": {
+      "title": "二维码博客：来自 qr-cow 的技巧、指南和笔记",
+      "description": "二维码指南、产品更新以及 qr-cow 团队的幕后笔记。"
+    }
+  },
+  "nav": {
+    "generate": "生成",
+    "solutions": "商业方案",
+    "pricing": "定价",
+    "docs": "文档",
+    "blog": "博客",
+    "about": "关于",
+    "dashboard": "仪表板",
+    "login": "登录",
+    "makeCTA": "生成二维码",
+    "solutionsAll": "全部解决方案",
+    "solutionsRestaurants": "餐厅",
+    "solutionsEvents": "活动",
+    "solutionsRetail": "零售",
+    "skipToContent": "跳转到主要内容",
+    "home": "首页",
+    "menu": "菜单",
+    "getStarted": "开始",
+    "qrTypes": "二维码类型",
+    "extension": "扩展",
+    "signUp": "注册",
+    "product": "制作二维码",
+    "resources": "了解更多",
+    "studio": "QR 工作室",
+    "changelog": "更新日志",
+    "menuDesc": {
+      "studio": "立即制作风格化二维码",
+      "qrTypes": "13 种生成器，从 Wi-Fi 到名片",
+      "extension": "从浏览器工具栏生成",
+      "docs": "REST API 与 MCP 服务器",
+      "solutionsAll": "按行业的方案",
+      "restaurants": "菜单与桌面码",
+      "events": "票务与签到",
+      "retail": "包装与货架码",
+      "blog": "指南与产品动态",
+      "about": "牛背后的一家人",
+      "changelog": "最近上线的功能"
+    },
+    "startHere": "从这里开始",
+    "closeMenu": "关闭菜单",
+    "openMenu": "打开菜单",
+    "primaryNav": "主导航"
+  },
+  "hero": {
+    "eyebrow": "独立二维码生成器 · 上线第一天就有分析 · 加密货币支付",
+    "headlineBefore": "二维码打印后",
+    "headlineHighlight": "仍可",
+    "headlineAfter": "修改。",
+    "sub": "静态码永久免费。动态码可以随时编辑并跟踪扫描数据，每月 3 美元。用加密货币付款，无需经过银行。",
+    "badgeStatic": "静态二维码, 永久免费",
+    "badgeDynamic": "动态 + 分析, 每月 3 美元",
+    "primaryCTA": "免费生成二维码",
+    "secondaryCTA": "查看动态功能 →",
+    "bullet1": "静态码无需注册",
+    "bullet2": "打印后仍可编辑动态码",
+    "bullet3": "真实扫描分析, 无第三方跟踪器",
+    "bullet4": "USDT、BTC、ETH(无需信用卡)"
+  },
+  "generate": {
+    "srHeading": "生成二维码, 免费二维码生成器，支持 Logo、配色和分析",
+    "step1": "完成内容",
+    "step2": "设计您的二维码",
+    "step3": "下载二维码",
+    "template": {
+      "pickHeading": "选择模板",
+      "yoursRibbon": "您的",
+      "namePlaceholder": "命名模板(如：咖啡品牌)",
+      "save": "保存",
+      "update": "更新",
+      "signInPrompt": "保存您自己的模板",
+      "saveOwn": "保存您自己的模板",
+      "logIn": "登录",
+      "nameAria": "模板名称",
+      "myTemplate": "我的模板",
+      "scrollLeft": "向左滚动模板",
+      "scrollRight": "向右滚动模板"
+    },
+    "type": {
+      "static": "静态",
+      "dynamic": "动态",
+      "staticHint": "固定链接，永久有效，无需注册。",
+      "dynamicHint": "可编辑目标 + 每次扫描分析。"
+    },
+    "preview": {
+      "live": "实时",
+      "empty": "您的二维码将出现在这里",
+      "emptyHint": "选择模板并填写表单以查看实时预览。"
+    },
+    "download": {
+      "primary": "下载 PNG",
+      "svgLabel": "下载 SVG",
+      "jpgLabel": "下载 JPG",
+      "vector": "矢量",
+      "photo": "照片",
+      "copyToClipboard": "复制到剪贴板",
+      "copied": "已复制"
+    },
+    "contentHeading": "内容",
+    "design": {
+      "shapeTab": "形状",
+      "logoTab": "Logo",
+      "colorsTab": "颜色",
+      "advancedTab": "高级",
+      "bodyShape": "码点形状",
+      "eyeFrame": "定位框样式",
+      "eyeBall": "定位点样式",
+      "errorCorrection": "容错级别",
+      "errorCorrectionHint": "级别越高，越能承受更大的Logo和更多磨损，但码点会更密集。",
+      "foreground": "前景色",
+      "background": "背景色",
+      "transparentBg": "透明背景",
+      "gradient": "渐变",
+      "gradientHint": "应用于码体的双色线性渐变。",
+      "enableGradient": "启用渐变",
+      "logoColour": "Logo颜色",
+      "uploadLogo": "上传自己的Logo",
+      "logoSize": "大小",
+      "cutOut": "镂空",
+      "removeLogo": "移除Logo",
+      "extraExports": "更多导出尺寸",
+      "extraExportsHint": "标准 PNG 为 1000 px；用于打印可下载更大位图，用于网页可下载更小文件。"
+    },
+    "saveCard": {
+      "titleAuth": "为二维码命名并保存",
+      "titleAnon": "注册以保存此二维码",
+      "nameLabel": "二维码名称",
+      "namePlaceholder": "例如：咖啡馆 Wi-Fi、2026 春季菜单",
+      "typeLabel": "类型",
+      "staticOption": "静态, 免费，内容永久固定",
+      "dynamicOption": "动态, 可编辑 + 可追踪(每月 3 美元)",
+      "saveButton": "保存到仪表板",
+      "saving": "保存中…",
+      "signUpFree": "免费注册",
+      "moreExports": "更多导出尺寸",
+      "qrInfo": "二维码信息"
+    },
+    "forms": {
+      "url": {
+        "label": "网站 URL",
+        "hint": "以 http(s):// 开头的任意地址，或直接粘贴域名。"
+      },
+      "text": {
+        "label": "文本",
+        "count": "{len} / {max} 个字符",
+        "upTo": "最多 {max} 个字符。",
+        "sample1": "任何您想让扫码者看到的内容。",
+        "sample2": "12 号桌, 准备好后请按铃。",
+        "sample3": "Wi-Fi 密码：请询问咖啡师 🙂"
+      },
+      "email": {
+        "to": "收件人",
+        "subject": "主题(可选)",
+        "body": "正文(可选)"
+      },
+      "sms": {
+        "phone": "电话号码",
+        "phoneHint": "请使用带 + 国家区号的国际格式。",
+        "message": "短信内容(可选)"
+      },
+      "phone": {
+        "label": "电话号码",
+        "hint": "扫码即拨打电话。请使用 + 国家区号。"
+      },
+      "person": {
+        "firstName": "名",
+        "lastName": "姓",
+        "phone": "电话",
+        "email": "邮箱",
+        "company": "公司(可选)",
+        "title": "职位(可选)",
+        "website": "网站(可选)",
+        "address": "地址(可选)"
+      },
+      "wifi": {
+        "ssid": "网络名称(SSID)",
+        "ssidHint": "最多 32 个字符(IEEE 802.11 限制)。",
+        "security": "加密方式",
+        "noPassword": "无密码",
+        "hidden": "隐藏网络",
+        "no": "否",
+        "yes": "是",
+        "password": "密码"
+      },
+      "event": {
+        "title": "标题",
+        "starts": "开始时间",
+        "ends": "结束时间",
+        "location": "地点(可选)",
+        "description": "描述(可选)"
+      },
+      "location": {
+        "lat": "纬度",
+        "latHint": "-90 至 90",
+        "lng": "经度",
+        "lngHint": "-180 至 180",
+        "query": "搜索关键词(可选)",
+        "queryPlaceholder": "东京塔"
+      },
+      "social": {
+        "network": "平台",
+        "handle": "用户名或电话(WhatsApp 用)",
+        "handleHint": "只填用户名(不带开头的 @)。WhatsApp 请填带国家区号的完整电话号码。",
+        "prefilled": "预填消息(可选)"
+      },
+      "crypto": {
+        "network": "网络",
+        "address": "钱包地址",
+        "addressHint": "请粘贴准确的地址。字符错误 = 资金丢失。",
+        "amount": "金额(可选)",
+        "label": "标签(可选)",
+        "message": "留言(可选)"
+      },
+      "app": {
+        "label": "应用商店 URL",
+        "hint": "App Store / Play Store / Microsoft Store。粘贴应用页面 URL 或深度链接。"
+      }
+    },
+    "upsell": {
+      "title": "升级为动态码",
+      "price": "每月 3 美元",
+      "feat1": "打印后仍可更改跳转地址",
+      "feat2": "国家、设备、时段分析",
+      "feat3": "永远无需重印",
+      "switch": "切换到动态码 →"
+    },
+    "teaser": {
+      "title": "上线后，您将看到",
+      "sample": "示例",
+      "mobile": "手机",
+      "desktop": "桌面",
+      "tablet": "平板",
+      "lastScan": "最近扫描",
+      "minutesAgo": "2 分钟前"
+    },
+    "types": {
+      "url": "URL",
+      "text": "文本",
+      "wifi": "Wi-Fi",
+      "vcard": "vCard",
+      "mecard": "MeCard",
+      "email": "电子邮件",
+      "sms": "短信",
+      "phone": "电话",
+      "event": "活动",
+      "location": "位置",
+      "social": "社交",
+      "crypto": "加密货币",
+      "app": "应用"
+    },
+    "presets": {
+      "restaurant": "餐厅",
+      "cafe": "咖啡馆",
+      "tech": "科技",
+      "event": "活动",
+      "retail": "零售",
+      "wedding": "婚礼",
+      "healthcare": "医疗",
+      "real-estate": "房地产",
+      "business-card": "名片",
+      "crypto": "加密货币",
+      "sunset": "日落",
+      "ocean": "海洋",
+      "forest": "森林",
+      "aurora": "极光",
+      "berry": "莓果",
+      "mono": "单色"
+    },
+    "designOptions": {
+      "square": "方形",
+      "rounded": "圆角",
+      "dots": "点状",
+      "classy": "优雅",
+      "classyRounded": "优雅圆角",
+      "extraRounded": "超圆角",
+      "dot": "圆点",
+      "eclL": "7%, 适合清晰打印",
+      "eclM": "15%, 默认",
+      "eclQ": "25%, 推荐",
+      "eclH": "30%, 耐磨损",
+      "logo_web": "网站",
+      "logo_email": "电子邮件",
+      "logo_phone": "电话",
+      "logo_audio": "音频",
+      "logo_video": "视频",
+      "logo_image": "图片",
+      "logo_doc": "文档",
+      "logo_pin": "位置"
+    },
+    "info": {
+      "title": "二维码信息",
+      "typeLabel": "类型",
+      "static": "静态",
+      "dynamic": "动态",
+      "pngExport": "PNG 导出",
+      "pngSize": "1000 × 1000 像素",
+      "scannability": "可扫描性",
+      "contrast": "对比度",
+      "encoded": "已编码",
+      "chars": "{n} 个字符",
+      "lowContrastWarning": "⚠ 手机可能难以扫描此码。请尝试更深的前景色或更浅的背景色。",
+      "ratingExcellent": "极佳",
+      "ratingGood": "良好",
+      "ratingLow": "较低, 可能无法扫描"
+    },
+    "toasts": {
+      "savedTitle": "已保存“{name}”",
+      "savedDynamic": "动态码, 分享短链接，实时查看扫描数据。",
+      "savedStatic": "静态码, 您的设计已可下载。",
+      "copyShortLink": "复制短链接",
+      "linkCopied": "链接已复制",
+      "templateDeleted": "已删除“{name}”",
+      "templateDeletedBody": "模板已从您的库中移除。",
+      "templateUpdated": "已更新“{name}”",
+      "templateSaved": "已保存“{name}”",
+      "templateUpdatedBody": "模板已更新。",
+      "templateSavedBody": "已添加到您的模板, 显示在上方“您的”标签中。",
+      "saveFailed": "保存失败",
+      "tryAgain": "请稍后重试。",
+      "signUpDynamic": "注册以使用动态二维码",
+      "signUpDynamicBody": "免费账户即可解锁动态码 + 扫描分析。",
+      "imageCopied": "二维码图片已复制",
+      "imageCopiedBody": "可粘贴到任何支持图片的地方。",
+      "copiedText": "已复制为文本",
+      "copiedTextBody": "此处不支持图片剪贴板, 已改为复制编码内容。",
+      "copyFailed": "复制失败",
+      "copyFailedBody": "剪贴板访问被阻止。",
+      "copyAria": "将二维码图片复制到剪贴板"
+    },
+    "tour": {
+      "eyebrow": "工作室导览",
+      "step1Title": "从模板开始",
+      "step1Body": "选一个接近您想要效果的样式，Café 红、Aurora 渐变，或干净的 Mono。滑动这一行查看更多。",
+      "step2Title": "选择二维码承载什么",
+      "step2Body": "URL 是默认项。可以切换到 Wi-Fi、vCard、SMS、活动、加密货币地址等等，下面的表单会自动适配。",
+      "step3Title": "打造您的风格",
+      "step3Body": "形状 · 颜色 · Logo · 高级。把 Logo 放在中间，挑一个渐变，调高纠错等级，让二维码沾上咖啡渍也能扫。",
+      "step4Title": "实时预览",
+      "step4Body": "预览随输入即时重绘，下方的可扫描性提示会在你打印出手机读不出的码之前发出警告。",
+      "skip": "跳过导览",
+      "back": "上一步",
+      "next": "下一步",
+      "done": "完成",
+      "step5Title": "静态还是动态？",
+      "step5Body": "静态永久免费：数据就存在图案本身里。动态可在打印后修改跳转目标并统计每次扫描，每月 3 美元起。",
+      "step6Title": "下载或复制",
+      "step6Body": "PNG、SVG、JPG 任选其一。或点击复制图片，把二维码直接粘贴到 Slack、Figma 或邮件草稿里。"
+    },
+    "mobilePreviewHint": "随您在下方编辑而更新",
+    "mobilePreviewMore": "更多格式和选项",
+    "a11y": {
+      "downloadPng": "下载 PNG 格式二维码",
+      "qrKind": "二维码种类",
+      "contentTypes": "二维码内容类型",
+      "previewEmpty": "二维码预览，填写表单即可生成",
+      "moreFormats": "选择其他下载格式",
+      "livePreview": "{type} 内容的实时二维码预览"
+    }
+  },
+  "footer": {
+    "tagline": "打印后仍可修改的二维码。",
+    "language": "语言",
+    "productHeading": "产品",
+    "qrTypesHeading": "二维码类型",
+    "solutionsHeading": "解决方案",
+    "companyHeading": "公司",
+    "byline": "独立打造。没有融资，没有销售团队。",
+    "systemsNormal": "所有系统运行正常",
+    "rightsReserved": "保留所有权利",
+    "privacy": "隐私",
+    "terms": "条款",
+    "product": {
+      "qrStudio": "二维码编辑器",
+      "pricing": "定价",
+      "apiMcp": "API & MCP",
+      "getStarted": "开始使用",
+      "extension": "浏览器扩展"
+    },
+    "qrTypes": {
+      "url": "URL 二维码",
+      "wifi": "Wi-Fi 二维码",
+      "vcard": "vCard 二维码",
+      "email": "电子邮件二维码",
+      "all": "全部 13 种类型 →"
+    },
+    "solutions": {
+      "restaurants": "餐厅",
+      "events": "活动",
+      "retail": "零售",
+      "allUseCases": "全部应用场景"
+    },
+    "company": {
+      "about": "关于",
+      "blog": "博客",
+      "compare": "对比",
+      "alternatives": "替代方案",
+      "changelog": "更新日志",
+      "faq": "常见问题"
+    },
+    "socialAria": "qr-cow 的 {network}"
+  },
+  "steps": {
+    "eyebrow": "使用方法",
+    "title": "三个简单步骤，生成二维码",
+    "sub": "无需教程，无需学习路线。只需输入、设计、分享。",
+    "s1Title": "选择您的内容",
+    "s1Body": "粘贴链接或文字。选择静态码，或选择日后可编辑的动态码。",
+    "s1Preview": "https://my-website.com",
+    "s2Title": "打造专属风格",
+    "s2Body": "设置与品牌相配的颜色。预览随输入实时更新。",
+    "s2Preview": "Logo",
+    "s3Title": "下载与跟踪",
+    "s3Body": "导出为 PNG 或 SVG。动态码会在仪表板中统计每一次扫描。",
+    "s3Preview1": "qr-cow.png",
+    "s3Preview2": "13+ 次扫描"
+  },
+  "features": {
+    "eyebrow": "为什么选择 qr-cow",
+    "title": "您需要的一切，多余的一概没有",
+    "sub": "以分析为先构建，让您能根据二维码所反映的数据采取行动。",
+    "studio": {
+      "title": "工作室级设计",
+      "body": "六种码点形状、定位框与定位点样式、可自定义角度的渐变、中心Logo。清晰的 PNG 与无限缩放的 SVG。"
+    },
+    "dynamic": {
+      "title": "动态二维码",
+      "body": "无需重新打印即可更改二维码指向。随时修正错别字、切换活动、实时重定向流量。"
+    },
+    "analytics": {
+      "title": "实时扫描分析",
+      "body": "实时总量、独立访客、国家、设备、OS、浏览器以及一天各时段热力图, 开箱即用，而非停留在路线图上。"
+    },
+    "crypto": {
+      "title": "加密货币付款",
+      "body": "USDT、BTC、ETH, 无需信用卡、无退单、随处可用。静态码永久免费。"
+    },
+    "private": {
+      "title": "默认保护隐私",
+      "body": "匿名扫描日志、无第三方跟踪器、符合欧盟规范。您的活动始终属于您自己。"
+    },
+    "fast": {
+      "title": "快速且对 SEO 友好",
+      "body": "服务端渲染、缓存并由 CDN 支持。全球任何地方扫描跳转均在 50 毫秒以内。"
+    }
+  },
+  "analytics": {
+    "eyebrow": "扫描分析",
+    "title": "精准了解谁扫描了您的二维码。",
+    "sub": "每个动态码都实时跟踪扫描。国家、设备、OS、浏览器、一天中的时段, 全部呈现在仪表板中，不附带任何第三方跟踪器。",
+    "sampleDashboard": "示例仪表板",
+    "topDevice": "热门设备",
+    "topCountry": "热门国家",
+    "uniqueVisitors": "独立访客",
+    "totalScans": "扫描总数",
+    "byCountry": "按国家",
+    "scansPerDay": "每日扫描数",
+    "past30Days": "过去 30 天",
+    "last30Days": "最近 30 天",
+    "spring": "QR - 春季促销",
+    "byDevice": "按设备",
+    "whenPeopleScan": "人们何时扫描",
+    "peakLabel": "高峰：当地晚 7-9 点。周六略高于工作日。",
+    "mobile": "手机",
+    "desktop": "桌面",
+    "tablet": "平板",
+    "chartSPDayAlt": "每日扫描数示例图表",
+    "chartHourAlt": "各时段扫描示例热力图",
+    "moreCountries": "+ 另外 12 个"
+  },
+  "useCases": {
+    "eyebrow": "解决方案",
+    "title": "为您的工作方式而生",
+    "sub": "同一款简单工具，为几种常见场景量身调校。",
+    "explore": "探索",
+    "restaurants": {
+      "title": "餐厅",
+      "body": "菜单、点餐与评价, 在餐桌旁一扫即得。"
+    },
+    "events": {
+      "title": "活动",
+      "body": "门票、日程与签到，随计划变化而自动更新。"
+    },
+    "retail": {
+      "title": "零售",
+      "body": "产品页面、促销与评价，遍布每个货架和包装。"
+    }
+  },
+  "founder": {
+    "fromTheDesk": "创始团队手记",
+    "signature": "HSN 一家人",
+    "quote1": "qr-cow 的起点，是一位朋友的咖啡馆每次改价都要重新打印菜单。最初的解决方案只有四十行代码。网站的其余部分、工作室、分析、深色模式，都从这里生长而来, 一次一个功能，出自一小家喜欢为开放网络打造实诚工具的工程师之手。",
+    "quote2": "qr-cow 由 HSN 一家人打造, 没有融资，没有销售团队。您若提问，我们中的一员亲自作答。",
+    "longerStory": "完整故事"
+  },
+  "cta": {
+    "heading": "准备好制作您的第一个二维码了吗?",
+    "sub": "永久免费方案。无需信用卡。两分钟即可获得首次可跟踪的扫描。",
+    "primary": "创建我的第一个二维码",
+    "loginPrompt": "已有账户?登录"
+  },
+  "latestPosts": {
+    "eyebrow": "博客",
+    "title": "qr-cow 博客最新动态",
+    "sub": "产品更新、实战指南与团队随笔。",
+    "viewAll": "查看全部"
+  },
+  "socialProof": {
+    "eyebrow": "实时数据",
+    "title": "真实的二维码，真实的扫描，就在此刻",
+    "codesGenerated": "已生成二维码",
+    "scansTracked": "已跟踪的真实扫描",
+    "countriesLast30": "国家 · 最近 30 天",
+    "updatedEveryMinute": "每分钟更新"
+  },
+  "heroStudio": {
+    "livePreview": "实时预览",
+    "tryUrl": "试试看，输入任意链接",
+    "pickStyle": "选择样式",
+    "openStudio": "打开完整工作室",
+    "urlPlaceholder": "https://my-website"
+  },
+  "pricingPage": {
+    "eyebrow": "定价",
+    "h1": "三档套餐。都是整数，因为我不擅长给价格做 A/B 测试。",
+    "sub": "静态码永久免费。想要分析功能，每月 3 美元；需要 API，每月 9 美元。仅支持加密货币。",
+    "cryptoOnly": "仅支持加密货币。",
+    "payWith": "支付方式",
+    "cryptoHint": "USDT TRC20 最省事, 一分钟到账，手续费只有几美分。",
+    "mostPopular": "最受欢迎",
+    "perMonth": "月",
+    "forever": "永久",
+    "paidIn": "以 USDT / BTC / ETH 支付",
+    "startFree": "免费开始",
+    "choose": "选择",
+    "footNote": "每个账户都从免费开始。超出限额再升级，随时可以降级。仪表板即可完成, 不用发邮件开工单，也没有挽留套路。",
+    "faqEyebrow": "常见问题",
+    "faqTitle": "定价相关问题",
+    "faq1q": "免费套餐真的免费吗?",
+    "faq1a": "是的，永久免费。静态码不限量、无需账户；注册后可用 3 个动态码和完整的分析仪表板。免费套餐就是我自己作为用户想要的样子，所以有意做得慷慨。",
+    "faq2q": "从没用过加密货币，怎么付款?",
+    "faq2a": "点击“用加密货币支付”，会得到一个钱包地址和金额，转账即可。NOWPayments 会在收款端处理兑换。USDT TRC20 最快(约一分钟)也最便宜(手续费几美分)。如果您从没转过加密货币，博客上有一篇 90 秒的入门教程。",
+    "faq3q": "为什么不支持 Stripe 或 PayPal?",
+    "faq3a": "我住的地方它们用不顺畅，而且 3 美元订阅的拒付纠纷也不是我想经营的生意。这个取舍是真实存在的, 仅支持加密货币对部分用户确实是门槛，抱歉。如果这是硬性障碍，给我发邮件，我会想办法。",
+    "faq4q": "取消订阅会怎样?",
+    "faq4a": "您的动态码会继续正常跳转。计费周期结束后，扫描分析页面变为只读并停止记录新扫描。您的设计可导出为 PNG/SVG, 它们属于您，随时带走。",
+    "faq5q": "为什么 Growth 定 9 美元而不是 8 美元?",
+    "faq5a": "8 美元显得畏畏缩缩。我宁愿让您知道我在为有用的东西收费，而不是拐弯抹角。它仍然比同类便宜, QRTiger 的同档套餐是 35 美元，Beaconstac 是 39 美元。",
+    "exploreHeading": "继续探索",
+    "exploreQr": "二维码类型",
+    "exploreSolutions": "按行业的解决方案",
+    "exploreCompare": "与其他工具对比"
+  },
+  "aboutPage": {
+    "eyebrow": "关于",
+    "h1": "来自 qr-cow 背后这个家庭的一封小信。",
+    "intro": "qr-cow 是一个免费二维码生成器，支持Logo、颜色、渐变、动态码、扫描分析，还有一个 Model Context Protocol(MCP)服务器, 由 HSN 家族打造，这是一小群为开放网络构建诚实工具的工程师。没有融资 PPT，没有增长团队，没有市场部。只是我们用心打磨的众多项目之一。",
+    "whoWeAre": "我们是谁",
+    "who1": "HSN 家族是一个真实的家庭，所有人都在科技行业工作。我们在网络上发布各种业余项目，都是小而专注的工具，力求诚实地做好自己的事。qr-cow 就是其中之一。",
+    "who2": "我们不是伪装成个人的品牌，也不是伪装成品牌的个人。我们就是一个喜欢做东西的家庭，把作品发布到能派上用场的地方。",
+    "howStarted": "qr-cow 的由来",
+    "started1": "2025 年底，一位朋友开了家小咖啡馆。她请设计师印了菜单，底部带一个二维码。两周后菜单改了，但二维码还指向旧的 PDF。她又付了一次设计费。然后又一次。第三次重印之后，我们给她写了个脚本：一个她自己就能编辑的短链接，印好的码则一直有效。",
+    "started2": "那个脚本后来变成了这个网站。吉祥物是头奶牛，因为测试工作室时随手画的占位图恰好像一头牛，删掉它总觉得不对。",
+    "whatWeCare": "我们在意什么",
+    "careCheap": "便宜。",
+    "careCheapBody": "真正的分析功能每月 3 美元，而不是 19 美元。独立开发者和小团队不该为他们永远不会接触的销售代表买单。",
+    "carePortable": "可带走。",
+    "carePortableBody": "静态码无需账户即可使用，设计可导出为 SVG。哪天您不再需要 qr-cow，一切都能带走。",
+    "carePrivate": "没有第三方跟踪器。",
+    "carePrivateBody": "我们自建分析系统，任何数据都不会流向 Google、Facebook 或其他任何人。",
+    "careCrypto": "仅支持加密货币。",
+    "careCryptoBody": "在我们一些人居住的地方，银行卡并不好用；而 3 美元订阅的拒付纠纷，也不是一门值得经营的生意。",
+    "whatsNext": "接下来做什么",
+    "nextIntro": "清单上的几件事，按大致顺序：",
+    "next1": "批量 CSV 导入, 已经有五个人提过，我们自己也想要。",
+    "next2": "品牌套件, 保存一套配色和Logo，在各个码之间复用。",
+    "next3": "真正的 iOS 应用，而不只是安装版 PWA。",
+    "next4": "一个“这个码还能扫吗”检测器。",
+    "contact": "如果您有 qr-cow 解决不了的二维码问题，请写信到",
+    "contactEnd": "我们会认真读每一封。",
+    "builtBy": "打造者",
+    "familyName": "HSN 家族",
+    "familyDesc": "一个小小的工程师家庭，喜欢为开放网络做诚实的工具。",
+    "sayHello": "打个招呼",
+    "whereLabel": "所在地",
+    "whereBody": "独立构建，用心打造，献给开放网络上的每个人。",
+    "statsLabel": "诚实的数据",
+    "stat1": "一个小家庭，没有代理公司。",
+    "stat2": "没有外部融资。",
+    "stat3": "没有销售人员，没有销售电话。",
+    "stat4": "代码足够开放，可供审计。",
+    "tryStudio": "试试工作室",
+    "whyEyebrow": "我们为什么要做这个",
+    "whyTitle": "替代品是有的，只是它们的定价面向别人。",
+    "whyBody": "这个品类里不乏好工具，但那些我们认为本该标配的功能, 分析、动态码、API 访问, 却要每月 19 到 39 美元。把这套功能保留下来，砍掉销售开销，再按独立开发者的预算定价，剩下的就是 qr-cow。"
+  },
+  "dashboard": {
+    "workspace": "工作区",
+    "tools": "工具",
+    "account": "账户",
+    "createQr": "创建二维码",
+    "myQrCodes": "我的二维码",
+    "analytics": "分析",
+    "studio": "工作室",
+    "billingPlan": "账单与套餐",
+    "apiMcp": "API 与 MCP",
+    "signedInAs": "当前登录",
+    "adminPanel": "管理面板",
+    "billing": "账单",
+    "logOut": "退出登录",
+    "home": {
+      "title": "我的二维码",
+      "subtitle": "创建、定制、下载, 然后看着每一次扫描滚滚而来。",
+      "openStudio": "打开工作室",
+      "newQr": "+ 新建二维码",
+      "statQrCodes": "二维码",
+      "statDynamicOnPage": "本页有 {count} 个动态码",
+      "statBuildFirst": "创建您的第一个",
+      "statScansOnPage": "本页扫描数",
+      "statAcross": "来自 {count} 个码",
+      "statTotal": "总计",
+      "statPageOf": "第 {page} / {pages} 页",
+      "statAllShown": "已全部显示",
+      "searchPlaceholder": "按名称搜索…",
+      "filterType": "类型",
+      "filterAll": "全部",
+      "filterStatic": "静态",
+      "filterDynamic": "动态",
+      "filterSort": "排序",
+      "sortNewest": "最新",
+      "sortScans": "扫描最多",
+      "sortName": "A → Z",
+      "clearSearch": "清除",
+      "emptyTitle": "这里还没有二维码。",
+      "emptyBody": "(要是您早点注册账户，现在也不至于空空如也。去工作室试试, 第一个通常不到一分钟就能做好。)",
+      "emptyCta": "创建我的第一个二维码",
+      "emptyBrowse": "先随便逛逛",
+      "noMatchTitle": "没有符合筛选条件的结果",
+      "noMatchBody": "换个名称或类型试试。",
+      "clearFilters": "清除筛选",
+      "static": "静态",
+      "dynamic": "动态",
+      "scanCount": "{count, plural,one {# 次扫描} other {# 次扫描}}",
+      "editDestination": "编辑跳转地址",
+      "analyticsLabel": "分析",
+      "editName": "编辑名称",
+      "deleteLabel": "删除",
+      "deleteTitle": "删除二维码?",
+      "deleteBody": "“{name}”将被永久删除，已打印的码会失效。",
+      "deleteConfirm": "删除",
+      "deleteCancel": "保留",
+      "deleted": "已删除“{name}”",
+      "deleteFailed": "删除失败",
+      "tryAgain": "请稍后再试。"
+    },
+    "welcome": {
+      "upLate": "熬夜了啊",
+      "morning": "早上好",
+      "afternoon": "下午好",
+      "evening": "晚上好",
+      "fallbackName": "朋友",
+      "scansThisWeek": "本周扫描数",
+      "vsLastWeek": "对比上周",
+      "noScansYet": "本周还没有扫描。把码贴到海报或菜单上，看着它亮起来。",
+      "last7Days": "最近 7 天"
+    },
+    "planCard": {
+      "yourPlan": "您的套餐",
+      "manage": "管理",
+      "dynamicUsed": "已用动态码",
+      "unlimited": "不限量",
+      "onFreePlan": "当前为免费套餐",
+      "usedOf": "已用 {used} / {limit} 个动态码",
+      "price": "每月 3 美元",
+      "pitch": "升级到 <b>Starter</b>，享受无限编辑、完整分析和 50 个动态码。",
+      "feat1": "国家、设备 + 时段分布",
+      "feat2": "50 个动态二维码",
+      "feat3": "以 USDT / BTC / ETH 支付",
+      "upgradeCta": "每月 3 美元，立即升级"
+    },
+    "analyticsPage": {
+      "title": "分析",
+      "subtitle": "实时追踪您所有动态二维码的扫描情况。",
+      "loading": "正在加载分析数据…",
+      "loadFailed": "无法加载分析数据。"
+    },
+    "qrAnalytics": {
+      "back": "全部码的分析",
+      "fallbackTitle": "二维码",
+      "loading": "加载中…",
+      "lifetimeScans": "累计扫描：{count}",
+      "loadFailed": "无法加载此码的分析数据。"
+    },
+    "editPage": {
+      "title": "编辑二维码",
+      "loading": "加载中…",
+      "subtitleDynamic": "更改印刷码的跳转地址，无需重印。",
+      "subtitleStatic": "静态码打印后无法更改内容, 不过名称随您改。",
+      "breadcrumbDashboard": "仪表板",
+      "notFound": "找不到该二维码, 可能已被删除。",
+      "loadFailed": "无法加载此二维码。",
+      "backToDashboard": "返回仪表板",
+      "nameLabel": "名称",
+      "namePlaceholder": "例如：春季促销二维码",
+      "destLabel": "目标 URL",
+      "destHint": "每次扫描的落地地址。随时可改, 印好的码保持不变。",
+      "shortLink": "短链接：",
+      "contentLabel": "编码内容",
+      "contentHint": "静态码把内容直接编进二维码图案本身, 改了就得重新打印。",
+      "staticWarning": "⚠ 更新静态码会让已打印的二维码失效。如果想不重印就能改跳转地址，请改用动态码。",
+      "save": "保存更改",
+      "saving": "保存中…",
+      "updated": "已更新",
+      "updatedDynamic": "现在任何人扫描印好的码都会跳到新的 URL。",
+      "updatedStatic": "名称已更新。",
+      "saveFailed": "保存失败。",
+      "couldNotSave": "无法保存",
+      "tryAgain": "请稍后再试。",
+      "cancel": "取消",
+      "created": "创建于 {date}",
+      "lifetimeScans": "累计扫描",
+      "seeBreakdowns": "查看细分数据 →"
+    },
+    "createPage": {
+      "title": "新建二维码",
+      "subtitle": "先设计，再保存到仪表板。切换到<b>动态</b>可以随时编辑跳转地址并查看扫描分析。"
+    },
+    "billingPage": {
+      "title": "账单与套餐",
+      "subtitle": "管理您的套餐和付款记录。仅支持加密货币支付, USDT、BTC 或 ETH。",
+      "paymentReceived": "已收到付款, 套餐已激活。🎉",
+      "checkoutCanceled": "已取消结账，未产生任何费用。",
+      "mockTitle": "模拟结账(开发环境), 付款 #{id}",
+      "mockBody": "当前启用的是模拟支付。使用真实加密货币时，这里是 NOWPayments 页面。",
+      "mockProcessing": "处理中…",
+      "mockSimulate": "模拟支付成功",
+      "currentPlan": "当前套餐",
+      "active": "已激活",
+      "free": "免费",
+      "dynamicCodes": "动态二维码：",
+      "unlimited": "不限量",
+      "renews": "{date} 续费",
+      "checkoutDisabled": "加密货币结账尚未启用。",
+      "checkoutFailed": "结账失败",
+      "perMo": "/月",
+      "unlimitedDynamic": "不限量动态二维码",
+      "dynamicLimit": "{count} 个动态二维码",
+      "currentPlanBtn": "当前套餐",
+      "defaultPlan": "默认套餐",
+      "payWithCrypto": "用加密货币支付",
+      "starting": "启动中…",
+      "processedIn": "支持 USDT / BTC / ETH 付款",
+      "provider": "支付服务商：{name}",
+      "paymentHistory": "付款记录",
+      "statusLabel": "状态",
+      "statusAll": "全部",
+      "statusPending": "待付款",
+      "statusConfirming": "确认中",
+      "statusPaid": "已付款",
+      "statusFailed": "失败",
+      "statusExpired": "已过期",
+      "noPayments": "暂无付款记录。",
+      "colDate": "日期",
+      "colPlan": "套餐",
+      "colAmount": "金额",
+      "colStatus": "状态",
+      "loading": "加载中…"
+    },
+    "apiPage": {
+      "title": "API 与 MCP",
+      "subtitle": "个人访问令牌，用于以编程方式调用 qr-cow API，或连接兼容 MCP 的 AI 客户端(Claude Desktop、Claude Code、Cursor)。",
+      "newToken": "新建令牌",
+      "nameLabel": "名称",
+      "namePlaceholder": "例如：生产服务器、MCP, Claude Desktop",
+      "create": "创建令牌",
+      "creating": "创建中…",
+      "shownOnce": "令牌只在创建后显示<b>一次</b>。请复制到安全的地方, 我们只保存哈希值。",
+      "yourTokens": "您的令牌",
+      "loading": "加载中…",
+      "noTokens": "您还没有任何令牌。在上方创建一个，开始使用 API 或 MCP。",
+      "revoked": "已吊销",
+      "createdAt": "创建于 {when}",
+      "lastUsed": "上次使用：{when}",
+      "never": "从未",
+      "justNow": "刚刚",
+      "minAgo": "{count} 分钟前",
+      "hoursAgo": "{count} 小时前",
+      "revoke": "吊销",
+      "revokeAria": "吊销 {name}",
+      "revokeConfirm": "确定吊销此令牌?使用它的所有客户端会立即失效。",
+      "revokedToast": "令牌已吊销",
+      "revokeFailed": "吊销失败",
+      "createFailed": "创建令牌失败",
+      "tryAgain": "重试",
+      "copied": "已复制到剪贴板",
+      "howToUse": "使用方法",
+      "directApi": "直接调用 API",
+      "mcpTitle": "MCP, Claude Desktop / Claude Code",
+      "mcpConfigPre": "添加到您的 MCP 客户端配置(例如",
+      "mcpConfigPost": ")：",
+      "mcpHint": "连接后，让您的 AI「为我的新 Wi-Fi 做个二维码」或「看看上周哪些国家扫了我的菜单二维码」，它就会代您调用 qr-cow。",
+      "newTokenTitle": "您的新令牌",
+      "newTokenBody": "现在就复制。之后不会再显示, 我们只保存哈希值。",
+      "copy": "复制",
+      "saved": "我已保存"
+    },
+    "pager": {
+      "prev": "← 上一页",
+      "next": "下一页 →",
+      "pageOf": "第 {page} / {total} 页"
+    }
+  },
+  "language": {
+    "en": "English",
+    "fa": "فارسی",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt": "Português",
+    "zh": "中文",
+    "tr": "Türkçe",
+    "ru": "Русский",
+    "switcherLabel": "更改语言"
+  },
+  "auth": {
+    "loginTitle": "欢迎回来",
+    "loginSub": "登录以管理您的二维码。",
+    "email": "邮箱",
+    "password": "密码",
+    "passwordHint": "至少 8 个字符。",
+    "forgotPassword": "忘记密码?",
+    "signingIn": "登录中…",
+    "logIn": "登录",
+    "orContinueWith": "或使用以下方式继续",
+    "newToQrcow": "第一次使用 qr-cow?",
+    "createAnAccount": "创建账户",
+    "wrongCredentials": "邮箱或密码错误。",
+    "loginFailed": "登录失败",
+    "errPasswordChangeRequired": "为了安全，此账户需要先设置新密码才能登录。请使用下方的“忘记密码？”来设置。",
+    "errAccountDisabled": "此账户已被停用。如果您认为这是误操作，请联系 hi@qr-cow.com。",
+    "registerTitle": "创建您的账户",
+    "registerSub": "永久免费，无需信用卡。",
+    "creating": "创建中…",
+    "createAccount": "创建账户",
+    "orSignUpWith": "或使用以下方式注册",
+    "alreadyHaveAccount": "已经有账户?",
+    "emailAlreadyRegistered": "该邮箱已被注册。",
+    "registrationFailed": "注册失败",
+    "continueWith": "使用 {provider} 继续",
+    "moreOptions": "更多选项",
+    "forgot": {
+      "title": "忘记密码",
+      "sub": "如果该邮箱已注册，我们会发送重置链接。",
+      "sent": "如果 <b>{email}</b> 已有账户，重置链接已在路上。",
+      "backToLogin": "返回登录",
+      "emailLabel": "邮箱",
+      "send": "发送重置链接",
+      "sending": "发送中…",
+      "requestFailed": "请求失败",
+      "remembered": "想起来了?"
+    },
+    "reset": {
+      "title": "设置新密码",
+      "sub": "请选择一个未在其他地方使用过的强密码。",
+      "tokenLabel": "重置令牌",
+      "tokenHint": "粘贴邮件中的令牌。",
+      "passwordLabel": "新密码",
+      "passwordHint": "至少 8 个字符。",
+      "update": "更新密码",
+      "updating": "更新中…",
+      "invalidToken": "此重置链接无效或已过期。",
+      "resetFailed": "重置失败",
+      "loading": "加载中…",
+      "backToLogin": "返回登录"
+    },
+    "metaTitle": "登录 · qr-cow",
+    "backHome": "← 返回首页"
+  },
+  "plans": {
+    "taglines": {
+      "free": "适合尝鲜和个人项目。",
+      "starter": "适合追踪营销活动的创作者和小团队。",
+      "growth": "适合在多渠道扩展二维码应用的初创公司和小团队。"
+    },
+    "features": {
+      "Unlimited static QR codes": "不限量静态二维码",
+      "3 dynamic QR codes": "3 个动态二维码",
+      "PNG & SVG export": "PNG 和 SVG 导出",
+      "Basic scan counts": "基础扫描计数",
+      "Everything in Free": "包含免费版全部功能",
+      "50 dynamic QR codes": "50 个动态二维码",
+      "Scan analytics dashboard": "扫描分析仪表板",
+      "Custom colors & branding": "自定义颜色与品牌元素",
+      "Pay in USDT — no card needed": "以 USDT 支付, 无需银行卡",
+      "Everything in Starter": "包含 Starter 全部功能",
+      "Unlimited dynamic QR codes": "不限量动态二维码",
+      "Geo & device analytics": "地理位置与设备分析",
+      "Geo, device, OS, browser breakdowns": "地理、设备、操作系统、浏览器细分",
+      "Team members": "团队成员",
+      "API access": "API 访问",
+      "Priority email from a human": "真人优先邮件支持"
+    }
+  },
+  "analyticsView": {
+    "range7d": "7 天",
+    "range30d": "30 天",
+    "range90d": "90 天",
+    "rangeAll": "全部时间",
+    "totalScans": "总扫描数",
+    "uniqueVisitors": "独立访客",
+    "uniqueRate": "独立占比 {rate}%",
+    "topCountry": "扫描最多的国家",
+    "topDevice": "扫描最多的设备",
+    "scansHint": "{count} 次扫描",
+    "noData": "暂无数据",
+    "scansOverTime": "扫描趋势",
+    "scansOverTimeLegend": "橙色 = 总扫描数 · 灰色虚线 = 独立访客",
+    "legendScans": "扫描",
+    "legendUnique": "独立访客",
+    "emptySeries": "该时段内没有扫描",
+    "emptyBar": "暂无数据",
+    "emptyHeatmap": "暂无扫描",
+    "byDevice": "按设备",
+    "byOs": "按操作系统",
+    "byBrowser": "按浏览器",
+    "scansByHour": "按小时统计扫描",
+    "hourSubtitle": "一天中的小时(服务器时间，0-23)",
+    "topQrCodes": "热门二维码",
+    "scansBadge": "{count} 次扫描",
+    "noScansRecorded": "尚未记录到任何扫描。",
+    "recentScans": "最近扫描",
+    "noRecentScans": "还没有扫描, 分享一个码，这里就能看到实时动态。",
+    "colWhen": "时间",
+    "colCountry": "国家",
+    "colDevice": "设备",
+    "colOs": "操作系统",
+    "colBrowser": "浏览器",
+    "showingCodes": "显示第 {start}, {end} 个，共 {total} 个码",
+    "showingScans": "显示第 {start}, {end} 条，共 {total} 次扫描",
+    "prevPage": "上一页",
+    "nextPage": "下一页",
+    "csvTitle": "以 CSV 格式下载原始扫描事件",
+    "printPdf": "打印 / PDF",
+    "printTitle": "打开系统打印对话框。选择“另存为 PDF”即可无纸保存。",
+    "geoTitle": "扫描来自哪里",
+    "geoSummary": "{countries, plural,one {# 个国家} other {# 个国家}} · {scans} 次扫描",
+    "geoEmpty": "尚未记录到任何扫描。分享一个动态码，您的地理分布图就会在这里逐渐填满。",
+    "unknown": "未知",
+    "other": "其他",
+    "deviceMobile": "手机",
+    "deviceDesktop": "桌面设备",
+    "deviceTablet": "平板",
+    "exportFailed": "导出失败。请检查网络或重新登录。"
+  },
+  "docsPage": {
+    "eyebrow": "开发者",
+    "h1": "qr-cow API 与 MCP",
+    "intro": "从任何编程语言创建二维码、管理动态目标地址、拉取扫描分析。通过 MCP 与 <strong>Claude Desktop</strong>、<strong>Claude Code</strong>、<strong>Cursor</strong> 和 <strong>Zed</strong> 即插即用。",
+    "quickstartTitle": "快速上手",
+    "step1Title": "获取令牌",
+    "step1Body": "登录后打开 <link>仪表板 → API 与 MCP</link>，点击 <strong>创建令牌</strong>。您会得到一个 <code>qrc_live_…</code> 值, 请立即复制，只显示一次；我们只存储其哈希。",
+    "step2Title": "发起调用",
+    "step2Body": "将令牌作为 Bearer 头发送到 api.qr-cow.com。会话 JWT 能访问的每个端点也都接受令牌。",
+    "step3Title": "或接入 MCP",
+    "step3Body": "把下面的 JSON 片段放进您 AI 客户端的 MCP 配置，同一个令牌即可直接使用, 无需胶水代码。",
+    "tryTitle": "试一试",
+    "tryBody": "选择端点和语言。代码片段中的令牌是占位符, 请粘贴您在仪表板中创建的令牌。",
+    "endpointsTitle": "端点参考",
+    "endpointsIntro": "所有内容都在 <code>/api/v1</code> 下, 各语言的结构一致。",
+    "colMethod": "方法",
+    "colPath": "路径",
+    "colWhat": "作用",
+    "endpoints": {
+      "authMe": "已认证用户 + 套餐",
+      "createQr": "创建静态或动态二维码",
+      "listQr": "列出您的二维码(分页)",
+      "getQr": "获取单个二维码的完整详情",
+      "updateQr": "更新名称 / 动态目标地址",
+      "deleteQr": "软删除二维码",
+      "qrAnalytics": "扫描数、地理、设备、按小时分布",
+      "listTokens": "列出 API 令牌",
+      "createToken": "创建令牌(明文仅返回一次)",
+      "revokeToken": "吊销令牌",
+      "renderQr": "根据样式或预设渲染一张样式化的二维码图像（无需鉴权，不存储任何内容）。",
+      "renderQrGet": "以简单的 GET 请求执行相同的渲染，可直接嵌入到图像标签中。"
+    },
+    "mcpTitle": "MCP, Model Context Protocol",
+    "mcpIntro": "MCP 是 Anthropic 发布的开放协议，用于把 AI 客户端连接到外部工具。接入后，您的助手就可以说“为我的新菜单生成一个二维码”或“看看上周哪些国家扫描了我的咖啡馆二维码”，并直接调用 qr-cow。",
+    "mcpCardClaude": "Claude Desktop / Claude Code",
+    "mcpCardOthers": "Cursor / Zed / 其他",
+    "mcpOthersBody": "结构相同, 编辑器的 MCP 配置使用 <code>command</code>、<code>args</code> 和 <code>env</code> 块。MCP 服务器是一个 stdio 进程, 任何支持 MCP 的客户端都能使用它。",
+    "mcpGuideLink": "完整 MCP 配置指南 ↗",
+    "mcpPypiLink": "PyPI 上的 qr-cow-mcp ↗",
+    "mcpToolsTitle": "服务器暴露的工具",
+    "colTool": "工具",
+    "mcpTools": {
+      "create_qrcode": "创建静态或动态二维码(URL、Wi-Fi、vCard 等)。",
+      "list_qrcodes": "列出用户账户中最近的二维码。",
+      "get_qrcode": "获取单个二维码当前的设计 + 目标地址。",
+      "update_qrcode_destination": "更改动态二维码的目标地址, 已打印的码继续有效。",
+      "delete_qrcode": "软删除一个码。",
+      "get_qrcode_analytics": "扫描数 + 按国家、设备、小时细分。",
+      "me": "已登录用户的个人资料 + 套餐。",
+      "render_styled_qrcode": "根据数据以及一个预设或样式，渲染一张完全样式化的二维码图像（形状、渐变、徽标）。返回该图像；不保存任何内容。"
+    },
+    "authTitle": "认证",
+    "authBody": "在每个请求上发送 <code>Authorization：Bearer qrc_live_…</code>。令牌是通用的, 会话 JWT 能访问的每个端点它都能访问。被吊销的令牌会立即被拒绝。",
+    "errorsTitle": "错误",
+    "errorsBody": "所有响应都遵循 <code>'{success, data, error}'</code> 结构。HTTP 状态码符合 RFC 7231；<code>error</code> 字段携带简短的机器可读代码(如 <code>token_limit_reached</code>)。",
+    "rateTitle": "速率限制与安全",
+    "readsLabel": "读取",
+    "readsValue": "不限量",
+    "readsDesc": "列表查询、获取以及分析类读取操作不受速率限制。",
+    "writesLabel": "创建 / 渲染",
+    "writesValue": "20 / 分钟（每 IP）",
+    "writesDesc": "POST /qrcodes 和 /qr/render。编辑和删除操作不受限制。",
+    "capLabel": "令牌上限",
+    "capValue": "20 / 账户",
+    "capDesc": "活跃的 API 令牌。撤销其中一个即可释放一个名额。",
+    "rateNote": "限制以 IP 为键，且不会发送任何速率限制响应头，因此在遇到 429（错误 \"rate_limit_exceeded\"）时，请退避后重试。我们仅存储每个令牌的 SHA-256；如果某个令牌泄露，请立即撤销，并可在几秒内配置一个新的令牌。",
+    "ctaTitle": "准备好开始构建了吗?",
+    "ctaBody": "创建您的第一个令牌，5 分钟内就能上线一个“把这个 URL 变成二维码”的集成。",
+    "ctaButton": "打开仪表板",
+    "explorer": {
+      "tabs": {
+        "createQr": "创建二维码",
+        "listQr": "列出二维码",
+        "updateDynamic": "更新动态码",
+        "analytics": "分析",
+        "createToken": "创建令牌",
+        "renderStyled": "样式化渲染"
+      },
+      "createQr": {
+        "title": "创建二维码",
+        "subtitle": "POST /qrcodes, 支持工作室的每一种内容类型(URL、Wi-Fi、vCard 等)。"
+      },
+      "listQr": {
+        "title": "列出您的二维码",
+        "subtitle": "GET /qrcodes, 分页返回，最新在前。"
+      },
+      "updateDynamic": {
+        "title": "更新动态二维码的目标地址",
+        "subtitle": "PATCH /qrcodes/'{id}', 已印刷的码继续有效；只有重定向目标会改变。"
+      },
+      "analytics": {
+        "title": "拉取扫描分析",
+        "subtitle": "GET /analytics/qrcodes/'{id}'?days=30, 总量 + 国家 / 设备 / 每日时段分布。"
+      },
+      "createToken": {
+        "title": "通过 API 创建令牌",
+        "subtitle": "POST /dev/tokens, 适合在 CI 任务中签发令牌。明文只返回一次。"
+      },
+      "copy": "复制",
+      "copied": "已复制",
+      "copyAria": "复制代码",
+      "renderStyled": {
+        "title": "渲染样式化二维码",
+        "subtitle": "输入数据以及一个预设或样式，输出一张样式化图像。无需令牌。"
+      },
+      "copyFailed": "复制失败。请手动选中代码复制。"
+    },
+    "renderTitle": "样式化渲染 API",
+    "renderIntro": "直接从您的代码生成一张完整的<strong>样式化</strong>二维码图像。发送 <code>data</code> 以及一种样式（一个预设、一个 studio 配置，或明确指定的各字段），即可获得返回的 PNG、JPG 或 SVG。无需账户，也不会存储任何记录，因此它专为批量生成二维码而设计。使用 POST 请求 <code>/api/v1/qr/render</code> 以获得完全控制，或对同一路径使用 GET，将二维码直接放入图像标签中。",
+    "colParam": "参数",
+    "colAccepts": "接受的值",
+    "styleParams": {
+      "data": "要编码的内容：一个 URL、纯文本，或预先格式化的 Wi-Fi / vCard 字符串。",
+      "preset": "一种现成的外观样式，会最先应用（见下方列表）。",
+      "body": "点 / 模块的形状。",
+      "eye": "定位图案（角落）的形状。",
+      "color": "前景色和背景色，采用 3 位、6 位或 8 位的 hex 值。",
+      "gradient": "模块上的双色渐变；方向可为水平、垂直或径向。",
+      "logo": "居中的徽标，以 base64 data URL 的形式传入。使用徽标时请配合 ecc Q 或 H。",
+      "ecc": "纠错等级。等级越高，越能承受更多损坏并容纳徽标，但代价是码更密集。",
+      "size": "输出宽度，以像素为单位（正方形）。",
+      "format": "png 和 jpg 承载全部样式；svg 是简洁的矢量图，包含形状、颜色和渐变（不含徽标）。"
+    },
+    "renderPresetsLabel": "可选模板（将名称作为 preset 传入）：",
+    "renderBatchTitle": "专为批量而生",
+    "renderBatchBody": "只需将您的品牌样式定义为一个 <code>style</code> 对象（或选择一个 <code>preset</code>）：这就是您的<strong>个人样式</strong>，可提前设置好并在每个二维码中复用。循环调用该端点，即可生成任意数量的二维码；每次调用相互独立，且不存储任何内容。",
+    "renderScanTitle": "保持可扫描性",
+    "renderScanBody": "浅色背景上的深色模块扫描最为可靠。深色背景或低对比度的样式外观出色，但在性能较弱的扫描器上识别可靠性较低；使用徽标时请将 <code>ecc</code> 设为 Q 或 H，以确保二维码仍能被解析。",
+    "seeAlsoPrefix": "不是开发者？试试",
+    "seeAlsoQr": "二维码生成器",
+    "seeAlsoMid": "或查看",
+    "seeAlsoPricing": "价格"
+  },
+  "blogIndex": {
+    "eyebrow": "qr-cow 笔记",
+    "h1": "构建 qr-cow 路上的笔记。",
+    "intro": "踩过的坑、向 <strong>60 多个国家</strong>交付二维码时学到的东西，偶尔也聊聊增长。全部手写, 不是内容工厂。",
+    "noMatch": "没有与“{q}”匹配的内容。",
+    "noPosts": "暂无文章, 很快回来。",
+    "clearSearch": "清除搜索",
+    "allChip": "全部",
+    "searchPlaceholder": "搜索文章…",
+    "searchButton": "搜索",
+    "minRead": "{min} 分钟阅读",
+    "readNext": "接着读",
+    "newer": "← 较新",
+    "older": "较旧 →",
+    "pageOf": "第 {page} / {totalPages} 页",
+    "latestBadge": "最新",
+    "authorFallback": "HSN 家族",
+    "newsletterTitle": "在收件箱里获取新文章。",
+    "newsletterBody": "有值得分享的内容时发一封简短邮件, 通常每月一到两次，绝不在周二早上打扰您。",
+    "newsletterSubscribe": "邮件订阅 →",
+    "newsletterRss": "RSS 订阅",
+    "newsletterRssTitle": "qr-cow RSS 订阅源",
+    "categoryLabels": {
+      "guides": "指南",
+      "news": "新闻"
+    },
+    "archiveMetaTitle": "{name} · 博客",
+    "tagMetaDesc": "qr-cow 博客中标记为 {name} 的文章。",
+    "categoryMetaDesc": "qr-cow 博客中关于 {name} 的文章。",
+    "eyebrowCategory": "分类",
+    "eyebrowTag": "标签"
+  },
+  "solutionsPage": {
+    "index": {
+      "metaTitle": "按行业划分的二维码解决方案",
+      "metaDescription": "让二维码发挥作用的行业实战手册, 餐厅、活动、零售等。真实模板、真实流程、免费编辑器。",
+      "eyebrow": "解决方案",
+      "title": "为您所在行业的真实工作方式打造的二维码。",
+      "subtitle": "同一个生成器，针对各行业的实战手册。选择最贴近您业务的行业, 每个页面都展示该领域最重要的模板、工作流程和分析要点。",
+      "ctaStudio": "打开工作室",
+      "ctaUseCases": "浏览 40 个应用场景",
+      "missingPrefix": "没找到您的行业?",
+      "missingLink": "浏览完整应用场景目录",
+      "missingSuffix": "覆盖九大领域的四十个真实应用位置。"
+    },
+    "detail": {
+      "metaTitle": "为{name}打造的二维码, {headline}",
+      "forLabel": "面向{name}",
+      "benefitsEyebrow": "优势",
+      "benefitsTitle": "{name}为什么选择 qr-cow",
+      "howEyebrow": "如何使用",
+      "howTitle": "几分钟即可上手",
+      "ctaCreate": "创建二维码",
+      "ctaPricing": "查看定价",
+      "relatedHeading": "相关页面",
+      "moreSolutions": "全部解决方案 →"
+    },
+    "items": {
+      "restaurants": {
+        "name": "餐厅",
+        "teaser": "菜单、点餐和好评收集, 在餐桌上扫一下即达。",
+        "headline": "让翻台更快的二维码",
+        "intro": "用几秒钟就能更新的动态二维码取代纸质菜单。随时改价、上新特色菜，并看清哪些摆放位置真正被扫描。",
+        "benefits": [
+          {
+            "title": "菜单永远最新",
+            "body": "随时编辑所链接的菜单, 印好的码永远不变，从此告别重印。"
+          },
+          {
+            "title": "点餐更快",
+            "body": "客人一落座就能打开您的菜单或点餐页面。"
+          },
+          {
+            "title": "知道什么有效",
+            "body": "按码统计扫描量，对比不同餐桌、橱窗和传单的效果。"
+          }
+        ],
+        "steps": [
+          {
+            "title": "创建动态码",
+            "body": "把它指向您的菜单或点餐页面。"
+          },
+          {
+            "title": "打上品牌",
+            "body": "匹配您的品牌色，印到桌卡上。"
+          },
+          {
+            "title": "自由更新",
+            "body": "菜单怎么变，目标地址就怎么改。"
+          }
+        ]
+      },
+      "events": {
+        "name": "活动",
+        "teaser": "随计划变化而调整的门票、日程和签到。",
+        "headline": "让活动有条不紊的二维码",
+        "intro": "在每个胸牌、海报和门票上放同一个动态二维码。随着当天进程，把它从日程指向直播，再指向反馈表单。",
+        "benefits": [
+          {
+            "title": "一个码，多个阶段",
+            "body": "同一个印刷码可在整个活动生命周期中反复利用。"
+          },
+          {
+            "title": "实时更新",
+            "body": "临时换场地?改链接就行，不必重印。"
+          },
+          {
+            "title": "衡量参与度",
+            "body": "扫描量告诉您哪些环节和物料最受关注。"
+          }
+        ],
+        "steps": [
+          {
+            "title": "按活动分别生成",
+            "body": "胸牌一个码，海报一个码。"
+          },
+          {
+            "title": "打印并摆放",
+            "body": "把码加到门票、指示牌和资料上。"
+          },
+          {
+            "title": "随时重定向",
+            "body": "议程一变，链接跟着走。"
+          }
+        ]
+      },
+      "retail": {
+        "name": "零售",
+        "teaser": "让每个货架和包装都有商品页、促销和评价。",
+        "headline": "打通货架与商店的二维码",
+        "intro": "连接实体商品与您的线上商店。把包装链接到商品页、促销活动或评价表单, 并了解哪些摆放位置带来转化。",
+        "benefits": [
+          {
+            "title": "从货架到购物车",
+            "body": "把顾客直接带到商品页或折扣页面。"
+          },
+          {
+            "title": "即时更换促销",
+            "body": "上新优惠无需重印任何一张标签。"
+          },
+          {
+            "title": "位置洞察",
+            "body": "对比包装、陈列和小票上的扫描数据。"
+          }
+        ],
+        "steps": [
+          {
+            "title": "创建动态码",
+            "body": "每条产品线或每次活动一个码。"
+          },
+          {
+            "title": "加到包装上",
+            "body": "印在标签、陈列和内附卡片上。"
+          },
+          {
+            "title": "持续优化",
+            "body": "跟踪扫描数据，加码有效的位置。"
+          }
+        ]
+      }
+    }
+  },
+  "comparePage": {
+    "index": {
+      "metaTitle": "qr-cow 与其他工具, 诚实对比",
+      "metaDescription": "qr-cow 与其他二维码工具(Canva、QR.io 等)之间诚实、经事实核查的比较。先讲对方的长处，再看 qr-cow 更适合的场景。",
+      "eyebrow": "对比",
+      "title": "在挑二维码生成器?先读读这些。",
+      "subtitle": "我们先讲每个竞品的长处, 再展示 qr-cow 更胜一筹的地方。如果哪篇对比让您觉得有失偏颇，提个 issue，我们会修正。",
+      "vsTitle": "qr-cow vs {name}"
+    },
+    "detail": {
+      "metaTitle": "qr-cow vs {name}, 诚实对比",
+      "eyebrow": "对比",
+      "title": "qr-cow vs {name}。",
+      "sideBySide": "并排对比",
+      "thFeature": "功能",
+      "thQrcow": "qr-cow",
+      "thEdge": "优势方",
+      "tie": "平手",
+      "edgeUs": "qr-cow",
+      "edgeThem": "竞品",
+      "theyDoWell": "{name} 的长处",
+      "weLead": "qr-cow 领先之处",
+      "whenToPick": "各自适合的场景",
+      "pickThemTitle": "这些情况选 {name}…",
+      "pickUsTitle": "这些情况选 qr-cow…",
+      "ctaTry": "免费试用 qr-cow",
+      "ctaPricing": "查看定价",
+      "breadcrumbHome": "首页",
+      "breadcrumbIndex": "对比",
+      "breadcrumbCurrent": "qr-cow vs {name}",
+      "altPageLink": "想换工具？看看 {name} 替代方案页面 →"
+    },
+    "items": {
+      "canva": {
+        "verdict": "Canva 是一款顺带能做二维码的平面设计套件；qr-cow 是一款顺带很好看的二维码生成器。如果二维码只是更大的 Canva 设计中的一块，留在 Canva 就好。如果二维码本身就是您的工作流，qr-cow 正是为此而生。",
+        "seoDescription": "qr-cow vs Canva, 诚实对比。整体版式设计选 Canva；动态码、扫描分析以及 API + MCP 服务器选 qr-cow。",
+        "theyDoWell": [
+          "世界一流的平面设计画布, 您可以把二维码放进海报、社交卡片或印刷版式，与Logo、照片和排版并列。",
+          "庞大的模板库，覆盖各类营销物料，而不只是二维码。",
+          "如果您已在使用 Canva Teams，可同步团队品牌套件。",
+          "海报、名片和周边可直接按需印刷。"
+        ],
+        "weDoWell": [
+          "打印之后仍可编辑的动态二维码, Canva 的码是静态的，固化在设计里。",
+          "按码统计的扫描分析(国家 / 设备 / 按小时分布), Canva 完全没有。",
+          "13 种内容类型，包括 Wi-Fi、vCard、加密货币钱包、应用商店深度链接, Canva 只覆盖基础类型(URL、电子邮件、电话)，没有把 vCard 或 Wi-Fi 作为一等类型。",
+          "免费套餐提供不限量静态码且无需注册。Canva 需要账户。",
+          "REST API + MCP 服务器，可从代理、脚本或 CI 流水线生成二维码。Canva 只有图形界面。",
+          "加密货币计费(USDT、BTC、ETH)，适合不方便使用 Stripe 的全球团队。"
+        ],
+        "pickThem": "当二维码只是您本来就在 Canva 里设计的海报、宣传册或社交卡片中的一个小元素时，选 Canva。为一个二维码切换工具是不必要的麻烦。",
+        "pickUs": "当您要批量产出二维码、需要跟踪它们、需要在打印后修改目标地址，或想把它们纳入脚本 / API / 代理流程时，选 qr-cow。",
+        "table": [
+          {
+            "feature": "免费套餐",
+            "qrcow": "不限量静态码，无需注册。注册即免费获得 3 个动态码。",
+            "competitor": "需要免费 Canva 账户；Canva 免费版对 Pro 元素有限制。"
+          },
+          {
+            "feature": "动态码(打印后可编辑)",
+            "qrcow": "支持, 随时编辑目标地址，已打印的码持续有效。",
+            "competitor": "不支持, Canva 中的二维码是固化在设计里的静态图片。"
+          },
+          {
+            "feature": "扫描分析",
+            "qrcow": "国家、设备、操作系统、浏览器、按小时热力图、最近 20 次扫描日志。",
+            "competitor": "不可用, Canva 不跟踪所生成二维码的扫描。"
+          },
+          {
+            "feature": "内容类型",
+            "qrcow": "13 种, URL、文本、Wi-Fi、vCard、MeCard、电子邮件、短信、电话、活动、位置、社交、加密货币、应用深度链接。",
+            "competitor": "URL、纯文本、电子邮件、电话、短信(截至 2026 年的有限列表)。"
+          },
+          {
+            "feature": "围绕二维码的设计系统",
+            "qrcow": "专注工作室：码点形状、码眼样式、渐变、中心Logo、纠错等级。",
+            "competitor": "完整的 Canva 画布, 可把二维码放进任意版式，与文字、照片和图形并列。"
+          },
+          {
+            "feature": "按需印刷",
+            "qrcow": "导出 PNG / SVG / JPG，再交给您自己的印刷商。",
+            "competitor": "海报、卡片、周边可直接按需印刷。"
+          },
+          {
+            "feature": "编程访问(API / MCP)",
+            "qrcow": "REST API + MCP 服务器(Claude、Cursor、Zed)。可从代理、脚本、CI 生成。",
+            "competitor": "仅图形界面。没有公开的二维码生成 API。"
+          },
+          {
+            "feature": "定价",
+            "qrcow": "静态码永久 0 美元。动态 + 分析每月 3 美元。API 访问每月 9 美元。仅支持加密货币。",
+            "competitor": "免费版 + Canva Pro 约每月 15 美元起(覆盖整个套件，而不只是二维码)。"
+          }
+        ]
+      },
+      "qr_io": {
+        "verdict": "QR.io 是一款精致的纯付费二维码构建器，设计选项丰富，并支持 CSV 批量上传。qr-cow 更便宜，提供免费静态套餐，还配有 API + MCP 服务器。需要批量导入的企业级部署选 QR.io；独立使用、加密货币计费或代理工作流选 qr-cow。",
+        "seoDescription": "qr-cow vs QR.io, 诚实对比。企业批量导入选 QR.io；免费套餐、加密货币计费和通过 MCP 的 AI 代理工作流选 qr-cow。",
+        "theyDoWell": [
+          "精致的设计选项, 丰富的码点形状、边框和精选配色预设。",
+          "CSV 批量上传，一次生成数千个码, 适合产品目录级的铺开。",
+          "带角色权限的团队工作区。",
+          "成熟品牌，拥有多年积累的信任背书。"
+        ],
+        "weDoWell": [
+          "静态码永久免费，无需注册。QR.io 是纯付费, 哪怕只要一个码也得订阅。",
+          "坦率的纯加密货币计费(USDT、BTC、ETH), 在 Stripe 不可用的地区也能用。",
+          "REST API + Model Context Protocol 服务器, 30 秒即可把 qr-cow 接入 Claude、Cursor 或 Zed。QR.io 有 API 但没有 MCP。",
+          "独立开发并坦然公开, 由 HSN 家族打造，没有风投。QR.io 有投资方背景，价格也反映了这一点。",
+          "动态版升级提示很克制, 不需要分析就一直留在免费套餐，不会被反复催促。",
+          "一流的博客 + 应用场景索引, 您可以在这里学习二维码知识，而不只是购买我们的产品。"
+        ],
+        "pickThem": "当您要做企业级二维码部署、需要通过 CSV 一次生成 500+ 个码、给营销团队开通工作区权限，并且不在乎每月花 30-50 美元换一个精致界面时，选 QR.io。",
+        "pickUs": "当您想要免费套餐、偏好加密货币计费、与 AI 代理协作(MCP)，或者只是不想跟销售打交道时，选 qr-cow。",
+        "table": [
+          {
+            "feature": "免费套餐",
+            "qrcow": "不限量静态码，无需注册。注册即免费获得 3 个动态码。",
+            "competitor": "纯付费, 没有免费套餐。14 天试用。"
+          },
+          {
+            "feature": "动态码 + 分析",
+            "qrcow": "支持, 每月 3 美元的档位即已包含。",
+            "competitor": "支持, 核心功能，所有付费套餐均包含。"
+          },
+          {
+            "feature": "CSV 批量上传",
+            "qrcow": "暂不支持, 提供单码工作室 + 用于批量生成的 API。",
+            "competitor": "支持, 通过 CSV 批量生成多达数千个码。"
+          },
+          {
+            "feature": "编程 API",
+            "qrcow": "REST API + MCP 服务器。可从 Claude、Cursor、Zed 或任何 HTTP 客户端使用。",
+            "competitor": "较高档套餐提供 REST API。没有 MCP。"
+          },
+          {
+            "feature": "计费",
+            "qrcow": "仅加密货币(USDT、BTC、ETH), 在 Stripe 不可用的地区也能用。",
+            "competitor": "通过 Stripe 用信用卡支付。"
+          },
+          {
+            "feature": "团队工作区",
+            "qrcow": "目前为单账户；多用户功能已在规划中。",
+            "competitor": "内置带角色权限的团队工作区。"
+          },
+          {
+            "feature": "定价透明度",
+            "qrcow": "三个整数定价档；没有“联系销售”式的升级门槛。",
+            "competitor": "个人 + 商业套餐价格公开；企业版需询价。"
+          },
+          {
+            "feature": "内容类型",
+            "qrcow": "13 种, URL、文本、Wi-Fi、vCard、MeCard、电子邮件、短信、电话、活动、位置、社交、加密货币钱包、应用。",
+            "competitor": "约 10 种, URL、文本、Wi-Fi、vCard、电子邮件、短信、电话、社交、PDF、图片。"
+          }
+        ]
+      }
+    }
+  },
+  "changelogPage": {
+    "metaTitle": "更新日志, qr-cow 新动态",
+    "metaDescription": "qr-cow 的近期发布, 新的二维码类型、仪表板功能、API + MCP、分析、性能打磨。每次发布都会更新。",
+    "eyebrow": "更新日志",
+    "title": "qr-cow 新动态",
+    "intro": "我们公开发布。每个影响您所见内容的版本都会记录在这里, 功能、打磨、修复。您不关心的版本(依赖升级、内部重构)留在 git 日志里。",
+    "wantEvery": "想看所有变更?",
+    "gitHistory": "完整 git 历史是公开的",
+    "requestPrefix": "有功能需求?可以在",
+    "github": "GitHub",
+    "requestMid": "上提 issue，或留言到",
+    "blogComments": "博客评论",
+    "requestSuffix": "路线图由大家的需求塑造。"
+  },
+  "useCasesPage": {
+    "metaTitle": "二维码应用场景, 二维码大显身手的每个地方",
+    "metaDescription": "覆盖九大行业的四十个真实二维码应用位置, 酒店餐饮、零售、活动、医疗、支付、教育等。",
+    "eyebrow": "应用场景",
+    "title": "二维码大显身手的每个地方。",
+    "introPrefix": "四十个真实场景，在这些地方二维码胜过点按、网址或手输密码。挑一个最贴近的，然后",
+    "introLink": "打开工作室",
+    "introSuffix": "制作您自己的。",
+    "ctaMake": "立即制作",
+    "ctaPricing": "查看定价",
+    "countLabel": "{count} 个应用场景",
+    "proTip": "小贴士：",
+    "groups": {
+      "hospitality": {
+        "title": "酒店餐饮",
+        "intro": "餐厅、咖啡馆、酒店和酒吧用二维码消除堂食服务和自助入住流程中的摩擦。",
+        "items": [
+          {
+            "title": "菜单",
+            "body": "用动态二维码取代纸质菜单, 修改价格、特色菜和饮食标签，一张桌卡都不用重印。",
+            "tip": "使用动态码，后厨一下架某道菜，线上菜单就立即同步消失。"
+          },
+          {
+            "title": "宾客 Wi-Fi",
+            "body": "把 SSID + 密码编码进贴在墙上或床头柜的贴纸。宾客一扫，手机即连，没人再念 20 位密码。"
+          },
+          {
+            "title": "酒店入住与客房服务",
+            "body": "印在房卡套上，宾客点两下就能打开水疗菜单、早餐点单或延迟退房申请。"
+          },
+          {
+            "title": "收集评价",
+            "body": "印在小票或账单夹上, 链接到 Google 评价 / Tripadvisor。评价量约为手输网址的 2 倍。",
+            "tip": "使用动态码，更换评价平台无需重印。"
+          },
+          {
+            "title": "自助入住",
+            "body": "精品酒店和 Airbnb 房东的门禁密码, 扫码后，门禁码显示在与预订时段绑定的页面上。"
+          }
+        ]
+      },
+      "retail": {
+        "title": "零售与电商",
+        "intro": "把实体货架连接到数字商品页, 并了解哪些摆放位置真正带来扫描。",
+        "items": [
+          {
+            "title": "产品包装",
+            "body": "把包装盒 / 包装纸链接到商品页、成分表或保养指南。在冲动消费品类上明显提升加购转化。"
+          },
+          {
+            "title": "货架卡与陈列",
+            "body": "促销码、组合优惠、特价, 用手机每周更新，不必重印一摞货架卡。"
+          },
+          {
+            "title": "小票 + 售后",
+            "body": "印在小票上：保修注册、退货表单或反馈问卷。高意向顾客，正是开口的最佳时机。"
+          },
+          {
+            "title": "试衣间试穿",
+            "body": "在试衣间扫描商品，查看颜色款式、库存尺码或搭配单品, 不用走出试衣间。"
+          },
+          {
+            "title": "退换货",
+            "body": "告别退货文书：扫描单据上的二维码，表单已预填好订单信息。"
+          },
+          {
+            "title": "欧盟数字产品护照",
+            "body": "自 2026 年起，DPP 法规要求越来越多的品类(电池、纺织品、电子产品)附带二维码链接。现在就用动态码抢先一步。",
+            "tip": "使用动态码，DPP 目标地址可随法规演进而调整，无需重印标签。"
+          }
+        ]
+      },
+      "events": {
+        "title": "活动与会议",
+        "intro": "门票、胸牌和指示牌可随议程变化在一天中反复利用。",
+        "items": [
+          {
+            "title": "门票与签到",
+            "body": "在门口扫码入场。实时统计出席人数，杜绝纸质门票造假。"
+          },
+          {
+            "title": "会议胸牌",
+            "body": "胸牌背面的 vCard, 点两下即可交换联系方式，胜过递纸质名片。"
+          },
+          {
+            "title": "会场指示牌",
+            "body": "各会议室外的海报链接到该场次的实时幻灯片、讲者简介或反馈表单。"
+          },
+          {
+            "title": "直播链接",
+            "body": "每张海报上一个二维码, 演讲时指向直播地址，结束后指向录像，来年再指向 CFP。同一张海报，三个生命周期。",
+            "tip": "重定向一个动态码，胜过重印一百张海报。"
+          },
+          {
+            "title": "会后问卷",
+            "body": "结尾幻灯片上的二维码收集反馈。趁观众还记得演讲内容时捕获回复。"
+          }
+        ]
+      },
+      "marketing": {
+        "title": "营销与广告",
+        "intro": "户外媒体(广告牌、传单、印刷杂志、包装)从靠猜变成可衡量。",
+        "items": [
+          {
+            "title": "广告牌 + 交通广告",
+            "body": "隔着街道就能扫描广告牌, 手机在 3-5 米外就能锁定大尺寸二维码。",
+            "tip": "高速公路广告牌上的码请保持 ≥ 60 厘米宽；再小，数据模块就超出相机的解析能力了。"
+          },
+          {
+            "title": "印刷杂志广告",
+            "body": "把静态的印刷投放变成可衡量的漏斗, 扫描量 + 落地页转化告诉您哪些刊物回了本。"
+          },
+          {
+            "title": "直邮明信片",
+            "body": "背面的二维码引导到个性化落地页。扫码率约为手输网址的 5-15 倍。"
+          },
+          {
+            "title": "电视 + 屏幕广告",
+            "body": "广告期间在屏幕上保留二维码 5-10 秒, 观众手里正拿着手机，顺手就扫。自 2022 年起常见于超级碗广告。"
+          },
+          {
+            "title": "电影与游戏宣传",
+            "body": "预告卡片链接到抢先体验愿望单、原声带播放列表，或附近影院的下一场放映。"
+          }
+        ]
+      },
+      "payments": {
+        "title": "支付与开票",
+        "intro": "二维码支付在亚洲占主导地位，并在欧洲、拉美和非洲快速增长。",
+        "items": [
+          {
+            "title": "微信支付 / 支付宝",
+            "body": "以二维码为先的支付通道, 顾客扫商家的码，或商家扫顾客的码。中国大陆的默认支付方式。"
+          },
+          {
+            "title": "印度的 UPI",
+            "body": "PhonePe、Google Pay、Paytm 的个人转账和商户收款都用二维码。日活用户约 4 亿以上。"
+          },
+          {
+            "title": "Apple / Google Pay",
+            "body": "钱包应用现已能在欧盟和澳大利亚原生解析商户二维码完成支付流程。"
+          },
+          {
+            "title": "加密货币钱包地址",
+            "body": "BTC / ETH / USDT 地址又长又容不得错, 编码成二维码可消除代价高昂的复制粘贴失误。",
+            "tip": "务必在 URI 方案中包含资产标识(`bitcoin：`、`ethereum：`)，接收钱包才能正确解析。"
+          },
+          {
+            "title": "账单付款链接",
+            "body": "把 Stripe / NOWPayments 链接印在账单上, 客户扫码，用偏好的货币付款，您自动完成对账。"
+          }
+        ]
+      },
+      "healthcare": {
+        "title": "医疗健康",
+        "intro": "患者流程、用药追踪和检验结果获取, 在这些地方，手输网址或登录都是摩擦。",
+        "items": [
+          {
+            "title": "患者身份与病历",
+            "body": "腕带二维码把患者与其电子病历关联起来，无需输入冗长的病案号。常见于住院病房。"
+          },
+          {
+            "title": "药品标签",
+            "body": "扫描药瓶即可查看药物相互作用信息、说明书 PDF 和续方流程。欧盟 FMD(反伪造药品指令)在每个处方药包装上都使用二维码。"
+          },
+          {
+            "title": "检验结果领取",
+            "body": "检验单上的二维码 → 含结果的患者门户。免去打印几十页 PDF。"
+          },
+          {
+            "title": "预约提醒",
+            "body": "带二维码的提醒卡 → 添加到日历 + 改约表单。有效减少爽约。"
+          }
+        ]
+      },
+      "education": {
+        "title": "教育",
+        "intro": "教室、博物馆、图书馆, 任何静态对象都能受益于数字延伸的地方。",
+        "items": [
+          {
+            "title": "教材补充资料",
+            "body": "页边二维码链接到交互图表、模拟实验或视频讲解。静态教材 → 动态教学资源。"
+          },
+          {
+            "title": "博物馆展品",
+            "body": "每件展品的二维码链接到详细介绍、语音导览或幕后故事。",
+            "tip": "搭配“扫码看故事”文字, 有文字说明的码，互动量约为无说明的 3 倍。"
+          },
+          {
+            "title": "考勤点名",
+            "body": "教室投影的二维码每分钟轮换；学生扫码签到。破解替朋友代点名的老套路。"
+          },
+          {
+            "title": "图书馆目录",
+            "body": "架边二维码 → 数字馆藏状态 + 预约。省去跑一趟检索终端。"
+          }
+        ]
+      },
+      "manufacturing": {
+        "title": "工业与物流",
+        "intro": "供应链、可追溯性和维护保养都能从可扫描的序列号中获益的地方。",
+        "items": [
+          {
+            "title": "包裹追踪",
+            "body": "印在运单上, 快递员每一站扫码，客户扫码查看实时预计送达时间。"
+          },
+          {
+            "title": "设备维护",
+            "body": "每台机器上的二维码链接到它的维护日志、手册，以及提交下次巡检的表单。",
+            "tip": "使用纠错等级 H, 车间里的码会被刮花和沾油。"
+          },
+          {
+            "title": "从农场到餐桌的溯源",
+            "body": "农产品货箱上的二维码显示原产地块、收获日期和流转链。常见于欧盟有机认证。"
+          },
+          {
+            "title": "施工现场安全",
+            "body": "每台设备 / 每套脚手架都有二维码，链接到其检验证书。无需纸质文件即可向监管方展示合规情况。"
+          }
+        ]
+      },
+      "personal": {
+        "title": "个人与社交",
+        "intro": "二维码正在取代纸质名片和简历。点两下交换联系方式，每次都胜过递纸片。",
+        "items": [
+          {
+            "title": "vCard 名片",
+            "body": "在名片背面印上 vCard 二维码, 对方一扫，联系人直接存入手机，无需手输。"
+          },
+          {
+            "title": "个人主页 / 链接聚合",
+            "body": "一个指向您的链接聚合器(或您自己的 /links 页面)的二维码, 幻灯片、头像和签名档都能用。"
+          },
+          {
+            "title": "婚礼与活动回执",
+            "body": "请柬预告上的二维码 → RSVP 表单 + 饮食偏好 + 礼物清单。新人从此不用挨个发消息催。"
+          },
+          {
+            "title": "照片收集共享",
+            "body": "婚礼/生日二维码 → 共享相册，每位宾客都能上传自己拍的照片。再也不用在群里追着要照片。"
+          }
+        ]
+      }
+    },
+    "makeLink": "制作这个二维码"
+  },
+  "qrTypes": {
+    "shared": {
+      "otherHeading": "其他二维码类型",
+      "otherSub": "同一个工作室，不同的内容类型, 按项目需要任选。",
+      "otherLink": "{type} 二维码",
+      "faqHeading": "{type} 二维码常见问题",
+      "allTypes": "全部 13 种类型",
+      "solutionsHeading": "常用于"
+    },
+    "url": {
+      "eyebrow": "URL 二维码",
+      "title": "免费 URL 二维码生成器",
+      "sub": "把任何网址变成可扫描的二维码。粘贴 URL、挑个样式，下载 PNG、SVG 或 JPG, 无需注册、永不过期、没有水印。",
+      "metaTitle": "免费 URL 二维码生成器",
+      "metaDescription": "免费 URL 二维码生成器。把任何网站链接转换为带Logo、颜色和渐变的可扫描二维码。支持 PNG / SVG / JPG 导出。无需注册。",
+      "displayName": "URL",
+      "faq": [
+        {
+          "q": "URL 二维码会过期吗?",
+          "a": "不会。静态 URL 码把目标地址直接编码进图案。二维码下载后即可永久使用，不依赖 qr-cow 的服务器。"
+        },
+        {
+          "q": "打印后还能修改 URL 吗?",
+          "a": "只有动态码可以。把二维码保存到免费账户并选择“动态”, 之后可以随时编辑目标地址，无需重印二维码。静态码免费；动态码每月 3 美元。"
+        },
+        {
+          "q": "URL 太长会让二维码更难扫吗?",
+          "a": "会, URL 越长，码越密，也越难扫。对于带 UTM 参数的长跟踪 URL，请使用动态码：qr-cow 会在内部缩短目标地址，让打印图案保持简洁，同时完整的归因参数保留在服务端。"
+        }
+      ]
+    },
+    "wifi": {
+      "eyebrow": "Wi-Fi 二维码",
+      "title": "免费 Wi-Fi 二维码生成器",
+      "sub": "印一张贴纸，让宾客不输密码就连上您的 Wi-Fi。输入 SSID + 密码，挑个样式，下载即可, 所有现代手机的相机都支持。",
+      "metaTitle": "免费 Wi-Fi 二维码生成器",
+      "metaDescription": "免费 Wi-Fi 二维码生成器, 宾客扫码自动加入您的网络。支持 WPA / WEP / 开放网络。无需注册。",
+      "displayName": "Wi-Fi",
+      "faq": [
+        {
+          "q": "哪些手机可以通过二维码连接 Wi-Fi?",
+          "a": "所有运行 iOS 11+ 的 iPhone 和运行 Android 10+ 的手机都能用相机对准二维码直接入网, 无需任何应用。较老的手机可能需要一个免费的二维码扫描应用。"
+        },
+        {
+          "q": "把 Wi-Fi 密码印成二维码安全吗?",
+          "a": "二维码本质上就是密码的印刷副本。用于咖啡馆的宾客网络没问题；用于公司管理网络就不行了。如果要公开张贴，请使用带独立密码的专用来宾 VLAN。"
+        },
+        {
+          "q": "SSID 隐藏时也能用吗?",
+          "a": "能。生成时勾选“隐藏网络”, 二维码会带上隐藏标记，扫描的手机就知道要主动查找该 SSID，而不是等它广播。"
+        }
+      ]
+    },
+    "vcard": {
+      "eyebrow": "vCard 二维码",
+      "title": "免费 vCard 二维码生成器",
+      "sub": "vCard 二维码点两下就能把您的联系方式直接存进对方手机的通讯录。加到名片、幻灯片或展会胸牌上, 对方无需手输就能保存您。",
+      "metaTitle": "免费 vCard / 名片二维码生成器",
+      "metaDescription": "免费 vCard 二维码生成器。编码姓名、电话、邮箱、公司、职位、网站, 点两下存入手机通讯录。无需注册。",
+      "displayName": "vCard",
+      "faq": [
+        {
+          "q": "vCard 和 MeCard，该用哪个?",
+          "a": "默认用 vCard。它是国际标准，支持更多字段(公司、职位、网站、地址)，所有现代手机都能识别。MeCard 更短(码也更小)，但字段更少, 只有在印刷面积必须非常小时才值得这样取舍。"
+        },
+        {
+          "q": "换工作后能更新 vCard 二维码吗?",
+          "a": "静态 vCard 会把联系信息固化在印刷图案里，换了职位就得换新码。如果您经常换工作，请用指向可更新联系页面的动态码, 印好的码持续有效。"
+        },
+        {
+          "q": "iPhone 和 Android 都能保存联系人吗?",
+          "a": "都能。iOS 和 Android 都原生识别 vCard 二维码，并提示用户“添加到通讯录”。同一个二维码两个平台通用, 无需分开做码。"
+        }
+      ]
+    },
+    "mecard": {
+      "eyebrow": "MeCard 二维码",
+      "title": "免费 MeCard 二维码生成器",
+      "sub": "MeCard 是 vCard 更简短的日本标准兄弟版, 把同样的核心信息(姓名、电话、邮箱)编码进更小更紧凑的二维码。适合印刷面积必须非常小的场合。",
+      "metaTitle": "免费 MeCard 二维码生成器",
+      "metaDescription": "免费 MeCard 二维码生成器, 适合微小印刷面的紧凑联系人二维码。比 vCard 更小，所有现代手机都能识别。",
+      "displayName": "MeCard",
+      "faq": [
+        {
+          "q": "什么时候该选 MeCard 而不是 vCard?",
+          "a": "只有在印刷空间确实紧张时, 贴纸标签、胸牌小角落、小票边缘。MeCard 载荷更短，生成的码更疏，小尺寸打印时更好扫。任何比邮票大的场合，请用 vCard。"
+        },
+        {
+          "q": "所有手机都支持 MeCard 吗?",
+          "a": "现代 iOS 和 Android 手机都支持。个别非常老的 Android 相机应用不支持，但已少到可以忽略。拿不准的话，vCard 兼容性更广。"
+        }
+      ]
+    },
+    "email": {
+      "eyebrow": "电子邮件二维码",
+      "title": "免费电子邮件二维码生成器",
+      "sub": "扫码即可打开一封预先写好的邮件, 收件人、主题和正文都已填好。发件人只需点击发送。非常适合客服卡片、“联系我们”标识和活动传单。",
+      "metaTitle": "免费电子邮件二维码生成器",
+      "metaDescription": "免费电子邮件二维码生成器, 打开预填收件人、主题和正文的邮件。发件人只需点发送。无需注册。",
+      "displayName": "电子邮件",
+      "faq": [
+        {
+          "q": "扫码后邮件会自动发送吗?",
+          "a": "不会。扫码会打开用户默认的邮件应用，并预填收件人、主题和正文, 用户仍需自己点击发送。这是 iOS 和 Android 的安全设计。"
+        },
+        {
+          "q": "邮件正文里可以包含换行吗?",
+          "a": "可以, qr-cow 会替您处理换行转义。正文越长码越密，超过 200 个字符时建议改为链接到联系表单。"
+        }
+      ]
+    },
+    "sms": {
+      "eyebrow": "短信二维码",
+      "title": "免费短信二维码生成器",
+      "sub": "扫码打开一条预先写好的短信, 收件人和内容都已填好。常用于餐厅反馈、双向短信调查和短代码营销活动。",
+      "metaTitle": "免费短信二维码生成器",
+      "metaDescription": "免费短信二维码生成器, 打开预填内容的短信。适用于反馈收集、双向短信活动和短代码关键词订阅。",
+      "displayName": "短信",
+      "faq": [
+        {
+          "q": "短信会自动发送吗?",
+          "a": "不会。手机会打开默认短信应用并预填收件人和内容, 用户仍需确认后才发送。与电子邮件二维码相同的安全行为。"
+        },
+        {
+          "q": "可以配合短信短代码使用吗?",
+          "a": "可以。把短代码填为收件人，把关键词(如“PIZZA”)填为内容。二维码就成了加入您短信活动的零摩擦入口。"
+        }
+      ]
+    },
+    "phone": {
+      "eyebrow": "电话二维码",
+      "title": "免费电话呼叫二维码生成器",
+      "sub": "扫码即可拨打您指定的号码。适用于叫车标牌、就诊预约卡、房产门前广告牌，以及任何以“打电话给我们”为下一步的印刷物。",
+      "metaTitle": "免费电话呼叫二维码生成器",
+      "metaDescription": "免费电话二维码生成器, 扫码后拨号界面自动填好您的号码。无需注册，永不过期。",
+      "displayName": "电话",
+      "faq": [
+        {
+          "q": "扫码会自动拨号吗?",
+          "a": "不会, 拨号界面会预填号码，但需要用户自己点击拨打。手机有意不自动拨打二维码里的号码，以防滥用。"
+        },
+        {
+          "q": "国家区号能正确处理吗?",
+          "a": "能。填入完整国际格式(如 +44 20 7946 0958)，二维码在任何地方都能正确拨号。不带国家区号的话，二维码只能在同一国家内使用。"
+        }
+      ]
+    },
+    "text": {
+      "eyebrow": "文本二维码",
+      "title": "免费文本二维码生成器",
+      "sub": "把最多约 4000 个字符的任意纯文本编码进二维码, 一条隐藏消息、一个序列号、一首诗、一个优惠码、一个库存编号。手机读到什么，用户就看到什么。",
+      "metaTitle": "免费纯文本二维码生成器",
+      "metaDescription": "免费纯文本二维码生成器。把任意字符串, 序列号、悄悄话、优惠码, 编码成可扫描的二维码。无需注册。",
+      "displayName": "文本",
+      "faq": [
+        {
+          "q": "一个二维码能装多少文本?",
+          "a": "在纠错等级 L(最宽松的级别)下约 2，953 个字符, 但载荷越大码越密，需要更大的印刷面积才能扫描。超过约 500 个字符时，建议改为链接到一个 URL。"
+        },
+        {
+          "q": "如果文本里包含“https://”，手机会打开链接吗?",
+          "a": "大多数手机会识别形似 URL 的字符串并提示打开，即使二维码是纯文本类型。如需保证按 URL 处理，请改用 URL 二维码类型, 它会明确设置 URL 方案。"
+        }
+      ]
+    },
+    "event": {
+      "eyebrow": "活动二维码",
+      "title": "免费活动二维码生成器",
+      "sub": "一键把活动加入用户的日历, 标题、日期、地点和备注都已填好。非常适合婚礼请柬预告、会议邀请、餐厅快闪和线上研讨会传单。",
+      "metaTitle": "免费活动 / 日历二维码生成器",
+      "metaDescription": "免费活动二维码生成器。编码 vEvent，一键把会议加入 Google / Apple / Outlook 日历。无需注册。",
+      "displayName": "活动",
+      "faq": [
+        {
+          "q": "活动二维码支持哪些日历应用?",
+          "a": "所有主流日历, Apple 日历、Google 日历、Outlook、ProtonMail 日历。二维码采用 iCalendar(vEvent)标准编码，这些应用都能原生解析。"
+        },
+        {
+          "q": "活动里可以放会议链接吗?",
+          "a": "可以, 把 Zoom / Meet / Teams 链接放到备注字段。用户点开日历条目时，手机会把链接变成可点击的，直接从日历应用加入会议。"
+        }
+      ]
+    },
+    "location": {
+      "eyebrow": "位置二维码",
+      "title": "免费位置二维码生成器",
+      "sub": "一次扫描就在地图上落一个图钉, 经纬度直接在手机的地图应用中打开。适用于场馆标识、房产门前广告牌和“如何找到我们”传单。",
+      "metaTitle": "免费位置 / GPS 二维码生成器",
+      "metaDescription": "免费位置二维码生成器, 编码 GPS 坐标，可在 Apple 地图、Google 地图或任何默认地图应用中打开。无需注册。",
+      "displayName": "位置",
+      "faq": [
+        {
+          "q": "会在 Google 地图还是 Apple 地图中打开?",
+          "a": "取决于手机的默认设置。二维码使用 geo：方案，两款应用都注册了它, iOS 用 Apple 地图，Android 用 Google 地图，除非用户改过默认应用。"
+        },
+        {
+          "q": "定位有多准?",
+          "a": "和您提供的坐标一样准。六位小数约有 10 厘米精度, 足够最精确的场馆定位。四位小数(约 10 米)对大多数标识已经够用。"
+        }
+      ]
+    },
+    "social": {
+      "eyebrow": "社交二维码",
+      "title": "免费社交媒体二维码生成器",
+      "sub": "把扫码者直接送到您的 Instagram、TikTok、X(Twitter)、LinkedIn 或 YouTube 主页。通常比让陌生人手输账号名可靠得多。",
+      "metaTitle": "免费社交媒体二维码生成器",
+      "metaDescription": "免费社交媒体二维码生成器, Instagram、TikTok、X、LinkedIn、YouTube。一键把扫码者送到您的主页。",
+      "displayName": "社交",
+      "faq": [
+        {
+          "q": "二维码会直接打开应用，还是只打开网页?",
+          "a": "大多数平台支持深度链接, 用户装了应用的话，扫码会直接在应用内打开主页。没装应用时，二维码回退到网页版主页。无论哪种方式，用户都会到达您这里。"
+        },
+        {
+          "q": "账号名改了怎么办?",
+          "a": "静态码直接编码链接，账号名一改就得换新码。如果您可能改名或改品牌，请用指向可更新重定向的动态码, 印好的二维码永久有效。"
+        }
+      ]
+    },
+    "crypto": {
+      "eyebrow": "加密货币二维码",
+      "title": "免费加密货币钱包二维码生成器",
+      "sub": "接收 Bitcoin、Ethereum、USDT 或任何其他受支持的币种，无需手输 42 位地址。扫码方的钱包应用自动填入收款地址, 错字更少，收款更快。",
+      "metaTitle": "免费加密货币钱包二维码生成器",
+      "metaDescription": "免费加密货币钱包二维码生成器, 接收 BTC、ETH、USDT 等。消除复制粘贴失误。无需注册。",
+      "displayName": "加密货币",
+      "faq": [
+        {
+          "q": "支持哪些钱包?",
+          "a": "qr-cow 生成标准的 BIP-21(Bitcoin)、EIP-681(Ethereum / EVM)以及纯地址二维码格式。所有主流钱包都能识别, MetaMask、Trust Wallet、Phantom、Coinbase Wallet、Exodus、硬件钱包以及各大交易所。"
+        },
+        {
+          "q": "二维码里可以带金额吗?",
+          "a": "可以。Bitcoin 和 Ethereum 二维码支持金额字段, 扫码方的钱包会预填转账金额，用户确认即可。账单收款时能省下不少手输。"
+        },
+        {
+          "q": "使用纠错等级 H, 这很重要吗?",
+          "a": "非常重要。加密货币二维码是唯一一种“错一个字符就把资金永远打到错误地址”的类型。纠错等级 H 意味着即使 30% 的模块被遮挡(Logo、刮痕、污渍)，码仍能正确解码。加密货币场景请务必使用 H。"
+        }
+      ]
+    },
+    "app": {
+      "eyebrow": "应用商店二维码",
+      "title": "免费应用商店二维码生成器",
+      "sub": "一个二维码，把 iOS 用户送到 App Store，把 Android 用户送到 Google Play。通用应用链接根据用户的操作系统自动跳转，同一个印刷码两端通用。",
+      "metaTitle": "免费应用商店二维码生成器",
+      "metaDescription": "免费应用商店二维码生成器, 通用链接把 iOS 引到 App Store、Android 引到 Google Play，一码搞定。无需注册。",
+      "displayName": "应用商店",
+      "faq": [
+        {
+          "q": "iOS 和 Android 需要两个不同的二维码吗?",
+          "a": "用通用落地页就不需要。qr-cow 可以生成一个链接到重定向的二维码：iOS 用户进入 App Store，Android 用户进入 Google Play。省去印两个码。"
+        },
+        {
+          "q": "能通过二维码追踪应用安装吗?",
+          "a": "请使用动态二维码搭配延迟深度链接服务(Branch、Adjust、AppsFlyer)。动态码让您日后可以更换目标地址；深度链接服务把安装归因回二维码扫描。"
+        }
+      ]
+    },
+    "hub": {
+      "eyebrow": "二维码类型",
+      "h1": "十三种二维码，一个工作室。",
+      "sub": "十三种内容类型，一个工作室。每种都有自己的页面和针对性说明, 或者直接进入通用<studio>工作室</studio>，在那里选择类型。",
+      "ctaStudio": "打开工作室",
+      "ctaPricing": "查看定价",
+      "cardTitle": "{type}二维码",
+      "cardCta": "打开生成器 →",
+      "metaTitle": "二维码类型, qr-cow 能生成的所有类型",
+      "metaDescription": "选择二维码类型即可开始设计, 网址、Wi-Fi、vCard、MeCard、邮件、短信、电话、活动、位置、社交、加密货币、应用。全部免费，无需注册。"
+    }
+  },
+  "alternativesPage": {
+    "index": {
+      "metaTitle": "二维码生成器替代方案, 按使用场景的诚实推荐",
+      "metaDescription": "不确定哪个二维码生成器适合您?Canva、QR.io 等热门工具的替代方案, 以及什么时候不必换。诚实、以使用场景为先的推荐。",
+      "ogTitle": "二维码生成器替代方案",
+      "ogDescription": "Canva、QR.io 等二维码工具的替代方案, 按使用场景的诚实推荐。",
+      "eyebrow": "替代方案",
+      "title": "不确定哪个二维码生成器适合您?先读这篇。",
+      "subtitle": "每个二维码工具解决的问题都略有不同。这些页面先讲人们离开某个工具的原因, 再看 qr-cow 是否真的是合适的去处，还是说留在原地才是诚实的答案。",
+      "cardTitle": "{name} 替代方案",
+      "cardCta": "看诚实点评 →",
+      "compareCalloutPrefix": "想看正面对比而不是迁移指南?请读",
+      "compareCalloutLink": "对比页面",
+      "compareCalloutSuffix": "同样的竞品，中立的视角。"
+    },
+    "detail": {
+      "metaTitle": "{name} 替代方案, 试试 qr-cow(免费、无需注册)",
+      "metaDescription": "在找 {name} 的替代方案?qr-cow 静态码免费，动态码 + 扫描分析每月 3 美元起，还提供 API 和 MCP 服务器。这里是诚实的对比。",
+      "breadcrumbHome": "首页",
+      "breadcrumbIndex": "替代方案",
+      "breadcrumbCurrent": "{name} 替代方案",
+      "eyebrow": "{name} 替代方案",
+      "title": "在找 {name} 的替代方案?试试 qr-cow。",
+      "tldrLabel": "简而言之：",
+      "tldr": "qr-cow 静态二维码免费，动态码和逐次扫描分析每月 3 美元起，同时提供 REST API 和 MCP 服务器。如果下面任何一条理由说中了您，几分钟就能完成切换。",
+      "ctaTry": "免费试用 qr-cow",
+      "ctaHeadToHead": "看正面对比",
+      "reasonsEyebrow": "人们为什么找 {name} 的替代方案",
+      "reasonsTitle": "常见原因",
+      "positioningEyebrow": "定位",
+      "positioningTitle": "qr-cow 作为 {name} 的替代方案",
+      "theyDoWell": "{name} 做得好的地方",
+      "wePullAhead": "qr-cow 领先的地方",
+      "tableEyebrow": "功能对比",
+      "tableTitle": "{name} vs qr-cow，并排对比",
+      "thFeature": "功能",
+      "thQrcow": "qr-cow",
+      "whoShouldSwitch": "谁应该换",
+      "whoShouldStay": "谁应该留在 {name}",
+      "migrationEyebrow": "迁移路径",
+      "migrationTitle": "切换实际怎么做",
+      "migrationBulkPrefix": "要批量生成?用",
+      "migrationBulkLink": "REST API 或 MCP 服务器",
+      "migrationBulkMid": "把整个重建写成脚本, 需要帮忙时发邮件到",
+      "migrationBulkSuffix": "即可。",
+      "faqEyebrow": "常见问题",
+      "faqTitle": "常见问题",
+      "faqRealAltQ": "qr-cow 真能替代 {name} 吗?",
+      "faqRealAltA": "就二维码这件事而言，能。它是专为二维码打造的生成器, 不会取代 {name} 的其他功能，只是把二维码这部分做得更便宜、追踪更全。",
+      "faqRealAltAFull": "就二维码这件事而言，能。qr-cow 是专为二维码打造的生成器，提供动态码、逐码扫描分析、13 种内容类型、REST API 和 MCP 服务器。在 {name} 擅长的更广泛领域，它不会取代 {name}, 只是把二维码这部分做得更便宜、追踪更全。",
+      "faqWhatCanQ": "qr-cow 能做哪些 {name} 做不到的事?",
+      "faqFreeQ": "qr-cow 免费吗?",
+      "faqFreeA": "静态二维码永久免费，无需注册。含扫描分析的动态码每月 3 美元起，API 访问每月 9 美元。仅支持加密货币付款(USDT、BTC、ETH)。",
+      "faqSwitchQ": "我如何从 {name} 迁移?",
+      "faqSwitchQFull": "我如何从 {name} 迁移到 qr-cow?",
+      "faqSwitchFallback": "没有导入工具, 在 qr-cow 里重新生成目标地址，打印替换版，换掉实体物料。",
+      "ctaFinalTitle": "准备好试试这个 {name} 替代方案了吗?",
+      "ctaFinalBody": "打开工作室，选择内容类型，下载。静态码无需注册。想要动态码 + 分析时再注册即可。",
+      "ctaOpenStudio": "打开工作室",
+      "ctaPricing": "查看定价"
+    },
+    "items": {
+      "canva": {
+        "alternativeReasons": [
+          "您需要动态二维码, 印出去之后还能改指向的那种。Canva 的二维码是固化在设计稿里的，没法重新指向。",
+          "您需要知道到底有没有人扫过码。Canva 完全没有扫描分析。",
+          "您想要 Wi-Fi、vCard、加密货币或应用商店二维码。Canva 只有 URL / 文本 / 邮件 / 电话，到此为止。",
+          "您不想为了做一个二维码就付每月 15 美元的 Canva Pro, 这套设计套件是按完整排版定价的，不是按一个码。",
+          "您想从脚本、智能体或 CI 流水线里生成二维码。Canva 只有图形界面。",
+          "您根本不在 Canva 的工作流里, 设计师付费用 Canva，帮不了明天就要 Wi-Fi 码的运维团队。"
+        ],
+        "switchingNote": "没有什么需要迁移的。Canva 里做的二维码是静态 PNG, 一旦印出去，指哪儿就是哪儿。在 qr-cow 里把同一个目标地址重新生成为动态码，下次重印时换上新物料，之后改指向就再也不用重新印刷了。"
+      },
+      "qr_io": {
+        "alternativeReasons": [
+          "您只想免费做一个码。QR.io 只有订阅制, 试用期过后，哪怕一个二维码也要付费套餐。",
+          "您用不了信用卡。QR.io 只支持 Stripe；qr-cow 用 USDT、BTC、ETH 结算。",
+          "您在 AI 智能体之上做东西。qr-cow 为 Claude、Cursor 和 Zed 提供 MCP 服务器, QR.io 的 API 只有 REST，而且锁在更高的套餐里。",
+          "您想试动态码，但不想被试用倒计时催着。qr-cow 永久免费送您三个动态码，不用绑卡。",
+          "试用到期，而您并不需要企业级功能。QR.io 降级意味着失去分析；qr-cow 每月 3 美元的档位保留分析。",
+          "您想要一个独立的工具。QR.io 有风投背景和销售升级路径；qr-cow 是独立的家庭小店，定价都是整数。"
+        ],
+        "switchingNote": "在 QR.io 里做的静态码(URL 直接写进码里)本来就能用, 订阅到期后，印出去的图片照样能扫。而动态码(QR.io 短链接)在账户到期当天就会停止跳转。把这些码在 qr-cow 里重新生成为新的动态码，打印替换版，换掉实体物料。目前还没有 CSV 导入，批量迁移请走 API。"
+      }
+    }
+  },
+  "scanPage": {
+    "metaTitle": "如何扫描二维码, 任何手机，无需安装应用",
+    "metaDescription": "所有现代 iPhone 和 Android 手机都能在相机应用中原生扫描二维码。这里是两秒钟就能学会的方法，以及扫不出来时该怎么办。",
+    "ogDescription": "所有现代 iPhone 和 Android 都能原生扫描二维码。方法在这里，还有扫不出来时该怎么办。",
+    "eyebrow": "如何扫描",
+    "h1": "您已经有二维码扫描器了。它就在您的相机里。",
+    "intro": "2017 年以来的每一部 iPhone 和 2019 年以来的每一部 Android 都能原生扫描二维码，无需安装任何应用。方法如下, 如果相机不配合，也有对策。",
+    "ctaGenerate": "改为生成二维码",
+    "ctaDesign": "利于扫描的设计规则",
+    "iosTitle": "iPhone(iOS 11 及以上)",
+    "androidTitle": "Android(9 及以上)",
+    "iosSteps": {
+      "s1": "打开相机应用(系统自带的那个，无需额外应用)。",
+      "s2": "将相机对准二维码, 不用点击，拿稳即可。",
+      "s3": "顶部会出现一条黄色通知横幅。点击它即可打开链接或执行操作。"
+    },
+    "androidSteps": {
+      "s1": "打开相机应用(或下拉快捷设置，点击 Google Lens)。",
+      "s2": "将相机对准二维码。",
+      "s3": "会出现一个带有链接或操作的胶囊按钮。点击它。",
+      "s4": "在 Pixel 和 Samsung 手机上，相机会自动检测二维码。在较旧的 Android(8 及以下)上，请使用 Google Lens 或任意免费扫码应用。"
+    },
+    "troubleTitle": "故障排查",
+    "trouble": {
+      "noBanner": {
+        "q": "相机里能看到二维码，但没有横幅出现。",
+        "a": "请确认二维码扫描功能已启用。iOS：设置 → 相机 → 扫描二维码。Android：设置 → 应用 → 相机 → 权限，并确认 Google Lens 已启用。"
+      },
+      "tooSmall": {
+        "q": "二维码太小或太模糊，扫不出来。",
+        "a": "让手机与二维码保持 15-30 厘米的距离, 再近相机就无法对焦。如果二维码宽度小于约 2 厘米，请让打印它的人提供更大的版本。小于 2 厘米 × 2 厘米的码低于大多数相机的实际分辨能力。"
+      },
+      "onScreen": {
+        "q": "二维码在我的电脑屏幕上, 能用手机扫吗?",
+        "a": "可以。把手机举到屏幕前即可。反光可能干扰自动对焦, 稍微调整屏幕角度以消除反射。"
+      },
+      "trust": {
+        "q": "我不信任二维码显示的链接。",
+        "a": "这个直觉很好。相机在打开前会预览 URL, 请仔细读一读。避免在不可信的场所扫码(停车计时器上贴的贴纸、掉在地上的传单)，也绝不要在通过非您本人制作的二维码打开的页面上输入密码。"
+      }
+    },
+    "footerNote": "qr-cow 曾在此处提供网页版摄像头扫描器。我们移除了它，因为每部手机本身都做得更好, 但如果您在手边没有手机的笔记本电脑上需要扫码，像 <link>QR Code Reader</link> 这样的免费 Chrome 扩展也能应急。我们专注于生成二维码，而不是读取它们。"
+  },
+  "extensionPage": {
+    "metaTitle": "Firefox 与 Chrome 浏览器扩展，一键生成二维码",
+    "metaDescription": "把任何页面、链接或选中文本直接在浏览器中变成风格化二维码。免费、离线、私密、无需账号。支持 Firefox 和 Chrome。",
+    "eyebrow": "浏览器扩展",
+    "h1": "任何页面。一次点击。一个风格化二维码。",
+    "intro": "qr-cow 扩展可将当前页面、任意链接或选中的文本变成风格化二维码。一切都在你的浏览器内渲染，使用与工作室相同的设计，输出完全一致。",
+    "privacyPill": "离线运行。不收集任何数据。",
+    "ctaFirefox": "获取 Firefox 版",
+    "ctaChrome": "获取 Chrome 版",
+    "comingSoon": "即将上线",
+    "storeNote": "两个商店的上架正在审核中。扩展完全免费。",
+    "feat": {
+      "oneClick": {
+        "title": "一键即得，自动填充",
+        "body": "打开弹窗，当前标签页的网址已自动编码。也可右键点击链接或选中文本来编码它们。"
+      },
+      "presets": {
+        "title": "16 个设计模板",
+        "body": "与 qr-cow.com 相同的渐变、点形和配色，并在打印前实时检查可扫描性。"
+      },
+      "types": {
+        "title": "13 种内容类型",
+        "body": "网址、Wi-Fi、vCard 名片、邮件、短信、日程、位置、加密货币等，使用与工作室相同的编码器。"
+      },
+      "privacy": {
+        "title": "隐私优先",
+        "body": "零网络请求。你编码的内容绝不会离开你的设备：无账号、无跟踪、无分析。"
+      }
+    },
+    "shotMainAlt": "qr-cow 扩展弹窗，显示当前页面的风格化二维码",
+    "shotStyleAlt": "应用海洋渐变模板的扩展弹窗",
+    "shotStyleCaption": "模板与自定义颜色",
+    "shotRtlAlt": "波斯语界面的扩展弹窗，从右到左布局",
+    "shotRtlCaption": "10 种语言，支持 RTL",
+    "howTitle": "使用方法",
+    "how1": "安装扩展，在任意页面点击 qr-cow 按钮。",
+    "how2": "或右键点击链接或选中文本，选择二维码菜单项。",
+    "how3": "挑一个模板，然后下载 PNG 或 SVG，或将图片复制到剪贴板。",
+    "faqTitle": "常见问题",
+    "faq1q": "免费吗？",
+    "faq1a": "免费。扩展可无限生成静态二维码，无需账号。",
+    "faq2q": "会收集数据吗？",
+    "faq2a": "不会。它不发出任何网络请求。二维码在浏览器本地生成，绝不离开你的设备。",
+    "faq3q": "生成的码和 qr-cow.com 上的一样吗？",
+    "faq3a": "一样。扩展内置与工作室相同的渲染引擎和 16 个模板，输出完全一致。",
+    "faq4q": "能生成动态二维码吗？",
+    "faq4a": "扩展中的静态码无限且免费。动态码（打印后可修改目标并带扫描统计）在完整工作室中提供，每月 3 美元起。",
+    "dynamicNotePrefix": "需要可修改、带扫描统计的二维码？",
+    "dynamicNoteLink": "查看动态二维码价格"
+  },
+  "offlinePage": {
+    "metaTitle": "离线",
+    "metaDescription": "qr-cow 的大多数功能需要互联网连接。",
+    "title": "您已离线",
+    "body": "qr-cow 需要网络来渲染新码并加载您的仪表板。请重新联网后再试, 在我们完成同步之前，您的设计会保存在您的设备上。",
+    "retry": "重试",
+    "home": "首页"
+  },
+  "privacyPage": {
+    "metaTitle": "隐私政策",
+    "metaDescription": "qr-cow 的隐私政策：我们收集哪些数据、为什么收集、与谁共享，以及如何删除。语言直白，不设套路。",
+    "ogTitle": "qr-cow 隐私政策",
+    "ogDescription": "通俗易懂的隐私政策。不出售数据，不做广告技术，不用于 AI 训练。我们收集什么，以及如何删除。",
+    "governingNote": "本翻译仅为方便阅读而提供；以英文版本为准。",
+    "eyebrow": "隐私",
+    "h1": "隐私政策",
+    "lastUpdated": "最后更新：{date}",
+    "intro": "我们只收集让 qr-cow 运转所必需的最少数据。静态二维码完全不需要账户。动态码需要邮箱和密码。我们不出售您的数据，不投放广告，您可以一键删除所有内容。",
+    "whoWeAre": "我们是谁",
+    "whoWeAreBody": "qr-cow 由 HSN 家族运营, 一小群独立运营这个网站的工程师。没有母公司。就 GDPR 而言，对于下文所述的一切，我们是数据控制者。",
+    "whatWeCollect": "我们收集什么",
+    "freeTitle": "如果您只使用免费编辑器(无账户)",
+    "free1Title": "不收集任何个人信息。",
+    "free1Body": "您设计的二维码在您的浏览器中渲染，绝不会发送给我们。我们不知道您是谁。",
+    "free2Title": "服务器端预览回退。",
+    "free2Body": "如果您的浏览器无法渲染带样式的预览，编码后的字符串会发送给我们一次，用于渲染 PNG。出于防垃圾目的，我们会记录该请求的 IP 和 user-agent，并在 30 天后丢弃两者。编码内容不会被存储。",
+    "accountTitle": "如果您创建账户",
+    "acc1Title": "电子邮箱 + 密码哈希。",
+    "acc1Body": "用于让您登录，以及在您失去访问权限时联系您。密码经 bcrypt 哈希处理；我们绝不会看到您的明文密码。",
+    "acc2Title": "OAuth 标识符",
+    "acc2Body": "(如果您通过 Google 或 Facebook 注册)。仅限提供方的用户 ID；我们绝不请求您的联系人、照片或其他任何内容。",
+    "acc3Title": "您保存的二维码。",
+    "acc3Body": "其内容、设计、名称，以及动态码的重定向目标(如果是动态码)。",
+    "scanTitle": "您的动态码上的扫描事件",
+    "scanIntro": "每当有人扫描您拥有的动态二维码，我们会记录一行数据，包含：",
+    "scan1": "二维码 ID(以便我们知道它属于您)。",
+    "scan2": "时间戳。",
+    "scan3": "国家代码、设备类型(手机 / 平板 / 桌面)和操作系统家族, 由扫描者的 user-agent 和 IP 推导得出，不会存储原始 IP 本身。我们使用粗粒度的 IP 到国家查询，并立即丢弃 IP。",
+    "scanOutro": "我们<strong>不会</strong>存储扫描者的 IP 地址、精确位置、浏览器指纹、广告 ID 或任何跨站标识符。您在仪表板中看到的分析数据都由这些数据聚合而来。",
+    "payTitle": "如果您付费订阅",
+    "pay1Title": "支付元数据。",
+    "pay1Body": "套餐代码、金额、交易状态，以及 NowPayments 发票 ID。除了您支付的那张具体发票之外，我们<strong>看不到</strong>您的钱包地址、余额或交易历史。",
+    "pay2Title": "无银行卡数据。",
+    "pay2Body": "qr-cow 仅支持加密货币，因此不存在可能被不当处理的卡号。",
+    "whatWeDo": "我们如何使用这些数据",
+    "do1": "运行您的账户。",
+    "do2": "渲染并提供您的二维码。",
+    "do3": "为您显示动态码的分析数据。",
+    "do4": "向您发送事务性邮件, 注册确认、密码重置、付款收据。没有需要退订的营销邮件列表，因为我们不发营销邮件。",
+    "do5": "诊断滥用行为和失败的付款。登录环节的防刷保护使用一个短暂的限速信号，一分钟后即被丢弃。",
+    "whatWeDont": "我们不做什么",
+    "dont1Title": "没有广告技术，没有数据经纪商。",
+    "dont1Body": "永远不用 Meta Pixel、LinkedIn Insight，也不用任何广告或重定向网络。但我们确实使用三个分析与稳定性工具：Google Analytics 统计流量，Microsoft Clarity 生成匿名热图和会话回放，Sentry 收集崩溃报告。您在工作室里输入的一切（网址、Wi-Fi 密码、钱包地址、联系人信息）在离开浏览器之前就已被遮蔽，因此这些工具永远拿不到。",
+    "dont2Title": "不出售数据。",
+    "dont2Body": "您的扫描统计只属于您和我们。我们也不出售聚合的“行业数据”。",
+    "dont3Title": "不用于 AI 训练。",
+    "dont3Body": "您的二维码内容、扫描数据和账户数据不会被用于训练任何机器学习模型, 无论是我们的还是任何其他人的。",
+    "dont4Title": "没有未披露的子处理者。",
+    "dont4Body": "下面的列表就是全部列表。",
+    "whoElse": "还有谁会接触到数据",
+    "whoElseIntro": "四个具名的子处理者，仅此而已：",
+    "privacyLabel": "隐私：",
+    "sub1Name": "Cloudflare",
+    "sub1Body": "DNS、CDN、DDoS 防护。可看到传输中的请求元数据。",
+    "sub2Name": "NowPayments",
+    "sub2Body": "加密货币结账。可看到发票 ID、金额，以及您付款所用的钱包。",
+    "sub3Name": "Google / Facebook OAuth",
+    "sub3Body": "(仅当您选择用它们登录时), 可看到您登录了 qr-cow。适用其各自的隐私政策。",
+    "sub4Name": "Brevo(或我们的 SMTP 服务商)",
+    "sub4Body": "可看到事务性邮件的收件地址和主题行。正文是上文所述的标准模板；主题中不含任何敏感信息。",
+    "cookies": "Cookie 与本地存储",
+    "cookie1Title": "认证令牌",
+    "cookie1Body": "(qc.access、qc.refresh), 保存在 localStorage 中，让您在页面刷新后保持登录。基于 JWT；退出登录会清除两者。",
+    "cookie2Title": "主题偏好",
+    "cookie2Body": "(qc.theme), 浅色/深色模式，在您切换开关时设置一次。只保留在您的设备上。",
+    "cookie3Title": "Cloudflare Turnstile",
+    "cookie3Body": "仅在登录和注册时设置的防机器人 Cookie。请求结束后由 Cloudflare 丢弃。",
+    "cookiesOutro": "没有广告 cookie，也没有跨站广告标识符。Google Analytics 和 Microsoft Clarity 会设置自己的 cookie 来统计访问量并串联一次会话。如果您不希望被统计，任何拦截器或 Do Not Track 设置都能阻止它们，网站功能完全不受影响。",
+    "retention": "我们保留多久",
+    "keep1Title": "账户数据：",
+    "keep1Body": "只要您的账户存在就保留。在仪表板中删除账户后，数据会在 24 小时内清除。",
+    "keep2Title": "扫描事件：",
+    "keep2Body": "在动态二维码的整个生命周期内保留，当您删除该码时随之删除。软删除的码会在 30 天后被彻底清除。",
+    "keep3Title": "服务器端预览日志：",
+    "keep3Body": "30 天，之后轮换清除。",
+    "keep4Title": "支付记录：",
+    "keep4Body": "7 年。这是遵守欧盟税法的要求(若非法律要求，我们不会这么选择)。",
+    "keep5Title": "备份：",
+    "keep5Body": "每晚快照，保留 30 天后轮换。删除操作会在该窗口期内对备份生效。",
+    "rights": "您的权利",
+    "rightsIntro": "根据 GDPR(欧盟/英国)、CCPA(加利福尼亚)以及其他地区的同类法规，您可以：",
+    "right1Title": "访问",
+    "right1Body": "请求以 JSON 导出我们所持有的关于您的一切数据。与仪表板已经显示的数据相同。",
+    "right2Title": "更正",
+    "right2Body": "直接在仪表板中修改您的电子邮箱、姓名或二维码内容。",
+    "right3Title": "删除",
+    "right3Body": "仪表板 → 账户中的一个按钮。24 小时内硬删除；备份在 30 天内轮换清除。",
+    "right4Title": "反对",
+    "right4Body": "任何您认为不合理的处理。给我们发邮件；我们要么解释原因，要么停止。",
+    "right5Title": "提出投诉",
+    "right5Body": "如果您认为我们做错了，可向您当地的监管机构投诉。",
+    "rightsOutro": "发送邮件至 <email>privacy@qr-cow.com</email> 即可行使上述任何权利。我们力争在 7 天内回复；法定期限是 30 天。",
+    "whereData": "数据存放在哪里",
+    "whereDataBody": "主数据库位于欧盟。Cloudflare 在全球代理流量并缓存静态资源。NowPayments 在其网站上声明的司法辖区运营。如果您所在的司法辖区要求明确的跨境传输条款，我们与上述每个子处理者之间均有等同于标准合同条款的协议生效。",
+    "children": "儿童",
+    "childrenBody": "qr-cow 并非为 13 岁以下用户设计。如果您是家长且您的孩子创建了账户，请发邮件给我们；我们会删除该账户。",
+    "changes": "变更",
+    "changesBody": "重大变更会在生效前至少 14 天通过邮件通知每位账户持有者，并且上方的“最后更新”日期会相应前移。非实质性修改(错别字修正、链接更新)只会悄悄更新日期。",
+    "contact": "联系我们",
+    "contactBody": "隐私相关事宜请联系 <privacyEmail>privacy@qr-cow.com</privacyEmail>，一般问题请联系 <hiEmail>hi@qr-cow.com</hiEmail>。我们会阅读每一封邮件；通常几个工作日内回复。",
+    "seeAlso": "另请参阅：",
+    "termsLink": "服务条款",
+    "aboutLink": "关于 qr-cow"
+  },
+  "termsPage": {
+    "metaTitle": "服务条款",
+    "metaDescription": "qr-cow 服务条款：账户责任、可接受使用、仅限加密货币的支付条款、退款、责任。语言直白，没有意外。",
+    "ogTitle": "qr-cow 服务条款",
+    "ogDescription": "直白易懂的条款。账户责任、可接受使用、加密货币支付、退款、取消、责任。",
+    "governingNote": "本翻译仅为方便阅读而提供；以英文版本为准。",
+    "eyebrow": "条款",
+    "h1": "服务条款",
+    "lastUpdated": "最后更新：{date}",
+    "intro": "这些条款约束您对 qr-cow 的使用。创建账户或使用工作室即表示您接受这些条款。我们有意用直白的语言撰写；如果任何条款读起来像法律术语，您可以发邮件向我们索取该条款的通俗版本。",
+    "s1Title": "1. qr-cow 是什么",
+    "s1Body": "qr-cow 是一个用于设计、托管和跟踪二维码的网络服务。静态码免费且无需账户。动态码(可编辑目标 + 扫描分析)需要付费订阅。完整功能列表见 <pricingLink>/pricing</pricingLink>。",
+    "s2Title": "2. 您的账户",
+    "s2Item1": "您有责任妥善保管您的密码和所有 API 令牌。一旦怀疑令牌被其他任何人看到，请立即在 <apiLink>/dashboard/api</apiLink> 中吊销它。",
+    "s2Item2": "一人一账户。不要与同事共享登录凭据, 请分别创建账户。我们不按席位收费；这条规则只是为了在出问题时能找到正确的责任人。",
+    "s2Item3": "注册须年满 13 岁。如果您所在的司法辖区规定了更高的数字同意年龄(部分欧盟国家为 16 岁)，则以该年龄为准。",
+    "s2Item4": "通过您的账户所做的一切均由您负责，包括您把密码交给的任何人所做的操作。",
+    "s3Title": "3. 可接受使用",
+    "s3Intro": "您同意不将 qr-cow 二维码指向以下内容，也不使用本服务从事以下行为：",
+    "s3Item1": "传播恶意软件、病毒或任何其他旨在损害设备的东西。",
+    "s3Item2": "开展钓鱼活动或任何形式的凭据收集行为。模仿正规品牌登录页面的动态重定向，将会导致账户被迅速终止。",
+    "s3Item3": "传播 CSAM、恐怖主义材料，或在用户或 qr-cow 所在司法辖区属于非法的任何其他内容。",
+    "s3Item4": "垃圾信息, 发送未经请求的消息、抓取 API 以收集数据，或以其他方式滥用受速率限制的端点。",
+    "s3Item5": "在没有书面协议的情况下将 qr-cow 作为您自己的服务转售(基于 qr-cow 使用 <docsLink>API</docsLink> + 付费订阅进行集成是允许且受鼓励的)。",
+    "s3Item6": "绕过安全措施：逆向破解速率限制、抓取认证保护后的内容等。",
+    "s3Outro": "一旦我们掌握上述任何行为的可信证据，将立即暂停账户，退还付费期内未使用部分的费用，并向相应机构举报非法内容。",
+    "s4Title": "4. 您的内容",
+    "s4Item1": "您上传的一切均归您所有, 二维码内容、设计配置、Logo。我们不主张其任何所有权。",
+    "s4Item2": "您授予我们一项非独占许可，允许我们为运营 qr-cow 而托管、渲染和提供该内容。取消订阅或删除二维码即撤销该许可。",
+    "s4Item3": "我们可以在聚合统计中匿名展示您的码(例如“qr-cow 本月提供了 X 次扫描”)，但绝不附带可识别身份的数据。我们绝不使用您的内容训练机器学习模型。",
+    "s5Title": "5. 付费套餐",
+    "s5PricingTitle": "定价：",
+    "s5PricingBody": "以您订阅时 <pricingLink>/pricing</pricingLink> 上列出的价格为准。我们可以随时调整新注册用户的价格；现有订阅者只要持续订阅，就保持当前价格。",
+    "s5PaymentTitle": "支付：",
+    "s5PaymentBody": "仅限加密货币(USDT、BTC、ETH、LTC、DOGE、TRX)，通过 NowPayments 结算。您的付款在链上确认后，套餐即激活并持续 30 天。",
+    "s5RenewalTitle": "续订：",
+    "s5RenewalBody": "手动续订。我们不自动续订，因为加密货币订阅无法合理地自动扣款。在您的订阅期结束前几天，您会收到一封提醒邮件。",
+    "s5CancelTitle": "取消：",
+    "s5CancelBody": "停止付款即可。您的动态码会继续重定向，直到您已付费的截止日期；此后重定向会返回 410 Gone。分析数据在到期后 30 天内继续累积并可只读访问，之后被删除。",
+    "s5RefundsTitle": "退款：",
+    "s5RefundsBody": "任何新订阅的前 7 天均可获得全额退款，无需说明理由。发邮件至 <billingEmail>billing@qr-cow.com</billingEmail>，我们会将款项退回到同一钱包。第 7 天之后不予退款。",
+    "s5TaxTitle": "税费：",
+    "s5TaxBody": "价格不含增值税。在您所在司法辖区有要求的情况下，您的发票会包含适用的当地税费。",
+    "s6Title": "6. 服务可用性",
+    "s6Body1": "我们的目标是按月计算 99.9% 的正常运行时间。我们不在消费级套餐上提供合同性 SLA 或服务抵扣；那会让我们假装每年那几个小时的停机是一项有意义的产品功能，而它并不是。状态：如果您认为网站宕机了，请<hiEmail>给我们发邮件</hiEmail>。",
+    "s6Body2": "计划内维护安排在欧洲的非高峰时段进行，并提前一天在仪表板中公告。",
+    "s7Title": "7. 终止",
+    "s7YouTitle": "您可以终止",
+    "s7YouBody": "随时, 在仪表板 → 账户中删除您的账户即可。硬删除在 24 小时内执行。备份在 30 天内轮换清除。",
+    "s7WeTitle": "我们可以终止",
+    "s7WeBody": "如果发生上述任何可接受使用违规、长期未付款(到期后 90 天)，或您辱骂我们的工作人员。除非违规严重到我们必须立即行动，否则我们会提前 7 天通知您，并提供 JSON 导出的机会。",
+    "s8Title": "8. 知识产权",
+    "s8Body": "qr-cow 的名称、吉祥物、营销网站和源代码归我们所有(开源部分除外，它们保留各自的许可证)。除按预期使用本服务外，您不获得上述任何内容的权利。您的二维码内容归您所有；见第 4 条。",
+    "s9Title": "9. 第三方服务",
+    "s9Body": "当您将账户关联到 Google 或 Facebook OAuth 时，您对它们的使用受其各自条款约束。当您通过 NowPayments 付款时，您的付款受其条款约束。子处理者的完整列表见<privacyLink>隐私政策</privacyLink>。",
+    "s10Title": "10. 免责声明",
+    "s10Body": "qr-cow 按“现状”提供。我们努力保持其准确、可用和安全，但不承诺永远如此。在法律允许的最大范围内，我们否认所有默示保证, 适销性、特定用途适用性、非侵权，以及其余的样板条款。如果您所在的司法辖区赋予您法定消费者权利，本条款不影响这些权利。",
+    "s11Title": "11. 责任限制",
+    "s11Intro": "在法律允许的最大范围内，对于因这些条款或您使用 qr-cow 而产生的任何索赔，我们对您的全部责任以下列两者中较高者为限：",
+    "s11Item1": "您在索赔前 12 个月内向我们支付的金额，或",
+    "s11Item2": "50 美元。",
+    "s11Body2": "我们不对间接、附带、后果性或惩罚性损害承担责任, 包括利润损失、数据丢失或声誉损害, 即使我们曾被告知这些损害可能发生。我们不对任何人扫描您的二维码所造成的损失负责，也不对您基于我们报告的分析数据所做的任何商业决策负责。",
+    "s11Body3": "本条款不限制我们依法不能排除的责任(例如欺诈、重大过失，或消费者法下有缺陷的数字内容造成的损害)。",
+    "s12Title": "12. 条款变更",
+    "s12Body": "我们可以修改这些条款。重大变更将提前 14 天邮件通知，并且上方的“最后更新”日期会相应前移。在生效日期之后继续使用 qr-cow 即表示您接受新条款；如果您不接受，请在该窗口期内删除您的账户，我们会退还任何未使用的订阅期费用。",
+    "s13Title": "13. 管辖法律与争议",
+    "s13Body": "这些条款受 qr-cow 运营所在司法辖区的法律管辖。无法通过邮件解决的争议，应提交至该司法辖区的有管辖权法院。如果当地消费者保护法优先于本条款(欧盟大部分地区、英国、美国部分地区)，则适用该优先法律。",
+    "s14Title": "14. 联系方式",
+    "s14Body": "一般问题请联系 <hiEmail>hi@qr-cow.com</hiEmail>，退款或发票问题请联系 <billingEmail>billing@qr-cow.com</billingEmail>，举报违反第 3 条的二维码请联系 <abuseEmail>abuse@qr-cow.com</abuseEmail>，GDPR / CCPA 请求请联系 <privacyEmail>privacy@qr-cow.com</privacyEmail>。",
+    "seeAlso": "另请参阅：",
+    "privacyLink": "隐私政策",
+    "aboutLink": "关于 qr-cow"
+  },
+  "blogPost": {
+    "makeHeading": "制作你自己的二维码",
+    "chipGenerator": "免费二维码生成器",
+    "chipTypes": "全部二维码类型",
+    "chipPricing": "价格",
+    "chipSolutions": "解决方案",
+    "writtenBy": "作者",
+    "comments": {
+      "title": "评论",
+      "closed": "本文评论已关闭。",
+      "placeholder": "分享你的想法…",
+      "posting": "发布中…",
+      "post": "发布评论",
+      "loginLink": "登录",
+      "loginSuffix": "即可加入讨论。",
+      "loading": "加载中…",
+      "beFirst": "来发第一条评论吧。",
+      "anonymous": "用户",
+      "cancel": "取消",
+      "reply": "回复",
+      "deleteConfirm": "删除你的评论？",
+      "deleteFailed": "删除失败。",
+      "delete": "删除",
+      "replyTo": "回复 {name}…",
+      "postReply": "发布回复",
+      "errDepth": "回复最多嵌套 3 层。",
+      "errDuplicate": "你刚刚已发布过相同评论。",
+      "errLogin": "请登录后发表评论。",
+      "errGeneric": "评论发布失败。"
+    }
+  },
+  "notFoundPage": {
+    "eyebrow": "404，页面走丢了",
+    "h1": "这个网址哪儿也去不了。",
+    "body": "页面可能已移动、链接拼写有误，或者它从未存在过。奶牛深表歉意。从下面挑一个最接近的，两秒就能到达。",
+    "ctaHome": "返回首页",
+    "ctaStudio": "打开工作室",
+    "maybeTitle": "或许你想找的是这些",
+    "blogPrefix": "在找教程？",
+    "blogLink": "浏览博客",
+    "dest": {
+      "studio": {
+        "label": "QR 工作室",
+        "hint": "30 秒制作一个二维码"
+      },
+      "pricing": {
+        "label": "价格",
+        "hint": "静态免费，动态每月 3 美元起"
+      },
+      "qrTypes": {
+        "label": "全部二维码类型",
+        "hint": "网址、Wi-Fi、vCard 等 13 种"
+      },
+      "solutions": {
+        "label": "解决方案",
+        "hint": "餐厅、活动、零售"
+      },
+      "useCases": {
+        "label": "使用场景",
+        "hint": "40 个真实示例"
+      },
+      "docs": {
+        "label": "API 与 MCP",
+        "hint": "用 Claude 或 curl 生成二维码"
+      }
+    }
+  },
+  "pwa": {
+    "title": "安装 qr-cow",
+    "iosBody": "点按<share>分享</share>，再选择<strong>添加到主屏幕</strong>，即可像原生应用一样使用 qr-cow。",
+    "body": "把 qr-cow 添加到你的设备：离线可用、独立窗口打开，并带有创建和扫描二维码的应用快捷方式。",
+    "install": "安装",
+    "gotIt": "知道了",
+    "notNow": "暂不"
+  },
+  "a11y": {
+    "downloadPng": "下载 PNG 格式二维码",
+    "qrKind": "二维码种类",
+    "contentTypes": "二维码内容类型",
+    "previewEmpty": "二维码预览，填写表单即可生成",
+    "moreFormats": "选择其他下载格式",
+    "livePreview": "{type} 内容的实时二维码预览",
+    "templates": "二维码模板",
+    "designSection": "设计区",
+    "chartScans": "每日扫描示例图表",
+    "chartHeatmap": "按小时扫描示例热力图",
+    "scrollLeft": "向左滚动标签",
+    "scrollRight": "向右滚动标签",
+    "step": "第 {n} 步"
+  }
+}

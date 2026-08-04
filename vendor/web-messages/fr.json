@@ -1,0 +1,2422 @@
+{
+  "meta": {
+    "home": {
+      "title": "Générateur de codes QR gratuit avec logo, couleurs et statistiques",
+      "description": "Générez un code QR gratuit avec logo, couleurs et dégradés, puis téléchargez-le en PNG, SVG ou JPG. Sans inscription. Codes dynamiques et statistiques de scan dès 3 $/mois."
+    },
+    "generate": {
+      "title": "Studio QR : créez un code QR gratuit avec logo et couleurs",
+      "description": "Studio de codes QR gratuit. Choisissez une forme, ajoutez un logo, définissez les couleurs. Téléchargez en PNG, SVG ou JPG. 13 types de contenu, URL, Wi-Fi, vCard, crypto. Sans inscription."
+    },
+    "pricing": {
+      "title": "Tarifs : gratuit à vie, codes QR dynamiques dès 3 $/mois",
+      "description": "Codes QR statiques gratuits à vie. Codes dynamiques avec statistiques de scan dès 3 $/mois, accès API dès 9 $/mois. Paiement en crypto, USDT, BTC, ETH."
+    },
+    "about": {
+      "title": "À propos de qr-cow, créé par la famille HSN",
+      "description": "qr-cow est un générateur de codes QR gratuit créé par la famille HSN, un petit groupe d’ingénieurs qui publient des outils honnêtes pour le Web ouvert."
+    },
+    "docs": {
+      "title": "API et MCP, créez des codes QR depuis n'importe quel langage ou agent IA",
+      "description": "REST API + serveur Model Context Protocol. Générez des codes QR depuis vos scripts, CI, Claude, Cursor ou Zed."
+    },
+    "blog": {
+      "title": "Blog codes QR : astuces, guides et notes de qr-cow",
+      "description": "Guides codes QR, nouveautés produit et notes des coulisses de l’équipe qr-cow."
+    }
+  },
+  "nav": {
+    "generate": "Générer",
+    "solutions": "Pour les pros",
+    "pricing": "Tarifs",
+    "docs": "Docs",
+    "blog": "Blog",
+    "about": "À propos",
+    "dashboard": "Tableau de bord",
+    "login": "Connexion",
+    "makeCTA": "Créer un code QR",
+    "solutionsAll": "Toutes les solutions",
+    "solutionsRestaurants": "Restaurants",
+    "solutionsEvents": "Événements",
+    "solutionsRetail": "Commerce de détail",
+    "skipToContent": "Aller au contenu principal",
+    "home": "Accueil",
+    "menu": "Menu",
+    "getStarted": "Commencer",
+    "qrTypes": "Types de QR",
+    "extension": "Extension",
+    "signUp": "S'inscrire",
+    "product": "Créer des codes QR",
+    "resources": "Apprendre",
+    "studio": "Studio QR",
+    "changelog": "Changelog",
+    "menuDesc": {
+      "studio": "Créez un code stylé maintenant",
+      "qrTypes": "13 générateurs, du Wi-Fi au vCard",
+      "extension": "Des codes depuis le navigateur",
+      "docs": "API REST et serveur MCP",
+      "solutionsAll": "Guides par secteur",
+      "restaurants": "Menus et codes de table",
+      "events": "Billets et enregistrements",
+      "retail": "Emballages et rayons",
+      "blog": "Guides et actualités",
+      "about": "La famille derrière la vache",
+      "changelog": "Les dernières nouveautés"
+    },
+    "startHere": "Commencez ici",
+    "closeMenu": "Fermer le menu",
+    "openMenu": "Ouvrir le menu",
+    "primaryNav": "Principal"
+  },
+  "hero": {
+    "eyebrow": "Générateur de QR codes indépendant · statistiques dès le premier jour · paiement crypto",
+    "headlineBefore": "Modifiez votre code QR",
+    "headlineHighlight": "après",
+    "headlineAfter": "l’impression.",
+    "sub": "Les codes statiques sont gratuits à vie. Les codes dynamiques, ceux que vous pouvez modifier et suivre, coûtent 3 $ par mois. Payez en crypto, sans passer par les banques.",
+    "badgeStatic": "codes QR statiques, gratuits pour toujours",
+    "badgeDynamic": "Dynamiques + statistiques, 3 $/mois",
+    "primaryCTA": "Créer un QR gratuit",
+    "secondaryCTA": "Voir les fonctions dynamiques →",
+    "bullet1": "Aucune inscription pour les codes statiques",
+    "bullet2": "Modifiez les codes dynamiques après impression",
+    "bullet3": "Vraies statistiques de scan, sans traceurs tiers",
+    "bullet4": "USDT, BTC, ETH (sans carte bancaire)"
+  },
+  "generate": {
+    "srHeading": "Créer un code QR, générateur gratuit avec logo, couleurs et statistiques",
+    "step1": "Complétez le contenu",
+    "step2": "Personnalisez votre code QR",
+    "step3": "Télécharger le code QR",
+    "template": {
+      "pickHeading": "Choisissez un modèle",
+      "yoursRibbon": "Le vôtre",
+      "namePlaceholder": "Nommez votre modèle (ex. Marque Café)",
+      "save": "Enregistrer",
+      "update": "Mettre à jour",
+      "signInPrompt": "Enregistrez votre propre modèle",
+      "saveOwn": "Enregistrez votre propre modèle",
+      "logIn": "connectez-vous",
+      "nameAria": "Nom du modèle",
+      "myTemplate": "Mon modèle",
+      "scrollLeft": "Faire défiler les modèles vers la gauche",
+      "scrollRight": "Faire défiler les modèles vers la droite"
+    },
+    "type": {
+      "static": "Statique",
+      "dynamic": "Dynamique",
+      "staticHint": "URL fixe, fonctionne pour toujours, sans inscription.",
+      "dynamicHint": "Destination modifiable + statistiques par scan."
+    },
+    "preview": {
+      "live": "En direct",
+      "empty": "Votre code QR apparaît ici",
+      "emptyHint": "Choisissez un modèle et remplissez le formulaire pour voir l’aperçu en direct."
+    },
+    "download": {
+      "primary": "Télécharger PNG",
+      "svgLabel": "Télécharger SVG",
+      "jpgLabel": "Télécharger JPG",
+      "vector": "Vecteur",
+      "photo": "Photo",
+      "copyToClipboard": "Copier dans le presse-papiers",
+      "copied": "Copié"
+    },
+    "contentHeading": "Contenu",
+    "design": {
+      "shapeTab": "Forme",
+      "logoTab": "Logo",
+      "colorsTab": "Couleurs",
+      "advancedTab": "Avancé",
+      "bodyShape": "Forme des modules",
+      "eyeFrame": "Cadre du repère",
+      "eyeBall": "Centre du repère",
+      "errorCorrection": "Correction d'erreur",
+      "errorCorrectionHint": "Les niveaux élevés tolèrent un logo plus grand et plus d'usure, au prix de modules plus denses.",
+      "foreground": "Premier plan",
+      "background": "Arrière-plan",
+      "transparentBg": "Fond transparent",
+      "gradient": "Dégradé",
+      "gradientHint": "Dégradé linéaire à deux couleurs appliqué au corps.",
+      "enableGradient": "Activer le dégradé",
+      "logoColour": "Couleur du logo",
+      "uploadLogo": "Importez votre propre logo",
+      "logoSize": "Taille",
+      "cutOut": "Découpe",
+      "removeLogo": "Retirer le logo",
+      "extraExports": "Tailles d'export supplémentaires",
+      "extraExportsHint": "Le PNG standard fait 1000 px ; choisissez une image plus grande pour l’impression ou plus légère pour le web."
+    },
+    "saveCard": {
+      "titleAuth": "Nommez et enregistrez votre code QR",
+      "titleAnon": "Inscrivez-vous pour enregistrer ce code",
+      "nameLabel": "Nom du code QR",
+      "namePlaceholder": "ex. Wi-Fi du café, Menu printemps 2026",
+      "typeLabel": "Type",
+      "staticOption": "Statique, gratuit, fixe pour toujours",
+      "dynamicOption": "Dynamique, modifiable + suivi (3 $/mois)",
+      "saveButton": "Enregistrer dans le tableau de bord",
+      "saving": "Enregistrement…",
+      "signUpFree": "S’inscrire, gratuit",
+      "moreExports": "Plus de tailles d'export",
+      "qrInfo": "Infos QR"
+    },
+    "forms": {
+      "url": {
+        "label": "URL du site web",
+        "hint": "Tout ce qui commence par http(s)://, ou collez simplement un domaine."
+      },
+      "text": {
+        "label": "Texte",
+        "count": "{len} / {max} caractères",
+        "upTo": "Jusqu'à {max} caractères.",
+        "sample1": "Tout ce que vous voulez faire lire au scanner.",
+        "sample2": "Table 12, merci de sonner quand vous êtes prêt.",
+        "sample3": "Mot de passe Wi-Fi : demandez au barista 🙂"
+      },
+      "email": {
+        "to": "À",
+        "subject": "Objet (facultatif)",
+        "body": "Corps du message (facultatif)"
+      },
+      "sms": {
+        "phone": "Numéro de téléphone",
+        "phoneHint": "Utilisez le format international avec +indicatif du pays.",
+        "message": "Message (facultatif)"
+      },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "hint": "Le scan lance un appel. Utilisez +indicatif du pays."
+      },
+      "person": {
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "phone": "Téléphone",
+        "email": "E-mail",
+        "company": "Entreprise (facultatif)",
+        "title": "Fonction (facultatif)",
+        "website": "Site web (facultatif)",
+        "address": "Adresse (facultatif)"
+      },
+      "wifi": {
+        "ssid": "Nom du réseau (SSID)",
+        "ssidHint": "Jusqu'à 32 caractères (limite IEEE 802.11).",
+        "security": "Sécurité",
+        "noPassword": "Sans mot de passe",
+        "hidden": "Réseau masqué",
+        "no": "Non",
+        "yes": "Oui",
+        "password": "Mot de passe"
+      },
+      "event": {
+        "title": "Titre",
+        "starts": "Début",
+        "ends": "Fin",
+        "location": "Lieu (facultatif)",
+        "description": "Description (facultatif)"
+      },
+      "location": {
+        "lat": "Latitude",
+        "latHint": "-90 à 90",
+        "lng": "Longitude",
+        "lngHint": "-180 à 180",
+        "query": "Requête de recherche (facultatif)",
+        "queryPlaceholder": "Tour de Tokyo"
+      },
+      "social": {
+        "network": "Réseau",
+        "handle": "Identifiant ou téléphone (pour WhatsApp)",
+        "handleHint": "Juste l'identifiant (sans @ au début). Pour WhatsApp, le numéro de téléphone complet avec l'indicatif du pays.",
+        "prefilled": "Message prérempli (facultatif)"
+      },
+      "crypto": {
+        "network": "Réseau",
+        "address": "Adresse du portefeuille",
+        "addressHint": "Collez l'adresse exacte. Un caractère erroné = des fonds perdus.",
+        "amount": "Montant (facultatif)",
+        "label": "Libellé (facultatif)",
+        "message": "Message (facultatif)"
+      },
+      "app": {
+        "label": "URL de la boutique d'applications",
+        "hint": "App Store / Play Store / Microsoft Store. Collez l'URL de la fiche ou un lien profond."
+      }
+    },
+    "upsell": {
+      "title": "Passez en dynamique",
+      "price": "3 $ / mois",
+      "feat1": "Changez la destination après impression",
+      "feat2": "Statistiques par pays, appareil et heure de la journée",
+      "feat3": "Plus jamais de réimpression",
+      "switch": "Passer en dynamique →"
+    },
+    "teaser": {
+      "title": "Une fois en ligne, vous verrez",
+      "sample": "exemple",
+      "mobile": "Mobile",
+      "desktop": "Ordinateur",
+      "tablet": "Tablette",
+      "lastScan": "Dernier scan",
+      "minutesAgo": "il y a 2 minutes"
+    },
+    "types": {
+      "url": "URL",
+      "text": "Texte",
+      "wifi": "Wi-Fi",
+      "vcard": "vCard",
+      "mecard": "MeCard",
+      "email": "E-mail",
+      "sms": "SMS",
+      "phone": "Appel",
+      "event": "Événement",
+      "location": "Lieu",
+      "social": "Social",
+      "crypto": "Crypto",
+      "app": "Appli"
+    },
+    "presets": {
+      "restaurant": "Restaurant",
+      "cafe": "Café",
+      "tech": "Tech",
+      "event": "Événement",
+      "retail": "Commerce",
+      "wedding": "Mariage",
+      "healthcare": "Santé",
+      "real-estate": "Immobilier",
+      "business-card": "Carte de visite",
+      "crypto": "Crypto",
+      "sunset": "Coucher de soleil",
+      "ocean": "Océan",
+      "forest": "Forêt",
+      "aurora": "Aurore",
+      "berry": "Baies",
+      "mono": "Mono"
+    },
+    "designOptions": {
+      "square": "Carré",
+      "rounded": "Arrondi",
+      "dots": "Points",
+      "classy": "Élégant",
+      "classyRounded": "Élégant arr.",
+      "extraRounded": "Très arrondi",
+      "dot": "Point",
+      "eclL": "7 %, impression nette",
+      "eclM": "15 %, par défaut",
+      "eclQ": "25 %, recommandé",
+      "eclH": "30 %, résiste à l'usure",
+      "logo_web": "Web",
+      "logo_email": "E-mail",
+      "logo_phone": "Téléphone",
+      "logo_audio": "Audio",
+      "logo_video": "Vidéo",
+      "logo_image": "Image",
+      "logo_doc": "Document",
+      "logo_pin": "Lieu"
+    },
+    "info": {
+      "title": "Infos QR",
+      "typeLabel": "Type",
+      "static": "Statique",
+      "dynamic": "Dynamique",
+      "pngExport": "Export PNG",
+      "pngSize": "1000 × 1000 px",
+      "scannability": "Scannabilité",
+      "contrast": "Contraste",
+      "encoded": "Encodé",
+      "chars": "{n} caractères",
+      "lowContrastWarning": "⚠ Les téléphones risquent d'avoir du mal à scanner ce code. Essayez un premier plan plus foncé ou un fond plus clair.",
+      "ratingExcellent": "Excellent",
+      "ratingGood": "Bon",
+      "ratingLow": "Faible, risque de ne pas se scanner"
+    },
+    "toasts": {
+      "savedTitle": "« {name} » enregistré",
+      "savedDynamic": "Code dynamique, partagez le lien court et suivez les scans.",
+      "savedStatic": "Code statique, votre design est prêt à télécharger.",
+      "copyShortLink": "Copier le lien court",
+      "linkCopied": "Lien copié",
+      "templateDeleted": "« {name} » supprimé",
+      "templateDeletedBody": "Modèle retiré de votre bibliothèque.",
+      "templateUpdated": "« {name} » mis à jour",
+      "templateSaved": "« {name} » enregistré",
+      "templateUpdatedBody": "Modèle mis à jour.",
+      "templateSavedBody": "Ajouté à vos modèles, visible sous « Le vôtre » ci-dessus.",
+      "saveFailed": "Échec de l'enregistrement",
+      "tryAgain": "Réessayez dans un instant.",
+      "signUpDynamic": "Inscrivez-vous pour les QR dynamiques",
+      "signUpDynamicBody": "Un compte gratuit débloque les codes dynamiques + l'statistiques des scans.",
+      "imageCopied": "Image du code QR copiée",
+      "imageCopiedBody": "Collez-la partout où les images sont acceptées.",
+      "copiedText": "Copié en texte",
+      "copiedTextBody": "Le presse-papiers d'images n'est pas pris en charge ici, la valeur encodée a été copiée à la place.",
+      "copyFailed": "Échec de la copie",
+      "copyFailedBody": "L'accès au presse-papiers a été bloqué.",
+      "copyAria": "Copier l'image du code QR dans le presse-papiers"
+    },
+    "tour": {
+      "eyebrow": "Visite du studio",
+      "step1Title": "Partez d'un modèle",
+      "step1Body": "Choisissez un style proche de ce que vous voulez, un rouge Café, un dégradé Aurora, un Mono épuré. Faites défiler la rangée pour en voir plus.",
+      "step2Title": "Choisissez ce que votre QR encode",
+      "step2Body": "URL est l'option par défaut. Passez au Wi-Fi, vCard, SMS, un événement, une adresse crypto, n'importe quoi, le formulaire ci-dessous s'adapte.",
+      "step3Title": "Personnalisez-le",
+      "step3Body": "Forme · Couleur · Logo · Avancé. Placez un logo au centre, choisissez un dégradé, augmentez la correction d'erreurs pour que le code survive à une tache de café.",
+      "step4Title": "Regardez-le se mettre à jour",
+      "step4Body": "L'aperçu se régénère pendant la saisie, et la note de lisibilité vous avertit avant d'imprimer un code illisible par les téléphones.",
+      "skip": "Passer la visite",
+      "back": "Retour",
+      "next": "Suivant",
+      "done": "Terminé",
+      "step5Title": "Statique ou dynamique ?",
+      "step5Body": "Le statique est gratuit pour toujours : les données vivent dans le motif lui-même. Le dynamique permet de changer la destination après impression et compte chaque scan, dès 3 $ par mois.",
+      "step6Title": "Télécharger ou copier",
+      "step6Body": "PNG, SVG, JPG, choisissez. Ou Copier l'image pour coller le QR direct dans Slack, Figma ou un brouillon d'e-mail."
+    },
+    "mobilePreviewHint": "Se met à jour au fil de vos modifications",
+    "mobilePreviewMore": "Plus de formats et d'options",
+    "a11y": {
+      "downloadPng": "Télécharger le code QR en PNG",
+      "qrKind": "Type de code QR",
+      "contentTypes": "Types de contenu QR",
+      "previewEmpty": "Aperçu du code QR, remplissez le formulaire pour générer",
+      "moreFormats": "Choisir un autre format de téléchargement",
+      "livePreview": "Aperçu en direct du QR pour le contenu {type}"
+    }
+  },
+  "footer": {
+    "tagline": "Des codes QR que vous pouvez modifier après impression.",
+    "language": "Langue",
+    "productHeading": "Produit",
+    "qrTypesHeading": "Types de QR",
+    "solutionsHeading": "Solutions",
+    "companyHeading": "Entreprise",
+    "byline": "Développé en toute indépendance. Sans capital-risque, sans équipe commerciale.",
+    "systemsNormal": "Tous les systèmes opérationnels",
+    "rightsReserved": "Tous droits réservés",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "product": {
+      "qrStudio": "Studio QR",
+      "pricing": "Tarifs",
+      "apiMcp": "API & MCP",
+      "getStarted": "Commencer",
+      "extension": "Extension navigateur"
+    },
+    "qrTypes": {
+      "url": "code QR URL",
+      "wifi": "code QR Wi-Fi",
+      "vcard": "code QR vCard",
+      "email": "code QR e-mail",
+      "all": "Les 13 types →"
+    },
+    "solutions": {
+      "restaurants": "Restaurants",
+      "events": "Événements",
+      "retail": "Commerce de détail",
+      "allUseCases": "Tous les cas d'usage"
+    },
+    "company": {
+      "about": "À propos",
+      "blog": "Blog",
+      "compare": "Comparer",
+      "alternatives": "Alternatives",
+      "changelog": "Journal des modifications",
+      "faq": "FAQ"
+    },
+    "socialAria": "qr-cow sur {network}"
+  },
+  "steps": {
+    "eyebrow": "Comment ça marche",
+    "title": "Un code QR en trois étapes simples",
+    "sub": "Ni tutoriels, ni feuilles de route à apprendre. Il suffit de saisir, styliser et partager.",
+    "s1Title": "Choisissez votre contenu",
+    "s1Body": "Collez un lien ou du texte. Choisissez un code statique, ou un code dynamique modifiable plus tard.",
+    "s1Preview": "https://my-website.com",
+    "s2Title": "Personnalisez-le",
+    "s2Body": "Réglez vos couleurs pour les accorder à votre marque. L'aperçu se met à jour instantanément à mesure que vous saisissez.",
+    "s2Preview": "logo",
+    "s3Title": "Téléchargez et suivez",
+    "s3Body": "Exportez en PNG ou SVG. Les codes dynamiques comptent chaque scan dans votre tableau de bord.",
+    "s3Preview1": "qr-cow.png",
+    "s3Preview2": "scans 13+"
+  },
+  "features": {
+    "eyebrow": "Pourquoi qr-cow",
+    "title": "Tout ce qu'il vous faut, rien de superflu",
+    "sub": "Conçu avec l'statistiques au cœur, pour agir sur ce que vos codes vous révèlent.",
+    "studio": {
+      "title": "Un design de qualité studio",
+      "body": "Six formes de modules, styles de cadre et de pupille, dégradés à angles personnalisés, un logo central. PNG net et SVG redimensionnable à l'infini."
+    },
+    "dynamic": {
+      "title": "codes QR dynamiques",
+      "body": "Changez la destination d'un code sans le réimprimer. Corrigez les fautes de frappe, changez de campagne, redirigez le trafic à la volée."
+    },
+    "analytics": {
+      "title": "Statistiques de scan en direct",
+      "body": "Totaux en temps réel, visiteurs uniques, pays, appareil, OS, navigateur et cartes de chaleur par heure de la journée, prêts à l'emploi, pas dans la feuille de route."
+    },
+    "crypto": {
+      "title": "Payez en crypto",
+      "body": "USDT, BTC, ETH, sans carte, sans rétrofacturation, fonctionne partout. Gratuit pour toujours pour les codes statiques."
+    },
+    "private": {
+      "title": "Confidentiel par défaut",
+      "body": "Journaux de scan anonymisés, sans traceurs tiers, conforme à l'UE. Vos campagnes restent les vôtres."
+    },
+    "fast": {
+      "title": "Rapide et optimisé pour le SEO",
+      "body": "Rendu côté serveur, mis en cache et adossé à un CDN. Les scans sont redirigés en moins de 50 ms partout dans le monde."
+    }
+  },
+  "analytics": {
+    "eyebrow": "Statistiques de scan",
+    "title": "Sachez exactement qui a scanné votre code QR.",
+    "sub": "Chaque code dynamique suit les scans en temps réel. Pays, appareil, OS, navigateur, heure de la journée, le tout dans le tableau de bord, sans aucun traqueur tiers.",
+    "sampleDashboard": "Exemple de tableau de bord",
+    "topDevice": "Appareil principal",
+    "topCountry": "Pays principal",
+    "uniqueVisitors": "Visiteurs uniques",
+    "totalScans": "Total des scans",
+    "byCountry": "Par pays",
+    "scansPerDay": "Scans par jour",
+    "past30Days": "Les 30 derniers jours",
+    "last30Days": "30 derniers jours",
+    "spring": "QR - Promo de printemps",
+    "byDevice": "Par appareil",
+    "whenPeopleScan": "Quand les gens scannent",
+    "peakLabel": "Pic : 19 h-21 h heure locale. Les samedis un peu plus élevés qu'en semaine.",
+    "mobile": "Mobile",
+    "desktop": "Ordinateur",
+    "tablet": "Tablette",
+    "chartSPDayAlt": "Exemple de graphique des scans par jour",
+    "chartHourAlt": "Exemple de carte de chaleur des scans par heure de la journée",
+    "moreCountries": "+ 12 autres"
+  },
+  "useCases": {
+    "eyebrow": "Solutions",
+    "title": "Conçu pour votre façon de travailler",
+    "sub": "Le même outil simple, adapté à quelques usages courants.",
+    "explore": "Explorer",
+    "restaurants": {
+      "title": "Restaurants",
+      "body": "Menus, commandes et avis, à un scan de la table."
+    },
+    "events": {
+      "title": "Événements",
+      "body": "Billets, programmes et enregistrements qui s'adaptent à mesure que les plans changent."
+    },
+    "retail": {
+      "title": "Commerce de détail",
+      "body": "Pages produit, promos et avis sur chaque rayon et emballage."
+    }
+  },
+  "founder": {
+    "fromTheDesk": "Depuis le bureau",
+    "signature": "La famille HSN",
+    "quote1": "qr-cow est né parce que le café d'un ami réimprimait son menu chaque fois qu'un prix changeait. Le premier correctif a pris quarante lignes de code. Le reste du site, le studio, l'statistiques, le mode sombre, tout a grandi à partir de là, une fonctionnalité à la fois, grâce à une petite famille d’ingénieurs qui aiment créer des outils honnêtes pour le Web ouvert.",
+    "quote2": "qr-cow est créé par la famille HSN, sans financement, sans équipe commerciale. Si vous posez une question, l'un de nous vous répond.",
+    "longerStory": "L'histoire complète"
+  },
+  "cta": {
+    "heading": "Prêt à créer votre premier code QR ?",
+    "sub": "Forfait gratuit pour toujours. Sans carte bancaire. Deux minutes jusqu'à votre premier scan suivi.",
+    "primary": "Créer mon premier code QR",
+    "loginPrompt": "Vous avez déjà un compte ? Connectez-vous"
+  },
+  "latestPosts": {
+    "eyebrow": "Blog",
+    "title": "Les dernières nouvelles du blog qr-cow",
+    "sub": "Mises à jour produit, guides pratiques et notes de l’équipe.",
+    "viewAll": "Voir tout"
+  },
+  "socialProof": {
+    "eyebrow": "Chiffres en direct",
+    "title": "De vrais codes, de vrais scans, en ce moment même",
+    "codesGenerated": "codes QR générés",
+    "scansTracked": "Vrais scans suivis",
+    "countriesLast30": "Pays · 30 derniers jours",
+    "updatedEveryMinute": "Mis à jour chaque minute"
+  },
+  "heroStudio": {
+    "livePreview": "Aperçu en direct",
+    "tryUrl": "Essayez, saisissez une URL",
+    "pickStyle": "Choisissez un style",
+    "openStudio": "Ouvrir le studio complet",
+    "urlPlaceholder": "https://my-website"
+  },
+  "pricingPage": {
+    "eyebrow": "Tarifs",
+    "h1": "Trois forfaits. Des chiffres ronds, parce que je suis mauvais en A/B testing de prix.",
+    "sub": "Gratuit pour toujours pour les codes statiques. 3 $/mois si vous voulez l'statistiques. 9 $/mois s'il vous faut l'API. Crypto uniquement.",
+    "cryptoOnly": "Crypto uniquement.",
+    "payWith": "Payez avec",
+    "cryptoHint": "USDT TRC20 est le plus simple, une minute pour être confirmé et quelques centimes de frais.",
+    "mostPopular": "Le plus populaire",
+    "perMonth": "mois",
+    "forever": "pour toujours",
+    "paidIn": "payé en USDT / BTC / ETH",
+    "startFree": "Commencer gratuitement",
+    "choose": "Choisir",
+    "footNote": "Chaque compte démarre gratuitement. Passez au forfait supérieur quand la limite vous serre ; rétrogradez à tout moment. Le tableau de bord gère les deux, pas de tickets par e-mail, pas d'offres de rétention.",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Questions sur les tarifs",
+    "faq1q": "Le forfait gratuit est-il vraiment gratuit ?",
+    "faq1a": "Oui, pour toujours. Des codes statiques illimités sans compte ; 3 codes dynamiques et le tableau de bord statistiques complet dès l'inscription. Le forfait gratuit est ce que je voudrais en tant qu'utilisateur, il est donc volontairement généreux.",
+    "faq2q": "Comment payer en crypto si je ne l'ai jamais fait ?",
+    "faq2a": "Vous cliquez sur « Payer en crypto », vous obtenez une adresse de portefeuille et un montant, et vous envoyez. NOWPayments gère la conversion à l'arrivée. USDT TRC20 est le plus rapide (environ une minute) et le moins cher (quelques centimes de frais). Si vous n'avez jamais envoyé de crypto, il y a un guide de 90 secondes sur le blog.",
+    "faq3q": "Pourquoi ni Stripe ni PayPal ?",
+    "faq3a": "Je vis dans un endroit où ils ne fonctionnent pas correctement, et les rétrofacturations sur des abonnements à 3 $ ne sont pas un business que je veux gérer. Le compromis est réel, le tout-crypto est une vraie friction pour certains utilisateurs. J'en suis désolé. Si c'est un blocage absolu, écrivez-moi et j'essaierai de trouver une solution.",
+    "faq4q": "Que se passe-t-il si j'annule ?",
+    "faq4a": "Vos codes dynamiques continuent de rediriger. La page d'statistiques des scans passe en lecture seule et cesse d'accepter de nouveaux scans à la fin de votre période de facturation. Vos designs s'exportent en PNG/SVG, ils sont à vous, emportez-les.",
+    "faq5q": "Pourquoi 9 $ pour Growth et pas 8 $ ?",
+    "faq5a": "8 $ sonnait comme une excuse. Je préfère que vous sachiez que je facture quelque chose d'utile plutôt que de tourner autour du pot. Ça reste moins cher que les alternatives, le forfait équivalent chez QRTiger est à 35 $, chez Beaconstac à 39 $.",
+    "exploreHeading": "Continuez à explorer",
+    "exploreQr": "Types de codes QR",
+    "exploreSolutions": "Solutions par secteur",
+    "exploreCompare": "Comparez-nous"
+  },
+  "aboutPage": {
+    "eyebrow": "À propos",
+    "h1": "Un petit mot de la famille derrière qr-cow.",
+    "intro": "qr-cow est un générateur de codes QR gratuit avec logo, couleurs, dégradés, codes dynamiques, statistiques de scan et un serveur Model Context Protocol (MCP), créé par la famille HSN, un petit groupe d’ingénieurs qui construisent des outils honnêtes pour le Web ouvert. Pas de pitch deck, pas d'équipe growth, pas de service marketing. Juste un projet parmi d'autres, que nous développons avec amour.",
+    "whoWeAre": "Qui nous sommes",
+    "who1": "La famille HSN est une vraie famille. Nous travaillons tous dans la tech. À nous tous, nous lançons des projets parallèles sur le web, de petits outils ciblés qui essaient d'être honnêtes sur ce qu'ils font. qr-cow en fait partie.",
+    "who2": "Nous ne sommes ni une marque qui se fait passer pour une personne, ni une personne qui se fait passer pour une marque. Nous sommes une famille qui aime construire des choses et les publier là où elles seront utiles.",
+    "howStarted": "Comment qr-cow a commencé",
+    "started1": "Fin 2025, une amie a ouvert un petit café. Elle a payé un designer pour imprimer son menu avec un code QR en bas. Deux semaines plus tard, elle a changé le menu, mais le QR pointait toujours vers l'ancien PDF. Elle a payé le designer à nouveau. Puis encore une fois. Après la troisième réimpression, nous lui avons écrit un script, une URL courte qu'elle pouvait modifier elle-même, et le code imprimé a continué de fonctionner.",
+    "started2": "Ce script est devenu ce site. La mascotte est une vache parce que le dessin provisoire griffonné pendant les tests du studio ressemblait par hasard à une vache, et le retirer nous semblait injuste.",
+    "whatWeCare": "Ce qui compte pour nous",
+    "careCheap": "Pas cher.",
+    "careCheapBody": "De vraies statistiquess pour 3 $ par mois, pas 19 $ par mois. Les indépendants et les petites équipes n'ont pas à subventionner des commerciaux à qui ils ne parleront jamais.",
+    "carePortable": "Portable.",
+    "carePortableBody": "Les codes statiques fonctionnent sans compte. Les designs s'exportent en SVG. Si un jour qr-cow devient trop petit pour vous, vous emportez tout avec vous.",
+    "carePrivate": "Aucun traqueur tiers.",
+    "carePrivateBody": "Nous gérons notre propre statistiques. Rien ne fuit vers Google, Facebook ou qui que ce soit d'autre.",
+    "careCrypto": "Crypto uniquement.",
+    "careCryptoBody": "Les cartes bancaires ne fonctionnent pas vraiment là où certains d'entre nous vivent, et les rétrofacturations sur des abonnements à trois dollars ne sont pas un business qui en vaut la peine.",
+    "whatsNext": "La suite",
+    "nextIntro": "Quelques éléments sur la liste, dans un ordre approximatif :",
+    "next1": "Import CSV en masse, cinq personnes l'ont demandé et nous le voulons aussi.",
+    "next2": "Des kits de marque, enregistrez une palette et un logo, réutilisez-les sur tous vos codes.",
+    "next3": "Une vraie app iOS, pas seulement la PWA installée.",
+    "next4": "Un vérificateur « ce code est-il encore scannable ».",
+    "contact": "Si vous avez un problème de code QR que qr-cow ne résout pas, écrivez à",
+    "contactEnd": "Nous lisons tout.",
+    "builtBy": "Créé par",
+    "familyName": "La famille HSN",
+    "familyDesc": "Une petite famille d’ingénieurs qui aiment créer des outils honnêtes pour le Web ouvert.",
+    "sayHello": "Dites bonjour",
+    "whereLabel": "Où",
+    "whereBody": "Développé en toute indépendance, avec amour, pour les gens du Web ouvert.",
+    "statsLabel": "Statistiques honnêtes",
+    "stat1": "Une petite famille, pas d'agence.",
+    "stat2": "Aucun financement extérieur.",
+    "stat3": "Pas de commerciaux, pas d'appels de vente.",
+    "stat4": "Un code assez ouvert pour être audité.",
+    "tryStudio": "Essayer le studio",
+    "whyEyebrow": "Pourquoi on s'est donné la peine",
+    "whyTitle": "Les alternatives existent. Elles sont juste tarifées pour quelqu'un d'autre.",
+    "whyBody": "La catégorie regorge d'outils corrects. Ils coûtent aussi 19 à 39 $ par mois pour ce qui, selon nous, devrait être inclus d'office, statistiques, codes dynamiques, accès API. qr-cow, c'est ce qui reste quand on prend cet ensemble de fonctionnalités, qu'on retire les frais commerciaux et qu'on le tarife pour un budget d'indépendant."
+  },
+  "dashboard": {
+    "workspace": "Espace de travail",
+    "tools": "Outils",
+    "account": "Compte",
+    "createQr": "Créer un QR",
+    "myQrCodes": "Mes codes QR",
+    "analytics": "Statistiques",
+    "studio": "Studio",
+    "billingPlan": "Facturation et forfait",
+    "apiMcp": "API & MCP",
+    "signedInAs": "Connecté en tant que",
+    "adminPanel": "Panneau d'administration",
+    "billing": "Facturation",
+    "logOut": "Se déconnecter",
+    "home": {
+      "title": "Mes codes QR",
+      "subtitle": "Créez, personnalisez, téléchargez, et regardez chaque scan arriver.",
+      "openStudio": "Ouvrir le studio",
+      "newQr": "+ Nouveau QR",
+      "statQrCodes": "codes QR",
+      "statDynamicOnPage": "{count} dynamiques sur cette page",
+      "statBuildFirst": "Créez votre premier",
+      "statScansOnPage": "Scans sur cette page",
+      "statAcross": "Sur {count} codes",
+      "statTotal": "Total du catalogue",
+      "statPageOf": "Page {page} sur {pages}",
+      "statAllShown": "Tout est affiché",
+      "searchPlaceholder": "Rechercher par nom…",
+      "filterType": "Type",
+      "filterAll": "Tous",
+      "filterStatic": "Statiques",
+      "filterDynamic": "Dynamiques",
+      "filterSort": "Tri",
+      "sortNewest": "Plus récents",
+      "sortScans": "Plus scannés",
+      "sortName": "A → Z",
+      "clearSearch": "Effacer",
+      "emptyTitle": "Aucun code QR ici pour l'instant.",
+      "emptyBody": "(C'est normal juste après avoir créé le compte. Essayez le studio, le premier prend en général moins d'une minute.)",
+      "emptyCta": "Créer mon premier code QR",
+      "emptyBrowse": "Juste jeter un œil",
+      "noMatchTitle": "Rien ne correspond à ces filtres",
+      "noMatchBody": "Essayez un autre nom ou un autre type.",
+      "clearFilters": "Effacer les filtres",
+      "static": "statique",
+      "dynamic": "dynamique",
+      "scanCount": "{count, plural, one {# scan} other {# scans}}",
+      "editDestination": "Modifier la destination",
+      "analyticsLabel": "Statistiques",
+      "editName": "Modifier le nom",
+      "deleteLabel": "Supprimer",
+      "deleteTitle": "Supprimer le code QR ?",
+      "deleteBody": "« {name} » sera supprimé définitivement. Les impressions existantes cesseront de fonctionner.",
+      "deleteConfirm": "Supprimer",
+      "deleteCancel": "Le garder",
+      "deleted": "« {name} » supprimé",
+      "deleteFailed": "Suppression impossible",
+      "tryAgain": "Réessayez dans un instant."
+    },
+    "welcome": {
+      "upLate": "Encore debout",
+      "morning": "Bonjour",
+      "afternoon": "Bon après-midi",
+      "evening": "Bonsoir",
+      "fallbackName": "vous",
+      "scansThisWeek": "scans cette semaine",
+      "vsLastWeek": "vs la semaine dernière",
+      "noScansYet": "Aucun scan cette semaine pour l'instant. Partagez un code sur une affiche ou un menu et regardez-le s'animer.",
+      "last7Days": "7 derniers jours"
+    },
+    "planCard": {
+      "yourPlan": "Votre forfait",
+      "manage": "Gérer",
+      "dynamicUsed": "Codes dynamiques utilisés",
+      "unlimited": "illimité",
+      "onFreePlan": "Sur le forfait gratuit",
+      "usedOf": "{used} / {limit} codes dynamiques utilisés",
+      "price": "3 $ / mois",
+      "pitch": "Passez à <b>Starter</b> pour des modifications illimitées, l'statistiques complète et 50 codes dynamiques.",
+      "feat1": "Répartition par pays, appareil + heure",
+      "feat2": "50 codes QR dynamiques",
+      "feat3": "Payez en USDT / BTC / ETH",
+      "upgradeCta": "Passer au forfait supérieur pour 3 $/mois"
+    },
+    "analyticsPage": {
+      "title": "Statistiques",
+      "subtitle": "Suivi des scans en temps réel sur tous vos codes QR dynamiques.",
+      "loading": "Chargement de l'statistiques…",
+      "loadFailed": "Impossible de charger l'statistiques."
+    },
+    "qrAnalytics": {
+      "back": "Statistiques du portefeuille",
+      "fallbackTitle": "code QR",
+      "loading": "Chargement…",
+      "lifetimeScans": "scans cumulés : {count}",
+      "loadFailed": "Impossible de charger l'statistiques de ce code."
+    },
+    "editPage": {
+      "title": "Modifier le code QR",
+      "loading": "Chargement…",
+      "subtitleDynamic": "Changez la destination du code imprimé, sans réimpression.",
+      "subtitleStatic": "Les codes statiques ne peuvent pas changer de destination après impression, mais le nom, lui, reste modifiable.",
+      "breadcrumbDashboard": "Tableau de bord",
+      "notFound": "code QR introuvable, il a peut-être été supprimé.",
+      "loadFailed": "Impossible de charger ce code QR.",
+      "backToDashboard": "Retour au tableau de bord",
+      "nameLabel": "Nom",
+      "namePlaceholder": "ex. QR promo de printemps",
+      "destLabel": "URL de destination",
+      "destHint": "Là où chaque scan doit atterrir. Modifiable à tout moment, le code imprimé reste le même.",
+      "shortLink": "Lien court :",
+      "contentLabel": "Contenu encodé",
+      "contentHint": "Les codes statiques gravent le contenu dans le motif QR lui-même, si vous le changez, il faudra réimprimer.",
+      "staticWarning": "⚠ Mettre à jour un code statique signifie que le QR déjà imprimé ne fonctionnera plus. Pour modifier des destinations sans réimprimer, créez plutôt un code dynamique.",
+      "save": "Enregistrer les modifications",
+      "saving": "Enregistrement…",
+      "updated": "Mis à jour",
+      "updatedDynamic": "Quiconque scanne le code imprimé arrive désormais sur la nouvelle URL.",
+      "updatedStatic": "Nom mis à jour.",
+      "saveFailed": "Échec de l'enregistrement.",
+      "couldNotSave": "Enregistrement impossible",
+      "tryAgain": "Réessayez dans un instant.",
+      "cancel": "Annuler",
+      "created": "Créé le {date}",
+      "lifetimeScans": "Scans cumulés",
+      "seeBreakdowns": "Voir les répartitions →"
+    },
+    "createPage": {
+      "title": "Nouveau code QR",
+      "subtitle": "Concevez-le, puis enregistrez-le dans votre tableau de bord. Passez en <b>dynamique</b> pour modifier la destination plus tard et voir l'statistiques des scans."
+    },
+    "billingPage": {
+      "title": "Facturation et forfait",
+      "subtitle": "Gérez votre forfait et l'historique des paiements. Les paiements se font uniquement en crypto, USDT, BTC ou ETH.",
+      "paymentReceived": "Paiement reçu, votre forfait est actif. 🎉",
+      "checkoutCanceled": "Paiement annulé. Aucun débit n'a été effectué.",
+      "mockTitle": "Paiement fictif (dev), paiement #{id}",
+      "mockBody": "Le fournisseur fictif est actif. Avec de la vraie crypto, ceci est la page NOWPayments.",
+      "mockProcessing": "Traitement…",
+      "mockSimulate": "Simuler un paiement réussi",
+      "currentPlan": "Forfait actuel",
+      "active": "Actif",
+      "free": "Gratuit",
+      "dynamicCodes": "codes QR dynamiques :",
+      "unlimited": "illimité",
+      "renews": "renouvellement le {date}",
+      "checkoutDisabled": "Le paiement en crypto n'est pas encore activé.",
+      "checkoutFailed": "Échec du paiement",
+      "perMo": "/mois",
+      "unlimitedDynamic": "QR dynamiques illimités",
+      "dynamicLimit": "{count} QR dynamiques",
+      "currentPlanBtn": "Forfait actuel",
+      "defaultPlan": "Forfait par défaut",
+      "payWithCrypto": "Payer en crypto",
+      "starting": "Démarrage…",
+      "processedIn": "Paiements traités en USDT / BTC / ETH",
+      "provider": "fournisseur : {name}",
+      "paymentHistory": "Historique des paiements",
+      "statusLabel": "Statut",
+      "statusAll": "Tous",
+      "statusPending": "En attente",
+      "statusConfirming": "En confirmation",
+      "statusPaid": "Payé",
+      "statusFailed": "Échoué",
+      "statusExpired": "Expiré",
+      "noPayments": "Aucun paiement pour l'instant.",
+      "colDate": "Date",
+      "colPlan": "Forfait",
+      "colAmount": "Montant",
+      "colStatus": "Statut",
+      "loading": "Chargement…"
+    },
+    "apiPage": {
+      "title": "API & MCP",
+      "subtitle": "Jetons d'accès personnels pour utiliser l'API qr-cow par programmation et connecter des clients IA compatibles MCP (Claude Desktop, Claude Code, Cursor).",
+      "newToken": "Nouveau jeton",
+      "nameLabel": "Nom",
+      "namePlaceholder": "ex. Serveur de production, MCP, Claude Desktop",
+      "create": "Créer le jeton",
+      "creating": "Création…",
+      "shownOnce": "Le jeton n'est affiché qu'<b>une seule fois</b> après sa création. Copiez-le en lieu sûr, nous ne stockons que le hachage.",
+      "yourTokens": "Vos jetons",
+      "loading": "Chargement…",
+      "noTokens": "Vous n'avez pas encore de jeton. Créez-en un ci-dessus pour commencer à utiliser l'API ou MCP.",
+      "revoked": "révoqué",
+      "createdAt": "Créé {when}",
+      "lastUsed": "Dernière utilisation {when}",
+      "never": "Jamais",
+      "justNow": "à l'instant",
+      "minAgo": "il y a {count} min",
+      "hoursAgo": "il y a {count} h",
+      "revoke": "Révoquer",
+      "revokeAria": "Révoquer {name}",
+      "revokeConfirm": "Révoquer ce jeton ? Tout client qui l'utilise cessera immédiatement de fonctionner.",
+      "revokedToast": "Jeton révoqué",
+      "revokeFailed": "Révocation impossible",
+      "createFailed": "Création du jeton impossible",
+      "tryAgain": "Réessayer",
+      "copied": "Copié dans le presse-papiers",
+      "howToUse": "Mode d'emploi",
+      "directApi": "API directe",
+      "mcpTitle": "MCP, Claude Desktop / Claude Code",
+      "mcpConfigPre": "Ajoutez à la configuration de votre client MCP (ex.",
+      "mcpConfigPost": ") :",
+      "mcpHint": "Une fois connecté, demandez à votre IA « crée un code QR pour mon nouveau Wi-Fi » ou « montre-moi quels pays ont scanné le QR de mon menu la semaine dernière » et elle appellera qr-cow pour vous.",
+      "newTokenTitle": "Votre nouveau jeton",
+      "newTokenBody": "Copiez-le maintenant. Vous ne le reverrez plus, seul le hachage est stocké.",
+      "copy": "Copier",
+      "saved": "Je l'ai enregistré"
+    },
+    "pager": {
+      "prev": "← Préc.",
+      "next": "Suiv. →",
+      "pageOf": "Page {page} / {total}"
+    }
+  },
+  "language": {
+    "en": "English",
+    "fa": "فارسی",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt": "Português",
+    "zh": "中文",
+    "tr": "Türkçe",
+    "ru": "Русский",
+    "switcherLabel": "Changer de langue"
+  },
+  "auth": {
+    "loginTitle": "Bon retour",
+    "loginSub": "Connectez-vous pour gérer vos codes QR.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "passwordHint": "Au moins 8 caractères.",
+    "forgotPassword": "Mot de passe oublié ?",
+    "signingIn": "Connexion…",
+    "logIn": "Se connecter",
+    "orContinueWith": "ou continuer avec",
+    "newToQrcow": "Nouveau sur qr-cow ?",
+    "createAnAccount": "Créer un compte",
+    "wrongCredentials": "E-mail ou mot de passe incorrect.",
+    "loginFailed": "Échec de la connexion",
+    "errPasswordChangeRequired": "Pour des raisons de sécurité, ce compte doit définir un nouveau mot de passe avant de se connecter. Utilisez « Mot de passe oublié ? » ci-dessous.",
+    "errAccountDisabled": "Ce compte a été désactivé. Contactez hi@qr-cow.com si vous pensez qu'il s'agit d'une erreur.",
+    "registerTitle": "Créez votre compte",
+    "registerSub": "Gratuit pour toujours. Sans carte bancaire.",
+    "creating": "Création…",
+    "createAccount": "Créer le compte",
+    "orSignUpWith": "ou s'inscrire avec",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "emailAlreadyRegistered": "Cet e-mail est déjà enregistré.",
+    "registrationFailed": "Échec de l'inscription",
+    "continueWith": "Continuer avec {provider}",
+    "moreOptions": "Plus d'options",
+    "forgot": {
+      "title": "Mot de passe oublié",
+      "sub": "Nous vous enverrons un lien de réinitialisation si l'e-mail est enregistré.",
+      "sent": "Si <b>{email}</b> possède un compte, un lien de réinitialisation est en route.",
+      "backToLogin": "Retour à la connexion",
+      "emailLabel": "E-mail",
+      "send": "Envoyer le lien de réinitialisation",
+      "sending": "Envoi…",
+      "requestFailed": "Échec de la demande",
+      "remembered": "Vous vous en souvenez ?"
+    },
+    "reset": {
+      "title": "Définir un nouveau mot de passe",
+      "sub": "Choisissez un mot de passe fort que vous n'utilisez nulle part ailleurs.",
+      "tokenLabel": "Jeton de réinitialisation",
+      "tokenHint": "Collez le jeton reçu par e-mail.",
+      "passwordLabel": "Nouveau mot de passe",
+      "passwordHint": "Au moins 8 caractères.",
+      "update": "Mettre à jour le mot de passe",
+      "updating": "Mise à jour…",
+      "invalidToken": "Ce lien de réinitialisation est invalide ou a expiré.",
+      "resetFailed": "Échec de la réinitialisation",
+      "loading": "Chargement…",
+      "backToLogin": "Retour à la connexion"
+    },
+    "metaTitle": "Connexion · qr-cow",
+    "backHome": "← Retour à l'accueil"
+  },
+  "plans": {
+    "taglines": {
+      "free": "Pour tester et pour les projets personnels.",
+      "starter": "Pour les créateurs et les petites équipes qui suivent des campagnes.",
+      "growth": "Pour les startups et les petites équipes qui déploient le QR sur plusieurs canaux."
+    },
+    "features": {
+      "Unlimited static QR codes": "codes QR statiques illimités",
+      "3 dynamic QR codes": "3 codes QR dynamiques",
+      "PNG & SVG export": "Export PNG & SVG",
+      "Basic scan counts": "Compteurs de scans basiques",
+      "Everything in Free": "Tout ce qu'inclut le forfait Gratuit",
+      "50 dynamic QR codes": "50 codes QR dynamiques",
+      "Scan analytics dashboard": "Tableau de bord d'statistiques des scans",
+      "Custom colors & branding": "Couleurs personnalisées & image de marque",
+      "Pay in USDT — no card needed": "Payez en USDT, sans carte bancaire",
+      "Everything in Starter": "Tout ce qu'inclut Starter",
+      "Unlimited dynamic QR codes": "codes QR dynamiques illimités",
+      "Geo & device analytics": "Statistiques géo & appareils",
+      "Geo, device, OS, browser breakdowns": "Répartition par pays, appareil, OS et navigateur",
+      "Team members": "Membres d'équipe",
+      "API access": "Accès API",
+      "Priority email from a human": "E-mail prioritaire répondu par un humain"
+    }
+  },
+  "analyticsView": {
+    "range7d": "7 jours",
+    "range30d": "30 jours",
+    "range90d": "90 jours",
+    "rangeAll": "Depuis le début",
+    "totalScans": "Total des scans",
+    "uniqueVisitors": "Visiteurs uniques",
+    "uniqueRate": "{rate} % uniques",
+    "topCountry": "Pays principal",
+    "topDevice": "Appareil principal",
+    "scansHint": "{count} scans",
+    "noData": "Aucune donnée",
+    "scansOverTime": "Scans au fil du temps",
+    "scansOverTimeLegend": "Orange = total des scans · pointillés gris = visiteurs uniques",
+    "legendScans": "Scans",
+    "legendUnique": "Uniques",
+    "emptySeries": "Aucun scan sur cette période",
+    "emptyBar": "Pas encore de données",
+    "emptyHeatmap": "Pas encore de scans",
+    "byDevice": "Par appareil",
+    "byOs": "Par OS",
+    "byBrowser": "Par navigateur",
+    "scansByHour": "Scans par heure",
+    "hourSubtitle": "Heure de la journée (heure du serveur, 0-23)",
+    "topQrCodes": "Meilleurs codes QR",
+    "scansBadge": "{count} scans",
+    "noScansRecorded": "Aucun scan enregistré pour l'instant.",
+    "recentScans": "Scans récents",
+    "noRecentScans": "Pas encore de scans, partagez un code pour voir l'activité en direct ici.",
+    "colWhen": "Quand",
+    "colCountry": "Pays",
+    "colDevice": "Appareil",
+    "colOs": "OS",
+    "colBrowser": "Navigateur",
+    "showingCodes": "Affichage de {start}, {end} sur {total} codes",
+    "showingScans": "Affichage de {start}, {end} sur {total} scans",
+    "prevPage": "Page précédente",
+    "nextPage": "Page suivante",
+    "csvTitle": "Télécharger les événements de scan bruts en CSV",
+    "printPdf": "Imprimer / PDF",
+    "printTitle": "Ouvre la boîte de dialogue d'impression du système. Utilisez « Enregistrer en PDF » pour une copie sans papier.",
+    "geoTitle": "D'où viennent les scans",
+    "geoSummary": "{countries, plural, one {# pays} other {# pays}} · {scans} scans",
+    "geoEmpty": "Aucun scan enregistré pour l'instant. Partagez un code dynamique et votre carte géographique se remplira ici.",
+    "unknown": "Inconnu",
+    "other": "Autre",
+    "deviceMobile": "Mobile",
+    "deviceDesktop": "Ordinateur",
+    "deviceTablet": "Tablette",
+    "exportFailed": "Échec de l'export. Vérifiez votre connexion ou reconnectez-vous."
+  },
+  "docsPage": {
+    "eyebrow": "Développeurs",
+    "h1": "API & MCP qr-cow",
+    "intro": "Créez des codes QR, gérez les destinations dynamiques et récupérez l'statistiques des scans depuis n'importe quel langage de programmation. Prêt à l'emploi avec <strong>Claude Desktop</strong>, <strong>Claude Code</strong>, <strong>Cursor</strong> et <strong>Zed</strong> via MCP.",
+    "quickstartTitle": "Démarrage rapide",
+    "step1Title": "Obtenez un jeton",
+    "step1Body": "Connectez-vous, ouvrez <link>Tableau de bord → API & MCP</link> et cliquez sur <strong>Créer le jeton</strong>. Vous recevrez une valeur <code>qrc_live_…</code>, copiez-la immédiatement ; nous ne stockons que le hachage.",
+    "step2Title": "Faites un appel",
+    "step2Body": "Envoyez le jeton en en-tête Bearer vers api.qr-cow.com. Chaque endpoint accessible avec un JWT de session accepte aussi un jeton.",
+    "step3Title": "Ou branchez MCP",
+    "step3Body": "Collez l'extrait JSON ci-dessous dans la config MCP de votre client IA et le même jeton y fonctionne, sans code de liaison.",
+    "tryTitle": "Essayez",
+    "tryBody": "Choisissez un endpoint et un langage. Le jeton dans les extraits est un exemple, collez le vôtre depuis le tableau de bord.",
+    "endpointsTitle": "Référence des endpoints",
+    "endpointsIntro": "Tout se trouve dans <code>/api/v1</code>, même forme dans tous les langages.",
+    "colMethod": "Méthode",
+    "colPath": "Chemin",
+    "colWhat": "Rôle",
+    "endpoints": {
+      "authMe": "Utilisateur authentifié + forfait",
+      "createQr": "Créer un QR statique ou dynamique",
+      "listQr": "Lister vos codes QR (paginé)",
+      "getQr": "Obtenir les détails complets d'un QR",
+      "updateQr": "Mettre à jour le nom / la destination dynamique",
+      "deleteQr": "Supprimer un QR (suppression douce)",
+      "qrAnalytics": "Scans, géo, appareil, heure de la journée",
+      "listTokens": "Lister les jetons API",
+      "createToken": "Créer un jeton (renvoie le texte en clair UNE SEULE FOIS)",
+      "revokeToken": "Révoquer un jeton",
+      "renderQr": "Génère une image QR stylisée à partir d'un style ou d'un preset (sans authentification, rien n'est stocké).",
+      "renderQrGet": "Le même rendu via un simple GET, intégrable directement dans une balise image."
+    },
+    "mcpTitle": "MCP, Model Context Protocol",
+    "mcpIntro": "MCP est un protocole ouvert publié par Anthropic pour connecter les clients IA à des outils externes. Une fois branché, votre assistant peut dire « crée un code QR pour mon nouveau menu » ou « montre-moi quels pays ont scanné le QR de mon café la semaine dernière » et appeler qr-cow directement.",
+    "mcpCardClaude": "Claude Desktop / Claude Code",
+    "mcpCardOthers": "Cursor / Zed / autres",
+    "mcpOthersBody": "Même forme, la config MCP de l'éditeur utilise <code>command</code>, <code>args</code> et un bloc <code>env</code>. Le serveur MCP est un processus stdio, tout ce qui parle MCP peut l'utiliser.",
+    "mcpGuideLink": "Guide complet de configuration MCP ↗",
+    "mcpPypiLink": "qr-cow-mcp sur PyPI ↗",
+    "mcpToolsTitle": "Outils exposés par le serveur",
+    "colTool": "Outil",
+    "mcpTools": {
+      "create_qrcode": "Créer un QR statique ou dynamique (URL, Wi-Fi, vCard, …).",
+      "list_qrcodes": "Lister les codes QR récents du compte de l'utilisateur.",
+      "get_qrcode": "Récupérer le design actuel + la destination d'un QR.",
+      "update_qrcode_destination": "Changer la destination d'un QR dynamique, le code imprimé continue de fonctionner.",
+      "delete_qrcode": "Supprimer un code (suppression douce).",
+      "get_qrcode_analytics": "Scans + répartition par pays, appareil, heure.",
+      "me": "Profil + forfait de l'utilisateur connecté.",
+      "render_styled_qrcode": "Génère une image QR entièrement stylisée (formes, dégradé, logo) à partir de data ainsi que d'un preset ou d'un style. Renvoie l'image ; rien n'est enregistré."
+    },
+    "authTitle": "Authentification",
+    "authBody": "Envoyez <code>Authorization: Bearer qrc_live_…</code> à chaque requête. Les jetons sont universels, ils fonctionnent sur tous les endpoints accessibles avec un JWT de session. Les jetons révoqués sont rejetés immédiatement.",
+    "errorsTitle": "Erreurs",
+    "errorsBody": "Toutes les réponses suivent <code>'{success, data, error}'</code>. Les codes de statut HTTP respectent la RFC 7231 ; le champ <code>error</code> contient un code court lisible par machine (ex. <code>token_limit_reached</code>).",
+    "rateTitle": "Limites de débit & sécurité",
+    "readsLabel": "Lectures",
+    "readsValue": "Illimité",
+    "readsDesc": "Les opérations de listage, de récupération et de lecture analytique ne sont pas soumises à une limite de débit.",
+    "writesLabel": "Créer / générer",
+    "writesValue": "20 / min par IP",
+    "writesDesc": "POST /qrcodes et /qr/render. La modification et la suppression ne sont pas limitées.",
+    "capLabel": "Plafond de jetons",
+    "capValue": "20 / compte",
+    "capDesc": "Tokens d'API actifs. Révoquez-en un pour libérer un emplacement.",
+    "rateNote": "Les limites sont indexées par IP et aucun en-tête de limite de débit n'est envoyé ; ainsi, en cas de 429 (erreur \"rate_limit_exceeded\"), appliquez un délai d'attente et réessayez. Nous ne stockons que le SHA-256 de chaque token ; révoquez-le immédiatement en cas de fuite et provisionnez-en un nouveau en quelques secondes.",
+    "ctaTitle": "Prêt à construire ?",
+    "ctaBody": "Provisionnez votre premier jeton et livrez une intégration « crée un code QR depuis cette URL » en moins de 5 minutes.",
+    "ctaButton": "Ouvrir le tableau de bord",
+    "explorer": {
+      "tabs": {
+        "createQr": "Créer un QR",
+        "listQr": "Lister les codes QR",
+        "updateDynamic": "Mettre à jour un dynamique",
+        "analytics": "Statistiques",
+        "createToken": "Créer un jeton",
+        "renderStyled": "Rendu stylisé"
+      },
+      "createQr": {
+        "title": "Créer un code QR",
+        "subtitle": "POST /qrcodes, tous les types de contenu pris en charge par le studio (URL, Wi-Fi, vCard, …)."
+      },
+      "listQr": {
+        "title": "Lister vos codes QR",
+        "subtitle": "GET /qrcodes, paginé, du plus récent au plus ancien."
+      },
+      "updateDynamic": {
+        "title": "Mettre à jour la destination d'un QR dynamique",
+        "subtitle": "PATCH /qrcodes/'{id}', le code imprimé continue de fonctionner ; seule la redirection change."
+      },
+      "analytics": {
+        "title": "Récupérer l'statistiques des scans",
+        "subtitle": "GET /analytics/qrcodes/'{id}'?days=30, totaux + pays / appareil / heure de la journée."
+      },
+      "createToken": {
+        "title": "Créer un jeton via l'API",
+        "subtitle": "POST /dev/tokens, utile pour provisionner des jetons depuis un job CI. Le jeton en clair n'est renvoyé qu'UNE seule fois."
+      },
+      "copy": "Copier",
+      "copied": "Copié",
+      "copyAria": "Copier le code",
+      "renderStyled": {
+        "title": "Générer un QR stylisé",
+        "subtitle": "Des données ainsi qu'un preset ou un style en entrée, une image stylisée en sortie. Aucun token requis."
+      },
+      "copyFailed": "Copie impossible. Sélectionnez le code et copiez-le manuellement."
+    },
+    "renderTitle": "API de rendu stylisé",
+    "renderIntro": "Générez une image QR <strong>stylisée</strong> et prête à l'emploi directement depuis votre code. Envoyez <code>data</code> ainsi qu'un style (un preset, une configuration de studio ou des champs explicites) et récupérez un PNG, JPG ou SVG. Aucun compte et aucun enregistrement stocké, ce qui la rend idéale pour générer des codes en masse. Utilisez POST <code>/api/v1/qr/render</code> pour un contrôle total, ou GET sur le même chemin pour insérer un code directement dans une balise image.",
+    "colParam": "Paramètre",
+    "colAccepts": "Valeurs acceptées",
+    "styleParams": {
+      "data": "Le contenu à encoder : une URL, du texte brut ou une chaîne Wi-Fi / vCard préformatée.",
+      "preset": "Un rendu prêt à l'emploi, appliqué en premier (voir la liste ci-dessous).",
+      "body": "Forme des points / modules.",
+      "eye": "Forme des motifs de détection (coins).",
+      "color": "Couleurs de premier plan et d'arrière-plan, hex à 3, 6 ou 8 chiffres.",
+      "gradient": "Dégradé à deux couleurs sur les modules ; la direction est horizontale, verticale ou radiale.",
+      "logo": "Un logo central, transmis sous forme d'URL de données base64. Utilisez ecc Q ou H avec un logo.",
+      "ecc": "Correction d'erreurs. Une valeur plus élevée résiste à davantage de dommages et à un logo, au prix de la densité.",
+      "size": "Largeur de sortie en pixels (carré).",
+      "format": "png et jpg prennent en charge tous les styles ; svg est un vecteur épuré avec forme, couleur et dégradé (sans logo)."
+    },
+    "renderPresetsLabel": "Modèles au choix (passez le nom comme preset) :",
+    "renderBatchTitle": "Conçu pour le traitement en masse",
+    "renderBatchBody": "Définissez une seule fois le style de votre marque sous forme d'objet <code>style</code> (ou choisissez un <code>preset</code>) : c'est votre <strong>style personnel</strong>, défini à l'avance et réutilisé pour chaque code. Bouclez sur le point de terminaison pour en générer autant que nécessaire ; chaque appel est indépendant et ne stocke rien.",
+    "renderScanTitle": "Préservez la lisibilité",
+    "renderScanBody": "Des modules foncés sur un fond clair offrent la lecture la plus fiable. Les styles à fond foncé ou à faible contraste sont esthétiques mais se lisent moins bien sur les scanners peu performants, et avec un logo, utilisez <code>ecc</code> Q ou H afin que le code reste déchiffrable.",
+    "seeAlsoPrefix": "Pas développeur ? Essayez les",
+    "seeAlsoQr": "générateurs de codes QR",
+    "seeAlsoMid": "ou consultez les",
+    "seeAlsoPricing": "tarifs"
+  },
+  "blogIndex": {
+    "eyebrow": "Notes qr-cow",
+    "h1": "Notes des coulisses de qr-cow.",
+    "intro": "Les bugs qui m'ont mordu, ce que j'ai appris en livrant des codes QR dans <strong>plus de 60 pays</strong>, et de temps en temps un billet growth. Écrit à la main, aucune usine à contenu.",
+    "noMatch": "Rien ne correspond à « {q} ».",
+    "noPosts": "Pas encore d'articles, revenez bientôt.",
+    "clearSearch": "Effacer la recherche",
+    "allChip": "Tous",
+    "searchPlaceholder": "Rechercher des articles…",
+    "searchButton": "Rechercher",
+    "minRead": "{min} min de lecture",
+    "readNext": "À lire ensuite",
+    "newer": "← Plus récents",
+    "older": "Plus anciens →",
+    "pageOf": "Page {page} sur {totalPages}",
+    "latestBadge": "Dernier",
+    "authorFallback": "Famille HSN",
+    "newsletterTitle": "Recevez les nouveaux articles par e-mail.",
+    "newsletterBody": "Un court e-mail quand il y a quelque chose d'utile, en général une ou deux fois par mois, jamais un mardi matin.",
+    "newsletterSubscribe": "S'abonner par e-mail →",
+    "newsletterRss": "Flux RSS",
+    "newsletterRssTitle": "Flux RSS de qr-cow",
+    "categoryLabels": {
+      "guides": "Guides",
+      "news": "Actualités"
+    },
+    "archiveMetaTitle": "{name} · Blog",
+    "tagMetaDesc": "Articles tagués {name} sur le blog qr-cow.",
+    "categoryMetaDesc": "Articles sur {name} sur le blog qr-cow.",
+    "eyebrowCategory": "Catégorie",
+    "eyebrowTag": "Étiquette"
+  },
+  "solutionsPage": {
+    "index": {
+      "metaTitle": "Solutions code QR par secteur",
+      "metaDescription": "Des playbooks sectoriels pour mettre les codes QR au travail, restaurants, événements, commerce de détail et plus. Vrais modèles, vrais parcours, studio gratuit.",
+      "eyebrow": "Solutions",
+      "title": "Des codes QR pensés pour la façon dont votre secteur travaille vraiment.",
+      "subtitle": "Un seul générateur, des playbooks par secteur. Choisissez le plus proche de votre activité, chaque page montre les modèles, le workflow et les moments d'statistiques qui comptent le plus dans ce secteur.",
+      "ctaStudio": "Ouvrir le studio",
+      "ctaUseCases": "Parcourir les 40 cas d'usage",
+      "missingPrefix": "Votre secteur manque à l'appel ?",
+      "missingLink": "Parcourez le catalogue complet des cas d'usage",
+      "missingSuffix": "quarante emplacements réels répartis sur neuf domaines."
+    },
+    "detail": {
+      "metaTitle": "codes QR pour le secteur {name}, {headline}",
+      "forLabel": "Pour le secteur {name}",
+      "benefitsEyebrow": "Avantages",
+      "benefitsTitle": "Pourquoi le secteur {name} utilise qr-cow",
+      "howEyebrow": "Comment ça marche",
+      "howTitle": "Opérationnel en quelques minutes",
+      "ctaCreate": "Créer un code QR",
+      "ctaPricing": "Voir les tarifs",
+      "relatedHeading": "Pages associées",
+      "moreSolutions": "Toutes les solutions →"
+    },
+    "items": {
+      "restaurants": {
+        "name": "Restaurants",
+        "teaser": "Menus, commandes et avis, à un scan de la table.",
+        "headline": "Des codes QR qui font tourner les tables plus vite",
+        "intro": "Remplacez les menus imprimés par un code QR dynamique que vous mettez à jour en quelques secondes. Changez les prix, ajoutez des plats du jour et voyez quels emplacements sont réellement scannés.",
+        "benefits": [
+          {
+            "title": "Des menus toujours à jour",
+            "body": "Modifiez le menu lié à tout moment, le code imprimé ne change jamais, fini les réimpressions."
+          },
+          {
+            "title": "Commandes plus rapides",
+            "body": "Vos clients accèdent au menu ou à la page de commande dès qu'ils s'assoient."
+          },
+          {
+            "title": "Sachez ce qui fonctionne",
+            "body": "Suivez les scans par code pour comparer tables, vitrines et flyers."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Créez un code dynamique",
+            "body": "Pointez-le vers votre menu ou votre page de commande."
+          },
+          {
+            "title": "Personnalisez-le",
+            "body": "Adaptez-le à vos couleurs et imprimez-le sur les chevalets de table."
+          },
+          {
+            "title": "Mettez à jour librement",
+            "body": "Changez la destination au fil de l'évolution de votre menu."
+          }
+        ]
+      },
+      "events": {
+        "name": "Événements",
+        "teaser": "Billets, programmes et check-in qui s'adaptent quand les plans changent.",
+        "headline": "Des codes QR qui gardent vos événements sur les rails",
+        "intro": "Placez un seul code QR dynamique sur chaque badge, affiche et billet. Redirigez-le du programme vers le direct puis vers le formulaire de feedback au fil de la journée.",
+        "benefits": [
+          {
+            "title": "Un code, plusieurs étapes",
+            "body": "Réutilisez le même code imprimé sur tout le cycle de vie de l'événement."
+          },
+          {
+            "title": "Mises à jour en direct",
+            "body": "Changement de salle de dernière minute ? Mettez à jour le lien, pas l'impression."
+          },
+          {
+            "title": "Mesurez l'affluence",
+            "body": "Le nombre de scans montre quelles sessions et quels supports ont retenu l'attention."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Générez par campagne",
+            "body": "Un code pour les badges, un pour les affiches."
+          },
+          {
+            "title": "Imprimez et placez",
+            "body": "Ajoutez les codes aux billets, à la signalétique et aux documents distribués."
+          },
+          {
+            "title": "Redirigez à la volée",
+            "body": "Déplacez le lien au fil des changements d'agenda."
+          }
+        ]
+      },
+      "retail": {
+        "name": "Commerce de détail",
+        "teaser": "Pages produit, promos et avis sur chaque rayon et chaque emballage.",
+        "headline": "Des codes QR qui relient le rayon à la boutique en ligne",
+        "intro": "Faites le pont entre vos produits physiques et votre boutique en ligne. Reliez l'emballage aux pages produit, aux promos ou aux formulaires d'avis, et découvrez quels emplacements convertissent.",
+        "benefits": [
+          {
+            "title": "Du rayon au panier",
+            "body": "Envoyez les acheteurs directement vers la page produit ou une remise."
+          },
+          {
+            "title": "Changez de promo instantanément",
+            "body": "Lancez une nouvelle offre sans réimprimer une seule étiquette."
+          },
+          {
+            "title": "Visibilité par emplacement",
+            "body": "Comparez les scans entre emballages, présentoirs et tickets de caisse."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Créez des codes dynamiques",
+            "body": "Un par gamme de produits ou par campagne."
+          },
+          {
+            "title": "Ajoutez-les aux emballages",
+            "body": "Imprimez sur étiquettes, présentoirs et encarts."
+          },
+          {
+            "title": "Optimisez",
+            "body": "Suivez les scans et misez sur ce qui vend."
+          }
+        ]
+      }
+    }
+  },
+  "comparePage": {
+    "index": {
+      "metaTitle": "qr-cow vs les alternatives, comparatifs honnêtes",
+      "metaDescription": "Comparatifs honnêtes et vérifiés entre qr-cow et d'autres outils de codes QR (Canva, QR.io, …). D'abord leurs points forts, puis là où qr-cow est le meilleur choix.",
+      "eyebrow": "Comparatifs",
+      "title": "Vous choisissez un générateur de QR ? Lisez ceci d'abord.",
+      "subtitle": "Nous commençons par ce que chaque concurrent fait bien, puis nous montrons où qr-cow est le meilleur choix. Si un comparatif vous semble partial, ouvrez une issue et nous le corrigerons.",
+      "vsTitle": "qr-cow vs {name}"
+    },
+    "detail": {
+      "metaTitle": "qr-cow vs {name}, comparatif honnête",
+      "eyebrow": "Comparatif",
+      "title": "qr-cow vs {name}.",
+      "sideBySide": "Côte à côte",
+      "thFeature": "Fonctionnalité",
+      "thQrcow": "qr-cow",
+      "thEdge": "Avantage",
+      "tie": "égalité",
+      "edgeUs": "qr-cow",
+      "edgeThem": "concurrent",
+      "theyDoWell": "Ce que {name} fait bien",
+      "weLead": "Là où qr-cow mène",
+      "whenToPick": "Quand choisir l'un ou l'autre",
+      "pickThemTitle": "Choisissez {name} quand…",
+      "pickUsTitle": "Choisissez qr-cow quand…",
+      "ctaTry": "Essayer qr-cow gratuitement",
+      "ctaPricing": "Voir les tarifs",
+      "breadcrumbHome": "Accueil",
+      "breadcrumbIndex": "Comparer",
+      "breadcrumbCurrent": "qr-cow vs {name}",
+      "altPageLink": "Envie de changer ? Voir la page alternative à {name} →"
+    },
+    "items": {
+      "canva": {
+        "verdict": "Canva est une suite de design graphique qui fait accessoirement des codes QR ; qr-cow est un générateur de QR qui se trouve être joli. Si le QR n'est qu'une tuile dans un design Canva plus large, restez sur Canva. Si les codes QR SONT votre workflow, qr-cow est conçu exactement pour ça.",
+        "seoDescription": "qr-cow vs Canva, comparatif honnête. Canva pour les mises en page complètes ; qr-cow pour les codes dynamiques, l'statistiques des scans et l'API + serveur MCP.",
+        "theyDoWell": [
+          "Un canevas de design graphique de classe mondiale, vous pouvez placer un QR dans une affiche, une carte sociale ou une mise en page print à côté de logos, photos et typographies.",
+          "Une immense bibliothèque de modèles couvrant tous les supports marketing, pas seulement le QR.",
+          "Synchronisation du kit de marque en équipe si vous êtes déjà sur Canva Teams.",
+          "Impression à la demande directe pour affiches, cartes de visite et objets dérivés."
+        ],
+        "weDoWell": [
+          "Des codes QR dynamiques modifiables APRÈS impression, ceux de Canva sont statiques, figés dans le design.",
+          "Statistiques des scans par code (pays / appareil / heure de la journée), Canva n'en a aucune.",
+          "13 types de contenu, dont Wi-Fi, vCard, portefeuilles crypto, liens profonds vers les app stores, Canva couvre les bases (URL, e-mail, téléphone) mais ne propose ni vCard ni Wi-Fi comme types de premier rang.",
+          "Un forfait gratuit avec codes statiques illimités et sans inscription. Canva exige un compte.",
+          "REST API + serveur MCP, pour générer des QR depuis des agents, des scripts ou votre pipeline CI. Canva n'a qu'une interface graphique.",
+          "Facturation en crypto (USDT, BTC, ETH) pour les équipes internationales qui ne peuvent pas utiliser Stripe facilement."
+        ],
+        "pickThem": "Choisissez Canva quand le QR n'est qu'un petit élément d'une affiche, d'une brochure ou d'une carte sociale que vous concevez de toute façon dans Canva. Changer d'outil pour un seul QR est une friction inutile.",
+        "pickUs": "Choisissez qr-cow quand vous produisez beaucoup de codes QR, devez les suivre, devez modifier les destinations après impression, ou voulez les intégrer dans un script / une API / un flux d'agent.",
+        "table": [
+          {
+            "feature": "Forfait gratuit",
+            "qrcow": "Codes statiques illimités, sans inscription. 3 codes dynamiques gratuits avec inscription.",
+            "competitor": "Compte Canva gratuit requis ; l'offre gratuite de Canva limite les éléments Pro."
+          },
+          {
+            "feature": "Codes dynamiques (modifiables après impression)",
+            "qrcow": "Oui, modifiez la destination à tout moment, le code imprimé reste valide.",
+            "competitor": "Non, les codes QR dans Canva sont des images statiques figées dans le design."
+          },
+          {
+            "feature": "Statistiques des scans",
+            "qrcow": "Pays, appareil, OS, navigateur, heatmap par heure de la journée, journal des 20 derniers scans.",
+            "competitor": "Indisponible, Canva ne suit pas les scans des codes QR générés."
+          },
+          {
+            "feature": "Types de contenu",
+            "qrcow": "13, URL, texte, Wi-Fi, vCard, MeCard, e-mail, SMS, téléphone, événement, lieu, social, crypto, lien profond d'appli.",
+            "competitor": "URL, texte brut, e-mail, téléphone, SMS (liste limitée en 2026)."
+          },
+          {
+            "feature": "Système de design autour du QR",
+            "qrcow": "Studio dédié : forme du corps, style des yeux, dégradé, logo central, correction d'erreur.",
+            "competitor": "Canevas Canva complet, placez le QR dans n'importe quelle mise en page avec typo, photos et formes."
+          },
+          {
+            "feature": "Impression à la demande",
+            "qrcow": "Export PNG / SVG / JPG, puis passez par l'imprimeur de votre choix.",
+            "competitor": "Impression à la demande directe pour affiches, cartes, objets dérivés."
+          },
+          {
+            "feature": "Accès programmatique (API / MCP)",
+            "qrcow": "REST API + serveur MCP (Claude, Cursor, Zed). Générez depuis des agents, des scripts, la CI.",
+            "competitor": "Interface graphique uniquement. Pas d'API publique de génération de QR."
+          },
+          {
+            "feature": "Tarifs",
+            "qrcow": "0 $ pour toujours en statique. 3 $/mois pour dynamique + statistiques. 9 $/mois pour l'accès API. Crypto uniquement.",
+            "competitor": "Offre gratuite + Canva Pro dès ~15 $/mois (couvre toute la suite, pas seulement le QR)."
+          }
+        ]
+      },
+      "qr_io": {
+        "verdict": "QR.io est un générateur de QR léché, uniquement payant, avec une riche palette de design et l'import CSV en masse. qr-cow est moins cher, propose une offre statique gratuite et livre une API + un serveur MCP. Choisissez QR.io pour un déploiement d'entreprise avec imports en masse ; choisissez qr-cow pour un usage indépendant, la facturation en crypto ou les workflows d'agents.",
+        "seoDescription": "qr-cow vs QR.io, comparatif honnête. QR.io pour les imports en masse en entreprise ; qr-cow pour l'offre gratuite, la facturation en crypto et les workflows d'agents IA via MCP.",
+        "theyDoWell": [
+          "Palette de design soignée, large choix de formes de corps, de cadres et de presets de couleurs sélectionnés.",
+          "Import CSV en masse pour créer des milliers de codes d'un coup, utile pour les déploiements de catalogues produits.",
+          "Espace de travail d'équipe avec accès basé sur les rôles.",
+          "Marque établie avec plusieurs années de signaux de confiance."
+        ],
+        "weDoWell": [
+          "Codes statiques gratuits pour toujours, sans inscription. QR.io est uniquement payant, même un seul code exige un abonnement.",
+          "Facturation crypto assumée (USDT, BTC, ETH), fonctionne dans les régions où Stripe ne passe pas.",
+          "REST API + serveur Model Context Protocol, branchez qr-cow sur Claude, Cursor ou Zed en 30 secondes. QR.io a une API mais pas de MCP.",
+          "Indépendant et transparent, construit par la famille HSN, sans capital-risque. QR.io est financé par des investisseurs et ses prix s'en ressentent.",
+          "Une montée en gamme tout en douceur, si vous n'avez pas besoin d'statistiques, vous restez sur l'offre gratuite sans relances.",
+          "Blog + index de cas d'usage de premier rang, vous pouvez apprendre les codes QR ici, pas seulement acheter les nôtres."
+        ],
+        "pickThem": "Choisissez QR.io pour un déploiement QR d'entreprise où vous devez créer plus de 500 codes via CSV, donner un accès d'espace de travail à une équipe marketing, et où payer 30 à 50 $/mois pour une UI léchée ne vous fait pas sourciller.",
+        "pickUs": "Choisissez qr-cow si vous voulez une offre gratuite, préférez la facturation en crypto, travaillez avec des agents IA (MCP), ou n'avez simplement pas envie de parler à un commercial.",
+        "table": [
+          {
+            "feature": "Forfait gratuit",
+            "qrcow": "Codes statiques illimités, sans inscription. 3 dynamiques gratuits avec inscription.",
+            "competitor": "Uniquement payant, pas d'offre gratuite. Essai de 14 jours."
+          },
+          {
+            "feature": "Codes dynamiques + statistiques",
+            "qrcow": "Oui, inclus dès le forfait à 3 $/mois.",
+            "competitor": "Oui, fonctionnalité centrale, incluse dans chaque forfait payant."
+          },
+          {
+            "feature": "Import CSV en masse",
+            "qrcow": "Pas encore, studio code par code + API pour la génération par lots.",
+            "competitor": "Oui, créez jusqu'à des milliers de codes depuis un CSV."
+          },
+          {
+            "feature": "API programmatique",
+            "qrcow": "REST API + serveur MCP. Fonctionne depuis Claude, Cursor, Zed ou n'importe quel client HTTP.",
+            "competitor": "REST API sur les forfaits supérieurs. Pas de MCP."
+          },
+          {
+            "feature": "Facturation",
+            "qrcow": "Crypto uniquement (USDT, BTC, ETH), fonctionne dans les régions où Stripe ne passe pas.",
+            "competitor": "Carte bancaire via Stripe."
+          },
+          {
+            "feature": "Espaces de travail d'équipe",
+            "qrcow": "Compte individuel aujourd'hui ; multi-utilisateurs prévu.",
+            "competitor": "Espaces d'équipe intégrés avec rôles."
+          },
+          {
+            "feature": "Transparence des prix",
+            "qrcow": "Trois forfaits à prix ronds ; pas de barrière « contactez le service commercial ».",
+            "competitor": "Tarifs publics pour particuliers + entreprises ; barrière enterprise."
+          },
+          {
+            "feature": "Types de contenu",
+            "qrcow": "13, URL, texte, Wi-Fi, vCard, MeCard, e-mail, SMS, téléphone, événement, lieu, social, portefeuille crypto, appli.",
+            "competitor": "~10, URL, texte, Wi-Fi, vCard, e-mail, SMS, téléphone, social, PDF, image."
+          }
+        ]
+      }
+    }
+  },
+  "changelogPage": {
+    "metaTitle": "Changelog, les nouveautés de qr-cow",
+    "metaDescription": "Les versions récentes de qr-cow, nouveaux types de QR, fonctionnalités du tableau de bord, API + MCP, statistiques, optimisations. Mis à jour à chaque livraison.",
+    "eyebrow": "Changelog",
+    "title": "Les nouveautés de qr-cow",
+    "intro": "Nous livrons en public. Chaque version qui touche à ce que vous voyez atterrit ici, fonctionnalités, finitions, correctifs. Les versions qui ne vous concernent pas (mises à jour de dépendances, refactorisations internes) restent dans le journal git.",
+    "wantEvery": "Vous voulez tous les changements ?",
+    "gitHistory": "L'historique git complet est public",
+    "requestPrefix": "Une fonctionnalité à demander ? Ouvrez une issue sur",
+    "github": "GitHub",
+    "requestMid": "ou écrivez dans les",
+    "blogComments": "commentaires du blog",
+    "requestSuffix": "la feuille de route est façonnée par vos demandes."
+  },
+  "useCasesPage": {
+    "metaTitle": "Cas d'usage des codes QR, partout où un code QR fait ses preuves",
+    "metaDescription": "Quarante emplacements réels de codes QR dans neuf secteurs, hôtellerie-restauration, commerce, événements, santé, paiements, éducation et plus.",
+    "eyebrow": "Cas d'usage",
+    "title": "Partout où un code QR fait ses preuves.",
+    "introPrefix": "Quarante situations réelles où un code QR bat un tap, une URL ou un mot de passe à taper. Choisissez la ligne la plus proche, puis",
+    "introLink": "ouvrez le studio",
+    "introSuffix": "et créez le vôtre.",
+    "ctaMake": "Créez-en un maintenant",
+    "ctaPricing": "Voir les tarifs",
+    "countLabel": "{count} cas d'usage",
+    "proTip": "Astuce :",
+    "groups": {
+      "hospitality": {
+        "title": "Hôtellerie-restauration",
+        "intro": "Restaurants, cafés, hôtels et bars utilisent les codes QR pour fluidifier le service à table et les parcours de check-in autonome.",
+        "items": [
+          {
+            "title": "Menus",
+            "body": "Remplacez les menus imprimés par un QR dynamique, modifiez prix, plats du jour et mentions alimentaires sans réimprimer un seul chevalet de table.",
+            "tip": "Utilisez un code dynamique : les plats épuisés disparaissent du menu en ligne dès que la cuisine les retire."
+          },
+          {
+            "title": "Wi-Fi invités",
+            "body": "Encodez SSID + mot de passe dans un autocollant au mur ou sur la table de chevet. Les invités scannent, le téléphone se connecte, personne ne récite une phrase de passe de 20 caractères."
+          },
+          {
+            "title": "Check-in hôtel & room service",
+            "body": "Imprimez-le sur la pochette de la carte-clé : les clients atteignent le menu du spa, la commande du petit-déjeuner ou la demande de départ tardif en deux taps."
+          },
+          {
+            "title": "Collecte d'avis",
+            "body": "Sur le ticket ou le porte-addition, lien vers Google Reviews / Tripadvisor. Environ 2× plus d'avis qu'avec une URL à taper.",
+            "tip": "Utilisez un code dynamique pour changer de plateforme d'avis sans réimprimer."
+          },
+          {
+            "title": "Check-in autonome",
+            "body": "Codes d'entrée pour hôtels de charme et hôtes Airbnb, on scanne, et le code d'accès s'affiche sur une page liée à la période de réservation."
+          }
+        ]
+      },
+      "retail": {
+        "title": "Commerce & e-commerce",
+        "intro": "Faites le pont entre les rayons physiques et les pages produit numériques, et découvrez quels emplacements génèrent vraiment des scans.",
+        "items": [
+          {
+            "title": "Emballage produit",
+            "body": "Reliez la boîte ou l'emballage à la page produit, à la liste d'ingrédients ou au guide d'entretien. Améliore nettement la conversion d'ajout au panier sur les catégories d'achat impulsif."
+          },
+          {
+            "title": "Stop-rayons & présentoirs",
+            "body": "Codes promo, offres groupées, prix soldés, changez chaque semaine depuis un téléphone au lieu de réimprimer une pile de cartons de rayon."
+          },
+          {
+            "title": "Ticket + après-achat",
+            "body": "Sur le ticket : enregistrement de garantie, formulaire de retour ou enquête de satisfaction. Des clients très engagés, le moment idéal pour demander."
+          },
+          {
+            "title": "Essayage en cabine",
+            "body": "Scannez un article en cabine pour voir les variantes de couleurs, les tailles en stock ou les pièces assorties, sans quitter la cabine."
+          },
+          {
+            "title": "Retours & échanges",
+            "body": "Éliminez la paperasse des retours : scannez le QR du bordereau et le formulaire est prérempli avec les détails de la commande."
+          },
+          {
+            "title": "Passeport numérique des produits (UE)",
+            "body": "À partir de 2026, le règlement DPP impose un lien QR sur une liste croissante de catégories, batteries, textile, électronique. Prenez de l'avance avec un code dynamique dès maintenant.",
+            "tip": "Utilisez un code dynamique : la destination DPP pourra évoluer avec la réglementation sans réimprimer les étiquettes."
+          }
+        ]
+      },
+      "events": {
+        "title": "Événements & conférences",
+        "intro": "Billets, badges et signalétique réutilisés tout au long de la journée au fil de l'agenda.",
+        "items": [
+          {
+            "title": "Billets & check-in",
+            "body": "Scan à l'entrée. Compte les présences en direct, élimine la fraude aux billets imprimés."
+          },
+          {
+            "title": "Badges de conférence",
+            "body": "vCard au dos du badge, l'échange de contact en deux taps bat la distribution de cartes papier."
+          },
+          {
+            "title": "Signalétique des sessions",
+            "body": "Les affiches devant chaque salle mènent aux slides en direct, à la bio de l'intervenant ou au formulaire de feedback de la session."
+          },
+          {
+            "title": "Liens de diffusion en direct",
+            "body": "Un QR sur chaque affiche, pointez-le vers le direct pendant la conférence, l'enregistrement après, l'appel à contributions de l'année suivante plus tard. Même affiche, trois vies.",
+            "tip": "Repointer un seul code dynamique bat la réimpression d'une centaine d'affiches."
+          },
+          {
+            "title": "Enquêtes post-événement",
+            "body": "QR sur la slide de clôture pour le feedback. Capture les réponses pendant que le public se souvient encore de la conférence."
+          }
+        ]
+      },
+      "marketing": {
+        "title": "Marketing & publicité",
+        "intro": "Les médias hors domicile (panneaux, flyers, magazines papier, emballages) deviennent mesurables au lieu d'être estimés à l'aveugle.",
+        "items": [
+          {
+            "title": "Panneaux + pubs dans les transports",
+            "body": "Scannez un panneau depuis l'autre côté de la rue, les téléphones accrochent les grands codes QR à 3-5 mètres.",
+            "tip": "Gardez le code à ≥ 60 cm de large pour les panneaux d'autoroute ; plus petit, les modules de données passent sous le pouvoir de résolution de l'appareil photo."
+          },
+          {
+            "title": "Pubs dans les magazines papier",
+            "body": "Transformez une dépense print statique en tunnel mesurable, scans + conversions de la page d'atterrissage montrent quels titres se sont rentabilisés."
+          },
+          {
+            "title": "Cartes de publipostage",
+            "body": "Le QR au dos mène à une page d'atterrissage personnalisée. Taux de scan environ 5 à 15× plus élevé que la saisie de l'URL."
+          },
+          {
+            "title": "Pubs TV + écrans",
+            "body": "Affichez un QR à l'écran pendant 5 à 10 secondes durant la pub, les téléspectateurs scannent avec le téléphone déjà en main. Courant dans les pubs du Super Bowl depuis 2022."
+          },
+          {
+            "title": "Promos de films & de jeux",
+            "body": "Les cartes de bande-annonce mènent aux listes d'envies en accès anticipé, aux bandes originales en streaming ou à la prochaine séance dans un cinéma proche."
+          }
+        ]
+      },
+      "payments": {
+        "title": "Paiements & facturation",
+        "intro": "Les paiements par QR dominent en Asie et progressent vite en Europe, en Amérique latine et en Afrique.",
+        "items": [
+          {
+            "title": "WeChat Pay / AliPay",
+            "body": "Des rails de paiement centrés sur le QR, le client scanne le QR du commerçant, ou l'inverse. Le standard en Chine continentale."
+          },
+          {
+            "title": "UPI en Inde",
+            "body": "PhonePe, Google Pay et Paytm utilisent tous le QR pour les paiements entre particuliers comme chez les commerçants. Utilisé par plus de 400 M de personnes chaque jour."
+          },
+          {
+            "title": "Apple / Google Pay",
+            "body": "Les applis de portefeuille interprètent désormais nativement les codes QR des commerçants pour les paiements dans l'UE et en Australie."
+          },
+          {
+            "title": "Adresses de portefeuilles crypto",
+            "body": "Les adresses BTC / ETH / USDT sont longues et impitoyables, les encoder en QR élimine les erreurs de copier-coller qui coûtent de l'argent réel.",
+            "tip": "Incluez toujours le symbole de l'actif dans le schéma d'URI (`bitcoin:`, `ethereum:`) pour que les portefeuilles récepteurs l'interprètent correctement."
+          },
+          {
+            "title": "Liens de paiement de factures",
+            "body": "Imprimez un lien Stripe / NOWPayments sur la facture, le client scanne, paie dans sa devise préférée, et vous rapprochez les paiements automatiquement."
+          }
+        ]
+      },
+      "healthcare": {
+        "title": "Santé",
+        "intro": "Parcours patients, suivi des médicaments et accès aux résultats d'analyses, autant d'endroits où une URL à taper ou une connexion est une friction.",
+        "items": [
+          {
+            "title": "Identification patient & dossiers",
+            "body": "Le QR du bracelet relie le patient à son dossier médical électronique sans taper un long numéro de dossier. Courant dans les services d'hospitalisation."
+          },
+          {
+            "title": "Étiquettes de médicaments",
+            "body": "Scannez le flacon pour voir les interactions médicamenteuses, la notice PDF et le renouvellement. La directive européenne FMD (médicaments falsifiés) impose un QR sur chaque boîte délivrée sur ordonnance."
+          },
+          {
+            "title": "Retrait des résultats d'analyses",
+            "body": "QR sur la fiche de laboratoire → portail patient avec les résultats. Évite d'imprimer des dizaines de pages de PDF."
+          },
+          {
+            "title": "Rappels de rendez-vous",
+            "body": "Carte de rappel avec QR → ajout au calendrier + formulaire de report. Réduit les rendez-vous manqués."
+          }
+        ]
+      },
+      "education": {
+        "title": "Éducation",
+        "intro": "Salles de classe, musées, bibliothèques, partout où un objet statique gagne à avoir un prolongement numérique.",
+        "items": [
+          {
+            "title": "Compléments de manuels",
+            "body": "QR en marge de page vers des figures interactives, des simulations ou des vidéos explicatives. Manuel statique → ressource pédagogique dynamique."
+          },
+          {
+            "title": "Expositions de musée",
+            "body": "Le QR de chaque œuvre mène à la description détaillée, à un audioguide ou à une histoire des coulisses.",
+            "tip": "Accompagnez-le d'un texte « Scannez pour découvrir l'histoire », les scans étiquetés obtiennent environ 3× plus d'engagement que les autres."
+          },
+          {
+            "title": "Appel & présence",
+            "body": "Un QR projeté en classe change chaque minute ; les étudiants scannent pour se déclarer présents. Déjoue le schéma du camarade qui clique à votre place."
+          },
+          {
+            "title": "Catalogue de bibliothèque",
+            "body": "QR en bord de rayon → disponibilité numérique + réservation. Évite un aller-retour au terminal du catalogue (OPAC)."
+          }
+        ]
+      },
+      "manufacturing": {
+        "title": "Industrie & logistique",
+        "intro": "Là où chaînes d'approvisionnement, traçabilité et maintenance profitent d'un numéro de série scannable.",
+        "items": [
+          {
+            "title": "Suivi de colis",
+            "body": "Imprimé sur les étiquettes d'expédition, les transporteurs scannent à chaque étape, les clients scannent pour voir l'heure d'arrivée estimée en direct."
+          },
+          {
+            "title": "Maintenance des équipements",
+            "body": "Le QR de chaque machine mène à son journal de maintenance, à ses manuels et au formulaire de la prochaine inspection.",
+            "tip": "Utilisez la correction d'erreur H, les codes en atelier finissent rayés et couverts d'huile."
+          },
+          {
+            "title": "Traçabilité de la ferme à la table",
+            "body": "Le QR de la caisse de produits montre la parcelle d'origine, la date de récolte et la chaîne de traçabilité. Courant dans la certification bio de l'UE."
+          },
+          {
+            "title": "Sécurité des chantiers",
+            "body": "Chaque équipement ou échafaudage porte un QR lié à son certificat d'inspection. Guide l'inspecteur dans la conformité sans paperasse."
+          }
+        ]
+      },
+      "personal": {
+        "title": "Personnel & social",
+        "intro": "Les codes QR dévorent les cartes de visite papier et les CV. L'échange de contact en deux taps bat la distribution de papier à chaque fois.",
+        "items": [
+          {
+            "title": "Cartes de visite vCard",
+            "body": "Imprimez un QR vCard au dos de votre carte, le destinataire scanne, le contact s'enregistre dans son téléphone, sans rien taper."
+          },
+          {
+            "title": "Profil / arbre de liens",
+            "body": "Un QR qui pointe vers votre agrégateur de liens (ou votre propre page /links), fonctionne sur les slides, les photos de profil et les signatures."
+          },
+          {
+            "title": "RSVP de mariages & événements",
+            "body": "QR sur le save-the-date → formulaire RSVP + préférences alimentaires + liste de cadeaux. Les mariés s'épargnent les relances par SMS."
+          },
+          {
+            "title": "Collecte de photos partagées",
+            "body": "QR de mariage ou d'anniversaire → un album partagé où chaque invité dépose ses photos. Fini la chasse aux « envoie-moi tes photos » sur WhatsApp."
+          }
+        ]
+      }
+    },
+    "makeLink": "Créer ce QR"
+  },
+  "qrTypes": {
+    "shared": {
+      "otherHeading": "Autres types de codes QR",
+      "otherSub": "Même studio, autre type de contenu, choisissez celui dont votre projet a besoin.",
+      "otherLink": "code QR {type}",
+      "faqHeading": "FAQ du code QR {type}",
+      "allTypes": "Les 13 types",
+      "solutionsHeading": "Populaire pour"
+    },
+    "url": {
+      "eyebrow": "code QR URL",
+      "title": "Générateur gratuit de codes QR URL",
+      "sub": "Transformez n'importe quelle adresse web en code QR scannable. Collez une URL, choisissez un style, téléchargez en PNG, SVG ou JPG, sans inscription, sans expiration, sans filigrane.",
+      "metaTitle": "Générateur de codes QR URL gratuit",
+      "metaDescription": "Générateur gratuit de codes QR URL. Convertissez n'importe quel lien de site web en QR scannable avec logo, couleurs et dégradés. Export PNG / SVG / JPG. Sans inscription.",
+      "displayName": "URL",
+      "faq": [
+        {
+          "q": "Le code QR URL expire-t-il ?",
+          "a": "Non. Les codes URL statiques encodent la destination directement dans le motif. Une fois le QR téléchargé, il fonctionne pour toujours sans dépendre des serveurs de qr-cow."
+        },
+        {
+          "q": "Puis-je changer l'URL après avoir imprimé le code ?",
+          "a": "Seulement avec un code dynamique. Enregistrez le QR sur un compte gratuit et choisissez Dynamique, vous pourrez alors modifier la destination à tout moment sans réimprimer le QR. Les codes statiques sont gratuits ; les codes dynamiques coûtent 3 $/mois."
+        },
+        {
+          "q": "Les URL longues rendent-elles le QR plus difficile à scanner ?",
+          "a": "Oui, plus l'URL est longue, plus le code est dense et difficile à scanner. Pour les longues URL de tracking (avec paramètres UTM), utilisez un code dynamique : qr-cow raccourcit la destination en interne, le motif imprimé reste simple et vous conservez l'attribution complète côté serveur."
+        }
+      ]
+    },
+    "wifi": {
+      "eyebrow": "code QR Wi-Fi",
+      "title": "Générateur gratuit de codes QR Wi-Fi",
+      "sub": "Imprimez un autocollant qui connecte vos invités au Wi-Fi sans que personne ne tape le mot de passe. Saisissez votre SSID + mot de passe, choisissez un style, téléchargez, fonctionne avec l'appareil photo de tous les téléphones modernes.",
+      "metaTitle": "Générateur de codes QR Wi-Fi gratuit",
+      "metaDescription": "Générateur gratuit de codes QR Wi-Fi, vos invités scannent et rejoignent votre réseau automatiquement. Réseaux WPA / WEP / ouverts pris en charge. Sans inscription.",
+      "displayName": "Wi-Fi",
+      "faq": [
+        {
+          "q": "Quels téléphones peuvent rejoindre un Wi-Fi via un code QR ?",
+          "a": "Tous les iPhone sous iOS 11+ et tous les Android sous version 10+ rejoignent un réseau Wi-Fi en pointant l'appareil photo vers un code QR, sans appli. Les téléphones plus anciens peuvent nécessiter une appli gratuite de lecture de QR."
+        },
+        {
+          "q": "Est-il prudent d'imprimer mon mot de passe Wi-Fi en code QR ?",
+          "a": "Le code QR est littéralement une copie imprimée du mot de passe. Très bien pour le réseau invités d'un café ; à proscrire pour votre réseau d'administration d'entreprise. Utilisez un VLAN invités dédié avec son propre mot de passe si vous affichez le code publiquement."
+        },
+        {
+          "q": "Ça fonctionne si mon SSID est masqué ?",
+          "a": "Oui. Cochez « Réseau masqué » lors de la génération, le QR inclura l'indicateur correspondant pour que le téléphone cherche le SSID au lieu d'attendre sa diffusion."
+        }
+      ]
+    },
+    "vcard": {
+      "eyebrow": "code QR vCard",
+      "title": "Générateur gratuit de codes QR vCard",
+      "sub": "Un QR vCard place vos coordonnées directement dans le carnet d'adresses d'un téléphone en deux taps. Ajoutez-le à votre carte de visite, vos slides ou votre badge de salon, vos interlocuteurs vous enregistrent sans rien taper.",
+      "metaTitle": "Générateur de codes QR vCard / carte de visite gratuit",
+      "metaDescription": "Générateur gratuit de codes QR vCard. Encodez nom, téléphone, e-mail, société, fonction, site web, enregistrement dans les contacts du téléphone en deux taps. Sans inscription.",
+      "displayName": "vCard",
+      "faq": [
+        {
+          "q": "vCard ou MeCard, lequel choisir ?",
+          "a": "Choisissez vCard par défaut. C'est le standard international, il prend en charge plus de champs (société, fonction, site web, adresses) et tous les téléphones modernes le reconnaissent. MeCard est plus court (donc le QR est plus petit) mais perd des champs, le compromis ne vaut que si le code imprimé doit être minuscule."
+        },
+        {
+          "q": "Puis-je mettre à jour mon QR vCard si je change d'emploi ?",
+          "a": "Les vCard statiques figent les coordonnées dans le motif imprimé : un nouveau poste implique un nouveau QR. Si vous changez souvent d'emploi, utilisez un code dynamique pointant vers une page de contact que vous pouvez mettre à jour, le code imprimé reste valide."
+        },
+        {
+          "q": "Le contact s'enregistrera-t-il sur iPhone ET sur Android ?",
+          "a": "Oui. iOS et Android reconnaissent nativement les QR vCard et proposent « Ajouter aux contacts ». Le même QR fonctionne pour les deux, pas besoin de codes séparés."
+        }
+      ]
+    },
+    "mecard": {
+      "eyebrow": "code QR MeCard",
+      "title": "Générateur gratuit de codes QR MeCard",
+      "sub": "MeCard est le petit frère de vCard, un standard japonais plus court, il encode le même essentiel (nom, téléphone, e-mail) dans un QR plus petit et plus dense. Utile quand le code imprimé doit être minuscule.",
+      "metaTitle": "Générateur de codes QR MeCard gratuit",
+      "metaDescription": "Générateur gratuit de codes QR MeCard, QR de contact compact pour les petites surfaces d'impression. Plus petit que vCard, reconnu par tous les téléphones modernes.",
+      "displayName": "MeCard",
+      "faq": [
+        {
+          "q": "Quand choisir MeCard plutôt que vCard ?",
+          "a": "Seulement quand l'espace d'impression est vraiment compté, étiquettes autocollantes, petits coins de badge, bord d'une petite facture. La charge utile plus courte de MeCard donne un QR moins dense, qui se scanne mieux en petit format. Pour tout ce qui dépasse la taille d'un timbre-poste, utilisez vCard."
+        },
+        {
+          "q": "Tous les téléphones prennent-ils en charge MeCard ?",
+          "a": "Les téléphones iOS et Android modernes, oui. Quelques très anciennes applis photo Android non, mais elles sont assez rares pour ne pas compter. Dans le doute, vCard offre une compatibilité plus large."
+        }
+      ]
+    },
+    "email": {
+      "eyebrow": "code QR e-mail",
+      "title": "Générateur gratuit de codes QR e-mail",
+      "sub": "Ouvre un e-mail prérédigé au scan, destinataire, objet et corps déjà remplis. L'expéditeur n'a plus qu'à envoyer. Idéal pour les cartes de support, la signalétique « contactez-nous » et les flyers d'événements.",
+      "metaTitle": "Générateur de codes QR e-mail gratuit",
+      "metaDescription": "Générateur gratuit de codes QR e-mail, ouvre un e-mail prérempli avec destinataire, objet et corps. L'expéditeur n'a qu'à appuyer sur Envoyer. Sans inscription.",
+      "displayName": "E-mail",
+      "faq": [
+        {
+          "q": "L'e-mail part-il automatiquement au scan ?",
+          "a": "Non. Le scan ouvre l'appli de messagerie par défaut de l'utilisateur avec destinataire, objet et corps préremplis, l'utilisateur doit encore appuyer sur Envoyer. C'est une mesure de sécurité d'iOS et d'Android."
+        },
+        {
+          "q": "Puis-je inclure des sauts de ligne dans le corps de l'e-mail ?",
+          "a": "Oui, qr-cow gère l'échappement des retours à la ligne pour vous. Les corps longs densifient le QR ; au-delà de 200 caractères, envisagez plutôt un lien vers un formulaire de contact."
+        }
+      ]
+    },
+    "sms": {
+      "eyebrow": "code QR SMS",
+      "title": "Générateur gratuit de codes QR SMS",
+      "sub": "Scannez pour ouvrir un SMS prérédigé, destinataire et message déjà remplis. Courant pour le feedback en restaurant, les enquêtes SMS bidirectionnelles et les campagnes à numéro court.",
+      "metaTitle": "Générateur de codes QR SMS gratuit",
+      "metaDescription": "Générateur gratuit de codes QR SMS, ouvre un SMS prérempli. Utile pour le feedback, les campagnes SMS bidirectionnelles et les inscriptions par mot-clé sur numéro court.",
+      "displayName": "SMS",
+      "faq": [
+        {
+          "q": "Le SMS part-il automatiquement ?",
+          "a": "Non. Le téléphone ouvre l'appli de messagerie par défaut avec destinataire et message préremplis, l'utilisateur confirme avant l'envoi. Même comportement de sécurité que le QR e-mail."
+        },
+        {
+          "q": "Puis-je l'utiliser avec un numéro court SMS ?",
+          "a": "Oui. Saisissez votre numéro court comme destinataire et le mot-clé (ex. « PIZZA ») comme message. Le QR devient une porte d'entrée sans friction vers votre campagne SMS."
+        }
+      ]
+    },
+    "phone": {
+      "eyebrow": "code QR téléphone",
+      "title": "Générateur gratuit de codes QR d'appel",
+      "sub": "Scannez pour lancer un appel vers le numéro de votre choix. Utile pour les panneaux d'appel de taxi, les cartes de rendez-vous médicaux, les panneaux immobiliers et tout support imprimé où « appelez-nous » est l'étape suivante.",
+      "metaTitle": "Générateur de codes QR d'appel téléphonique gratuit",
+      "metaDescription": "Générateur gratuit de codes QR téléphone, au scan, le clavier d'appel s'ouvre avec votre numéro déjà saisi. Sans inscription, sans expiration.",
+      "displayName": "Téléphone",
+      "faq": [
+        {
+          "q": "L'appel démarre-t-il automatiquement ?",
+          "a": "Non, le clavier d'appel s'ouvre avec le numéro prérempli, mais l'utilisateur doit appuyer sur Appeler. Les téléphones ne composent volontairement pas les codes QR automatiquement, pour éviter les abus."
+        },
+        {
+          "q": "Les indicatifs de pays fonctionneront-ils correctement ?",
+          "a": "Oui. Indiquez le format international complet (ex. +33 1 23 45 67 89) et le QR composera correctement depuis n'importe où. Sans indicatif de pays, le QR ne fonctionne qu'à l'intérieur du même pays."
+        }
+      ]
+    },
+    "text": {
+      "eyebrow": "code QR texte",
+      "title": "Générateur gratuit de codes QR texte",
+      "sub": "Encodez n'importe quelle chaîne jusqu'à ~4000 caractères dans un QR, un message caché, un numéro de série, un poème, un code de réduction, un identifiant d'inventaire. Ce que le téléphone lit, l'utilisateur le voit.",
+      "metaTitle": "Générateur de codes QR texte brut gratuit",
+      "metaDescription": "Générateur gratuit de codes QR texte brut. Encodez n'importe quelle chaîne, numéros de série, messages secrets, codes de réduction, dans un QR scannable. Sans inscription.",
+      "displayName": "Texte",
+      "faq": [
+        {
+          "q": "Combien de texte puis-je faire tenir dans un code QR ?",
+          "a": "Environ 2 953 caractères en correction d'erreur L (le niveau le plus permissif), mais plus la charge utile est grosse, plus le code est dense et exige une grande surface d'impression pour se scanner. Au-delà de ~500 caractères, envisagez plutôt un lien vers une URL."
+        },
+        {
+          "q": "Le téléphone ouvrira-t-il un lien si j'inclus « https:// » dans le texte ?",
+          "a": "La plupart des téléphones détectent les chaînes en forme d'URL et proposent de les ouvrir, même si le QR est en texte brut. Pour une gestion d'URL garantie, utilisez plutôt le type QR URL, il définit explicitement le schéma d'URL."
+        }
+      ]
+    },
+    "event": {
+      "eyebrow": "code QR événement",
+      "title": "Générateur gratuit de codes QR événement",
+      "sub": "Ajoutez l'événement au calendrier de l'utilisateur en un tap, titre, date, lieu et notes préremplis. Parfait pour les save-the-dates, les invitations de conférences, les pop-ups de restaurants et les flyers de webinaires.",
+      "metaTitle": "Générateur de codes QR événement / calendrier gratuit",
+      "metaDescription": "Générateur gratuit de codes QR événement. Encode un vEvent qui ajoute la réunion au calendrier Google / Apple / Outlook en un tap. Sans inscription.",
+      "displayName": "Événement",
+      "faq": [
+        {
+          "q": "Avec quelles applis de calendrier le QR événement fonctionne-t-il ?",
+          "a": "Toutes les grandes, Apple Calendar, Google Agenda, Outlook, ProtonMail Calendar. Le QR encode le standard iCalendar (vEvent), que toutes interprètent nativement."
+        },
+        {
+          "q": "Puis-je inclure un lien de réunion dans l'événement ?",
+          "a": "Oui, mettez le lien Zoom / Meet / Teams dans le champ notes. Quand l'utilisateur ouvre l'entrée de calendrier, son téléphone rend le lien cliquable pour rejoindre la réunion depuis l'appli de calendrier."
+        }
+      ]
+    },
+    "location": {
+      "eyebrow": "code QR localisation",
+      "title": "Générateur gratuit de codes QR de localisation",
+      "sub": "Déposez une épingle sur une carte en un scan, latitude + longitude qui s'ouvrent dans l'appli de cartes du téléphone. Utile pour la signalétique de lieux, les panneaux immobiliers et les flyers « nous trouver ».",
+      "metaTitle": "Générateur de codes QR localisation / GPS gratuit",
+      "metaDescription": "Générateur gratuit de codes QR de localisation, encode des coordonnées GPS qui s'ouvrent dans Apple Plans, Google Maps ou l'appli de cartes par défaut. Sans inscription.",
+      "displayName": "Localisation",
+      "faq": [
+        {
+          "q": "S'ouvrira-t-il dans Google Maps ou Apple Plans ?",
+          "a": "Dans l'appli par défaut du téléphone. Le QR encode le schéma geo:, que les deux applis prennent en charge, iOS choisit Apple Plans, Android choisit Google Maps, sauf si l'utilisateur a changé le défaut."
+        },
+        {
+          "q": "Quelle est la précision de l'épingle ?",
+          "a": "Aussi précise que les coordonnées que vous fournissez. Six décimales donnent une précision d'environ 10 cm, largement assez pour l'épingle de lieu la plus exigeante. Quatre décimales (~10 m) suffisent pour la plupart de la signalétique."
+        }
+      ]
+    },
+    "social": {
+      "eyebrow": "code QR réseaux sociaux",
+      "title": "Générateur gratuit de codes QR réseaux sociaux",
+      "sub": "Envoyez ceux qui scannent directement vers votre profil Instagram, TikTok, X (Twitter), LinkedIn ou YouTube. Souvent plus fiable que de demander à des inconnus de taper un pseudo.",
+      "metaTitle": "Générateur de codes QR réseaux sociaux gratuit",
+      "metaDescription": "Générateur gratuit de codes QR réseaux sociaux, Instagram, TikTok, X, LinkedIn, YouTube. Envoyez ceux qui scannent droit vers votre profil en un tap.",
+      "displayName": "Social",
+      "faq": [
+        {
+          "q": "Le QR ouvrira-t-il directement l'appli ou seulement le site web ?",
+          "a": "La plupart des plateformes gèrent le deep-linking, si l'utilisateur a l'appli installée, le scan ouvre le profil dans l'appli. Sans l'appli, le QR bascule vers le profil web. Dans les deux cas, l'utilisateur arrive chez vous."
+        },
+        {
+          "q": "Et si mon pseudo change ?",
+          "a": "Les codes statiques encodent le lien directement : un changement de pseudo signifie un nouveau QR. Si un changement de nom est probable, utilisez un code dynamique pointant vers une redirection que vous pouvez mettre à jour, le QR imprimé fonctionne pour toujours."
+        }
+      ]
+    },
+    "crypto": {
+      "eyebrow": "code QR crypto",
+      "title": "Générateur gratuit de codes QR de portefeuille crypto",
+      "sub": "Recevez du Bitcoin, de l'Ethereum, de l'USDT ou toute autre monnaie prise en charge sans taper des adresses de 42 caractères. Le portefeuille de la personne qui scanne remplit automatiquement le destinataire, moins de fautes de frappe, paiements plus rapides.",
+      "metaTitle": "Générateur de codes QR portefeuille crypto gratuit",
+      "metaDescription": "Générateur gratuit de codes QR de portefeuille crypto, recevez BTC, ETH, USDT et plus. Élimine les erreurs de copier-coller. Sans inscription.",
+      "displayName": "Crypto",
+      "faq": [
+        {
+          "q": "Quels portefeuilles sont pris en charge ?",
+          "a": "qr-cow génère les formats standard BIP-21 (Bitcoin), EIP-681 (Ethereum / EVM) et adresse seule. Ils sont reconnus par tous les grands portefeuilles, MetaMask, Trust Wallet, Phantom, Coinbase Wallet, Exodus, les portefeuilles matériels et les principales plateformes d'échange."
+        },
+        {
+          "q": "Puis-je inclure un montant dans le QR ?",
+          "a": "Oui. Les QR Bitcoin et Ethereum prennent en charge un champ montant, le portefeuille de la personne qui scanne préremplit l'écran d'envoi avec la valeur, l'utilisateur n'a qu'à confirmer. Un vrai gain de saisie sur les paiements de factures."
+        },
+        {
+          "q": "Correction d'erreur H, est-ce important ?",
+          "a": "Absolument. Les QR crypto sont le seul type où un caractère mal lu peut envoyer des fonds à la mauvaise adresse, pour toujours. La correction d'erreur H permet d'obscurcir 30 % des modules (logo, rayure, tache) sans empêcher le décodage correct. Utilisez toujours H pour la crypto."
+        }
+      ]
+    },
+    "app": {
+      "eyebrow": "code QR app store",
+      "title": "Générateur gratuit de codes QR app store",
+      "sub": "Dirigez les utilisateurs iOS vers l'App Store et les utilisateurs Android vers Google Play, depuis un seul QR. Les liens universels se résolvent automatiquement selon l'OS de l'utilisateur : le même code imprimé fonctionne pour les deux.",
+      "metaTitle": "Générateur de codes QR App Store gratuit",
+      "metaDescription": "Générateur gratuit de codes QR app store, un lien universel dirige iOS vers l'App Store et Android vers Google Play depuis un seul QR. Sans inscription.",
+      "displayName": "App store",
+      "faq": [
+        {
+          "q": "Ai-je besoin de deux QR différents pour iOS et Android ?",
+          "a": "Pas si vous utilisez une page d'atterrissage universelle. qr-cow peut générer un seul QR pointant vers une redirection : les utilisateurs iOS arrivent sur l'App Store, les utilisateurs Android sur Google Play. Vous économisez l'impression de deux codes séparés."
+        },
+        {
+          "q": "Puis-je suivre les installations d'appli depuis le QR ?",
+          "a": "Utilisez un QR dynamique plus un service de deferred deep linking (Branch, Adjust, AppsFlyer). Le code dynamique vous laisse changer la destination plus tard ; le service de deep linking attribue les installations au scan du QR."
+        }
+      ]
+    },
+    "hub": {
+      "eyebrow": "Types de QR code",
+      "h1": "Treize types de QR. Un seul studio.",
+      "sub": "Treize types de contenu, un seul studio. Chacun a sa page avec des conseils propres au format, ou allez directement au <studio>studio</studio> universel et choisissez le type sur place.",
+      "ctaStudio": "Ouvrir le studio",
+      "ctaPricing": "Voir les tarifs",
+      "cardTitle": "QR code {type}",
+      "cardCta": "Ouvrir le générateur →",
+      "metaTitle": "Types de QR code, tout ce que qr-cow sait créer",
+      "metaDescription": "Choisissez un type de QR code et lancez-vous, URL, Wi-Fi, vCard, MeCard, e-mail, SMS, téléphone, événement, lieu, réseaux, crypto, app. Tous gratuits, sans inscription."
+    }
+  },
+  "alternativesPage": {
+    "index": {
+      "metaTitle": "Alternatives aux générateurs de codes QR, choix honnêtes par cas d'usage",
+      "metaDescription": "Vous hésitez sur le générateur de QR à choisir ? Des alternatives à Canva, QR.io et d'autres outils populaires, et quand il vaut mieux ne pas changer. Des choix honnêtes, par cas d'usage.",
+      "ogTitle": "Alternatives aux générateurs de codes QR",
+      "ogDescription": "Des alternatives à Canva, QR.io et d'autres outils de codes QR, des choix honnêtes par cas d'usage.",
+      "eyebrow": "Alternatives",
+      "title": "Vous hésitez sur le générateur de QR à choisir ? Lisez ceci d'abord.",
+      "subtitle": "Chaque outil de QR résout un problème légèrement différent. Ces pages commencent par les raisons qui poussent à quitter un outil donné, puis montrent si qr-cow est vraiment la bonne destination, ou si rester est le choix honnête.",
+      "cardTitle": "Alternative à {name}",
+      "cardCta": "Lire l'avis honnête →",
+      "compareCalloutPrefix": "Vous cherchez un face-à-face plutôt qu'un guide de migration ? Lisez les",
+      "compareCalloutLink": "pages « vs »",
+      "compareCalloutSuffix": "les mêmes concurrents, dans un cadre neutre."
+    },
+    "detail": {
+      "metaTitle": "Alternative à {name}, essayez qr-cow (gratuit, sans inscription)",
+      "metaDescription": "Vous cherchez une alternative à {name} ? qr-cow est gratuit pour les codes statiques, propose codes dynamiques + statistiques des scans dès 3 $/mois, et offre une API + un serveur MCP. Voici le comparatif honnête.",
+      "breadcrumbHome": "Accueil",
+      "breadcrumbIndex": "Alternatives",
+      "breadcrumbCurrent": "Alternative à {name}",
+      "eyebrow": "Alternative à {name}",
+      "title": "Vous cherchez une alternative à {name} ? Essayez qr-cow.",
+      "tldrLabel": "En bref :",
+      "tldr": "qr-cow est gratuit pour les codes QR statiques, propose les codes dynamiques et l'statistiques par scan dès 3 $/mois, et expose à la fois une API REST et un serveur MCP. Si l'une des raisons ci-dessous correspond à la vôtre, la migration prend quelques minutes.",
+      "ctaTry": "Essayer qr-cow gratuitement",
+      "ctaHeadToHead": "Voir le face-à-face",
+      "reasonsEyebrow": "Pourquoi chercher une alternative à {name}",
+      "reasonsTitle": "Les raisons les plus courantes",
+      "positioningEyebrow": "Positionnement",
+      "positioningTitle": "qr-cow comme alternative à {name}",
+      "theyDoWell": "Ce que {name} fait bien",
+      "wePullAhead": "Là où qr-cow prend l'avantage",
+      "tableEyebrow": "Comparaison des fonctionnalités",
+      "tableTitle": "{name} vs qr-cow, côte à côte",
+      "thFeature": "Fonctionnalité",
+      "thQrcow": "qr-cow",
+      "whoShouldSwitch": "Qui devrait changer",
+      "whoShouldStay": "Qui devrait rester sur {name}",
+      "migrationEyebrow": "Parcours de migration",
+      "migrationTitle": "Comment la migration se passe concrètement",
+      "migrationBulkPrefix": "Des créations en masse ? Utilisez l'",
+      "migrationBulkLink": "API REST ou le serveur MCP",
+      "migrationBulkMid": "pour scripter toute la reconstruction, écrivez à",
+      "migrationBulkSuffix": "si vous avez besoin d'un coup de main.",
+      "faqEyebrow": "Questions fréquentes",
+      "faqTitle": "FAQ",
+      "faqRealAltQ": "qr-cow est-il une vraie alternative à {name} ?",
+      "faqRealAltA": "Oui, spécifiquement pour le travail sur les codes QR. C'est un générateur de QR conçu pour ça, il ne remplace pas tout ce que {name} fait par ailleurs, il fait simplement la partie QR moins cher et avec plus de suivi.",
+      "faqRealAltAFull": "Oui, spécifiquement pour le travail sur les codes QR. qr-cow est un générateur de QR conçu pour ça, avec des codes dynamiques, l'statistiques des scans par code, 13 types de contenu, une API REST et un serveur MCP. Il ne remplace pas {name} pour tout ce que {name} fait bien par ailleurs, il fait simplement la partie QR moins cher et avec plus de suivi.",
+      "faqWhatCanQ": "Que peut faire qr-cow que {name} ne peut pas ?",
+      "faqFreeQ": "qr-cow est-il gratuit ?",
+      "faqFreeA": "Les codes QR statiques sont gratuits pour toujours, sans inscription. Les codes dynamiques avec statistiques des scans démarrent à 3 $/mois, et l'accès API coûte 9 $/mois. La facturation est uniquement en crypto (USDT, BTC, ETH).",
+      "faqSwitchQ": "Comment migrer depuis {name} ?",
+      "faqSwitchQFull": "Comment migrer de {name} vers qr-cow ?",
+      "faqSwitchFallback": "Il n'y a pas d'outil d'import, régénérez la destination dans qr-cow, imprimez le remplacement, changez le support physique.",
+      "ctaFinalTitle": "Prêt à essayer l'alternative à {name} ?",
+      "ctaFinalBody": "Ouvrez le studio, choisissez un type de contenu, téléchargez. Sans inscription pour les codes statiques. Inscrivez-vous pour les codes dynamiques + l'statistiques quand vous voulez.",
+      "ctaOpenStudio": "Ouvrir le studio",
+      "ctaPricing": "Voir les tarifs"
+    },
+    "items": {
+      "canva": {
+        "alternativeReasons": [
+          "Vous avez besoin de codes QR dynamiques, ceux que l'on peut éditer après impression. Les QR de Canva sont figés dans le design et ne peuvent pas être redirigés.",
+          "Vous avez besoin de savoir si quelqu'un a réellement scanné le code. Canva n'a aucune statistiques des scans.",
+          "Vous voulez des QR Wi-Fi, vCard, crypto ou app store. Canva propose URL / texte / e-mail / téléphone, et s'arrête là.",
+          "Vous n'allez pas payer 15 $/mois pour Canva Pro juste pour faire un QR, la suite de design est tarifée pour des mises en page complètes, pas pour un seul code.",
+          "Vous voulez générer des QR depuis un script, un agent ou un pipeline CI. Canva ne s'utilise qu'en interface graphique.",
+          "Vous êtes tout simplement en dehors d'un workflow Canva, un designer qui paie Canva n'aide pas l’équipe ops qui a besoin d'un code Wi-Fi pour demain."
+        ],
+        "switchingNote": "Il n'y a rien à migrer. Les codes QR créés dans Canva sont des PNG statiques, une fois imprimés, ils pointent où ils pointent. Régénérez la même destination dans qr-cow en code dynamique, remplacez le support imprimé à la prochaine réimpression, et vous pourrez ensuite éditer la destination sans nouveau tirage."
+      },
+      "qr_io": {
+        "alternativeReasons": [
+          "Vous voulez créer un seul code sans payer. QR.io fonctionne uniquement par abonnement, même un seul QR exige un plan payant après l'essai.",
+          "Vous ne pouvez pas utiliser de carte bancaire. QR.io ne passe que par Stripe ; qr-cow facture en USDT, BTC et ETH.",
+          "Vous construisez sur des agents IA. qr-cow fournit un serveur MCP pour Claude, Cursor et Zed, l'API de QR.io est uniquement REST et réservée à un palier supérieur.",
+          "Vous voulez essayer les codes dynamiques sans compte à rebours d'essai. qr-cow vous donne trois codes dynamiques gratuits pour toujours, sans carte.",
+          "L'essai a expiré et vous n'avez pas besoin des fonctions enterprise. Rétrograder sur QR.io fait perdre l'statistiques ; l'offre à 3 $/mois de qr-cow la conserve.",
+          "Vous voulez un outil indépendant. QR.io est financé par du capital-risque, avec des parcours commerciaux de montée en gamme ; qr-cow est une petite boutique familiale indépendante aux prix ronds."
+        ],
+        "switchingNote": "Les codes créés dans QR.io qui étaient STATIQUES (URL encodée en dur) fonctionnent déjà, l'image imprimée ne cesse pas d'être scannable quand votre abonnement expire. Les codes qui étaient DYNAMIQUES (lien court QR.io) cessent de rediriger le jour où votre compte expire. Régénérez-les dans qr-cow en nouveaux codes dynamiques, imprimez le remplacement et changez le support physique. Il n'y a pas encore d'import CSV, donc les migrations en masse passent par l'API."
+      }
+    }
+  },
+  "scanPage": {
+    "metaTitle": "Comment scanner un code QR, tous les téléphones, sans appli",
+    "metaDescription": "Tous les iPhone et Android modernes scannent les codes QR nativement depuis l'appli appareil photo. Voici la marche à suivre en deux secondes, et quoi faire si ça ne marche pas.",
+    "ogDescription": "Tous les iPhone et Android modernes scannent les codes QR nativement. Voici comment, et quoi faire si ça ne marche pas.",
+    "eyebrow": "Comment scanner",
+    "h1": "Vous avez déjà un scanner de QR. Il est dans votre appareil photo.",
+    "intro": "Tous les iPhone depuis 2017 et tous les Android depuis 2019 scannent les codes QR nativement, sans rien installer. Voici comment, et quoi essayer si l'appareil photo ne coopère pas.",
+    "ctaGenerate": "Créez plutôt un code QR",
+    "ctaDesign": "Règles de design pour bien scanner",
+    "iosTitle": "iPhone (iOS 11+)",
+    "androidTitle": "Android (9+)",
+    "iosSteps": {
+      "s1": "Ouvrez l'appli Appareil photo (celle par défaut, aucune appli supplémentaire nécessaire).",
+      "s2": "Pointez l'appareil photo vers le code QR, inutile de toucher l'écran, restez simplement stable.",
+      "s3": "Une bannière de notification jaune apparaît en haut. Touchez-la pour ouvrir le lien ou l'action."
+    },
+    "androidSteps": {
+      "s1": "Ouvrez l'appli Appareil photo (ou déroulez les Réglages rapides et touchez Google Lens).",
+      "s2": "Pointez l'appareil photo vers le code QR.",
+      "s3": "Un bouton apparaît avec le lien ou l'action. Touchez-le.",
+      "s4": "Sur les téléphones Pixel et Samsung, l'appareil photo détecte les codes QR automatiquement. Sur les Android plus anciens (≤ 8), utilisez Google Lens ou n'importe quelle appli de scan gratuite."
+    },
+    "troubleTitle": "Dépannage",
+    "trouble": {
+      "noBanner": {
+        "q": "L'appareil photo montre le QR mais aucune bannière n'apparaît.",
+        "a": "Vérifiez que le scan de QR est activé. Sur iOS : Réglages → Appareil photo → Scanner les codes QR. Sur Android : Paramètres → Applications → Appareil photo → Autorisations, et vérifiez que Google Lens est activé."
+      },
+      "tooSmall": {
+        "q": "Le QR est trop petit ou trop flou pour être scanné.",
+        "a": "Tenez le téléphone à 15-30 cm, plus près, l'appareil photo ne peut pas faire la mise au point. Si le QR fait moins de ~2 cm de large, demandez une version plus grande à la personne qui l'a imprimé. En dessous de 2 cm × 2 cm, on passe sous le pouvoir de résolution pratique de la plupart des appareils photo."
+      },
+      "onScreen": {
+        "q": "Le QR est sur l'écran de mon ordinateur, puis-je le scanner avec mon téléphone ?",
+        "a": "Oui. Tenez votre téléphone devant l'écran. Les reflets peuvent perturber l'autofocus, inclinez légèrement l'écran pour les éliminer."
+      },
+      "trust": {
+        "q": "Je ne fais pas confiance au lien affiché par le QR.",
+        "a": "Bon réflexe. L'appareil photo affiche l'URL avant de l'ouvrir, lisez-la. Évitez de scanner des codes QR dans des endroits douteux (autocollant collé sur un horodateur, prospectus abandonné) et ne saisissez jamais de mots de passe sur une page atteinte via un QR que vous n'avez pas créé vous-même."
+      }
+    },
+    "footerNote": "qr-cow hébergeait ici un scanner par webcam dans le navigateur. Nous l'avons retiré parce que chaque téléphone fait déjà mieux ce travail, mais si vous scannez depuis un ordinateur portable sans téléphone à portée de main, une extension Chrome gratuite comme <link>QR Code Reader</link> peut dépanner. Nous nous concentrons sur la création des codes, pas sur leur lecture."
+  },
+  "extensionPage": {
+    "metaTitle": "Extension navigateur pour Firefox et Chrome, codes QR en un clic",
+    "metaDescription": "Transformez n'importe quelle page, lien ou texte sélectionné en code QR stylé, directement dans votre navigateur. Gratuit, hors ligne, privé, sans compte. Pour Firefox et Chrome.",
+    "eyebrow": "Extension navigateur",
+    "h1": "N'importe quelle page. Un clic. Un code QR stylé.",
+    "intro": "L'extension qr-cow transforme la page ouverte, un lien ou le texte sélectionné en code QR stylé. Tout est généré dans votre navigateur avec les mêmes designs que le studio : le résultat est identique au pixel près.",
+    "privacyPill": "Hors ligne. Aucune donnée collectée.",
+    "ctaFirefox": "Obtenir pour Firefox",
+    "ctaChrome": "Obtenir pour Chrome",
+    "comingSoon": "Bientôt",
+    "storeNote": "Les deux fiches sont en cours de validation. L'extension est gratuite.",
+    "feat": {
+      "oneClick": {
+        "title": "Un clic, déjà rempli",
+        "body": "Ouvrez le popup : l'URL de l'onglet actuel est déjà encodée. Faites un clic droit sur un lien ou un texte sélectionné pour l'encoder à la place."
+      },
+      "presets": {
+        "title": "16 presets de design",
+        "body": "Les mêmes dégradés, formes de points et couleurs que qr-cow.com, avec une vérification de lisibilité en direct avant impression."
+      },
+      "types": {
+        "title": "13 types de contenu",
+        "body": "URL, Wi-Fi, vCard, e-mail, SMS, événements, position, crypto et plus, avec les mêmes encodeurs que le studio."
+      },
+      "privacy": {
+        "title": "Privé par conception",
+        "body": "Zéro requête réseau. Rien de ce que vous encodez ne quitte votre machine : pas de compte, pas de pistage, pas d'analytics."
+      }
+    },
+    "shotMainAlt": "Popup de l'extension qr-cow avec un code QR stylé pour la page actuelle",
+    "shotStyleAlt": "Popup de l'extension avec le preset dégradé Océan",
+    "shotStyleCaption": "Presets et couleurs personnalisées",
+    "shotRtlAlt": "Popup de l'extension en persan, disposition de droite à gauche",
+    "shotRtlCaption": "10 langues, RTL inclus",
+    "howTitle": "Comment ça marche",
+    "how1": "Installez l'extension et cliquez sur le bouton qr-cow sur n'importe quelle page.",
+    "how2": "Ou faites un clic droit sur un lien ou un texte sélectionné et choisissez l'option code QR.",
+    "how3": "Choisissez un preset, puis téléchargez en PNG ou SVG, ou copiez l'image dans le presse-papiers.",
+    "faqTitle": "Questions",
+    "faq1q": "Est-ce gratuit ?",
+    "faq1a": "Oui. L'extension est gratuite et crée des codes QR statiques illimités, sans compte.",
+    "faq2q": "Collecte-t-elle des données ?",
+    "faq2a": "Non. Elle n'émet aucune requête réseau. Les codes sont générés localement dans votre navigateur et ne quittent jamais votre machine.",
+    "faq3q": "Les codes sont-ils identiques à ceux de qr-cow.com ?",
+    "faq3a": "Oui. L'extension embarque le même moteur de rendu et les mêmes 16 presets que le studio : le résultat est identique.",
+    "faq4q": "Peut-elle créer des codes QR dynamiques ?",
+    "faq4a": "Les codes statiques sont illimités et gratuits dans l'extension. Les codes dynamiques, modifiables après impression avec statistiques de scan, sont dans le studio complet à partir de 3 $ par mois.",
+    "dynamicNotePrefix": "Besoin de codes modifiables avec statistiques de scan ?",
+    "dynamicNoteLink": "Voir les tarifs du QR dynamique"
+  },
+  "offlinePage": {
+    "metaTitle": "Hors ligne",
+    "metaDescription": "qr-cow a besoin d'une connexion internet pour la plupart de ses fonctionnalités.",
+    "title": "Vous êtes hors ligne",
+    "body": "qr-cow a besoin du réseau pour générer de nouveaux codes et charger votre tableau de bord. Reconnectez-vous et réessayez, vos designs sont sauvegardés sur votre appareil jusqu'à ce que nous puissions synchroniser.",
+    "retry": "Réessayer",
+    "home": "Accueil"
+  },
+  "privacyPage": {
+    "metaTitle": "Politique de confidentialité",
+    "metaDescription": "Politique de confidentialité de qr-cow : quelles données nous collectons, pourquoi nous les collectons, avec qui nous les partageons et comment les supprimer. Langage clair ; aucun dark pattern.",
+    "ogTitle": "Politique de confidentialité de qr-cow",
+    "ogDescription": "Politique de confidentialité en langage clair. Pas de revente de données, pas d'ad tech, pas d'entraînement d'IA. Ce que nous collectons et comment le supprimer.",
+    "governingNote": "Cette traduction est fournie pour votre confort ; la version anglaise fait foi.",
+    "eyebrow": "Confidentialité",
+    "h1": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : {date}",
+    "intro": "Nous collectons le strict minimum pour faire fonctionner qr-cow. Les QR codes statiques ne demandent aucun compte. Les codes dynamiques demandent un e-mail et un mot de passe. Nous ne vendons pas vos données, nous n'affichons pas de publicité, et vous pouvez tout supprimer en un clic.",
+    "whoWeAre": "Qui nous sommes",
+    "whoWeAreBody": "qr-cow est exploité par la famille HSN, un petit groupe d’ingénieurs qui fait tourner le site de manière indépendante. Il n'y a pas de société mère. Au sens du RGPD, nous sommes le responsable du traitement pour tout ce qui est décrit ci-dessous.",
+    "whatWeCollect": "Ce que nous collectons",
+    "freeTitle": "Si vous utilisez uniquement le studio gratuit (sans compte)",
+    "free1Title": "Rien de personnel.",
+    "free1Body": "Le code QR que vous concevez est généré dans votre navigateur et ne nous est jamais envoyé. Nous ne savons pas qui vous êtes.",
+    "free2Title": "Aperçu de secours côté serveur.",
+    "free2Body": "Si votre navigateur ne peut pas afficher l'aperçu stylisé, la chaîne encodée nous est envoyée une fois pour générer un PNG. Nous journalisons la requête avec IP + user-agent à des fins de prévention du spam et supprimons les deux après 30 jours. Le contenu encodé n'est pas stocké.",
+    "accountTitle": "Si vous créez un compte",
+    "acc1Title": "E-mail + hachage du mot de passe.",
+    "acc1Body": "Utilisés pour vous connecter et vous joindre si vous perdez l'accès. Le mot de passe est haché avec bcrypt ; nous ne voyons jamais votre mot de passe en clair.",
+    "acc2Title": "Identifiant OAuth",
+    "acc2Body": "(si vous vous êtes inscrit avec Google ou Facebook). Uniquement l'identifiant utilisateur du fournisseur ; nous ne demandons jamais vos contacts, photos ou quoi que ce soit d'autre.",
+    "acc3Title": "Les codes QR que vous enregistrez.",
+    "acc3Body": "Leur contenu, leur design, leur nom et la cible de redirection dynamique s'il s'agit d'un code dynamique.",
+    "scanTitle": "Événements de scan sur vos codes dynamiques",
+    "scanIntro": "Chaque fois que quelqu'un scanne un code QR dynamique qui vous appartient, nous enregistrons une ligne contenant :",
+    "scan1": "L'id du code QR (pour savoir qu'il est à vous).",
+    "scan2": "L'horodatage.",
+    "scan3": "Le code pays, le type d'appareil (téléphone / tablette / ordinateur) et la famille d'OS, dérivés du user-agent + de l'IP du scanneur, sans stocker l'IP brute elle-même. Nous utilisons une résolution grossière IP-vers-pays et supprimons l'IP immédiatement.",
+    "scanOutro": "Nous ne stockons <strong>pas</strong> l'adresse IP du scanneur, sa localisation exacte, l'empreinte de son navigateur, d'ad-id ni aucun identifiant inter-sites. L'statistiques que vous voyez dans le tableau de bord est agrégée à partir de ces données.",
+    "payTitle": "Si vous payez un abonnement",
+    "pay1Title": "Métadonnées de paiement.",
+    "pay1Body": "Code du plan, montant, statut de la transaction et id de facture NowPayments. Nous ne voyons <strong>pas</strong> votre adresse de portefeuille, votre solde ni votre historique de transactions au-delà de la facture spécifique que vous avez payée.",
+    "pay2Title": "Aucune donnée de carte bancaire.",
+    "pay2Body": "qr-cow est crypto uniquement, il n'y a donc aucun numéro de carte à mal gérer.",
+    "whatWeDo": "Ce que nous en faisons",
+    "do1": "Faire fonctionner votre compte.",
+    "do2": "Générer et servir vos codes QR.",
+    "do3": "Vous montrer l'statistiques de vos codes dynamiques.",
+    "do4": "Vous envoyer des e-mails transactionnels, confirmation d'inscription, réinitialisation de mot de passe, reçu de paiement. Il n'y a pas de liste marketing dont se désinscrire, car nous n'envoyons pas d'e-mails marketing.",
+    "do5": "Diagnostiquer les abus et les paiements échoués. La protection anti-abus sur l'authentification utilise un signal de limitation de débit à courte durée de vie, supprimé au bout d'une minute.",
+    "whatWeDont": "Ce que nous ne faisons pas",
+    "dont1Title": "Pas d'ad tech, pas de courtiers en données.",
+    "dont1Body": "Jamais de Meta Pixel, de LinkedIn Insight ni de réseau publicitaire ou de reciblage. En revanche nous utilisons trois outils d'analytique et de fiabilité : Google Analytics pour le trafic, Microsoft Clarity pour les heatmaps et les rejeux de session anonymisés, et Sentry pour les rapports d'erreur. Tout ce que vous saisissez dans le studio (URL, mots de passe Wi-Fi, adresses de portefeuille, coordonnées) est masqué avant de quitter votre navigateur : ces outils ne le reçoivent jamais.",
+    "dont2Title": "Aucune vente de données.",
+    "dont2Body": "Vos statistiques de scan restent entre vous et nous. Nous ne vendons pas non plus de « données sectorielles » agrégées.",
+    "dont3Title": "Aucun entraînement d'IA.",
+    "dont3Body": "Votre contenu QR, vos données de scan et vos données de compte ne servent à entraîner aucun modèle d'apprentissage automatique, ni le nôtre, ni celui de qui que ce soit d'autre.",
+    "dont4Title": "Aucun sous-traitant non déclaré.",
+    "dont4Body": "La liste ci-dessous est la liste complète.",
+    "whoElse": "Qui d'autre reçoit les données",
+    "whoElseIntro": "Quatre sous-traitants nommément désignés, point final :",
+    "privacyLabel": "Confidentialité :",
+    "sub1Name": "Cloudflare",
+    "sub1Body": "DNS, CDN, protection DDoS. Voit les métadonnées des requêtes en transit.",
+    "sub2Name": "NowPayments",
+    "sub2Body": "paiement crypto. Voit l'id de la facture, le montant et le portefeuille depuis lequel vous payez.",
+    "sub3Name": "OAuth Google / Facebook",
+    "sub3Body": "(uniquement si vous choisissez de vous connecter avec eux), voient que vous vous êtes connecté à qr-cow. Leurs politiques de confidentialité respectives s'appliquent.",
+    "sub4Name": "Brevo (ou notre fournisseur SMTP)",
+    "sub4Body": "voit l'adresse du destinataire + l'objet des e-mails transactionnels. Le corps est le modèle standard décrit plus haut ; rien de sensible ne figure dans l'objet.",
+    "cookies": "Cookies + stockage local",
+    "cookie1Title": "Jetons d'authentification",
+    "cookie1Body": "(qc.access, qc.refresh), conservés dans le localStorage pour que vous restiez connecté entre les rechargements. Basés sur JWT ; la déconnexion efface les deux.",
+    "cookie2Title": "Préférence de thème",
+    "cookie2Body": "(qc.theme), mode clair/sombre, défini une fois quand vous actionnez l'interrupteur. Reste sur votre appareil.",
+    "cookie3Title": "Turnstile de Cloudflare",
+    "cookie3Body": "un cookie anti-bot posé uniquement à la connexion + à l'inscription. Supprimé par Cloudflare après la requête.",
+    "cookiesOutro": "Aucun cookie publicitaire, aucun identifiant publicitaire inter-sites. Google Analytics et Microsoft Clarity déposent leurs propres cookies pour compter les visites et reconstituer une session. Si vous préférez ne pas être mesuré, n'importe quel bloqueur ou l'option Do Not Track les arrête, et le site fonctionne exactement pareil.",
+    "retention": "Combien de temps nous les conservons",
+    "keep1Title": "Données de compte :",
+    "keep1Body": "tant que votre compte existe. Supprimez le compte dans votre tableau de bord et tout disparaît sous 24 heures.",
+    "keep2Title": "Événements de scan :",
+    "keep2Body": "conservés pendant toute la durée de vie du code QR dynamique, puis supprimés quand vous supprimez le code. Les codes en suppression douce sont purgés après 30 jours.",
+    "keep3Title": "Journaux d'aperçu côté serveur :",
+    "keep3Body": "30 jours, puis rotation.",
+    "keep4Title": "Registres de paiement :",
+    "keep4Body": "7 ans. Obligatoire pour respecter le droit fiscal de l'UE (ce n'est pas un choix que nous ferions autrement).",
+    "keep5Title": "Sauvegardes :",
+    "keep5Body": "instantanés chaque nuit, conservés 30 jours, puis rotation. La suppression prend effet sur les sauvegardes dans cette fenêtre.",
+    "rights": "Vos droits",
+    "rightsIntro": "En vertu du RGPD (UE/Royaume-Uni), de la CCPA (Californie) et de leurs équivalents ailleurs, vous pouvez :",
+    "right1Title": "Accéder",
+    "right1Body": "demander un export JSON de tout ce que nous détenons sur vous. Les mêmes données que le tableau de bord affiche déjà.",
+    "right2Title": "Rectifier",
+    "right2Body": "modifier votre e-mail, votre nom complet ou le contenu de vos QR directement dans le tableau de bord.",
+    "right3Title": "Supprimer",
+    "right3Body": "un bouton dans Tableau de bord → Compte. Suppression définitive sous 24 heures ; les sauvegardes sont purgées sous 30 jours.",
+    "right4Title": "Vous opposer",
+    "right4Body": "à tout traitement que vous jugez injustifié. Écrivez-nous ; soit nous vous expliquons pourquoi, soit nous arrêtons.",
+    "right5Title": "Déposer une réclamation",
+    "right5Body": "auprès de votre autorité de contrôle locale si vous estimez que nous avons fauté.",
+    "rightsOutro": "Écrivez à <email>privacy@qr-cow.com</email> pour exercer l'un de ces droits. Nous visons une réponse sous 7 jours ; le délai légal est de 30.",
+    "whereData": "Où vivent les données",
+    "whereDataBody": "La base de données principale est dans l'UE. Cloudflare relaie le trafic mondialement et met en cache les ressources statiques. NowPayments opère dans la juridiction déclarée sur son site. Si votre juridiction exige une mention explicite de transfert transfrontalier, notre équivalent des clauses contractuelles types est en vigueur avec chacun des sous-traitants ci-dessus.",
+    "children": "Mineurs",
+    "childrenBody": "qr-cow n'est pas conçu pour les utilisateurs de moins de 13 ans. Si vous êtes parent et que votre enfant a créé un compte, écrivez-nous ; nous le supprimerons.",
+    "changes": "Modifications",
+    "changesBody": "Les modifications substantielles sont envoyées par e-mail à chaque titulaire de compte au moins 14 jours avant leur entrée en vigueur, et la date de « Dernière mise à jour » ci-dessus est avancée. Les modifications mineures (corrections de coquilles, mises à jour de liens) ne donnent lieu qu'à une discrète mise à jour de la date.",
+    "contact": "Contact",
+    "contactBody": "<privacyEmail>privacy@qr-cow.com</privacyEmail> pour tout ce qui touche à la confidentialité, ou <hiEmail>hi@qr-cow.com</hiEmail> pour les questions générales. Nous lisons tout ; attendez-vous à une réponse sous quelques jours ouvrés.",
+    "seeAlso": "Voir aussi :",
+    "termsLink": "Conditions d'utilisation",
+    "aboutLink": "À propos de qr-cow"
+  },
+  "termsPage": {
+    "metaTitle": "Conditions d'utilisation",
+    "metaDescription": "Conditions d'utilisation de qr-cow : responsabilités liées au compte, usage acceptable, conditions de paiement crypto uniquement, remboursements, responsabilité. Langage clair, sans surprises.",
+    "ogTitle": "Conditions d'utilisation de qr-cow",
+    "ogDescription": "Des conditions en langage clair. Responsabilités du compte, usage acceptable, paiements crypto, remboursements, résiliation, responsabilité.",
+    "governingNote": "Cette traduction est fournie pour votre confort ; la version anglaise fait foi.",
+    "eyebrow": "Conditions",
+    "h1": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : {date}",
+    "intro": "Ces conditions régissent votre utilisation de qr-cow. En créant un compte ou en utilisant le studio, vous les acceptez. Elles sont volontairement rédigées en langage clair ; si un passage vous semble du jargon juridique, vous pouvez nous écrire pour obtenir une version en langage courant de cette clause.",
+    "s1Title": "1. Ce qu'est qr-cow",
+    "s1Body": "qr-cow est un service web pour concevoir, héberger et suivre des codes QR. Les codes statiques sont gratuits et ne nécessitent pas de compte. Les codes dynamiques (destination modifiable + statistiques des scans) nécessitent un abonnement payant. La liste complète des fonctionnalités se trouve sur <pricingLink>/pricing</pricingLink>.",
+    "s2Title": "2. Votre compte",
+    "s2Item1": "Vous êtes responsable de garder secrets votre mot de passe et vos éventuels jetons d'API. Révoquez un jeton dans <apiLink>/dashboard/api</apiLink> dès que vous pensez qu'il a été vu par quelqu'un d'autre.",
+    "s2Item2": "Une personne, un compte. Ne partagez pas vos identifiants avec des collègues, créez des comptes séparés. Nous ne facturons pas au siège ; cette règle sert uniquement à pouvoir tenir la bonne personne pour responsable si quelque chose tourne mal.",
+    "s2Item3": "Vous devez avoir au moins 13 ans pour vous inscrire. Si vous êtes dans une juridiction où l'âge du consentement numérique est plus élevé (16 ans dans certains États de l'UE), c'est cet âge qui s'applique.",
+    "s2Item4": "Vous êtes responsable de tout ce qui est fait via votre compte, y compris par toute personne à qui vous donnez votre mot de passe.",
+    "s3Title": "3. Usage acceptable",
+    "s3Intro": "Vous vous engagez à ne pas faire pointer des codes QR qr-cow vers, ni utiliser le service pour :",
+    "s3Item1": "Distribuer des logiciels malveillants, des virus ou toute autre chose conçue pour endommager un appareil.",
+    "s3Item2": "Mener des campagnes de phishing ou tout autre dispositif de collecte d'identifiants. Les redirections dynamiques qui imitent la page de connexion d'une marque légitime mènent tout droit à la résiliation du compte.",
+    "s3Item3": "Distribuer du CSAM, du contenu terroriste ou toute autre chose illégale dans la juridiction de l'utilisateur ou de qr-cow.",
+    "s3Item4": "Faire du spam, envoyer des messages non sollicités, aspirer l'API pour récolter des données ou abuser autrement des endpoints à débit limité.",
+    "s3Item5": "Revendre qr-cow comme votre propre service sans accord écrit (utilisez l'<docsLink>API</docsLink> + un abonnement payant pour des intégrations bâties sur qr-cow, c'est autorisé et encouragé).",
+    "s3Item6": "Contourner les mesures de sécurité : rétro-ingénierie des limites de débit, aspiration derrière la barrière d'authentification, etc.",
+    "s3Outro": "Nous suspendrons tout compte dès que nous aurons des preuves crédibles de l'un des points ci-dessus, rembourserons toute portion non utilisée d'une période payée et signalerons le contenu illégal à l'autorité compétente.",
+    "s4Title": "4. Votre contenu",
+    "s4Item1": "Vous êtes propriétaire de tout ce que vous téléversez, contenu QR, configurations de design, logos. Nous n'en revendiquons aucune propriété.",
+    "s4Item2": "Vous nous accordez une licence non exclusive pour héberger, générer et servir ce contenu aux fins d'exploitation de qr-cow. Résilier votre abonnement ou supprimer le code QR révoque la licence.",
+    "s4Item3": "Nous pouvons faire figurer vos codes anonymement dans des statistiques agrégées (p. ex. « qr-cow a servi X scans ce mois-ci »), mais jamais avec des données identifiantes. Nous n'utilisons jamais votre contenu pour entraîner des modèles de ML.",
+    "s5Title": "5. Abonnements payants",
+    "s5PricingTitle": "Tarifs :",
+    "s5PricingBody": "ceux affichés sur <pricingLink>/pricing</pricingLink> au moment de votre souscription. Nous pouvons modifier les tarifs pour les nouvelles inscriptions à tout moment ; les abonnés existants conservent leur tarif actuel tant qu'ils restent abonnés.",
+    "s5PaymentTitle": "Paiement :",
+    "s5PaymentBody": "crypto uniquement (USDT, BTC, ETH, LTC, DOGE, TRX), via NowPayments. Une fois votre paiement confirmé sur la chaîne, votre abonnement s'active et court pendant 30 jours.",
+    "s5RenewalTitle": "Renouvellement :",
+    "s5RenewalBody": "manuel. Nous ne renouvelons pas automatiquement, car les abonnements en crypto ne peuvent raisonnablement pas se débiter tout seuls. Vous recevrez un e-mail de rappel quelques jours avant la fin de votre période.",
+    "s5CancelTitle": "Résiliation :",
+    "s5CancelBody": "arrêtez simplement de payer. Vos codes dynamiques continuent de rediriger jusqu'à la date couverte par votre paiement ; ensuite, la redirection renvoie 410 Gone. L'statistiques continue de s'accumuler, en lecture seule, pendant les 30 jours suivant l'expiration, puis est supprimée.",
+    "s5RefundsTitle": "Remboursements :",
+    "s5RefundsBody": "les 7 premiers jours de tout nouvel abonnement donnent droit à un remboursement intégral, sans justification. Écrivez à <billingEmail>billing@qr-cow.com</billingEmail> et nous renverrons les fonds vers le même portefeuille. Après le 7e jour, aucun remboursement.",
+    "s5TaxTitle": "Taxes :",
+    "s5TaxBody": "les prix s'entendent hors TVA. Là où votre juridiction l'exige, votre facture inclura la taxe locale applicable.",
+    "s6Title": "6. Disponibilité du service",
+    "s6Body1": "Nous visons 99,9 % de disponibilité, mesurée mensuellement. Nous n'offrons pas de SLA contractuel ni de crédits de service sur les offres grand public ; cela nous permettrait de faire passer les quelques heures d'indisponibilité annuelles pour une caractéristique produit significative, ce qu'elles ne sont pas. État du service : <hiEmail>écrivez-nous</hiEmail> si vous pensez que le site est en panne.",
+    "s6Body2": "La maintenance planifiée a lieu aux heures creuses européennes et est annoncée dans le tableau de bord un jour à l'avance.",
+    "s7Title": "7. Résiliation",
+    "s7YouTitle": "Vous pouvez résilier",
+    "s7YouBody": "à tout moment, supprimez votre compte dans Tableau de bord → Compte. La suppression définitive s'exécute sous 24 heures. Les sauvegardes sont purgées sous 30 jours.",
+    "s7WeTitle": "Nous pouvons résilier",
+    "s7WeBody": "pour toute violation de l'usage acceptable ci-dessus, pour non-paiement prolongé (90 jours après expiration), ou si vous maltraitez nos humains. Nous vous donnerons un préavis de 7 jours + la possibilité d'exporter vos données en JSON, sauf si la violation est suffisamment grave pour que nous devions agir immédiatement.",
+    "s8Title": "8. Propriété intellectuelle",
+    "s8Body": "Le nom qr-cow, la mascotte, le site marketing et le code source nous appartiennent (à l'exception des parties open source, qui conservent leurs propres licences). Vous n'obtenez aucun droit sur ces éléments, hormis celui d'utiliser le service tel que prévu. Votre contenu QR vous appartient ; voir la section 4.",
+    "s9Title": "9. Services tiers",
+    "s9Body": "Si vous liez votre compte à OAuth Google ou Facebook, votre utilisation de ces services est soumise à leurs conditions respectives. Si vous payez via NowPayments, votre paiement est soumis à leurs conditions. Consultez la <privacyLink>Politique de confidentialité</privacyLink> pour la liste complète des sous-traitants.",
+    "s10Title": "10. Exclusion de garanties",
+    "s10Body": "qr-cow est fourni « en l'état ». Nous faisons de notre mieux pour qu'il reste exact, disponible et sécurisé, mais nous ne promettons pas qu'il le sera toujours. Dans la mesure maximale permise par la loi, nous excluons toutes les garanties implicites, qualité marchande, adéquation à un usage particulier, non-contrefaçon et le reste de la liste habituelle. Vos droits légaux de consommateur ne sont pas affectés par cette clause si vous vivez dans une juridiction qui les accorde.",
+    "s11Title": "11. Limitation de responsabilité",
+    "s11Intro": "Dans la mesure maximale permise par la loi, notre responsabilité totale envers vous pour toute réclamation découlant de ces conditions ou de votre utilisation de qr-cow est limitée au plus élevé des deux montants suivants :",
+    "s11Item1": "Le montant que vous nous avez payé au cours des 12 mois précédant la réclamation, ou",
+    "s11Item2": "50 USD.",
+    "s11Body2": "Nous ne sommes pas responsables des dommages indirects, accessoires, consécutifs ou punitifs, y compris la perte de profits, la perte de données ou l'atteinte à la réputation, même si nous avons été prévenus de leur possibilité. Nous ne sommes pas responsables des pertes causées par quiconque scanne vos codes QR, ni d'aucune décision commerciale que vous prenez sur la base de l'statistiques que nous rapportons.",
+    "s11Body3": "Rien dans cette clause ne limite une responsabilité que nous ne pouvons légalement exclure (p. ex. fraude, négligence grave ou préjudice causé par un contenu numérique défectueux au sens du droit de la consommation).",
+    "s12Title": "12. Modifications de ces conditions",
+    "s12Body": "Nous pouvons modifier ces conditions. Les modifications substantielles font l'objet d'un préavis de 14 jours par e-mail + la date de « Dernière mise à jour » ci-dessus est avancée. Continuer à utiliser qr-cow après la date d'entrée en vigueur signifie que vous acceptez les nouvelles conditions ; sinon, supprimez votre compte dans ce délai et nous rembourserons toute période d'abonnement non utilisée.",
+    "s13Title": "13. Droit applicable + litiges",
+    "s13Body": "Ces conditions sont régies par les lois de la juridiction où qr-cow est exploité. Les litiges qui ne peuvent être résolus par e-mail doivent être portés devant les tribunaux compétents de cette juridiction. Là où le droit local de protection des consommateurs prévaut (la majeure partie de l'UE, le Royaume-Uni, certaines parties des États-Unis), c'est ce droit qui s'applique.",
+    "s14Title": "14. Contact",
+    "s14Body": "<hiEmail>hi@qr-cow.com</hiEmail> pour les questions générales, <billingEmail>billing@qr-cow.com</billingEmail> pour les remboursements ou les problèmes de facturation, <abuseEmail>abuse@qr-cow.com</abuseEmail> pour signaler un code QR qui viole la section 3, et <privacyEmail>privacy@qr-cow.com</privacyEmail> pour les demandes RGPD / CCPA.",
+    "seeAlso": "Voir aussi :",
+    "privacyLink": "Politique de confidentialité",
+    "aboutLink": "À propos de qr-cow"
+  },
+  "blogPost": {
+    "makeHeading": "Créez votre propre code QR",
+    "chipGenerator": "Générateur de QR gratuit",
+    "chipTypes": "Tous les types de QR",
+    "chipPricing": "Tarifs",
+    "chipSolutions": "Solutions",
+    "writtenBy": "Écrit par",
+    "comments": {
+      "title": "Commentaires",
+      "closed": "Les commentaires sont fermés sur ce billet.",
+      "placeholder": "Partagez votre avis…",
+      "posting": "Publication…",
+      "post": "Publier le commentaire",
+      "loginLink": "Connectez-vous",
+      "loginSuffix": "pour rejoindre la conversation.",
+      "loading": "Chargement…",
+      "beFirst": "Soyez le premier à commenter.",
+      "anonymous": "Utilisateur",
+      "cancel": "Annuler",
+      "reply": "Répondre",
+      "deleteConfirm": "Supprimer votre commentaire ?",
+      "deleteFailed": "Suppression impossible.",
+      "delete": "Supprimer",
+      "replyTo": "Répondre à {name}…",
+      "postReply": "Publier la réponse",
+      "errDepth": "Les réponses s'imbriquent sur 3 niveaux maximum.",
+      "errDuplicate": "Vous venez déjà de publier ce commentaire.",
+      "errLogin": "Connectez-vous pour commenter.",
+      "errGeneric": "Impossible de publier votre commentaire."
+    }
+  },
+  "notFoundPage": {
+    "eyebrow": "404, la page s'est égarée",
+    "h1": "Cette URL ne mène nulle part.",
+    "body": "La page a été déplacée, le lien est mal tapé, ou elle n'a jamais existé. La vache s'excuse. Choisissez la piste la plus proche ci-dessous et vous y serez en deux secondes.",
+    "ctaHome": "Retour à l'accueil",
+    "ctaStudio": "Ouvrir le studio",
+    "maybeTitle": "Ou peut-être cherchiez-vous ceci",
+    "blogPrefix": "Vous cherchez des guides ?",
+    "blogLink": "Parcourir le blog",
+    "dest": {
+      "studio": {
+        "label": "Studio QR",
+        "hint": "Créez un code QR en 30 secondes"
+      },
+      "pricing": {
+        "label": "Tarifs",
+        "hint": "Statique gratuit, dynamique dès 3 $/mois"
+      },
+      "qrTypes": {
+        "label": "Tous les types de QR",
+        "hint": "URL, Wi-Fi, vCard et 10 autres"
+      },
+      "solutions": {
+        "label": "Solutions",
+        "hint": "Restaurants, événements, commerce"
+      },
+      "useCases": {
+        "label": "Cas d'usage",
+        "hint": "40 exemples concrets"
+      },
+      "docs": {
+        "label": "API et MCP",
+        "hint": "Générez des codes depuis Claude ou curl"
+      }
+    }
+  },
+  "pwa": {
+    "title": "Installer qr-cow",
+    "iosBody": "Touchez <share>Partager</share>, puis <strong>Sur l'écran d'accueil</strong> pour utiliser qr-cow comme une app native.",
+    "body": "Ajoutez qr-cow à votre appareil : fonctionne hors ligne, s'ouvre dans sa propre fenêtre, avec des raccourcis d'app pour créer et scanner des codes QR.",
+    "install": "Installer",
+    "gotIt": "Compris",
+    "notNow": "Pas maintenant"
+  },
+  "a11y": {
+    "downloadPng": "Télécharger le code QR en PNG",
+    "qrKind": "Type de code QR",
+    "contentTypes": "Types de contenu QR",
+    "previewEmpty": "Aperçu du code QR, remplissez le formulaire pour générer",
+    "moreFormats": "Choisir un autre format de téléchargement",
+    "livePreview": "Aperçu en direct du QR pour le contenu {type}",
+    "templates": "Modèles QR",
+    "designSection": "Section design",
+    "chartScans": "Exemple de graphique de scans par jour",
+    "chartHeatmap": "Exemple de carte thermique par heure",
+    "scrollLeft": "Faire défiler les onglets vers la gauche",
+    "scrollRight": "Faire défiler les onglets vers la droite",
+    "step": "Étape {n}"
+  }
+}

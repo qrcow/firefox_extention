@@ -1,0 +1,2422 @@
+{
+  "meta": {
+    "home": {
+      "title": "Logo, renk ve analizli ücretsiz QR kod oluşturucu",
+      "description": "Logo, renk ve degradelerle ücretsiz bir QR kod oluşturun, ardından PNG, SVG veya JPG indirin. Kayıt gerekmez. Dinamik kodlar ve tarama analizleri aylık 3 $’dan başlar."
+    },
+    "generate": {
+      "title": "QR Stüdyosu: logo ve renklerle ücretsiz QR kod oluşturun",
+      "description": "Ücretsiz QR kod stüdyosu. Şekil seçin, logo ekleyin, renkleri ayarlayın. PNG, SVG veya JPG indirin. 13 içerik türü, URL, Wi-Fi, vCard, kripto. Kayıt gerekmez."
+    },
+    "pricing": {
+      "title": "Fiyatlar: sonsuza dek ücretsiz, dinamik QR kodlar aylık 3 $’dan",
+      "description": "Statik QR kodlar sonsuza dek ücretsiz. Tarama analizli dinamik kodlar aylık 3 $’dan, API erişimi aylık 9 $’dan başlar. Kripto ödeme, USDT, BTC, ETH."
+    },
+    "about": {
+      "title": "qr-cow hakkında, HSN ailesi tarafından geliştirildi",
+      "description": "qr-cow, açık web için dürüst araçlar geliştiren küçük bir mühendis grubu olan HSN ailesinin ücretsiz QR kod oluşturucusudur."
+    },
+    "docs": {
+      "title": "API ve MCP, her dilden veya yapay zekâ ajanından QR kod oluşturun",
+      "description": "REST API + Model Context Protocol sunucusu. Betiklerden, CI'dan, Claude, Cursor veya Zed'den QR kod üretin."
+    },
+    "blog": {
+      "title": "QR kod blogu: qr-cow'dan ipuçları, kılavuzlar ve notlar",
+      "description": "QR kod kılavuzları, ürün güncellemeleri ve qr-cow ekibinden perde arkası notlar."
+    }
+  },
+  "nav": {
+    "generate": "Oluştur",
+    "solutions": "İşletmeler için",
+    "pricing": "Fiyatlandırma",
+    "docs": "Dokümanlar",
+    "blog": "Blog",
+    "about": "Hakkımızda",
+    "dashboard": "Panel",
+    "login": "Giriş",
+    "makeCTA": "QR kodu oluştur",
+    "solutionsAll": "Tüm çözümler",
+    "solutionsRestaurants": "Restoranlar",
+    "solutionsEvents": "Etkinlikler",
+    "solutionsRetail": "Perakende",
+    "skipToContent": "Ana içeriğe atla",
+    "home": "Ana Sayfa",
+    "menu": "Menü",
+    "getStarted": "Başla",
+    "qrTypes": "QR türleri",
+    "extension": "Eklenti",
+    "signUp": "Kaydol",
+    "product": "QR kod oluştur",
+    "resources": "Öğren",
+    "studio": "QR stüdyosu",
+    "changelog": "Değişiklikler",
+    "menuDesc": {
+      "studio": "Hemen şık bir kod oluşturun",
+      "qrTypes": "Wi-Fi'dan vCard'a 13 oluşturucu",
+      "extension": "Tarayıcı çubuğundan kod üretin",
+      "docs": "REST API ve MCP sunucusu",
+      "solutionsAll": "Sektöre göre rehberler",
+      "restaurants": "Menüler ve masa kodları",
+      "events": "Biletler ve girişler",
+      "retail": "Ambalaj ve raf kodları",
+      "blog": "Rehberler ve ürün haberleri",
+      "about": "İneğin arkasındaki aile",
+      "changelog": "Son çıkanlar"
+    },
+    "startHere": "Buradan başlayın",
+    "closeMenu": "Menüyü kapat",
+    "openMenu": "Menüyü aç",
+    "primaryNav": "Ana gezinme"
+  },
+  "hero": {
+    "eyebrow": "Bağımsız QR kod oluşturucu · ilk günden analiz · kriptoyla ödeme",
+    "headlineBefore": "QR kodunuzu",
+    "headlineHighlight": "basıldıktan sonra",
+    "headlineAfter": "değiştirin.",
+    "sub": "Statik kodlar sonsuza kadar ücretsizdir. Dinamik kodlar, düzenleyip takip edebileceğiniz kodlar, aylık 3 $’dır. Kriptoyla ödeyin, bankalara gerek kalmasın.",
+    "badgeStatic": "Statik QR kodları, sonsuza kadar ücretsiz",
+    "badgeDynamic": "Dinamik + analiz, 3 $/ay",
+    "primaryCTA": "Ücretsiz QR oluştur",
+    "secondaryCTA": "Dinamik özellikleri gör →",
+    "bullet1": "Statik kodlar için kayıt gerekmez",
+    "bullet2": "Dinamik kodları basıldıktan sonra düzenleyin",
+    "bullet3": "Gerçek tarama analizi, üçüncü taraf izleyici yok",
+    "bullet4": "USDT, BTC, ETH (kart yok)"
+  },
+  "generate": {
+    "srHeading": "QR kod oluşturun, logo, renk ve analizli ücretsiz QR kod oluşturucu",
+    "step1": "İçeriği tamamlayın",
+    "step2": "QR kodunuzu özelleştirin",
+    "step3": "QR kodu indir",
+    "template": {
+      "pickHeading": "Bir şablon seçin",
+      "yoursRibbon": "Sizin",
+      "namePlaceholder": "Şablona isim verin (örn. Kafe markası)",
+      "save": "Kaydet",
+      "update": "Güncelle",
+      "signInPrompt": "Kendi şablonunuzu kaydedin",
+      "saveOwn": "Kendi şablonunuzu kaydedin",
+      "logIn": "giriş yapın",
+      "nameAria": "Şablon adı",
+      "myTemplate": "Şablonum",
+      "scrollLeft": "Şablonları sola kaydır",
+      "scrollRight": "Şablonları sağa kaydır"
+    },
+    "type": {
+      "static": "Statik",
+      "dynamic": "Dinamik",
+      "staticHint": "Sabit URL, sonsuza kadar çalışır, kayıt gerektirmez.",
+      "dynamicHint": "Düzenlenebilir hedef + tarama başına analitik."
+    },
+    "preview": {
+      "live": "Canlı",
+      "empty": "QR kodunuz burada görünecek",
+      "emptyHint": "Bir şablon seçin ve formu doldurun, canlı önizleme gelsin."
+    },
+    "download": {
+      "primary": "PNG indir",
+      "svgLabel": "SVG indir",
+      "jpgLabel": "JPG indir",
+      "vector": "Vektör",
+      "photo": "Fotoğraf",
+      "copyToClipboard": "Panoya kopyala",
+      "copied": "Panoya kopyalandı"
+    },
+    "contentHeading": "İçerik",
+    "design": {
+      "shapeTab": "Şekil",
+      "logoTab": "Logo",
+      "colorsTab": "Renkler",
+      "advancedTab": "Gelişmiş",
+      "bodyShape": "Modül şekli",
+      "eyeFrame": "İşaretçi çerçevesi",
+      "eyeBall": "İşaretçi merkezi",
+      "errorCorrection": "Hata düzeltme",
+      "errorCorrectionHint": "Daha yüksek seviyeler daha büyük logoya ve daha fazla aşınmaya dayanır; karşılığında modüller sıklaşır.",
+      "foreground": "Ön plan",
+      "background": "Arka plan",
+      "transparentBg": "Şeffaf arka plan",
+      "gradient": "Degrade",
+      "gradientHint": "Gövdeye uygulanan iki duraklı doğrusal degrade.",
+      "enableGradient": "Degradeyi etkinleştir",
+      "logoColour": "Logo rengi",
+      "uploadLogo": "Kendi logonuzu yükleyin",
+      "logoSize": "Boyut",
+      "cutOut": "Boşluk",
+      "removeLogo": "Logoyu kaldır",
+      "extraExports": "Ek dışa aktarma boyutları",
+      "extraExportsHint": "Standart PNG 1000 px’tir; baskı için daha büyük, web için daha hafif bir görsel indirin."
+    },
+    "saveCard": {
+      "titleAuth": "QR kodunuza isim verin ve kaydedin",
+      "titleAnon": "Bu kodu kaydetmek için kayıt olun",
+      "nameLabel": "QR kod adı",
+      "namePlaceholder": "örn. Kafe Wi-Fi, Bahar 2026 menüsü",
+      "typeLabel": "Tür",
+      "staticOption": "Statik, ücretsiz, sonsuza kadar sabit",
+      "dynamicOption": "Dinamik, düzenlenebilir + takipli (3 $/ay)",
+      "saveButton": "Panele kaydet",
+      "saving": "Kaydediliyor…",
+      "signUpFree": "Kayıt ol, ücretsiz",
+      "moreExports": "Daha fazla dışa aktarma boyutu",
+      "qrInfo": "QR bilgisi"
+    },
+    "forms": {
+      "url": {
+        "label": "Web sitesi URL'si",
+        "hint": "http(s):// ile başlayan herhangi bir şey, ya da sadece bir alan adı yapıştırın."
+      },
+      "text": {
+        "label": "Metin",
+        "count": "{len} / {max} karakter",
+        "upTo": "En fazla {max} karakter.",
+        "sample1": "Tarayan kişinin okumasını istediğiniz herhangi bir şey.",
+        "sample2": "Masa 12, hazır olduğunuzda lütfen zile basın.",
+        "sample3": "Wi-Fi şifresi: lütfen baristaya sorun 🙂"
+      },
+      "email": {
+        "to": "Alıcı",
+        "subject": "Konu (isteğe bağlı)",
+        "body": "Mesaj (isteğe bağlı)"
+      },
+      "sms": {
+        "phone": "Telefon numarası",
+        "phoneHint": "+ülkekodu ile uluslararası formatı kullanın.",
+        "message": "Mesaj (isteğe bağlı)"
+      },
+      "phone": {
+        "label": "Telefon numarası",
+        "hint": "Tarama bir arama başlatır. +ülkekodu kullanın."
+      },
+      "person": {
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "company": "Şirket (isteğe bağlı)",
+        "title": "Unvan (isteğe bağlı)",
+        "website": "Web sitesi (isteğe bağlı)",
+        "address": "Adres (isteğe bağlı)"
+      },
+      "wifi": {
+        "ssid": "Ağ adı (SSID)",
+        "ssidHint": "En fazla 32 karakter (IEEE 802.11 sınırı).",
+        "security": "Güvenlik",
+        "noPassword": "Şifresiz",
+        "hidden": "Gizli ağ",
+        "no": "Hayır",
+        "yes": "Evet",
+        "password": "Şifre"
+      },
+      "event": {
+        "title": "Başlık",
+        "starts": "Başlangıç",
+        "ends": "Bitiş",
+        "location": "Konum (isteğe bağlı)",
+        "description": "Açıklama (isteğe bağlı)"
+      },
+      "location": {
+        "lat": "Enlem",
+        "latHint": "-90 ile 90 arası",
+        "lng": "Boylam",
+        "lngHint": "-180 ile 180 arası",
+        "query": "Arama sorgusu (isteğe bağlı)",
+        "queryPlaceholder": "Tokyo Kulesi"
+      },
+      "social": {
+        "network": "Ağ",
+        "handle": "Kullanıcı adı veya telefon (WhatsApp için)",
+        "handleHint": "Sadece kullanıcı adı (başında @ olmadan). WhatsApp için ülke kodlu tam telefon numarası.",
+        "prefilled": "Hazır mesaj (isteğe bağlı)"
+      },
+      "crypto": {
+        "network": "Ağ",
+        "address": "Cüzdan adresi",
+        "addressHint": "Adresi birebir yapıştırın. Yanlış karakter = kaybolan para.",
+        "amount": "Tutar (isteğe bağlı)",
+        "label": "Etiket (isteğe bağlı)",
+        "message": "Mesaj (isteğe bağlı)"
+      },
+      "app": {
+        "label": "Uygulama mağazası URL'si",
+        "hint": "App Store / Play Store / Microsoft Store. Liste URL'sini veya bir derin bağlantıyı yapıştırın."
+      }
+    },
+    "upsell": {
+      "title": "Dinamik yapın",
+      "price": "3 $ / ay",
+      "feat1": "Baskıdan sonra hedefi değiştirin",
+      "feat2": "Ülke, cihaz ve saat bazında analitik",
+      "feat3": "Bir daha asla yeniden baskı yok",
+      "switch": "Dinamiğe geç →"
+    },
+    "teaser": {
+      "title": "Yayına girdiğinde şunları göreceksiniz",
+      "sample": "örnek",
+      "mobile": "Mobil",
+      "desktop": "Masaüstü",
+      "tablet": "Tablet",
+      "lastScan": "Son tarama",
+      "minutesAgo": "2 dakika önce"
+    },
+    "types": {
+      "url": "URL",
+      "text": "Metin",
+      "wifi": "Wi-Fi",
+      "vcard": "vCard",
+      "mecard": "MeCard",
+      "email": "E-posta",
+      "sms": "SMS",
+      "phone": "Arama",
+      "event": "Etkinlik",
+      "location": "Konum",
+      "social": "Sosyal",
+      "crypto": "Kripto",
+      "app": "Uygulama"
+    },
+    "presets": {
+      "restaurant": "Restoran",
+      "cafe": "Kafe",
+      "tech": "Teknoloji",
+      "event": "Etkinlik",
+      "retail": "Perakende",
+      "wedding": "Düğün",
+      "healthcare": "Sağlık",
+      "real-estate": "Emlak",
+      "business-card": "Kartvizit",
+      "crypto": "Kripto",
+      "sunset": "Gün batımı",
+      "ocean": "Okyanus",
+      "forest": "Orman",
+      "aurora": "Aurora",
+      "berry": "Böğürtlen",
+      "mono": "Mono"
+    },
+    "designOptions": {
+      "square": "Kare",
+      "rounded": "Yuvarlatılmış",
+      "dots": "Noktalar",
+      "classy": "Şık",
+      "classyRounded": "Şık Y.",
+      "extraRounded": "Ekstra Y.",
+      "dot": "Nokta",
+      "eclL": "%7, temiz baskı",
+      "eclM": "%15, varsayılan",
+      "eclQ": "%25, önerilen",
+      "eclH": "%30, aşınmaya dayanır",
+      "logo_web": "Web",
+      "logo_email": "E-posta",
+      "logo_phone": "Telefon",
+      "logo_audio": "Ses",
+      "logo_video": "Video",
+      "logo_image": "Görsel",
+      "logo_doc": "Belge",
+      "logo_pin": "Konum"
+    },
+    "info": {
+      "title": "QR bilgisi",
+      "typeLabel": "Tür",
+      "static": "Statik",
+      "dynamic": "Dinamik",
+      "pngExport": "PNG dışa aktarma",
+      "pngSize": "1000 × 1000 px",
+      "scannability": "Taranabilirlik",
+      "contrast": "Kontrast",
+      "encoded": "Kodlanan",
+      "chars": "{n} karakter",
+      "lowContrastWarning": "⚠ Telefonlar bunu taramakta zorlanabilir. Daha koyu bir ön plan veya daha açık bir arka plan deneyin.",
+      "ratingExcellent": "Mükemmel",
+      "ratingGood": "İyi",
+      "ratingLow": "Düşük, taranamayabilir"
+    },
+    "toasts": {
+      "savedTitle": "“{name}” kaydedildi",
+      "savedDynamic": "Dinamik kod, kısa bağlantıyı paylaşın ve taramaları izleyin.",
+      "savedStatic": "Statik kod, tasarımınız indirilmeye hazır.",
+      "copyShortLink": "Kısa bağlantıyı kopyala",
+      "linkCopied": "Bağlantı kopyalandı",
+      "templateDeleted": "“{name}” silindi",
+      "templateDeletedBody": "Şablon kitaplığınızdan kaldırıldı.",
+      "templateUpdated": "“{name}” güncellendi",
+      "templateSaved": "“{name}” kaydedildi",
+      "templateUpdatedBody": "Şablon güncellendi.",
+      "templateSavedBody": "Şablonlarınıza eklendi, yukarıda “Sizin” olarak görünür.",
+      "saveFailed": "Kaydedilemedi",
+      "tryAgain": "Birazdan tekrar deneyin.",
+      "signUpDynamic": "Dinamik QR için kayıt olun",
+      "signUpDynamicBody": "Ücretsiz hesap; dinamik kodların + tarama analitiğinin kilidini açar.",
+      "imageCopied": "QR kod görseli kopyalandı",
+      "imageCopiedBody": "Görsel kabul eden her yere yapıştırabilirsiniz.",
+      "copiedText": "Metin olarak kopyalandı",
+      "copiedTextBody": "Görsel panosu burada desteklenmiyor, bunun yerine kodlanan değer kopyalandı.",
+      "copyFailed": "Kopyalanamadı",
+      "copyFailedBody": "Pano erişimi engellendi.",
+      "copyAria": "QR kod görselini panoya kopyala"
+    },
+    "tour": {
+      "eyebrow": "Stüdyo turu",
+      "step1Title": "Bir şablonla başlayın",
+      "step1Body": "İstediğinize yakın bir stil seçin, bir Café kırmızısı, bir Aurora gradyanı, sade bir Mono. Daha fazlası için sırayı kaydırın.",
+      "step2Title": "QR kodunuzun neyi taşıyacağını seçin",
+      "step2Body": "Varsayılan URL'dir. Wi-Fi, vCard, SMS, etkinlik, kripto adresi, ne isterseniz ona geçin, alttaki form kendini uyarlar.",
+      "step3Title": "Kendinize göre yapın",
+      "step3Body": "Şekil · Renk · Logo · Gelişmiş. Ortaya bir logo bırakın, bir gradyan seçin, kod bir kahve lekesine dayansın diye hata düzeltmeyi yükseltin.",
+      "step4Title": "Canlı güncellemeyi izleyin",
+      "step4Body": "Önizleme siz yazdıkça yeniden çizilir; altındaki taranabilirlik notu, telefonların okuyamayacağı bir kodu basmadan önce sizi uyarır.",
+      "skip": "Turu atla",
+      "back": "Geri",
+      "next": "İleri",
+      "done": "Bitti",
+      "step5Title": "Statik mi dinamik mi?",
+      "step5Body": "Statik sonsuza dek ücretsiz: veri desenin kendisinde durur. Dinamik, baskıdan sonra hedefi değiştirmenizi sağlar ve her taramayı sayar, ayda 3 dolardan.",
+      "step6Title": "İndirin veya kopyalayın",
+      "step6Body": "PNG, SVG, JPG, birini seçin. Ya da Görseli kopyala ile QR'ı doğrudan Slack, Figma veya bir e-posta taslağına yapıştırın."
+    },
+    "mobilePreviewHint": "Aşağıda düzenledikçe güncellenir",
+    "mobilePreviewMore": "Daha fazla format ve seçenek",
+    "a11y": {
+      "downloadPng": "QR kodu PNG olarak indir",
+      "qrKind": "QR kod türü",
+      "contentTypes": "QR içerik türleri",
+      "previewEmpty": "QR kod önizlemesi, oluşturmak için formu doldurun",
+      "moreFormats": "Başka indirme biçimi seç",
+      "livePreview": "{type} içeriği için canlı QR önizlemesi"
+    }
+  },
+  "footer": {
+    "tagline": "Bastıktan sonra değiştirebileceğiniz QR kodları.",
+    "language": "Dil",
+    "productHeading": "Ürün",
+    "qrTypesHeading": "QR türleri",
+    "solutionsHeading": "Çözümler",
+    "companyHeading": "Şirket",
+    "byline": "Bağımsız olarak geliştirildi. Yatırım yok, satış ekibi yok.",
+    "systemsNormal": "Tüm sistemler normal",
+    "rightsReserved": "Tüm hakları saklıdır",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "product": {
+      "qrStudio": "QR stüdyosu",
+      "pricing": "Fiyatlandırma",
+      "apiMcp": "API & MCP",
+      "getStarted": "Başlayın",
+      "extension": "Tarayıcı eklentisi"
+    },
+    "qrTypes": {
+      "url": "URL QR kodu",
+      "wifi": "Wi-Fi QR kodu",
+      "vcard": "vCard QR kodu",
+      "email": "E-posta QR kodu",
+      "all": "13 türün tümü →"
+    },
+    "solutions": {
+      "restaurants": "Restoranlar",
+      "events": "Etkinlikler",
+      "retail": "Perakende",
+      "allUseCases": "Tüm kullanım alanları"
+    },
+    "company": {
+      "about": "Hakkımızda",
+      "blog": "Blog",
+      "compare": "Karşılaştır",
+      "alternatives": "Alternatifler",
+      "changelog": "Değişiklik günlüğü",
+      "faq": "SSS"
+    },
+    "socialAria": "{network} üzerinde qr-cow"
+  },
+  "steps": {
+    "eyebrow": "Nasıl çalışır",
+    "title": "Üç basit adımda bir QR kodu",
+    "sub": "Öğrenilecek eğitim ya da yol haritası yok. Sadece yazın, biçimlendirin ve paylaşın.",
+    "s1Title": "İçeriğinizi seçin",
+    "s1Body": "Bir bağlantı veya metin yapıştırın. Statik bir kod ya da sonradan düzenleyebileceğiniz dinamik bir kod seçin.",
+    "s1Preview": "https://my-website.com",
+    "s2Title": "Size özel yapın",
+    "s2Body": "Renkleri markanıza uyacak şekilde ayarlayın. Önizleme siz yazdıkça anında güncellenir.",
+    "s2Preview": "logo",
+    "s3Title": "İndirin ve takip edin",
+    "s3Body": "PNG veya SVG olarak dışa aktarın. Dinamik kodlar her taramayı kontrol panelinizde sayar.",
+    "s3Preview1": "qr-cow.png",
+    "s3Preview2": "13+ tarama"
+  },
+  "features": {
+    "eyebrow": "Neden qr-cow",
+    "title": "İhtiyacınız olan her şey, fazlası yok",
+    "sub": "Analitik odaklı tasarlandı; böylece kodlarınızın anlattıklarına göre harekete geçebilirsiniz.",
+    "studio": {
+      "title": "Stüdyo kalitesinde tasarım",
+      "body": "Altı gövde şekli, göz çerçevesi ve göz bebeği stilleri, özel açılı gradyanlar, ortada logo. Net PNG ve sonsuz ölçeklenebilir SVG."
+    },
+    "dynamic": {
+      "title": "Dinamik QR kodları",
+      "body": "Kodu yeniden bastırmadan yönlendirdiği yeri değiştirin. Yazım hatalarını düzeltin, kampanyaları değiştirin, trafiği anında yeniden yönlendirin."
+    },
+    "analytics": {
+      "title": "Canlı tarama analitiği",
+      "body": "Gerçek zamanlı toplamlar, benzersiz ziyaretçiler, ülke, cihaz, OS, tarayıcı ve günün saatine göre ısı haritaları, yol haritasında değil, kutudan çıkar çıkmaz hazır."
+    },
+    "crypto": {
+      "title": "Kripto ile ödeyin",
+      "body": "USDT, BTC, ETH, kart yok, ters ibraz yok, her yerde çalışır. Statik kodlar için sonsuza kadar ücretsiz."
+    },
+    "private": {
+      "title": "Varsayılan olarak gizli",
+      "body": "Anonimleştirilmiş tarama kayıtları, üçüncü taraf izleyici yok, AB uyumlu. Kampanyalarınız size ait kalır."
+    },
+    "fast": {
+      "title": "Hızlı ve SEO dostu",
+      "body": "Sunucuda işlenir, önbelleğe alınır ve CDN destekli. Taramalar dünyanın her yerinde 50 ms'nin altında yönlendirilir."
+    }
+  },
+  "analytics": {
+    "eyebrow": "Tarama analitiği",
+    "title": "QR kodunuzu tam olarak kimin taradığını bilin.",
+    "sub": "Her dinamik kod taramaları gerçek zamanlı olarak izler. Ülke, cihaz, OS, tarayıcı, günün saati, hepsi kontrol panelinde, hiçbir üçüncü taraf izleyici eklenmeden.",
+    "sampleDashboard": "Örnek kontrol paneli",
+    "topDevice": "En çok kullanılan cihaz",
+    "topCountry": "En çok tarayan ülke",
+    "uniqueVisitors": "Benzersiz ziyaretçiler",
+    "totalScans": "Toplam tarama",
+    "byCountry": "Ülkeye göre",
+    "scansPerDay": "Günlük tarama",
+    "past30Days": "Geçtiğimiz 30 gün",
+    "last30Days": "Son 30 gün",
+    "spring": "QR - Bahar kampanyası",
+    "byDevice": "Cihaza göre",
+    "whenPeopleScan": "İnsanlar ne zaman tarıyor",
+    "peakLabel": "Zirve: yerel saatle 19-21. Cumartesileri hafta içinden biraz daha yüksek.",
+    "mobile": "Mobil",
+    "desktop": "Masaüstü",
+    "tablet": "Tablet",
+    "chartSPDayAlt": "Örnek günlük tarama grafiği",
+    "chartHourAlt": "Örnek günün saatine göre tarama ısı haritası",
+    "moreCountries": "+ 12 ülke daha"
+  },
+  "useCases": {
+    "eyebrow": "Çözümler",
+    "title": "Çalışma şeklinize göre tasarlandı",
+    "sub": "Aynı basit araç, birkaç yaygın iş için ince ayarlı.",
+    "explore": "Keşfet",
+    "restaurants": {
+      "title": "Restoranlar",
+      "body": "Menüler, sipariş ve yorumlar, masadan tek taramayla ulaşılır."
+    },
+    "events": {
+      "title": "Etkinlikler",
+      "body": "Planlar değiştikçe kendini uyarlayan biletler, programlar ve girişler."
+    },
+    "retail": {
+      "title": "Perakende",
+      "body": "Her rafta ve pakette ürün sayfaları, kampanyalar ve yorumlar."
+    }
+  },
+  "founder": {
+    "fromTheDesk": "Masabaşından",
+    "signature": "HSN ailesi",
+    "quote1": "qr-cow, bir arkadaşımızın kafesi her fiyat değiştiğinde menüsünü yeniden bastırdığı için başladı. İlk çözüm kırk satır koddan ibaretti. Sitenin geri kalanı, stüdyo, analitik, karanlık mod, hepsi oradan büyüdü; her seferinde tek bir özellikle, açık web için dürüst araçlar yapmayı seven küçük bir mühendis ailesinin elinden.",
+    "quote2": "qr-cow, HSN ailesi tarafından yapıldı, yatırım yok, satış ekibi yok. Bir soru sorarsanız, birimiz yanıtlar.",
+    "longerStory": "Hikâyenin tamamı"
+  },
+  "cta": {
+    "heading": "İlk QR kodunuzu oluşturmaya hazır mısınız?",
+    "sub": "Sonsuza kadar ücretsiz plan. Kredi kartı yok. İlk takip edilen taramanıza iki dakika.",
+    "primary": "İlk QR kodumu oluştur",
+    "loginPrompt": "Zaten hesabınız var mı? Giriş yapın"
+  },
+  "latestPosts": {
+    "eyebrow": "Blog",
+    "title": "qr-cow blogundan en yeniler",
+    "sub": "Ürün güncellemeleri, rehberler ve ekipten notlar.",
+    "viewAll": "Tümünü gör"
+  },
+  "socialProof": {
+    "eyebrow": "Canlı sayılar",
+    "title": "Gerçek kodlar, gerçek taramalar, şu anda",
+    "codesGenerated": "Oluşturulan QR kodu",
+    "scansTracked": "İzlenen gerçek tarama",
+    "countriesLast30": "Ülke · son 30 gün",
+    "updatedEveryMinute": "Her dakika güncellenir"
+  },
+  "heroStudio": {
+    "livePreview": "Canlı önizleme",
+    "tryUrl": "Deneyin, herhangi bir URL yazın",
+    "pickStyle": "Bir stil seçin",
+    "openStudio": "Tam stüdyoyu aç",
+    "urlPlaceholder": "https://my-website"
+  },
+  "pricingPage": {
+    "eyebrow": "Fiyatlandırma",
+    "h1": "Üç plan. Yuvarlak rakamlar, çünkü fiyatlarda A/B testi yapmakta iyi değilim.",
+    "sub": "Statik kodlar sonsuza dek ücretsiz. Analitik isterseniz ayda 3 $. API gerekiyorsa ayda 9 $. Sadece kripto.",
+    "cryptoOnly": "Sadece kripto.",
+    "payWith": "Şununla ödeyin",
+    "cryptoHint": "En kolayı USDT TRC20, bir dakikada tamamlanır, ücreti birkaç sent.",
+    "mostPopular": "En popüler",
+    "perMonth": "ay",
+    "forever": "sonsuza dek",
+    "paidIn": "USDT / BTC / ETH ile ödenir",
+    "startFree": "Ücretsiz başla",
+    "choose": "Seç",
+    "footNote": "Her hesap ücretsiz başlar. Limiti aştığınızda yükseltin; dilediğiniz zaman düşürün. İkisini de kontrol paneli halleder, e-posta talebi yok, geri kazanma teklifi yok.",
+    "faqEyebrow": "SSS",
+    "faqTitle": "Fiyatlandırma soruları",
+    "faq1q": "Ücretsiz plan gerçekten ücretsiz mi?",
+    "faq1a": "Evet, sonsuza dek. Hesap gerektirmeden sınırsız statik kod; kayıt olduğunuzda 3 dinamik kod ve tam analitik paneli. Ücretsiz plan, kullanıcı olarak benim de istediğim plan, o yüzden bilerek cömert tutuldu.",
+    "faq2q": "Hiç kripto kullanmadıysam ödeme nasıl işliyor?",
+    "faq2a": "'Kripto ile öde'ye tıklarsınız, bir cüzdan adresi ve tutar görürsünüz, gönderirsiniz. Dönüşümü giriş tarafında NOWPayments halleder. USDT TRC20 en hızlısı (yaklaşık bir dakika) ve en ucuzu (birkaç sent ücret). Daha önce hiç kripto göndermediyseniz blogda 90 saniyelik bir rehber var.",
+    "faq3q": "Neden Stripe veya PayPal yok?",
+    "faq3a": "Bunların düzgün çalışmadığı bir yerde yaşıyorum ve 3 dolarlık aboneliklerde ters ibrazlarla uğraşmak, yürütmek istediğim bir iş değil. Bedeli gerçek, sadece kripto, bazı kullanıcılar için ciddi bir engel. Özür dilerim. Sizin için kesin bir engelse bana e-posta yazın, bir çözüm bulmaya çalışayım.",
+    "faq4q": "İptal edersem ne olur?",
+    "faq4a": "Dinamik kodlarınız yönlendirmeye devam eder. Fatura döneminiz bitince tarama analitiği sayfası salt okunur olur ve yeni tarama kabul etmeyi durdurur. Tasarımlarınız PNG/SVG olarak dışa aktarılır, onlar sizin, yanınızda götürün.",
+    "faq5q": "Growth neden 8 $ değil de 9 $?",
+    "faq5a": "8 $ özür diler gibiydi. İşe yarayan bir şey için ücret aldığımı bilmenizi tercih ederim, lafı dolandırmayı değil. Yine de alternatiflerden ucuz, QRTiger'ın eşdeğer paketi 35 $, Beaconstac 39 $.",
+    "exploreHeading": "Keşfetmeye devam edin",
+    "exploreQr": "QR kod türleri",
+    "exploreSolutions": "Sektöre göre çözümler",
+    "exploreCompare": "Bizi karşılaştırın"
+  },
+  "aboutPage": {
+    "eyebrow": "Hakkımızda",
+    "h1": "qr-cow'un arkasındaki aileden küçük bir not.",
+    "intro": "qr-cow; logo, renkler, degradeler, dinamik kodlar, tarama analitiği ve bir Model Context Protocol (MCP) sunucusu sunan ücretsiz bir QR kod oluşturucusidir, açık web için dürüst araçlar geliştiren küçük bir mühendis grubu olan HSN ailesi tarafından yapıldı. Ne yatırımcı sunumu var, ne büyüme ekibi, ne pazarlama departmanı. Sadece sevgiyle yayınladığımız birçok projeden biri.",
+    "whoWeAre": "Biz kimiz",
+    "who1": "HSN ailesi gerçek bir aile. Hepimiz teknoloji sektöründe çalışıyoruz. Hep birlikte web'in dört bir yanında yan projeler yayınlıyoruz, ne yaptığı konusunda dürüst olmaya çalışan küçük, odaklı araçlar. qr-cow onlardan biri.",
+    "who2": "Ne insan gibi davranan bir markayız, ne de marka gibi davranan bir insan. Bir şeyler inşa etmeyi ve onları işe yarayacakları yere göndermeyi seven bir aileyiz.",
+    "howStarted": "qr-cow nasıl başladı",
+    "started1": "2025 sonlarında bir arkadaşımız küçük bir kafe açtı. Menüsünü, altında QR kod olacak şekilde bastırmak için bir tasarımcıya para ödedi. İki hafta sonra menüyü değiştirdi ama QR hâlâ eski PDF'i gösteriyordu. Tasarımcıya yeniden ödedi. Sonra bir daha. Üçüncü baskıdan sonra ona bir script yazdık, kendi başına düzenleyebildiği tek bir kısa URL, ve basılı kod çalışmaya devam etti.",
+    "started2": "O script bu siteye dönüştü. Maskotumuz bir inek, çünkü stüdyoyu test ederken çizdiğimiz yer tutucu tesadüfen ineğe benziyordu ve onu kaldırmak içimize sinmedi.",
+    "whatWeCare": "Neye önem veriyoruz",
+    "careCheap": "Ucuz.",
+    "careCheapBody": "Gerçek analitik ayda 19 $ değil, ayda 3 $. Bağımsız geliştiriciler ve küçük ekipler, asla konuşmayacakları satış temsilcilerini finanse etmemeli.",
+    "carePortable": "Taşınabilir.",
+    "carePortableBody": "Statik kodlar hesapsız çalışır. Tasarımlar SVG olarak dışa aktarılır. Bir gün qr-cow'u aşarsanız her şeyi yanınızda götürürsünüz.",
+    "carePrivate": "Üçüncü taraf izleyici yok.",
+    "carePrivateBody": "Analitiğimizi kendimiz çalıştırıyoruz. Google'a, Facebook'a ya da başka birine hiçbir şey sızmaz.",
+    "careCrypto": "Sadece kripto.",
+    "careCryptoBody": "Bazılarımızın yaşadığı yerlerde kartlar pek çalışmıyor ve üç dolarlık aboneliklerde ters ibrazlar, yürütmeye değer bir iş değil.",
+    "whatsNext": "Sırada ne var",
+    "nextIntro": "Listede birkaç şey var, kabaca sırasıyla:",
+    "next1": "Toplu CSV içe aktarma, beş kişi istedi, biz de istiyoruz.",
+    "next2": "Marka kitleri, bir palet ve logo kaydedin, kodlar arasında yeniden kullanın.",
+    "next3": "Gerçek bir iOS uygulaması, sadece yüklenmiş PWA değil.",
+    "next4": "Bir \"bu kod hâlâ taranabiliyor mu\" denetleyicisi.",
+    "contact": "qr-cow'un çözmediği bir QR kod sorununuz varsa şu adrese yazın",
+    "contactEnd": "Her şeyi okuyoruz.",
+    "builtBy": "Geliştiren",
+    "familyName": "HSN ailesi",
+    "familyDesc": "Açık web için dürüst araçlar yapmayı seven küçük bir mühendis ailesi.",
+    "sayHello": "Merhaba deyin",
+    "whereLabel": "Nerede",
+    "whereBody": "Açık web'deki insanlar için, bağımsız olarak ve sevgiyle geliştirildi.",
+    "statsLabel": "Dürüst istatistikler",
+    "stat1": "Küçük bir aile, ajans yok.",
+    "stat2": "Dış yatırım yok.",
+    "stat3": "Satışçı yok, satış görüşmesi yok.",
+    "stat4": "Kod, denetlenebilecek kadar açık.",
+    "tryStudio": "Stüdyoyu deneyin",
+    "whyEyebrow": "Neden uğraştık",
+    "whyTitle": "Alternatifler mevcut. Sadece başkası için fiyatlanmışlar.",
+    "whyBody": "Kategori gayet iyi araçlarla dolu. Ama kutuda olması gerektiğini düşündüğümüz şeyler, analitik, dinamik kodlar, API erişimi, için ayda 19 ila 39 $ istiyorlar. qr-cow, o özellik setini alıp satış yükünü söküp bağımsız bir geliştiricinin bütçesine göre fiyatladığınızda geriye kalan şey."
+  },
+  "dashboard": {
+    "workspace": "Çalışma alanı",
+    "tools": "Araçlar",
+    "account": "Hesap",
+    "createQr": "QR oluştur",
+    "myQrCodes": "QR kodlarım",
+    "analytics": "Analitik",
+    "studio": "Stüdyo",
+    "billingPlan": "Fatura ve plan",
+    "apiMcp": "API ve MCP",
+    "signedInAs": "Oturum açan",
+    "adminPanel": "Yönetici paneli",
+    "billing": "Fatura",
+    "logOut": "Çıkış yap",
+    "home": {
+      "title": "QR kodlarım",
+      "subtitle": "Oluşturun, özelleştirin, indirin, ve her taramanın gelişini izleyin.",
+      "openStudio": "Stüdyoyu aç",
+      "newQr": "+ Yeni QR",
+      "statQrCodes": "QR kodları",
+      "statDynamicOnPage": "Bu sayfada {count} dinamik",
+      "statBuildFirst": "İlkinizi oluşturun",
+      "statScansOnPage": "Bu sayfadaki taramalar",
+      "statAcross": "{count} kod genelinde",
+      "statTotal": "Katalog toplamı",
+      "statPageOf": "Sayfa {page} / {pages}",
+      "statAllShown": "Tümü gösteriliyor",
+      "searchPlaceholder": "İsme göre ara…",
+      "filterType": "Tür",
+      "filterAll": "Tümü",
+      "filterStatic": "Statik",
+      "filterDynamic": "Dinamik",
+      "filterSort": "Sırala",
+      "sortNewest": "En yeni",
+      "sortScans": "En çok taranan",
+      "sortName": "A → Z",
+      "clearSearch": "Temizle",
+      "emptyTitle": "Burada henüz QR kod yok.",
+      "emptyBody": "(Hesabı daha yeni açtıysanız bu gayet normal. Stüdyoyu deneyin, ilki genellikle bir dakikadan kısa sürer.)",
+      "emptyCta": "İlk QR kodumu oluştur",
+      "emptyBrowse": "Sadece göz gezdireyim",
+      "noMatchTitle": "Bu filtrelere uyan bir şey yok",
+      "noMatchBody": "Farklı bir isim veya tür deneyin.",
+      "clearFilters": "Filtreleri temizle",
+      "static": "statik",
+      "dynamic": "dinamik",
+      "scanCount": "{count, plural, one {# tarama} other {# tarama}}",
+      "editDestination": "Hedefi düzenle",
+      "analyticsLabel": "Analitik",
+      "editName": "İsmi düzenle",
+      "deleteLabel": "Sil",
+      "deleteTitle": "QR kod silinsin mi?",
+      "deleteBody": "“{name}” kalıcı olarak kaldırılacak. Mevcut baskılar çalışmayı durduracak.",
+      "deleteConfirm": "Sil",
+      "deleteCancel": "Kalsın",
+      "deleted": "“{name}” silindi",
+      "deleteFailed": "Silinemedi",
+      "tryAgain": "Birazdan tekrar deneyin."
+    },
+    "welcome": {
+      "upLate": "Gece kuşu",
+      "morning": "Günaydın",
+      "afternoon": "İyi günler",
+      "evening": "İyi akşamlar",
+      "fallbackName": "dostum",
+      "scansThisWeek": "bu haftaki tarama",
+      "vsLastWeek": "geçen haftaya göre",
+      "noScansYet": "Bu hafta henüz tarama yok. Bir kodu bir afişte ya da menüde paylaşın ve canlanışını izleyin.",
+      "last7Days": "Son 7 gün"
+    },
+    "planCard": {
+      "yourPlan": "Planınız",
+      "manage": "Yönet",
+      "dynamicUsed": "Kullanılan dinamik kod",
+      "unlimited": "sınırsız",
+      "onFreePlan": "Ücretsiz plandasınız",
+      "usedOf": "{used} / {limit} dinamik kod kullanıldı",
+      "price": "3 $ / ay",
+      "pitch": "Sınırsız düzenleme, tam analitik ve 50 dinamik kod için <b>Starter</b> planına yükseltin.",
+      "feat1": "Ülke, cihaz + saat dökümleri",
+      "feat2": "50 dinamik QR kod",
+      "feat3": "USDT / BTC / ETH ile ödeyin",
+      "upgradeCta": "Ayda 3 $'a yükselt"
+    },
+    "analyticsPage": {
+      "title": "Analitik",
+      "subtitle": "Tüm dinamik QR kodlarınızda gerçek zamanlı tarama takibi.",
+      "loading": "Analitik yükleniyor…",
+      "loadFailed": "Analitik yüklenemedi."
+    },
+    "qrAnalytics": {
+      "back": "Portföy analitiği",
+      "fallbackTitle": "QR kod",
+      "loading": "Yükleniyor…",
+      "lifetimeScans": "toplam tarama: {count}",
+      "loadFailed": "Bu kodun analitiği yüklenemedi."
+    },
+    "editPage": {
+      "title": "QR kodu düzenle",
+      "loading": "Yükleniyor…",
+      "subtitleDynamic": "Basılı kodun yönlendirdiği yeri değiştirin, yeniden baskı gerekmez.",
+      "subtitleStatic": "Statik kodların hedefi baskıdan sonra değişemez, ama isim sizindir, dilediğinizce değiştirin.",
+      "breadcrumbDashboard": "Panel",
+      "notFound": "QR kod bulunamadı, silinmiş olabilir.",
+      "loadFailed": "Bu QR kod yüklenemedi.",
+      "backToDashboard": "Kontrol paneline dön",
+      "nameLabel": "İsim",
+      "namePlaceholder": "örn. Bahar kampanyası QR",
+      "destLabel": "Hedef URL",
+      "destHint": "Her taramanın ineceği adres. İstediğiniz zaman değiştirin, basılı kod aynı kalır.",
+      "shortLink": "Kısa bağlantı:",
+      "contentLabel": "Kodlanan içerik",
+      "contentHint": "Statik kodlar içeriği QR deseninin kendisine işler, bunu değiştirirseniz yeniden baskı gerekir.",
+      "staticWarning": "⚠ Statik bir kodu güncellemek, mevcut basılı QR'ın artık çalışmaması demektir. Hedefleri yeniden baskı olmadan düzenlemek istiyorsanız bunun yerine dinamik bir kod oluşturun.",
+      "save": "Değişiklikleri kaydet",
+      "saving": "Kaydediliyor…",
+      "updated": "Güncellendi",
+      "updatedDynamic": "Basılı kodu tarayan herkes artık yeni URL'ye iniyor.",
+      "updatedStatic": "İsim güncellendi.",
+      "saveFailed": "Kaydetme başarısız.",
+      "couldNotSave": "Kaydedilemedi",
+      "tryAgain": "Birazdan tekrar deneyin.",
+      "cancel": "İptal",
+      "created": "{date} tarihinde oluşturuldu",
+      "lifetimeScans": "Toplam tarama",
+      "seeBreakdowns": "Dökümleri gör →"
+    },
+    "createPage": {
+      "title": "Yeni QR kod",
+      "subtitle": "Tasarlayın, sonra panelinize kaydedin. Hedefi sonradan düzenlemek ve tarama analitiği görmek için <b>dinamik</b> seçeneğine geçin."
+    },
+    "billingPage": {
+      "title": "Fatura ve plan",
+      "subtitle": "Planınızı ve ödeme geçmişinizi yönetin. Ödemeler sadece kripto ile, USDT, BTC veya ETH.",
+      "paymentReceived": "Ödeme alındı, planınız aktif. 🎉",
+      "checkoutCanceled": "Ödeme iptal edildi. Herhangi bir tahsilat yapılmadı.",
+      "mockTitle": "Sahte ödeme (geliştirme), ödeme #{id}",
+      "mockBody": "Sahte sağlayıcı aktif. Gerçek kripto ile burası NOWPayments sayfası olur.",
+      "mockProcessing": "İşleniyor…",
+      "mockSimulate": "Başarılı ödemeyi simüle et",
+      "currentPlan": "Mevcut plan",
+      "active": "Aktif",
+      "free": "Ücretsiz",
+      "dynamicCodes": "Dinamik QR kodlar:",
+      "unlimited": "sınırsız",
+      "renews": "{date} tarihinde yenilenir",
+      "checkoutDisabled": "Kripto ödeme henüz etkin değil.",
+      "checkoutFailed": "Ödeme başlatılamadı",
+      "perMo": "/ay",
+      "unlimitedDynamic": "Sınırsız dinamik QR",
+      "dynamicLimit": "{count} dinamik QR",
+      "currentPlanBtn": "Mevcut plan",
+      "defaultPlan": "Varsayılan plan",
+      "payWithCrypto": "Kripto ile öde",
+      "starting": "Başlatılıyor…",
+      "processedIn": "Ödemeler USDT / BTC / ETH olarak işlenir",
+      "provider": "sağlayıcı: {name}",
+      "paymentHistory": "Ödeme geçmişi",
+      "statusLabel": "Durum",
+      "statusAll": "Tümü",
+      "statusPending": "Beklemede",
+      "statusConfirming": "Onaylanıyor",
+      "statusPaid": "Ödendi",
+      "statusFailed": "Başarısız",
+      "statusExpired": "Süresi doldu",
+      "noPayments": "Henüz ödeme yok.",
+      "colDate": "Tarih",
+      "colPlan": "Plan",
+      "colAmount": "Tutar",
+      "colStatus": "Durum",
+      "loading": "Yükleniyor…"
+    },
+    "apiPage": {
+      "title": "API ve MCP",
+      "subtitle": "qr-cow API'sini programatik olarak kullanmak ve MCP uyumlu yapay zekâ istemcilerini (Claude Desktop, Claude Code, Cursor) bağlamak için kişisel erişim token'ları.",
+      "newToken": "Yeni token",
+      "nameLabel": "İsim",
+      "namePlaceholder": "örn. Üretim sunucusu, MCP, Claude Desktop",
+      "create": "Token oluştur",
+      "creating": "Oluşturuluyor…",
+      "shownOnce": "Token, oluşturulduktan sonra yalnızca <b>bir kez</b> gösterilir. Güvenli bir yere kopyalayın, biz yalnızca hash'ini saklarız.",
+      "yourTokens": "Token'larınız",
+      "loading": "Yükleniyor…",
+      "noTokens": "Henüz hiç token'ınız yok. API veya MCP kullanmaya başlamak için yukarıdan bir tane oluşturun.",
+      "revoked": "iptal edildi",
+      "createdAt": "{when} oluşturuldu",
+      "lastUsed": "Son kullanım {when}",
+      "never": "Hiç",
+      "justNow": "az önce",
+      "minAgo": "{count} dk önce",
+      "hoursAgo": "{count} sa önce",
+      "revoke": "İptal et",
+      "revokeAria": "{name} token'ını iptal et",
+      "revokeConfirm": "Bu token iptal edilsin mi? Onu kullanan tüm istemciler anında çalışmayı durdurur.",
+      "revokedToast": "Token iptal edildi",
+      "revokeFailed": "İptal edilemedi",
+      "createFailed": "Token oluşturulamadı",
+      "tryAgain": "Tekrar deneyin",
+      "copied": "Panoya kopyalandı",
+      "howToUse": "Nasıl kullanılır",
+      "directApi": "Doğrudan API",
+      "mcpTitle": "MCP, Claude Desktop / Claude Code",
+      "mcpConfigPre": "MCP istemci yapılandırmanıza ekleyin (örn.",
+      "mcpConfigPost": "):",
+      "mcpHint": "Bağlandıktan sonra yapay zekânıza “yeni Wi-Fi'ım için bir QR kod yap” ya da “geçen hafta menü QR'ımı hangi ülkeler taradı, göster” deyin, sizin adınıza qr-cow'u çağırır.",
+      "newTokenTitle": "Yeni token'ınız",
+      "newTokenBody": "Şimdi kopyalayın. Bir daha göremezsiniz, yalnızca hash saklanır.",
+      "copy": "Kopyala",
+      "saved": "Kaydettim"
+    },
+    "pager": {
+      "prev": "← Önceki",
+      "next": "Sonraki →",
+      "pageOf": "Sayfa {page} / {total}"
+    }
+  },
+  "language": {
+    "en": "English",
+    "fa": "فارسی",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt": "Português",
+    "zh": "中文",
+    "tr": "Türkçe",
+    "ru": "Русский",
+    "switcherLabel": "Dili değiştir"
+  },
+  "auth": {
+    "loginTitle": "Tekrar hoş geldiniz",
+    "loginSub": "QR kodlarınızı yönetmek için giriş yapın.",
+    "email": "E-posta",
+    "password": "Şifre",
+    "passwordHint": "En az 8 karakter.",
+    "forgotPassword": "Şifrenizi mi unuttunuz?",
+    "signingIn": "Giriş yapılıyor…",
+    "logIn": "Giriş yap",
+    "orContinueWith": "veya şununla devam edin",
+    "newToQrcow": "qr-cow'da yeni misiniz?",
+    "createAnAccount": "Hesap oluşturun",
+    "wrongCredentials": "E-posta veya şifre hatalı.",
+    "loginFailed": "Giriş başarısız",
+    "errPasswordChangeRequired": "Güvenlik için bu hesabın giriş yapmadan önce yeni bir parola belirlemesi gerekiyor. Aşağıdaki “Parolanızı mı unuttunuz?” bağlantısını kullanın.",
+    "errAccountDisabled": "Bu hesap devre dışı bırakıldı. Bunun bir hata olduğunu düşünüyorsanız hi@qr-cow.com ile iletişime geçin.",
+    "registerTitle": "Hesabınızı oluşturun",
+    "registerSub": "Sonsuza dek ücretsiz. Kredi kartı gerekmez.",
+    "creating": "Oluşturuluyor…",
+    "createAccount": "Hesap oluştur",
+    "orSignUpWith": "veya şununla kayıt olun",
+    "alreadyHaveAccount": "Zaten hesabınız var mı?",
+    "emailAlreadyRegistered": "Bu e-posta zaten kayıtlı.",
+    "registrationFailed": "Kayıt başarısız",
+    "continueWith": "{provider} ile devam et",
+    "moreOptions": "Daha fazla seçenek",
+    "forgot": {
+      "title": "Şifremi unuttum",
+      "sub": "E-posta kayıtlıysa bir sıfırlama bağlantısı göndereceğiz.",
+      "sent": "<b>{email}</b> adresine ait bir hesap varsa, sıfırlama bağlantısı yola çıktı.",
+      "backToLogin": "Girişe dön",
+      "emailLabel": "E-posta",
+      "send": "Sıfırlama bağlantısı gönder",
+      "sending": "Gönderiliyor…",
+      "requestFailed": "İstek başarısız",
+      "remembered": "Hatırladınız mı?"
+    },
+    "reset": {
+      "title": "Yeni bir şifre belirleyin",
+      "sub": "Başka yerde kullanmadığınız güçlü bir şifre seçin.",
+      "tokenLabel": "Sıfırlama token'ı",
+      "tokenHint": "E-postanızdaki token'ı yapıştırın.",
+      "passwordLabel": "Yeni şifre",
+      "passwordHint": "En az 8 karakter.",
+      "update": "Şifreyi güncelle",
+      "updating": "Güncelleniyor…",
+      "invalidToken": "Bu sıfırlama bağlantısı geçersiz veya süresi dolmuş.",
+      "resetFailed": "Sıfırlama başarısız",
+      "loading": "Yükleniyor…",
+      "backToLogin": "Girişe dön"
+    },
+    "metaTitle": "Giriş yap · qr-cow",
+    "backHome": "← Ana sayfaya dön"
+  },
+  "plans": {
+    "taglines": {
+      "free": "Denemeler ve kişisel projeler için.",
+      "starter": "Kampanya takip eden üreticiler ve küçük ekipler için.",
+      "growth": "QR'ı kanallar arasında ölçekleyen startup'lar ve küçük ekipler için."
+    },
+    "features": {
+      "Unlimited static QR codes": "Sınırsız statik QR kod",
+      "3 dynamic QR codes": "3 dinamik QR kod",
+      "PNG & SVG export": "PNG ve SVG dışa aktarma",
+      "Basic scan counts": "Temel tarama sayıları",
+      "Everything in Free": "Ücretsiz plandaki her şey",
+      "50 dynamic QR codes": "50 dinamik QR kod",
+      "Scan analytics dashboard": "Tarama analitiği paneli",
+      "Custom colors & branding": "Özel renkler ve markalama",
+      "Pay in USDT — no card needed": "USDT ile ödeyin, kart gerekmez",
+      "Everything in Starter": "Starter'daki her şey",
+      "Unlimited dynamic QR codes": "Sınırsız dinamik QR kod",
+      "Geo & device analytics": "Coğrafya ve cihaz analitiği",
+      "Geo, device, OS, browser breakdowns": "Coğrafya, cihaz, işletim sistemi ve tarayıcı dökümleri",
+      "Team members": "Ekip üyeleri",
+      "API access": "API erişimi",
+      "Priority email from a human": "Gerçek bir insandan öncelikli e-posta"
+    }
+  },
+  "analyticsView": {
+    "range7d": "7 gün",
+    "range30d": "30 gün",
+    "range90d": "90 gün",
+    "rangeAll": "Tüm zamanlar",
+    "totalScans": "Toplam tarama",
+    "uniqueVisitors": "Tekil ziyaretçi",
+    "uniqueRate": "%{rate} tekil",
+    "topCountry": "En çok tarayan ülke",
+    "topDevice": "En çok kullanılan cihaz",
+    "scansHint": "{count} tarama",
+    "noData": "Veri yok",
+    "scansOverTime": "Zaman içinde taramalar",
+    "scansOverTimeLegend": "Turuncu = toplam tarama · gri kesikli = tekil ziyaretçi",
+    "legendScans": "Tarama",
+    "legendUnique": "Tekil",
+    "emptySeries": "Bu dönemde tarama yok",
+    "emptyBar": "Henüz veri yok",
+    "emptyHeatmap": "Henüz tarama yok",
+    "byDevice": "Cihaza göre",
+    "byOs": "İşletim sistemine göre",
+    "byBrowser": "Tarayıcıya göre",
+    "scansByHour": "Saate göre taramalar",
+    "hourSubtitle": "Günün saati (sunucu saati, 0-23)",
+    "topQrCodes": "En çok taranan QR kodlar",
+    "scansBadge": "{count} tarama",
+    "noScansRecorded": "Henüz tarama kaydedilmedi.",
+    "recentScans": "Son taramalar",
+    "noRecentScans": "Henüz tarama yok, canlı etkinliği burada görmek için bir kod paylaşın.",
+    "colWhen": "Ne zaman",
+    "colCountry": "Ülke",
+    "colDevice": "Cihaz",
+    "colOs": "OS",
+    "colBrowser": "Tarayıcı",
+    "showingCodes": "{total} kodun {start}, {end} arası gösteriliyor",
+    "showingScans": "{total} taramanın {start}, {end} arası gösteriliyor",
+    "prevPage": "Önceki sayfa",
+    "nextPage": "Sonraki sayfa",
+    "csvTitle": "Ham tarama olaylarını CSV olarak indirin",
+    "printPdf": "Yazdır / PDF",
+    "printTitle": "İşletim sisteminin yazdırma penceresini açar. Kâğıtsız kopya için 'PDF olarak kaydet'i kullanın.",
+    "geoTitle": "Taramalar nereden geldi",
+    "geoSummary": "{countries, plural, one {# ülke} other {# ülke}} · {scans} tarama",
+    "geoEmpty": "Henüz tarama kaydedilmedi. Dinamik bir kod paylaşın; coğrafi haritanız burada dolmaya başlasın.",
+    "unknown": "Bilinmiyor",
+    "other": "Diğer",
+    "deviceMobile": "Mobil",
+    "deviceDesktop": "Masaüstü",
+    "deviceTablet": "Tablet",
+    "exportFailed": "Dışa aktarma başarısız. Bağlantınızı kontrol edin veya yeniden giriş yapın."
+  },
+  "docsPage": {
+    "eyebrow": "Geliştirici",
+    "h1": "qr-cow API ve MCP",
+    "intro": "Herhangi bir programlama dilinden QR kodlar oluşturun, dinamik hedefleri yönetin ve tarama analitiğini çekin. MCP aracılığıyla <strong>Claude Desktop</strong>, <strong>Claude Code</strong>, <strong>Cursor</strong> ve <strong>Zed</strong> ile tak-çalıştır.",
+    "quickstartTitle": "Hızlı başlangıç",
+    "step1Title": "Token alın",
+    "step1Body": "Giriş yapın, <link>Panel → API ve MCP</link> sayfasını açın ve <strong>Token oluştur</strong>'a tıklayın. <code>qrc_live_…</code> biçiminde bir değer alacaksınız, bir kez kopyalayın; biz yalnızca hash'ini saklarız.",
+    "step2Title": "Bir çağrı yapın",
+    "step2Body": "Token'ı api.qr-cow.com'a Bearer başlığı olarak gönderin. Oturum JWT'sinin erişebildiği her uç nokta token'ı da kabul eder.",
+    "step3Title": "Veya MCP'yi bağlayın",
+    "step3Body": "Aşağıdaki JSON parçasını yapay zekâ istemcinizin MCP yapılandırmasına ekleyin; aynı token orada da çalışır, ek kod gerekmez.",
+    "tryTitle": "Deneyin",
+    "tryBody": "Bir uç nokta ve bir dil seçin. Kod parçalarındaki token bir yer tutucudur, kontrol panelinden kendi token'ınızı yapıştırın.",
+    "endpointsTitle": "Uç nokta referansı",
+    "endpointsIntro": "Her şey <code>/api/v1</code> altında, tüm dillerde aynı biçim.",
+    "colMethod": "Metot",
+    "colPath": "Yol",
+    "colWhat": "Ne yapar",
+    "endpoints": {
+      "authMe": "Kimliği doğrulanmış kullanıcı + plan",
+      "createQr": "Statik veya dinamik bir QR oluşturur",
+      "listQr": "QR kodlarınızı listeler (sayfalanmış)",
+      "getQr": "Bir QR'ın tüm ayrıntılarını getirir",
+      "updateQr": "Adı / dinamik hedefi günceller",
+      "deleteQr": "Bir QR'ı geçici olarak siler (soft-delete)",
+      "qrAnalytics": "Taramalar, coğrafya, cihaz, günün saati",
+      "listTokens": "API token'larını listeler",
+      "createToken": "Token oluşturur (düz metni yalnızca BİR KEZ döndürür)",
+      "revokeToken": "Bir token'ı iptal eder",
+      "renderQr": "Bir stil veya preset'ten stilli bir QR görüntüsü render edin (kimlik doğrulama yok, hiçbir şey saklanmaz).",
+      "renderQrGet": "Aynı render, basit bir GET olarak, doğrudan bir görüntü etiketine gömülebilir."
+    },
+    "mcpTitle": "MCP, Model Context Protocol",
+    "mcpIntro": "MCP, Anthropic'in yapay zekâ istemcilerini harici araçlara bağlamak için yayımladığı açık bir protokoldür. Bağlantı kurulduktan sonra asistanınız \"yeni menüm için bir QR kod yap\" veya \"geçen hafta kafe QR'ımı hangi ülkeler taradı, göster\" gibi şeyler söyleyip qr-cow'u doğrudan çağırabilir.",
+    "mcpCardClaude": "Claude Desktop / Claude Code",
+    "mcpCardOthers": "Cursor / Zed / diğerleri",
+    "mcpOthersBody": "Aynı biçim, editörün MCP yapılandırması <code>command</code>, <code>args</code> ve bir <code>env</code> bloğu kullanır. MCP sunucusu bir stdio sürecidir, MCP konuşan her şey onu kullanabilir.",
+    "mcpGuideLink": "Tam MCP kurulum kılavuzu ↗",
+    "mcpPypiLink": "PyPI'da qr-cow-mcp ↗",
+    "mcpToolsTitle": "Sunucunun sunduğu araçlar",
+    "colTool": "Araç",
+    "mcpTools": {
+      "create_qrcode": "Statik veya dinamik bir QR oluşturur (URL, Wi-Fi, vCard, …).",
+      "list_qrcodes": "Kullanıcının hesabındaki son QR kodları listeler.",
+      "get_qrcode": "Bir QR'ın güncel tasarımını + hedefini getirir.",
+      "update_qrcode_destination": "Dinamik bir QR'ın hedefini değiştirir, basılı kod çalışmaya devam eder.",
+      "delete_qrcode": "Bir kodu geçici olarak siler.",
+      "get_qrcode_analytics": "Taramalar + ülke, cihaz ve saate göre döküm.",
+      "me": "Giriş yapmış kullanıcının profili + planı.",
+      "render_styled_qrcode": "data ile birlikte bir preset veya stilden tamamen stilli bir QR görüntüsü (şekiller, degrade, logo) render edin. Görüntüyü döndürür; hiçbir şey kaydedilmez."
+    },
+    "authTitle": "Kimlik doğrulama",
+    "authBody": "Her istekte <code>Authorization: Bearer qrc_live_…</code> gönderin. Token'lar evrenseldir, oturum JWT'sinin çalıştığı her uç noktada çalışırlar. İptal edilen token'lar anında reddedilir.",
+    "errorsTitle": "Hatalar",
+    "errorsBody": "Tüm yanıtlar <code>'{success, data, error}'</code> biçimini izler. HTTP durum kodları RFC 7231 ile uyumludur; <code>error</code> alanı kısa, makine tarafından okunabilir bir kod taşır (örn. <code>token_limit_reached</code>).",
+    "rateTitle": "Hız limitleri ve güvenlik",
+    "readsLabel": "Okumalar",
+    "readsValue": "Sınırsız",
+    "readsDesc": "Listeleme, getirme ve analitik okumaları hız sınırlamasına tabi değildir.",
+    "writesLabel": "Oluştur / render",
+    "writesValue": "IP başına 20 / dk.",
+    "writesDesc": "POST /qrcodes ve /qr/render. Düzenleme ve silme sınırlı değildir.",
+    "capLabel": "Token sınırı",
+    "capValue": "20 / hesap",
+    "capDesc": "Aktif API token'ları. Bir yuva açmak için birini iptal edin.",
+    "rateNote": "Sınırlar IP'ye göre belirlenir ve hız sınırı başlıkları gönderilmez, bu yüzden bir 429 durumunda (hata \"rate_limit_exceeded\") geri çekilip yeniden deneyin. Her token'ın yalnızca SHA-256 değerini saklarız; biri sızarsa hemen iptal edin ve saniyeler içinde yenisini oluşturun.",
+    "ctaTitle": "Geliştirmeye hazır mısınız?",
+    "ctaBody": "İlk token'ınızı oluşturun ve 5 dakikadan kısa sürede \"bu URL'den bir QR kod yap\" entegrasyonunu yayına alın.",
+    "ctaButton": "Kontrol panelini aç",
+    "explorer": {
+      "tabs": {
+        "createQr": "QR oluştur",
+        "listQr": "QR kodları listele",
+        "updateDynamic": "Dinamiği güncelle",
+        "analytics": "Analitik",
+        "createToken": "Token oluştur",
+        "renderStyled": "Stilli render"
+      },
+      "createQr": {
+        "title": "QR kod oluşturun",
+        "subtitle": "POST /qrcodes, stüdyonun desteklediği tüm içerik türleri (URL, Wi-Fi, vCard, …)."
+      },
+      "listQr": {
+        "title": "QR kodlarınızı listeleyin",
+        "subtitle": "GET /qrcodes, sayfalanmış, en yenisi önce."
+      },
+      "updateDynamic": {
+        "title": "Dinamik bir QR'ın hedefini güncelleyin",
+        "subtitle": "PATCH /qrcodes/'{id}', basılı kod çalışmaya devam eder; yalnızca yönlendirme değişir."
+      },
+      "analytics": {
+        "title": "Tarama analitiğini çekin",
+        "subtitle": "GET /analytics/qrcodes/'{id}'?days=30, toplamlar + ülke / cihaz / günün saati."
+      },
+      "createToken": {
+        "title": "API üzerinden token oluşturun",
+        "subtitle": "POST /dev/tokens, bir CI işinden token sağlamak için kullanışlıdır. Düz metin YALNIZCA BİR KEZ döndürülür."
+      },
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "copyAria": "Kodu kopyala",
+      "renderStyled": {
+        "title": "Stilli bir QR render edin",
+        "subtitle": "Girişte data ile birlikte bir preset veya stil, çıkışta stilli bir görüntü. Token gerekmez."
+      },
+      "copyFailed": "Kopyalanamadı. Kodu seçip elle kopyalayın."
+    },
+    "renderTitle": "Stilli render API'si",
+    "renderIntro": "Kodunuzdan doğrudan, tamamlanmış, <strong>stilli</strong> bir QR görüntüsü oluşturun. <code>data</code> ile birlikte bir stil (bir preset, bir studio yapılandırması veya açıkça belirtilen alanlar) gönderin ve karşılığında bir PNG, JPG veya SVG alın. Hesap yok ve saklanan kayıt yok, bu yüzden kodları toplu olarak oluşturmak için tasarlanmıştır. Tam kontrol için <code>/api/v1/qr/render</code> adresine POST edin veya bir kodu doğrudan bir görüntü etiketine yerleştirmek için aynı yola GET yapın.",
+    "colParam": "Parametre",
+    "colAccepts": "Kabul edilenler",
+    "styleParams": {
+      "data": "Kodlanacak içerik: bir URL, düz metin veya önceden biçimlendirilmiş bir Wi-Fi / vCard dizesi.",
+      "preset": "Hazır bir görünüm, önce uygulanır (aşağıdaki listeye bakın).",
+      "body": "Nokta / modül şekli.",
+      "eye": "Bulucu deseni (köşe) şekli.",
+      "color": "Ön plan ve arka plan renkleri, 3, 6 veya 8 basamaklı hex.",
+      "gradient": "Modüller üzerinde iki renkli degrade; yön yatay, dikey veya radyal olabilir.",
+      "logo": "Ortada bir logo, base64 veri URL'si olarak iletilir. Logo ile ecc Q veya H kullanın.",
+      "ecc": "Hata düzeltme. Daha yüksek değer, daha fazla hasara ve bir logoya dayanır, ancak yoğunluk pahasına.",
+      "size": "Piksel cinsinden çıktı genişliği (kare).",
+      "format": "png ve jpg her stili taşır; svg ise şekil, renk ve degrade içeren temiz bir vektördür (logo yok)."
+    },
+    "renderPresetsLabel": "Seçebileceğiniz şablonlar (adı preset olarak gönderin):",
+    "renderBatchTitle": "Toplu iş için tasarlandı",
+    "renderBatchBody": "Marka stilinizi bir <code>style</code> nesnesi olarak bir kez tanımlayın (veya bir <code>preset</code> seçin): bu sizin <strong>kişisel stilinizdir</strong>, önceden ayarlanır ve her kod için yeniden kullanılır. İhtiyacınız olan kadar kod oluşturmak için uç nokta üzerinde döngü kurun; her çağrı bağımsızdır ve hiçbir şey saklamaz.",
+    "renderScanTitle": "Taranabilir tutun",
+    "renderScanBody": "Açık arka plan üzerindeki koyu modüller en güvenilir şekilde taranır. Koyu arka planlı veya düşük kontrastlı stiller harika görünür ancak daha zayıf tarayıcılarda daha az güvenilir okunur; bir logo kullanırken kodun yine de çözülebilmesi için <code>ecc</code> Q veya H kullanın.",
+    "seeAlsoPrefix": "Geliştirici değil misiniz? Şunları deneyin:",
+    "seeAlsoQr": "QR kod oluşturucuları",
+    "seeAlsoMid": "veya",
+    "seeAlsoPricing": "fiyatlandırma"
+  },
+  "blogIndex": {
+    "eyebrow": "qr-cow notları",
+    "h1": "qr-cow'u geliştirirken tutulan notlar.",
+    "intro": "Başıma dert olan hatalar, QR kodları <strong>60'tan fazla ülkeye</strong> ulaştırırken öğrendiklerim, ara sıra bir büyüme yazısı. Elle yazıldı, içerik fabrikası yok.",
+    "noMatch": "\"{q}\" ile eşleşen bir şey yok.",
+    "noPosts": "Henüz yazı yok, yakında döneceğiz.",
+    "clearSearch": "Aramayı temizle",
+    "allChip": "Tümü",
+    "searchPlaceholder": "Makalelerde ara…",
+    "searchButton": "Ara",
+    "minRead": "{min} dk okuma",
+    "readNext": "Sıradaki yazı",
+    "newer": "← Daha yeni",
+    "older": "Daha eski →",
+    "pageOf": "Sayfa {page} / {totalPages}",
+    "latestBadge": "En yeni",
+    "authorFallback": "HSN ailesi",
+    "newsletterTitle": "Yeni yazılar gelen kutunuza gelsin.",
+    "newsletterBody": "Yararlı bir şey olduğunda kısa bir e-posta, genellikle ayda bir iki kez, asla salı sabahı değil.",
+    "newsletterSubscribe": "E-posta ile abone ol →",
+    "newsletterRss": "RSS akışı",
+    "newsletterRssTitle": "qr-cow RSS akışı",
+    "categoryLabels": {
+      "guides": "Rehberler",
+      "news": "Haberler"
+    },
+    "archiveMetaTitle": "{name} · Blog",
+    "tagMetaDesc": "qr-cow blogunda {name} etiketli yazılar.",
+    "categoryMetaDesc": "qr-cow blogunda {name} hakkındaki yazılar.",
+    "eyebrowCategory": "Kategori",
+    "eyebrowTag": "Etiket"
+  },
+  "solutionsPage": {
+    "index": {
+      "metaTitle": "Sektöre göre QR kod çözümleri",
+      "metaDescription": "QR kodları işe koşmak için sektör oyun kitapları, restoranlar, etkinlikler, perakende ve daha fazlası. Gerçek şablonlar, gerçek akışlar, ücretsiz stüdyo.",
+      "eyebrow": "Çözümler",
+      "title": "Sektörünüzün gerçek çalışma biçimine göre tasarlanmış QR kodlar.",
+      "subtitle": "Tek üretici, sektöre özel oyun kitapları. İşinize en yakın olanı seçin, her sayfa o alanda en çok önem taşıyan şablonları, iş akışını ve analitik anları gösterir.",
+      "ctaStudio": "Stüdyoyu aç",
+      "ctaUseCases": "40 kullanım senaryosuna göz at",
+      "missingPrefix": "Sektörünüzü göremiyor musunuz?",
+      "missingLink": "Tüm kullanım senaryoları kataloğuna göz atın",
+      "missingSuffix": "dokuz alanda kırk gerçek dünya yerleşimi."
+    },
+    "detail": {
+      "metaTitle": "{name} için QR kodlar, {headline}",
+      "forLabel": "{name} için",
+      "benefitsEyebrow": "Avantajlar",
+      "benefitsTitle": "{name} neden qr-cow kullanıyor",
+      "howEyebrow": "Nasıl çalışır",
+      "howTitle": "Dakikalar içinde hazır",
+      "ctaCreate": "QR kod oluştur",
+      "ctaPricing": "Fiyatları gör",
+      "relatedHeading": "İlgili sayfalar",
+      "moreSolutions": "Tüm çözümler →"
+    },
+    "items": {
+      "restaurants": {
+        "name": "Restoranlar",
+        "teaser": "Menüler, sipariş ve yorumlar, masadan tek tarama uzakta.",
+        "headline": "Masaları daha hızlı döndüren QR kodlar",
+        "intro": "Basılı menüleri, saniyeler içinde güncelleyebileceğiniz dinamik bir QR kodla değiştirin. Fiyatları değiştirin, spesiyaller ekleyin ve hangi yerleşimlerin gerçekten tarandığını görün.",
+        "benefits": [
+          {
+            "title": "Her zaman güncel menüler",
+            "body": "Bağlı menüyü istediğiniz zaman düzenleyin, basılı kod asla değişmez, yeniden baskılar sona erer."
+          },
+          {
+            "title": "Daha hızlı sipariş",
+            "body": "Misafirler oturdukları anda menünüze veya sipariş sayfanıza ulaşır."
+          },
+          {
+            "title": "Neyin işe yaradığını bilin",
+            "body": "Masaları, vitrinleri ve el ilanlarını karşılaştırmak için kod başına taramaları takip edin."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Dinamik bir kod oluşturun",
+            "body": "Onu menünüze veya sipariş sayfanıza yönlendirin."
+          },
+          {
+            "title": "Markalayın",
+            "body": "Renklerinizle eşleştirin ve masa kartlarına basın."
+          },
+          {
+            "title": "Özgürce güncelleyin",
+            "body": "Menünüz geliştikçe hedefi değiştirin."
+          }
+        ]
+      },
+      "events": {
+        "name": "Etkinlikler",
+        "teaser": "Planlar değiştikçe uyum sağlayan biletler, programlar ve girişler.",
+        "headline": "Etkinlikleri rayında tutan QR kodlar",
+        "intro": "Her yaka kartına, afişe ve bilete tek bir dinamik QR kod koyun. Gün ilerledikçe onu programdan canlı yayına, oradan geri bildirim formuna yönlendirin.",
+        "benefits": [
+          {
+            "title": "Tek kod, birçok aşama",
+            "body": "Aynı basılı kodu tüm etkinlik yaşam döngüsü boyunca yeniden kullanın."
+          },
+          {
+            "title": "Canlı güncellemeler",
+            "body": "Son dakika salon değişikliği mi? Baskıyı değil, bağlantıyı güncelleyin."
+          },
+          {
+            "title": "Katılımı ölçün",
+            "body": "Tarama sayıları hangi oturumların ve materyallerin ilgi çektiğini gösterir."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Kampanya başına üretin",
+            "body": "Yaka kartları için bir kod, afişler için bir kod."
+          },
+          {
+            "title": "Basın ve yerleştirin",
+            "body": "Kodları biletlere, tabelalara ve broşürlere ekleyin."
+          },
+          {
+            "title": "Anında yönlendirin",
+            "body": "Program değiştikçe bağlantıyı taşıyın."
+          }
+        ]
+      },
+      "retail": {
+        "name": "Perakende",
+        "teaser": "Her rafta ve ambalajda ürün sayfaları, kampanyalar ve yorumlar.",
+        "headline": "Rafı mağazaya bağlayan QR kodlar",
+        "intro": "Fiziksel ürünlerle çevrimiçi mağazanız arasında köprü kurun. Ambalajı ürün sayfalarına, kampanyalara veya yorum formlarına bağlayın, ve hangi yerleşimlerin dönüşüm sağladığını öğrenin.",
+        "benefits": [
+          {
+            "title": "Raftan sepete",
+            "body": "Alışveriş yapanları doğrudan ürün sayfasına veya bir indirime gönderin."
+          },
+          {
+            "title": "Kampanyaları anında değiştirin",
+            "body": "Tek bir etiket bile yeniden basmadan yeni bir teklif yayınlayın."
+          },
+          {
+            "title": "Yerleşim içgörüsü",
+            "body": "Ambalaj, stant ve fiş taramalarını karşılaştırın."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Dinamik kodlar oluşturun",
+            "body": "Ürün hattı veya kampanya başına bir tane."
+          },
+          {
+            "title": "Ambalaja ekleyin",
+            "body": "Etiketlere, stantlara ve kutu içi kartlara basın."
+          },
+          {
+            "title": "Optimize edin",
+            "body": "Taramaları takip edin ve satan üzerine yoğunlaşın."
+          }
+        ]
+      }
+    }
+  },
+  "comparePage": {
+    "index": {
+      "metaTitle": "qr-cow ve alternatifleri, dürüst karşılaştırmalar",
+      "metaDescription": "qr-cow ile diğer QR kod araçları (Canva, QR.io, …) arasında dürüst, doğrulanmış karşılaştırmalar. Önce onların güçlü yönleri, sonra qr-cow'un daha iyi uyduğu yerler.",
+      "eyebrow": "Karşılaştırmalar",
+      "title": "QR üretici mi seçiyorsunuz? Önce bunları okuyun.",
+      "subtitle": "Önce her rakibin iyi yaptığı şeylerle başlıyoruz, sonra qr-cow'un daha iyi uyduğu yerleri gösteriyoruz. Bir karşılaştırma tek taraflı görünürse bir issue açın, düzeltelim.",
+      "vsTitle": "qr-cow vs {name}"
+    },
+    "detail": {
+      "metaTitle": "qr-cow vs {name}, dürüst karşılaştırma",
+      "eyebrow": "Karşılaştırma",
+      "title": "qr-cow vs {name}.",
+      "sideBySide": "Yan yana",
+      "thFeature": "Özellik",
+      "thQrcow": "qr-cow",
+      "thEdge": "Üstünlük",
+      "tie": "berabere",
+      "edgeUs": "qr-cow",
+      "edgeThem": "rakip",
+      "theyDoWell": "{name} neyi iyi yapıyor",
+      "weLead": "qr-cow nerede önde",
+      "whenToPick": "Hangisini ne zaman seçmeli",
+      "pickThemTitle": "Şu durumda {name} seçin…",
+      "pickUsTitle": "qr-cow'u şu durumda seçin…",
+      "ctaTry": "qr-cow'u ücretsiz deneyin",
+      "ctaPricing": "Fiyatları gör",
+      "breadcrumbHome": "Ana sayfa",
+      "breadcrumbIndex": "Karşılaştır",
+      "breadcrumbCurrent": "qr-cow vs {name}",
+      "altPageLink": "Geçmeyi mi düşünüyorsunuz? {name} alternatifi sayfasına bakın →"
+    },
+    "items": {
+      "canva": {
+        "verdict": "Canva, QR kod da üretebilen bir grafik tasarım paketidir; qr-cow ise güzel de görünen bir QR üreticisidir. QR, daha büyük bir Canva tasarımındaki tek bir parçaysa Canva'da kalın. QR kodlar iş akışının KENDİSİYSE, qr-cow tam bu iş için üretilmiştir.",
+        "seoDescription": "qr-cow vs Canva, dürüst karşılaştırma. Tam sayfa tasarımlar için Canva; dinamik kodlar, tarama analitiği ve API + MCP sunucusu için qr-cow.",
+        "theyDoWell": [
+          "Dünya standartlarında grafik tasarım tuvali, bir QR'ı logoların, fotoğrafların ve tipografinin yanına, bir afişe, sosyal medya kartına veya baskı düzenine bırakabilirsiniz.",
+          "Yalnızca QR değil, tüm pazarlama materyalleri için devasa şablon kitaplığı.",
+          "Zaten Canva Teams kullanıyorsanız ekip marka kiti senkronizasyonu.",
+          "Afişler, kartvizitler ve ürünler için doğrudan talep üzerine baskı."
+        ],
+        "weDoWell": [
+          "Basıldıktan SONRA düzenleyebileceğiniz dinamik QR kodlar, Canva'nınkiler statiktir, tasarımın içine gömülüdür.",
+          "Kod başına tarama analitiği (ülke / cihaz / günün saati), Canva'da hiç yok.",
+          "Wi-Fi, vCard, kripto cüzdanları, uygulama mağazası derin bağlantıları dahil 13 içerik türü, Canva temelleri kapsar (URL, e-posta, telefon) ama vCard veya Wi-Fi'yi birinci sınıf tür olarak sunmaz.",
+          "Sınırsız statik kod içeren ve kayıt gerektirmeyen ücretsiz bir plan. Canva hesap ister.",
+          "REST API + MCP sunucusu; QR'ları ajanlardan, betiklerden veya CI hattınızdan üretebilirsiniz. Canva yalnızca arayüzden çalışır.",
+          "Stripe'ı kolayca kullanamayan küresel ekipler için kripto ödeme (USDT, BTC, ETH)."
+        ],
+        "pickThem": "QR, zaten Canva'da tasarladığınız bir afişin, broşürün veya sosyal medya kartının içindeki küçük bir öğeyse Canva'yı seçin. Tek bir QR için araç değiştirmek gereksiz bir sürtünmedir.",
+        "pickUs": "Çok sayıda QR kod üretiyorsanız, onları takip etmeniz veya basıldıktan sonra hedeflerini düzenlemeniz gerekiyorsa ya da onları bir skript / API / ajan akışında istiyorsanız qr-cow'u seçin.",
+        "table": [
+          {
+            "feature": "Ücretsiz plan",
+            "qrcow": "Sınırsız statik kod, kayıt gerekmez. Kayıtla 3 dinamik kod ücretsiz.",
+            "competitor": "Ücretsiz Canva hesabı gerekli; Canva'nın ücretsiz planı Pro öğeleri sınırlar."
+          },
+          {
+            "feature": "Dinamik kodlar (baskıdan sonra düzenlenebilir)",
+            "qrcow": "Evet, hedefi istediğiniz zaman düzenleyin, basılı kod geçerli kalır.",
+            "competitor": "Hayır, Canva'daki QR kodlar tasarıma gömülü statik görsellerdir."
+          },
+          {
+            "feature": "Tarama analitiği",
+            "qrcow": "Ülke, cihaz, işletim sistemi, tarayıcı, günün saati ısı haritası, son 20 tarama günlüğü.",
+            "competitor": "Yok, Canva üretilen QR kodların taramalarını izlemez."
+          },
+          {
+            "feature": "İçerik türleri",
+            "qrcow": "13, URL, metin, Wi-Fi, vCard, MeCard, e-posta, SMS, telefon, etkinlik, konum, sosyal, kripto, uygulama derin bağlantısı.",
+            "competitor": "URL, düz metin, e-posta, telefon, SMS (2026 itibarıyla sınırlı liste)."
+          },
+          {
+            "feature": "QR etrafındaki tasarım sistemi",
+            "qrcow": "Yalnızca stüdyo: gövde şekli, göz stili, degrade, merkez logo, hata düzeltme.",
+            "competitor": "Tam Canva tuvali, QR'ı yazıların, fotoğrafların ve şekillerin yanında herhangi bir düzene bırakın."
+          },
+          {
+            "feature": "Talep üzerine baskı",
+            "qrcow": "PNG / SVG / JPG dışa aktarın, sonra kendi matbaanıza götürün.",
+            "competitor": "Afişler, kartlar ve ürünler için doğrudan talep üzerine baskı."
+          },
+          {
+            "feature": "Programatik erişim (API / MCP)",
+            "qrcow": "REST API + MCP sunucusu (Claude, Cursor, Zed). Ajanlardan, betiklerden, CI'dan üretin.",
+            "competitor": "Yalnızca arayüz. Herkese açık QR üretim API'si yok."
+          },
+          {
+            "feature": "Fiyatlandırma",
+            "qrcow": "Statik için sonsuza dek 0 dolar. Dinamik + analitik ayda 3 dolar. API erişimi ayda 9 dolar. Yalnızca kripto.",
+            "competitor": "Ücretsiz plan + ayda ~15 dolardan başlayan Canva Pro (yalnızca QR'ı değil, tüm paketi kapsar)."
+          }
+        ]
+      },
+      "qr_io": {
+        "verdict": "QR.io, cömert bir tasarım paletine ve toplu CSV yüklemelerine sahip, yalnızca ücretli çalışan şık bir QR oluşturucudur. qr-cow daha ucuzdur, ücretsiz bir statik plan sunar ve bir API + MCP sunucusuyla gelir. Toplu içe aktarma gerektiren kurumsal bir dağıtım için QR.io'yu; bireysel kullanım, kripto ödeme veya ajan iş akışları için qr-cow'u seçin.",
+        "seoDescription": "qr-cow vs QR.io, dürüst karşılaştırma. Kurumsal toplu içe aktarmalar için QR.io; ücretsiz plan, kripto ödeme ve MCP üzerinden yapay zekâ ajanı iş akışları için qr-cow.",
+        "theyDoWell": [
+          "Özenli tasarım paleti, geniş gövde şekli yelpazesi, çerçeveler ve seçilmiş renk ön ayarları.",
+          "Tek seferde binlerce kod üretmek için toplu CSV yükleme, ürün kataloğu dağıtımları için kullanışlı.",
+          "Rol tabanlı erişime sahip ekip çalışma alanı.",
+          "Birkaç yıllık güven sinyaline sahip yerleşik bir marka."
+        ],
+        "weDoWell": [
+          "Sonsuza dek ücretsiz statik kodlar, kayıt gerekmez. QR.io yalnızca ücretlidir, tek bir kod bile abonelik ister.",
+          "Dürüst, yalnızca kripto ödeme (USDT, BTC, ETH), Stripe'ın çalışmadığı bölgelerde de işler.",
+          "REST API + Model Context Protocol sunucusu, qr-cow'u 30 saniyede Claude, Cursor veya Zed'e bağlayın. QR.io'nun API'si var ama MCP'si yok.",
+          "Bağımsız ve bunu açıkça söylüyor, HSN ailesi tarafından geliştirildi, VC yok. QR.io yatırımcı destekli ve fiyatlar bunu yansıtıyor.",
+          "Dinamik yükseltme teklifi naziktir, analitiğe ihtiyacınız yoksa ısrarla karşılaşmadan ücretsiz planda kalırsınız.",
+          "Birinci sınıf blog + kullanım senaryosu dizini, burada QR kodları yalnızca satın almakla kalmaz, onlar hakkında bilgi de edinirsiniz."
+        ],
+        "pickThem": "CSV ile 500'den fazla kod üretmeniz ve bir pazarlama ekibine çalışma alanı erişimi vermeniz gereken, şık bir arayüz için ayda 30-50 dolar ödemekten çekinmediğiniz kurumsal bir QR dağıtımı için QR.io'yu seçin.",
+        "pickUs": "Ücretsiz bir plan istiyorsanız, kripto ödemeyi tercih ediyorsanız, yapay zekâ ajanlarıyla (MCP) çalışıyorsanız veya sadece satış ekibiyle görüşmek istemiyorsanız qr-cow'u seçin.",
+        "table": [
+          {
+            "feature": "Ücretsiz plan",
+            "qrcow": "Sınırsız statik kod, kayıt gerekmez. Kayıtla 3 dinamik kod ücretsiz.",
+            "competitor": "Yalnızca ücretli, ücretsiz plan yok. 14 günlük deneme."
+          },
+          {
+            "feature": "Dinamik kodlar + analitik",
+            "qrcow": "Evet, ayda 3 dolarlık plandan itibaren dahil.",
+            "competitor": "Evet, temel özellik, her ücretli planda dahil."
+          },
+          {
+            "feature": "Toplu CSV yükleme",
+            "qrcow": "Henüz yok, tek kodluk stüdyo + toplu üretim için API.",
+            "competitor": "Evet, bir CSV'den binlerce koda kadar toplu üretim."
+          },
+          {
+            "feature": "Programatik API",
+            "qrcow": "REST API + MCP sunucusu. Claude, Cursor, Zed veya herhangi bir HTTP istemcisinden çalışır.",
+            "competitor": "Üst planlarda REST API. MCP yok."
+          },
+          {
+            "feature": "Ödeme",
+            "qrcow": "Yalnızca kripto (USDT, BTC, ETH), Stripe'ın çalışmadığı bölgelerde de işler.",
+            "competitor": "Stripe üzerinden kredi kartı."
+          },
+          {
+            "feature": "Ekip çalışma alanları",
+            "qrcow": "Bugün tek hesap; çok kullanıcılı sürüm planlanıyor.",
+            "competitor": "Rollerle birlikte yerleşik ekip çalışma alanları."
+          },
+          {
+            "feature": "Fiyatlandırmada şeffaflık",
+            "qrcow": "Yuvarlak sayılı üç plan; \"satış ekibiyle görüşün\" yükseltme kapısı yok.",
+            "competitor": "Bireysel + işletme için açık fiyat; kurumsalda satış kapısı."
+          },
+          {
+            "feature": "İçerik türleri",
+            "qrcow": "13, URL, metin, Wi-Fi, vCard, MeCard, e-posta, SMS, telefon, etkinlik, konum, sosyal, kripto cüzdanı, uygulama.",
+            "competitor": "~10, URL, metin, Wi-Fi, vCard, e-posta, SMS, telefon, sosyal, PDF, görsel."
+          }
+        ]
+      }
+    }
+  },
+  "changelogPage": {
+    "metaTitle": "Değişiklik günlüğü, qr-cow'da yenilikler",
+    "metaDescription": "qr-cow'un son sürümleri, yeni QR türleri, kontrol paneli özellikleri, API + MCP, analitik, performans iyileştirmeleri. Her yayında güncellenir.",
+    "eyebrow": "Değişiklik günlüğü",
+    "title": "qr-cow'da yenilikler",
+    "intro": "Açıkta geliştiriyoruz. Gördüğünüz şeylere dokunan her sürüm buraya düşer, özellikler, iyileştirmeler, düzeltmeler. Umursamayacağınız sürümler (bağımlılık güncellemeleri, iç yeniden düzenlemeler) git günlüğünde kalır.",
+    "wantEvery": "Her değişikliği mi istiyorsunuz?",
+    "gitHistory": "Tam git geçmişi herkese açık",
+    "requestPrefix": "Bir özellik isteğiniz mi var?",
+    "github": "GitHub",
+    "requestMid": "üzerinde bir issue açın veya",
+    "blogComments": "blog yorumlarına",
+    "requestSuffix": "yazın, yol haritasını sizin istekleriniz şekillendiriyor."
+  },
+  "useCasesPage": {
+    "metaTitle": "QR kod kullanım senaryoları, QR kodun hakkını verdiği her yer",
+    "metaDescription": "Dokuz sektörde kırk gerçek dünya QR kod yerleşimi, konaklama, perakende, etkinlikler, sağlık, ödemeler, eğitim ve daha fazlası.",
+    "eyebrow": "Kullanım senaryoları",
+    "title": "QR kodun hakkını verdiği her yer.",
+    "introPrefix": "Bir QR kodun dokunuşu, URL'yi veya elle yazılan şifreyi geride bıraktığı kırk gerçek dünya örneği. Size yakın gelen bir satır seçin, sonra",
+    "introLink": "stüdyoyu açın",
+    "introSuffix": "ve kendinizinkini yapın.",
+    "ctaMake": "Hemen bir tane yapın",
+    "ctaPricing": "Fiyatları gör",
+    "countLabel": "{count} kullanım senaryosu",
+    "proTip": "İpucu:",
+    "groups": {
+      "hospitality": {
+        "title": "Konaklama ve yeme-içme",
+        "intro": "Restoranlar, kafeler, oteller ve barlar; masada servisteki ve self check-in akışlarındaki sürtünmeyi azaltmak için QR kodları kullanır.",
+        "items": [
+          {
+            "title": "Menüler",
+            "body": "Basılı menüleri dinamik bir QR ile değiştirin, tek bir masa kartını yeniden basmadan fiyatları, spesiyalleri ve diyet etiketlerini düzenleyin.",
+            "tip": "Dinamik kod kullanın; mutfak bir ürünü tükendi olarak işaretlediği anda ürün canlı menüden kaybolsun."
+          },
+          {
+            "title": "Misafir Wi-Fi'si",
+            "body": "SSID + şifreyi duvardaki veya başucundaki bir etikete kodlayın. Misafir tarar, telefon bağlanır, kimse 20 karakterlik bir parolayı okumak zorunda kalmaz."
+          },
+          {
+            "title": "Otel check-in ve oda servisi",
+            "body": "Kart kılıfına basın; misafirler spa menüsüne, kahvaltı sipariş formuna veya geç çıkış talebine iki dokunuşta ulaşsın."
+          },
+          {
+            "title": "Yorum toplama",
+            "body": "Fişte veya hesap föyünde, Google Yorumlar / Tripadvisor'a bağlayın. Yorumlar, elle yazılan URL'ye göre ~2 kat daha fazla.",
+            "tip": "Dinamik kod kullanın; yorum platformunu yeniden baskı yapmadan değiştirebilirsiniz."
+          },
+          {
+            "title": "Self servis check-in",
+            "body": "Butik oteller ve Airbnb ev sahipleri için kapı kodları, tarayın, rezervasyon aralığına bağlı bir sayfada giriş kodunu görün."
+          }
+        ]
+      },
+      "retail": {
+        "title": "Perakende ve e-ticaret",
+        "intro": "Fiziksel rafları dijital ürün sayfalarına bağlayın, ve hangi yerleşimlerin gerçekten tarama getirdiğini öğrenin.",
+        "items": [
+          {
+            "title": "Ürün ambalajı",
+            "body": "Kutuyu / ambalajı ürün sayfasına, içerik listesine veya bakım kılavuzuna bağlayın. Anlık alışveriş kategorilerinde sepete ekleme dönüşümünü gözle görülür şekilde artırır."
+          },
+          {
+            "title": "Raf etiketleri ve stantlar",
+            "body": "Promosyon kodları, paket fırsatları, indirimli fiyatlar, bir deste raf kartını yeniden basmak yerine telefondan her hafta değiştirin."
+          },
+          {
+            "title": "Fiş + satın alma sonrası",
+            "body": "Fişin üzerinde: garanti kaydı, iade formu veya bir geri bildirim anketi. Yüksek niyetli müşteriler; sormak için mükemmel an."
+          },
+          {
+            "title": "Kabinde deneme",
+            "body": "Kabindeyken bir ürünü tarayıp renk seçeneklerini, stoktaki bedenleri veya uyumlu parçaları görün, kabinden çıkmadan."
+          },
+          {
+            "title": "İade ve değişim",
+            "body": "İade evrak işini ortadan kaldırın: fişteki QR'ı tarayın, form sipariş bilgileriyle önceden doldurulmuş gelsin."
+          },
+          {
+            "title": "AB Dijital Ürün Pasaportu",
+            "body": "2026'dan itibaren DPP düzenlemesi, giderek büyüyen bir kategori listesinde (pil, tekstil, elektronik) QR bağlantısını zorunlu kılıyor. Şimdiden dinamik bir kod kullanarak öne geçin.",
+            "tip": "Dinamik kod kullanın; DPP hedefi, etiketleri yeniden basmadan düzenlemeyle birlikte evrilebilsin."
+          }
+        ]
+      },
+      "events": {
+        "title": "Etkinlikler ve konferanslar",
+        "intro": "Biletler, yaka kartları ve tabelalar; ajanda geliştikçe gün boyunca yeniden görevlendirilir.",
+        "items": [
+          {
+            "title": "Biletler ve giriş",
+            "body": "Kapıda tara-gir. Katılımı canlı sayar, basılı bilet sahteciliğini ortadan kaldırır."
+          },
+          {
+            "title": "Konferans yaka kartları",
+            "body": "Kartın arkasında vCard, iki dokunuşla iletişim bilgisi alışverişi, kâğıt kartvizit dağıtmayı geride bırakır."
+          },
+          {
+            "title": "Oturum tabelaları",
+            "body": "Her salonun önündeki afişler; o oturumun canlı slaytlarına, konuşmacı biyografisine veya geri bildirim formuna bağlanır."
+          },
+          {
+            "title": "Canlı yayın bağlantıları",
+            "body": "Her afişe tek QR, konuşma sırasında canlı URL'ye, sonrasında kayda, daha sonra gelecek yılın CFP'sine yönlendirin. Aynı afiş, üç yaşam döngüsü.",
+            "tip": "Tek bir dinamik kodu yeniden yönlendirmek, yüz afişi yeniden basmaktan iyidir."
+          },
+          {
+            "title": "Etkinlik sonrası anketler",
+            "body": "Kapanış slaydında geri bildirim QR'ı. Seyirci konuşmayı hâlâ hatırlarken yanıtları toplar."
+          }
+        ]
+      },
+      "marketing": {
+        "title": "Pazarlama ve reklam",
+        "intro": "Açık hava mecraları (reklam panoları, el ilanları, basılı dergiler, ambalaj) tahmine dayalı olmaktan çıkıp ölçülebilir hale gelir.",
+        "items": [
+          {
+            "title": "Reklam panosu + toplu taşıma reklamları",
+            "body": "Bir reklam panosunu caddenin karşısından tarayın, telefonlar büyük QR kodları 3-5 metreden yakalar.",
+            "tip": "Otoyol panolarında kodu ≥ 60 cm genişlikte tutun; daha küçüğünde veri modülleri kameranın çözme gücünün altında kalır."
+          },
+          {
+            "title": "Basılı dergi reklamları",
+            "body": "Statik bir baskı harcamasını ölçülebilir bir huniye dönüştürün, taramalar + açılış sayfası dönüşümleri hangi yayınların karşılığını verdiğini gösterir."
+          },
+          {
+            "title": "Doğrudan posta kartpostalları",
+            "body": "Arkadaki QR, kişiselleştirilmiş bir açılış sayfasına yönlendirir. Tarama oranı, URL yazmaya göre ~5-15 kat daha yüksek."
+          },
+          {
+            "title": "TV + ekran reklamları",
+            "body": "Reklam sırasında QR'ı ekranda 5-10 saniye tutun, izleyiciler ellerindeki telefonla tarar. 2022'den beri Super Bowl reklamlarında yaygın."
+          },
+          {
+            "title": "Film ve oyun tanıtımları",
+            "body": "Fragman kartları; erken erişim istek listelerine, film müziği yayınlarına veya yakındaki bir salondaki bir sonraki gösterime bağlanır."
+          }
+        ]
+      },
+      "payments": {
+        "title": "Ödemeler ve faturalama",
+        "intro": "QR tabanlı ödemeler Asya'da baskın; Avrupa, Latin Amerika ve Afrika'da hızla büyüyor.",
+        "items": [
+          {
+            "title": "WeChat Pay / AliPay",
+            "body": "QR öncelikli ödeme altyapıları, müşteri satıcının QR'ını ya da satıcı müşterininkini tarar. Çin anakarasında varsayılan yöntem."
+          },
+          {
+            "title": "Hindistan'da UPI",
+            "body": "PhonePe, Google Pay ve Paytm; hem kişiden kişiye hem satıcı ödemelerinde QR kullanır. Günde ~400 milyondan fazla kişi kullanıyor."
+          },
+          {
+            "title": "Apple / Google Pay",
+            "body": "Cüzdan uygulamaları artık AB ve Avustralya'daki ödeme akışlarında satıcı QR kodlarını yerleşik olarak okuyor."
+          },
+          {
+            "title": "Kripto cüzdan adresleri",
+            "body": "BTC / ETH / USDT adresleri uzundur ve hata affetmez, QR olarak kodlamak, gerçek paraya mal olan kopyala-yapıştır hatalarını ortadan kaldırır.",
+            "tip": "URI şemasına her zaman varlık sembolünü ekleyin (`bitcoin:`, `ethereum:`); alıcı cüzdanlar onu doğru şekilde okusun."
+          },
+          {
+            "title": "Fatura ödeme bağlantıları",
+            "body": "Faturaya bir Stripe / NOWPayments bağlantısı basın, müşteri tarar, tercih ettiği para biriminde öder, siz mutabakatı otomatik yaparsınız."
+          }
+        ]
+      },
+      "healthcare": {
+        "title": "Sağlık",
+        "intro": "Hasta akışları, ilaç takibi ve tahlil sonucu erişimi, elle yazılan bir URL'nin veya girişin sürtünme yarattığı her yer.",
+        "items": [
+          {
+            "title": "Hasta kimliği ve kayıtları",
+            "body": "Bileklikteki QR, uzun bir dosya numarası yazmadan hastayı elektronik sağlık kaydına bağlar. Yatan hasta servislerinde yaygın."
+          },
+          {
+            "title": "İlaç etiketleri",
+            "body": "Şişeyi tarayıp ilaç etkileşim bilgisini, prospektüs PDF'ini ve yeniden reçete akışını görün. AB FMD (sahte ilaç direktifi) her reçeteli kutuda QR kullanır."
+          },
+          {
+            "title": "Tahlil sonucu teslimi",
+            "body": "Tahlil fişindeki QR → sonuçların bulunduğu hasta portalı. Onlarca sayfa PDF basmayı önler."
+          },
+          {
+            "title": "Randevu hatırlatmaları",
+            "body": "QR'lı hatırlatma kartı → takvime ekle + yeniden planlama formu. Randevuya gelmeme oranını düşürür."
+          }
+        ]
+      },
+      "education": {
+        "title": "Eğitim",
+        "intro": "Sınıflar, müzeler, kütüphaneler, statik bir nesnenin dijital bir uzantıdan fayda gördüğü her yer.",
+        "items": [
+          {
+            "title": "Ders kitabı ekleri",
+            "body": "Sayfa kenarındaki QR ile etkileşimli grafiklere, simülasyonlara veya video anlatımlara ulaşın. Statik ders kitabı → dinamik öğretim kaynağı."
+          },
+          {
+            "title": "Müze sergileri",
+            "body": "Her serginin QR'ı; uzun açıklamaya, sesli rehbere veya perde arkası hikâyeye bağlanır.",
+            "tip": "Yanına `Hikâye için tarayın` yazısı ekleyin, etiketli taramalar, etiketsizlere göre ~3 kat etkileşim alır."
+          },
+          {
+            "title": "Yoklama",
+            "body": "Sınıfa yansıtılan QR her dakika değişir; öğrenciler tarayarak yoklamaya katılır. Arkadaşın-yerine-tıklaması düzenini boşa çıkarır."
+          },
+          {
+            "title": "Kütüphane kataloğu",
+            "body": "Raf kenarındaki QR → dijital uygunluk + rezervasyon. Katalog terminaline bir gidişi ortadan kaldırır."
+          }
+        ]
+      },
+      "manufacturing": {
+        "title": "Sanayi ve lojistik",
+        "intro": "Tedarik zincirlerinin, izlenebilirliğin ve bakımın taranabilir bir seri numarasından fayda gördüğü yerler.",
+        "items": [
+          {
+            "title": "Kargo takibi",
+            "body": "Gönderi etiketlerine basın, kuryeler her durakta tarar, müşteriler canlı tahmini varış için tarar."
+          },
+          {
+            "title": "Ekipman bakımı",
+            "body": "Her makinedeki QR; bakım günlüğüne, kılavuzlara ve bir sonraki denetimi kaydetme formuna bağlanır.",
+            "tip": "Hata düzeltme H kullanın, fabrika zeminindeki kodlar çizilir ve yağa bulanır."
+          },
+          {
+            "title": "Tarladan sofraya izlenebilirlik",
+            "body": "Ürün kasasındaki QR; menşe tarlayı, hasat tarihini ve gözetim zincirini gösterir. AB organik sertifikasyonunda yaygın."
+          },
+          {
+            "title": "Şantiye güvenliği",
+            "body": "Her ekipman / iskele parçasında denetim belgesine bağlanan bir QR bulunur. Denetçiyi evrak işi olmadan uyumluluk sürecinden geçirir."
+          }
+        ]
+      },
+      "personal": {
+        "title": "Kişisel ve sosyal",
+        "intro": "QR kodlar kâğıt kartvizitleri ve özgeçmişleri emekliye ayırıyor. İki dokunuşla iletişim bilgisi alışverişi, kâğıt dağıtmayı her seferinde geride bırakır.",
+        "items": [
+          {
+            "title": "vCard kartvizitler",
+            "body": "Kartınızın arkasına bir vCard QR basın, karşınızdaki tarar, kişi telefonuna kaydolur, kimse bir şey yazmaz."
+          },
+          {
+            "title": "Profil / bağlantı ağacı",
+            "body": "Bağlantı toplayıcınıza (veya kendi /links sayfanıza) işaret eden tek bir QR, slaytlarda, profil fotoğraflarında ve imzalarda çalışır."
+          },
+          {
+            "title": "Düğün ve etkinlik LCV'leri",
+            "body": "Davetiyedeki QR → LCV formu + beslenme tercihleri + hediye listesi. Çiftler mesajla tek tek sorma derdinden kurtulur."
+          },
+          {
+            "title": "Fotoğraf paylaşım albümü",
+            "body": "Düğün/doğum günü QR'ı → her misafirin fotoğraflarını yüklediği ortak bir albüm. \"Fotoğrafları bana da gönder\" WhatsApp kovalamacası biter."
+          }
+        ]
+      }
+    },
+    "makeLink": "Bu QR'ı oluşturun"
+  },
+  "qrTypes": {
+    "shared": {
+      "otherHeading": "Diğer QR kod türleri",
+      "otherSub": "Aynı stüdyo, farklı içerik türü, projeniz hangisine ihtiyaç duyuyorsa onu seçin.",
+      "otherLink": "{type} QR kod",
+      "faqHeading": "{type} QR kod SSS",
+      "allTypes": "13 türün tümü",
+      "solutionsHeading": "Şu alanlarda popüler"
+    },
+    "url": {
+      "eyebrow": "URL QR Kodu",
+      "title": "Ücretsiz URL QR kod oluşturucu",
+      "sub": "Herhangi bir web adresini taranabilir bir QR koda dönüştürün. URL'yi yapıştırın, bir stil seçin, PNG, SVG veya JPG olarak indirin, kayıt yok, süre sınırı yok, filigran yok.",
+      "metaTitle": "Ücretsiz URL QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz URL QR kod oluşturucu. Herhangi bir web sitesi bağlantısını logolu, renkli ve degradeli taranabilir bir QR'a dönüştürün. PNG / SVG / JPG dışa aktarma. Kayıt gerekmez.",
+      "displayName": "URL",
+      "faq": [
+        {
+          "q": "URL QR kodunun süresi dolar mı?",
+          "a": "Hayır. Statik URL kodları hedefi doğrudan desenin içine kodlar. QR'ı indirdikten sonra, qr-cow'un sunucularına bağımlı olmadan sonsuza dek çalışır."
+        },
+        {
+          "q": "Kodu bastıktan sonra URL'yi değiştirebilir miyim?",
+          "a": "Yalnızca dinamik bir kodla. QR'ı ücretsiz bir hesaba kaydedin ve Dinamik'i seçin, böylece QR'ı yeniden basmadan hedefi istediğiniz zaman düzenleyebilirsiniz. Statik kodlar ücretsizdir; dinamik kodlar ayda 3 dolardır."
+        },
+        {
+          "q": "Uzun URL'ler QR'ın taranmasını zorlaştırır mı?",
+          "a": "Evet, daha uzun URL'ler daha yoğun, taranması daha zor bir kod üretir. Uzun izleme URL'leri (UTM parametreli) için dinamik bir kod kullanın: qr-cow hedefi dahili olarak kısaltır; basılı desen sade kalırken tam atıf verisi sunucu tarafında korunur."
+        }
+      ]
+    },
+    "wifi": {
+      "eyebrow": "Wi-Fi QR Kodu",
+      "title": "Ücretsiz Wi-Fi QR kod oluşturucu",
+      "sub": "Kimse şifre yazmadan misafirleri Wi-Fi ağınıza bağlayan bir etiket basın. SSID + şifrenizi girin, bir stil seçin, indirin, her modern telefonun kamerasıyla çalışır.",
+      "metaTitle": "Ücretsiz Wi-Fi QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz Wi-Fi QR kod oluşturucu, misafirler tarar ve ağınıza otomatik bağlanır. WPA / WEP / açık ağlar desteklenir. Kayıt gerekmez.",
+      "displayName": "Wi-Fi",
+      "faq": [
+        {
+          "q": "Hangi telefonlar QR koddan Wi-Fi'ye bağlanabilir?",
+          "a": "iOS 11 ve üzeri çalıştıran her iPhone ve Android 10 ve üzeri çalıştıran her telefon, kamerayı QR koda doğrultarak Wi-Fi ağına bağlanabilir, uygulama gerekmez. Daha eski telefonlar ücretsiz bir QR okuyucu uygulamasına ihtiyaç duyabilir."
+        },
+        {
+          "q": "Wi-Fi şifremi QR kod olarak basmak güvenli mi?",
+          "a": "QR kod, kelimenin tam anlamıyla şifrenin basılı bir kopyasıdır. Bir kafe misafir ağı için sorun değil; kurumsal yönetici ağınız için uygun değil. Kodu herkese açık asıyorsanız kendi şifresi olan ayrı bir misafir VLAN'ı kullanın."
+        },
+        {
+          "q": "SSID'im gizliyse çalışır mı?",
+          "a": "Evet. Üretirken \"Gizli ağ\" seçeneğini işaretleyin, QR gizli bayrağını içerir; böylece tarayan telefon, SSID'nin yayınlanmasını beklemek yerine onu aramayı bilir."
+        }
+      ]
+    },
+    "vcard": {
+      "eyebrow": "vCard QR Kodu",
+      "title": "Ücretsiz vCard QR kod oluşturucu",
+      "sub": "Bir vCard QR, iletişim bilgilerinizi iki dokunuşta doğrudan telefonun rehberine ekler. Kartvizitinize, sunumunuza veya fuar yaka kartınıza ekleyin, karşınızdakiler hiçbir şey yazmadan sizi kaydeder.",
+      "metaTitle": "Ücretsiz vCard / Kartvizit QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz vCard QR kod oluşturucu. Ad, telefon, e-posta, şirket, unvan, web sitesi kodlayın, iki dokunuşta telefon rehberine kaydedilsin. Kayıt gerekmez.",
+      "displayName": "vCard",
+      "faq": [
+        {
+          "q": "vCard mı MeCard mı, hangisini kullanmalıyım?",
+          "a": "Varsayılan olarak vCard'ı seçin. Uluslararası standarttır, daha fazla alanı destekler (şirket, unvan, web sitesi, adresler) ve her modern telefon onu tanır. MeCard daha kısadır (dolayısıyla QR daha küçüktür) ama alan kaybettirir, bu değiş tokuş yalnızca basılı kodun çok küçük olması gerektiğinde değer."
+        },
+        {
+          "q": "İş değiştirirsem vCard QR'ımı güncelleyebilir miyim?",
+          "a": "Statik vCard'lar iletişim bilgilerini basılı desenin içine gömer; yani yeni bir görev, yeni bir QR demektir. Sık iş değiştiriyorsanız, güncelleyebileceğiniz bir iletişim sayfasına işaret eden dinamik bir kod kullanın, basılı kod geçerli kalır."
+        },
+        {
+          "q": "Kişi hem iPhone'a hem Android'e kaydolur mu?",
+          "a": "Evet. Hem iOS hem Android, vCard QR'larını yerleşik olarak tanır ve kullanıcıya \"Kişilere Ekle\" önerisi sunar. Aynı QR ikisinde de çalışır, ayrı kodlara gerek yok."
+        }
+      ]
+    },
+    "mecard": {
+      "eyebrow": "MeCard QR Kodu",
+      "title": "Ücretsiz MeCard QR kod oluşturucu",
+      "sub": "MeCard, vCard'ın daha kısa, Japon standardı kardeşidir, aynı temel bilgileri (ad, telefon, e-posta) daha küçük, daha yoğun bir QR'a kodlar. Basılı kodun çok küçük olması gerektiğinde kullanışlıdır.",
+      "metaTitle": "Ücretsiz MeCard QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz MeCard QR kod oluşturucu, küçük baskı yüzeyleri için kompakt kişi QR'ı. vCard'dan küçük, her modern telefon tarafından tanınır.",
+      "displayName": "MeCard",
+      "faq": [
+        {
+          "q": "MeCard'ı vCard yerine ne zaman seçmeliyim?",
+          "a": "Yalnızca baskı alanı gerçekten darsa, etiket çıkartmaları, minik yaka kartı köşeleri, küçük bir faturanın kenarı. MeCard'ın daha kısa içeriği daha az yoğun bir QR üretir; bu da küçük baskı boyutlarında daha iyi taranır. Posta pulundan büyük her şey için vCard kullanın."
+        },
+        {
+          "q": "Tüm telefonlar MeCard'ı destekler mi?",
+          "a": "Modern iOS ve Android telefonlar destekler. Çok eski bazı Android kamera uygulamaları desteklemez ama önemsenmeyecek kadar nadirdirler. Kararsızsanız, vCard'ın uyumluluğu daha geniştir."
+        }
+      ]
+    },
+    "email": {
+      "eyebrow": "E-posta QR Kodu",
+      "title": "Ücretsiz e-posta QR kod oluşturucu",
+      "sub": "Tarandığında önceden hazırlanmış bir e-posta açılır, alıcı, konu ve gövde zaten dolu. Gönderen yalnızca göndere basar. Destek kartları, bize-ulaşın tabelaları ve etkinlik el ilanları için harika.",
+      "metaTitle": "Ücretsiz E-posta QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz e-posta QR kod oluşturucu, alıcısı, konusu ve gövdesi önceden doldurulmuş bir e-posta açar. Gönderen yalnızca göndere dokunur. Kayıt gerekmez.",
+      "displayName": "E-posta",
+      "faq": [
+        {
+          "q": "E-posta tarandığında otomatik gönderilir mi?",
+          "a": "Hayır. Tarama, kullanıcının varsayılan posta uygulamasını alıcı, konu ve gövde önceden doldurulmuş olarak açar, kullanıcının yine de Gönder'e dokunması gerekir. Bu, iOS ve Android'de bir güvenlik özelliğidir."
+        },
+        {
+          "q": "E-posta gövdesine satır sonu ekleyebilir miyim?",
+          "a": "Evet, satır sonu kaçış karakterlerini qr-cow sizin için halleder. Uzun gövdeler QR'ı yoğunlaştırır; 200 karakteri aşan içerikler için bunun yerine bir iletişim formuna bağlantı vermeyi düşünün."
+        }
+      ]
+    },
+    "sms": {
+      "eyebrow": "SMS QR Kodu",
+      "title": "Ücretsiz SMS QR kod oluşturucu",
+      "sub": "Tarayınca önceden hazırlanmış bir kısa mesaj açılır, alıcı ve mesaj gövdesi zaten dolu. Restoran geri bildirimleri, çift yönlü SMS anketleri ve kısa kod kampanyaları için yaygın.",
+      "metaTitle": "Ücretsiz SMS QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz SMS QR kod oluşturucu, önceden doldurulmuş bir kısa mesaj açar. Geri bildirim, çift yönlü SMS kampanyaları ve kısa kod anahtar kelime katılımları için kullanışlı.",
+      "displayName": "SMS",
+      "faq": [
+        {
+          "q": "SMS otomatik gönderilir mi?",
+          "a": "Hayır. Telefon, varsayılan mesajlaşma uygulamasını alıcı ve gövde önceden doldurulmuş olarak açar, kullanıcı göndermeden önce yine de onaylar. E-posta QR'ıyla aynı güvenlik davranışı."
+        },
+        {
+          "q": "Bir SMS kısa koduyla kullanabilir miyim?",
+          "a": "Evet. Alıcı olarak kısa kodunuzu, gövde olarak anahtar kelimeyi (örn. \"PIZZA\") girin. QR, SMS kampanyanıza sürtünmesiz bir katılım yolu haline gelir."
+        }
+      ]
+    },
+    "phone": {
+      "eyebrow": "Telefon QR Kodu",
+      "title": "Ücretsiz telefon araması QR kod oluşturucu",
+      "sub": "Tarayınca seçtiğiniz numaraya bir arama başlatılır. Taksi çağırma tabelaları, doktor randevu kartları, emlak tabelaları ve bir sonraki adımı \"bizi arayın\" olan her basılı malzeme için kullanışlı.",
+      "metaTitle": "Ücretsiz Telefon Araması QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz telefon QR kod oluşturucu, tarayın, numaranız hazır şekilde arama ekranı açılsın. Kayıt yok, süre sınırı yok.",
+      "displayName": "Telefon",
+      "faq": [
+        {
+          "q": "Arama otomatik başlar mı?",
+          "a": "Hayır, arama ekranı numara önceden doldurulmuş olarak açılır ama kullanıcının Ara'ya dokunması gerekir. Telefonlar, kötüye kullanımı önlemek için QR kodları bilerek otomatik aramaz."
+        },
+        {
+          "q": "Ülke kodları doğru çalışır mı?",
+          "a": "Evet. Tam uluslararası biçimi kullanın (örn. +44 20 7946 0958); QR her yerden doğru numarayı arar. Ülke kodu olmadan QR yalnızca aynı ülke içinde çalışır."
+        }
+      ]
+    },
+    "text": {
+      "eyebrow": "Metin QR Kodu",
+      "title": "Ücretsiz metin QR kod oluşturucu",
+      "sub": "~4000 karaktere kadar herhangi bir düz metni bir QR'a kodlayın, gizli bir mesaj, bir seri numarası, bir şiir, bir kupon kodu, bir envanter kimliği. Telefon ne okursa kullanıcı onu görür.",
+      "metaTitle": "Ücretsiz Düz Metin QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz düz metin QR kod oluşturucu. Herhangi bir metni, seri numaraları, gizli mesajlar, kupon kodları, taranabilir bir QR'a kodlayın. Kayıt gerekmez.",
+      "displayName": "Metin",
+      "faq": [
+        {
+          "q": "Bir QR koda ne kadar metin sığar?",
+          "a": "Hata düzeltme L'de (en esnek seviye) yaklaşık 2.953 karakter, ancak daha büyük içerikler, taranmak için daha fazla baskı alanı isteyen daha yoğun bir kod üretir. ~500 karakterden fazlası için bunun yerine bir URL'ye bağlantı vermeyi düşünün."
+        },
+        {
+          "q": "Metne 'https://' eklersem telefon bağlantıyı açar mı?",
+          "a": "Çoğu telefon URL biçimli dizeleri algılar ve QR düz metin olsa bile açmayı önerir. Garantili URL işleme gerekiyorsa bunun yerine URL QR türünü kullanın, o, URL şemasını açıkça ayarlar."
+        }
+      ]
+    },
+    "event": {
+      "eyebrow": "Etkinlik QR Kodu",
+      "title": "Ücretsiz etkinlik QR kod oluşturucu",
+      "sub": "Etkinliği tek dokunuşla kullanıcının takvimine ekleyin, başlık, tarih, konum ve notlar önceden doldurulmuş. Davetiyeler, konferans davetleri, restoran pop-up'ları ve webinar el ilanları için mükemmel.",
+      "metaTitle": "Ücretsiz Etkinlik / Takvim QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz etkinlik QR kod oluşturucu. Toplantıyı tek dokunuşla Google / Apple / Outlook takvimine ekleyen bir vEvent kodlar. Kayıt gerekmez.",
+      "displayName": "Etkinlik",
+      "faq": [
+        {
+          "q": "Etkinlik QR'ı hangi takvim uygulamalarıyla çalışır?",
+          "a": "Tüm büyük uygulamalarla, Apple Takvim, Google Takvim, Outlook, ProtonMail Takvim. QR, hepsinin yerleşik olarak okuduğu iCalendar (vEvent) standardını kodlar."
+        },
+        {
+          "q": "Etkinliğe bir toplantı bağlantısı ekleyebilir miyim?",
+          "a": "Evet, Zoom / Meet / Teams bağlantısını notlar alanına koyun. Kullanıcı takvim girdisine dokunduğunda telefonu bağlantıyı tıklanabilir yapar; böylece takvim uygulamasından katılabilir."
+        }
+      ]
+    },
+    "location": {
+      "eyebrow": "Konum QR Kodu",
+      "title": "Ücretsiz konum QR kod oluşturucu",
+      "sub": "Tek taramayla haritaya bir iğne bırakın, telefonun harita uygulamasında açılan enlem + boylam. Mekân tabelaları, emlak tabelaları ve \"bizi bulun\" el ilanları için kullanışlı.",
+      "metaTitle": "Ücretsiz Konum / GPS QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz konum QR kod oluşturucu, Apple Haritalar, Google Haritalar veya varsayılan harita uygulamasında açılan GPS koordinatları kodlar. Kayıt gerekmez.",
+      "displayName": "Konum",
+      "faq": [
+        {
+          "q": "Google Haritalar'da mı Apple Haritalar'da mı açılır?",
+          "a": "Telefonun varsayılanı hangisiyse onda. QR, her iki uygulamanın da kayıtlı olduğu geo: şemasını kodlar, iOS Apple Haritalar'ı, Android ise kullanıcı varsayılanı değiştirmediyse Google Haritalar'ı seçer."
+        },
+        {
+          "q": "İğne ne kadar isabetli?",
+          "a": "Girdiğiniz koordinatlar kadar. Altı ondalık basamak ~10 cm hassasiyet verir, en titiz mekân iğnesi için bile fazlasıyla yeterli. Dört basamak (~10 m) çoğu tabela için yeterlidir."
+        }
+      ]
+    },
+    "social": {
+      "eyebrow": "Sosyal QR Kodu",
+      "title": "Ücretsiz sosyal medya QR kod oluşturucu",
+      "sub": "Tarayanları doğrudan Instagram, TikTok, X (Twitter), LinkedIn veya YouTube profilinize gönderin. Çoğu zaman yabancılardan bir kullanıcı adını yazmalarını istemekten daha güvenilirdir.",
+      "metaTitle": "Ücretsiz Sosyal Medya QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz sosyal medya QR kod oluşturucu, Instagram, TikTok, X, LinkedIn, YouTube. Tarayanları tek dokunuşta profilinize gönderin.",
+      "displayName": "Sosyal",
+      "faq": [
+        {
+          "q": "QR uygulamayı doğrudan mı açar yoksa yalnızca web sitesini mi?",
+          "a": "Çoğu platform derin bağlantıyı destekler, kullanıcı uygulamayı yüklediyse tarama, profili uygulamanın içinde açar. Uygulama yoksa QR web profiline döner. Her iki durumda da kullanıcı size ulaşır."
+        },
+        {
+          "q": "Kullanıcı adım değişirse ne olur?",
+          "a": "Statik kodlar bağlantıyı doğrudan kodlar; dolayısıyla kullanıcı adı değişikliği yeni bir QR demektir. Yeniden markalaşma ihtimaliniz varsa, güncelleyebileceğiniz bir yönlendirmeye işaret eden dinamik bir kod kullanın, basılı QR sonsuza dek çalışmaya devam eder."
+        }
+      ]
+    },
+    "crypto": {
+      "eyebrow": "Kripto QR Kodu",
+      "title": "Ücretsiz kripto cüzdan QR kod oluşturucu",
+      "sub": "42 karakterlik adresler yazmadan Bitcoin, Ethereum, USDT veya desteklenen başka herhangi bir koini alın. Tarayanın cüzdan uygulaması alıcıyı otomatik doldurur, daha az yazım hatası, daha hızlı ödemeler.",
+      "metaTitle": "Ücretsiz Kripto Cüzdan QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz kripto cüzdan QR kod oluşturucu, BTC, ETH, USDT ve daha fazlasını alın. Kopyala-yapıştır hatalarını ortadan kaldırır. Kayıt gerekmez.",
+      "displayName": "Kripto",
+      "faq": [
+        {
+          "q": "Hangi cüzdanlar destekleniyor?",
+          "a": "qr-cow; standart BIP-21 (Bitcoin), EIP-681 (Ethereum / EVM) ve yalnızca adres içeren QR biçimlerini üretir. Tüm büyük cüzdanlar tarafından tanınırlar, MetaMask, Trust Wallet, Phantom, Coinbase Wallet, Exodus, donanım cüzdanları ve büyük borsalar."
+        },
+        {
+          "q": "QR'a bir tutar ekleyebilir miyim?",
+          "a": "Evet. Bitcoin ve Ethereum QR'ları tutar alanını destekler, tarayanın cüzdanı gönderme ekranını bu değerle önceden doldurur, kullanıcı yalnızca onaylar. Fatura ödemelerinde epey yazma zahmetinden kurtarır."
+        },
+        {
+          "q": "Hata düzeltme H kullanın deniyor, bu önemli mi?",
+          "a": "Kesinlikle. Kripto QR'ları, tek bir yanlış okunan karakterin fonları sonsuza dek yanlış adrese gönderebildiği tek türdür. Hata düzeltme H, modüllerin %30'u kapansa bile (logo, çizik, leke) kodun doğru çözülmesi demektir. Kripto için her zaman H kullanın."
+        }
+      ]
+    },
+    "app": {
+      "eyebrow": "Uygulama mağazası QR Kodu",
+      "title": "Ücretsiz uygulama mağazası QR kod oluşturucu",
+      "sub": "Tek bir QR ile iOS tarayanları App Store'a, Android tarayanları Google Play'e yönlendirin. Evrensel uygulama bağlantıları kullanıcının işletim sistemine göre otomatik çözülür; aynı basılı kod ikisi için de çalışır.",
+      "metaTitle": "Ücretsiz Uygulama Mağazası QR Kod Oluşturucu",
+      "metaDescription": "Ücretsiz uygulama mağazası QR kod oluşturucu, evrensel bağlantı tek QR'dan iOS'u App Store'a, Android'i Google Play'e yönlendirir. Kayıt gerekmez.",
+      "displayName": "Uygulama mağazası",
+      "faq": [
+        {
+          "q": "iOS ve Android için iki ayrı QR mı gerekir?",
+          "a": "Evrensel bir açılış sayfası kullanırsanız hayır. qr-cow, bir yönlendirmeye bağlanan tek bir QR üretebilir: iOS kullanıcıları App Store'a, Android kullanıcıları Google Play'e iner. İki ayrı kod basmaktan kurtarır."
+        },
+        {
+          "q": "QR'dan gelen uygulama yüklemelerini takip edebilir miyim?",
+          "a": "Dinamik bir QR ile birlikte ertelenmiş derin bağlantı servisi (Branch, Adjust, AppsFlyer) kullanın. Dinamik kod hedefi sonradan değiştirmenizi sağlar; derin bağlantı servisi yüklemeleri QR taramasına atfeder."
+        }
+      ]
+    },
+    "hub": {
+      "eyebrow": "QR kod türleri",
+      "h1": "On üç QR türü. Tek stüdyo.",
+      "sub": "On üç içerik türü, tek stüdyo. Her birinin biçime özel rehberiyle kendi sayfası var, ya da doğrudan evrensel <studio>stüdyoya</studio> geçip türü orada seçin.",
+      "ctaStudio": "Stüdyoyu aç",
+      "ctaPricing": "Fiyatları gör",
+      "cardTitle": "{type} QR kodu",
+      "cardCta": "Oluşturucuyu aç →",
+      "metaTitle": "QR kod türleri, qr-cow'un üretebildiği her tür",
+      "metaDescription": "Bir QR kod türü seçin ve tasarlamaya başlayın, URL, Wi-Fi, vCard, MeCard, e-posta, SMS, telefon, etkinlik, konum, sosyal, kripto, uygulama. Hepsi ücretsiz, kayıt yok."
+    }
+  },
+  "alternativesPage": {
+    "index": {
+      "metaTitle": "QR kod oluşturucu alternatifleri, kullanım senaryosuna göre dürüst öneriler",
+      "metaDescription": "Hangi QR üreticinin size uyduğundan emin değil misiniz? Canva, QR.io ve diğer popüler araçlara alternatifler, ve ne zaman yerinizde kalmanın daha doğru olduğu. Dürüst, kullanım senaryosu odaklı öneriler.",
+      "ogTitle": "QR kod oluşturucu alternatifleri",
+      "ogDescription": "Canva, QR.io ve diğer QR kod araçlarına alternatifler, kullanım senaryosuna göre dürüst öneriler.",
+      "eyebrow": "Alternatifler",
+      "title": "Hangi QR üreticinin uyduğundan emin değil misiniz? Önce bunu okuyun.",
+      "subtitle": "Her QR aracı biraz farklı bir sorunu çözer. Bu sayfalar önce insanların belirli bir aracı neden bıraktığıyla başlar, sonra qr-cow'un gerçekten doğru adres mi olduğunu, yoksa yerinizde kalmanın mı dürüst tercih olduğunu gösterir.",
+      "cardTitle": "{name} alternatifi",
+      "cardCta": "Dürüst değerlendirmeyi okuyun →",
+      "compareCalloutPrefix": "Geçiş rehberi yerine birebir karşılaştırma mı arıyorsunuz? O zaman",
+      "compareCalloutLink": "vs sayfalarını",
+      "compareCalloutSuffix": "okuyun, aynı rakipler, tarafsız çerçeve."
+    },
+    "detail": {
+      "metaTitle": "{name} alternatifi, qr-cow'u deneyin (ücretsiz, kayıt yok)",
+      "metaDescription": "{name} alternatifi mi arıyorsunuz? qr-cow statik kodlar için ücretsizdir, ayda 3 dolardan dinamik kod + tarama analitiği sunar; ayrıca bir API ve MCP sunucusu vardır. İşte dürüst karşılaştırma.",
+      "breadcrumbHome": "Ana sayfa",
+      "breadcrumbIndex": "Alternatifler",
+      "breadcrumbCurrent": "{name} alternatifi",
+      "eyebrow": "{name} alternatifi",
+      "title": "{name} alternatifi mi arıyorsunuz? qr-cow'u deneyin.",
+      "tldrLabel": "Özetle:",
+      "tldr": "qr-cow statik QR kodlar için ücretsizdir, ayda 3 dolardan dinamik kodlar ve tarama başına analitik sunar; hem REST API hem MCP sunucusu vardır. Aşağıdaki nedenlerden herhangi biri sizinkiyle örtüşüyorsa geçiş dakikalar sürer.",
+      "ctaTry": "qr-cow'u ücretsiz deneyin",
+      "ctaHeadToHead": "Birebir karşılaştırmayı görün",
+      "reasonsEyebrow": "İnsanlar neden {name} alternatifi arıyor",
+      "reasonsTitle": "Yaygın nedenler",
+      "positioningEyebrow": "Konumlandırma",
+      "positioningTitle": "{name} alternatifi olarak qr-cow",
+      "theyDoWell": "{name} neyi iyi yapıyor",
+      "wePullAhead": "qr-cow nerede öne geçiyor",
+      "tableEyebrow": "Özellik karşılaştırması",
+      "tableTitle": "{name} vs qr-cow, yan yana",
+      "thFeature": "Özellik",
+      "thQrcow": "qr-cow",
+      "whoShouldSwitch": "Kim geçmeli",
+      "whoShouldStay": "Kim {name} ile kalmalı",
+      "migrationEyebrow": "Geçiş yolu",
+      "migrationTitle": "Geçiş gerçekte nasıl işliyor",
+      "migrationBulkPrefix": "Toplu üretim mi? Tüm yeniden kurulumu betiğe dökmek için",
+      "migrationBulkLink": "REST API'yi veya MCP sunucusunu",
+      "migrationBulkMid": "kullanın, yardım gerekirse",
+      "migrationBulkSuffix": "adresine yazın.",
+      "faqEyebrow": "Sık sorulan sorular",
+      "faqTitle": "SSS",
+      "faqRealAltQ": "qr-cow gerçekten bir {name} alternatifi mi?",
+      "faqRealAltA": "QR kod işleri özelinde evet. Amaca özel bir QR üreticidir, {name} ile yapılan diğer işlerin yerini almaz, yalnızca QR kısmını daha ucuza ve daha fazla izlemeyle yapar.",
+      "faqRealAltAFull": "QR kod işleri özelinde evet. qr-cow; dinamik kodlar, kod başına tarama analitiği, 13 içerik türü, REST API ve MCP sunucusu sunan, amaca özel bir QR üreticidir. {name} aracının iyi yaptığı daha geniş işlerin yerini almaz, yalnızca QR kısmını daha ucuza ve daha fazla izlemeyle yapar.",
+      "faqWhatCanQ": "qr-cow, {name} aracının yapamadığı neleri yapabilir?",
+      "faqFreeQ": "qr-cow ücretsiz mi?",
+      "faqFreeA": "Statik QR kodlar kayıt olmadan sonsuza dek ücretsizdir. Tarama analitiğiyle dinamik kodlar ayda 3 dolardan başlar, API erişimi ayda 9 dolardır. Ödeme yalnızca kriptoyladır (USDT, BTC, ETH).",
+      "faqSwitchQ": "{name} aracından nasıl geçerim?",
+      "faqSwitchQFull": "{name} aracından qr-cow'a nasıl geçerim?",
+      "faqSwitchFallback": "İçe aktarma aracı yok, hedefi qr-cow'da yeniden oluşturun, yenisini bastırın, fiziksel malzemeyi değiştirin.",
+      "ctaFinalTitle": "{name} alternatifini denemeye hazır mısınız?",
+      "ctaFinalBody": "Stüdyoyu açın, bir içerik türü seçin, indirin. Statik kodlar için kayıt gerekmez. Dinamik + analitik istediğinizde kaydolursunuz.",
+      "ctaOpenStudio": "Stüdyoyu aç",
+      "ctaPricing": "Fiyatları gör"
+    },
+    "items": {
+      "canva": {
+        "alternativeReasons": [
+          "Dinamik QR kodlara ihtiyacınız var, baskıdan sonra düzenlenebilen türden. Canva'nın QR'ları tasarımın içine gömülüdür ve yeniden yönlendirilemez.",
+          "Kodu gerçekten tarayan olup olmadığını bilmeniz gerekiyor. Canva'da tarama analitiği sıfır.",
+          "Wi-Fi, vCard, kripto veya uygulama mağazası QR'ları istiyorsunuz. Canva URL / metin / e-posta / telefon sunar ve orada durur.",
+          "Sırf bir QR yapmak için ayda 15 dolarlık Canva Pro'ya para vermek istemiyorsunuz, tasarım paketi tam sayfa düzenlerine göre fiyatlandırılmıştır, tek bir koda göre değil.",
+          "QR'ları bir betikten, ajandan veya CI hattından üretmek istiyorsunuz. Canva yalnızca arayüzden çalışır.",
+          "Zaten Canva odaklı bir iş akışında değilsiniz, Canva'ya para ödeyen bir tasarımcı, yarına Wi-Fi kodu lazım olan operasyon ekibine yaramaz."
+        ],
+        "switchingNote": "Taşınacak bir şey yok. Canva'da yapılan QR kodlar statik PNG'lerdir, bir kez basıldı mı, nereyi gösteriyorsa orayı gösterir. Aynı hedefi qr-cow'da dinamik kod olarak yeniden oluşturun, bir sonraki baskıda basılı malzemeyi değiştirin; o andan itibaren hedefi yeni bir baskı turu olmadan düzenleyebilirsiniz."
+      },
+      "qr_io": {
+        "alternativeReasons": [
+          "Ödeme yapmadan tek bir kod üretmek istiyorsunuz. QR.io yalnızca abonelikle çalışır, deneme bittikten sonra tek bir QR bile ücretli plan ister.",
+          "Kredi kartı kullanamıyorsunuz. QR.io yalnızca Stripe kullanır; qr-cow USDT, BTC ve ETH ile faturalandırır.",
+          "AI ajanlarının üzerine bir şeyler kuruyorsunuz. qr-cow; Claude, Cursor ve Zed için bir MCP sunucusu sunar, QR.io'nun API'si yalnızca REST'tir ve daha üst bir kademenin arkasındadır.",
+          "Dinamik kodları deneme sayacı olmadan denemek istiyorsunuz. qr-cow kart istemeden, sonsuza dek ücretsiz üç dinamik kod verir.",
+          "Deneme süresi bitti ve kurumsal özelliklere ihtiyacınız yok. QR.io'da alt plana inmek analitiği kaybetmek demektir; qr-cow'un ayda 3 dolarlık kademesi analitiği korur.",
+          "Bağımsız bir araç istiyorsunuz. QR.io, satış odaklı yükseltme yolları olan, girişim sermayesi destekli bir şirket; qr-cow ise yuvarlak fiyatlı, bağımsız bir aile işletmesi."
+        ],
+        "switchingNote": "QR.io'da STATİK yapılan kodlar (URL'si gömülü olanlar) zaten çalışır, aboneliğiniz sona erdiğinde basılı görsel taranmayı bırakmaz. DİNAMİK olanlar (QR.io kısa bağlantısı) ise hesabınız sona erdiği gün yönlendirmeyi keser. Bunları qr-cow'da yeni dinamik kodlar olarak yeniden oluşturun, yenisini bastırın ve fiziksel malzemeyi değiştirin. Henüz CSV içe aktarma yok; toplu geçişler API üzerinden yürür."
+      }
+    }
+  },
+  "scanPage": {
+    "metaTitle": "QR kod nasıl taranır, her telefonda, uygulama gerekmeden",
+    "metaDescription": "Tüm modern iPhone ve Android telefonlar QR kodları doğrudan kamera uygulamasında tarar. İşte iki saniyelik yöntem ve çalışmazsa yapılacaklar.",
+    "ogDescription": "Tüm modern iPhone ve Android telefonlar QR kodları yerleşik olarak tarar. İşte nasıl yapılacağı ve çalışmazsa yapılacaklar.",
+    "eyebrow": "Nasıl taranır",
+    "h1": "Zaten bir QR tarayıcınız var. Kameranızın içinde.",
+    "intro": "2017'den bu yana her iPhone ve 2019'dan bu yana her Android, hiçbir uygulama yüklemeden QR kodları yerleşik olarak tarar. İşte nasıl yapılacağı, ve kamera işbirliği yapmazsa denenecekler.",
+    "ctaGenerate": "Bunun yerine QR kod oluşturun",
+    "ctaDesign": "Tarama için tasarım kuralları",
+    "iosTitle": "iPhone (iOS 11+)",
+    "androidTitle": "Android (9+)",
+    "iosSteps": {
+      "s1": "Kamera uygulamasını açın (varsayılan olanı, ek uygulama gerekmez).",
+      "s2": "Kamerayı QR koduna doğrultun, dokunmanıza gerek yok, sadece sabit tutun.",
+      "s3": "Üstte sarı bir bildirim şeridi belirir. Bağlantıyı veya eylemi açmak için ona dokunun."
+    },
+    "androidSteps": {
+      "s1": "Kamera uygulamasını açın (veya Hızlı Ayarlar'ı aşağı çekip Google Lens'e dokunun).",
+      "s2": "Kamerayı QR koduna doğrultun.",
+      "s3": "Bağlantıyı veya eylemi içeren hap biçiminde bir düğme belirir. Ona dokunun.",
+      "s4": "Pixel ve Samsung telefonlarda kamera QR kodları otomatik olarak algılar. Daha eski Android sürümlerinde (≤ 8) Google Lens'i veya herhangi bir ücretsiz tarayıcı uygulamasını kullanın."
+    },
+    "troubleTitle": "Sorun giderme",
+    "trouble": {
+      "noBanner": {
+        "q": "Kamera QR'ı gösteriyor ama bildirim çıkmıyor.",
+        "a": "QR taramanın etkin olduğundan emin olun. iOS'ta: Ayarlar → Kamera → QR Kodlarını Tara. Android'de: Ayarlar → Uygulamalar → Kamera → İzinler; ayrıca Google Lens'in etkin olduğunu kontrol edin."
+      },
+      "tooSmall": {
+        "q": "QR taranamayacak kadar küçük veya bulanık.",
+        "a": "Telefonu 15-30 cm uzakta tutun, daha yakında kamera odaklanamaz. QR yaklaşık 2 cm'den darsa, onu bastıran kişiden daha büyük bir sürüm isteyin. 2 cm × 2 cm'nin altındaki her şey çoğu kameranın pratik çözme gücünün altındadır."
+      },
+      "onScreen": {
+        "q": "QR bilgisayar ekranımda, telefonumla tarayabilir miyim?",
+        "a": "Evet. Telefonunuzu ekranın önünde tutun. Parlama otomatik odağı şaşırtabilir, yansımaları yok etmek için ekranı hafifçe eğin."
+      },
+      "trust": {
+        "q": "QR'ın gösterdiği bağlantıya güvenmiyorum.",
+        "a": "Yerinde bir içgüdü. Kamera, açmadan önce URL'nin önizlemesini gösterir, okuyun. Güvenilmez yerlerdeki QR kodları taramaktan kaçının (parkomatın üzerine yapıştırılmış etiket, yere atılmış el ilanı) ve kendiniz oluşturmadığınız bir QR ile ulaştığınız sayfaya asla parola girmeyin."
+      }
+    },
+    "footerNote": "qr-cow eskiden burada tarayıcı içinde çalışan bir web kamerası tarayıcısı barındırıyordu. Kaldırdık, çünkü her telefon bu işi zaten daha iyi yapıyor, ama yakınınızda telefon yokken bir dizüstünden tarama yapıyorsanız, <link>QR Code Reader</link> gibi ücretsiz bir Chrome uzantısı ihtiyaç anında iş görür. Biz kod okumaya değil, kod üretmeye odaklanıyoruz."
+  },
+  "extensionPage": {
+    "metaTitle": "Firefox ve Chrome için tarayıcı eklentisi, tek tıkla QR kod",
+    "metaDescription": "Herhangi bir sayfayı, bağlantıyı veya seçili metni doğrudan tarayıcınızda şık bir QR koda dönüştürün. Ücretsiz, çevrimdışı, gizli, hesap gerektirmez. Firefox ve Chrome için.",
+    "eyebrow": "Tarayıcı eklentisi",
+    "h1": "Herhangi bir sayfa. Tek tık. Şık bir QR kod.",
+    "intro": "qr-cow eklentisi, bulunduğunuz sayfayı, herhangi bir bağlantıyı veya seçili metni şık bir QR koda dönüştürür. Her şey tarayıcınızda, stüdyodakiyle aynı tasarımlarla oluşturulur; çıktı birebir aynıdır.",
+    "privacyPill": "Çevrimdışı. Veri toplanmaz.",
+    "ctaFirefox": "Firefox için edinin",
+    "ctaChrome": "Chrome için edinin",
+    "comingSoon": "Çok yakında",
+    "storeNote": "İki mağaza kaydı da incelemede. Eklenti ücretsizdir.",
+    "feat": {
+      "oneClick": {
+        "title": "Tek tık, önceden dolu",
+        "body": "Açılır pencereyi açın; geçerli sekmenin adresi zaten kodlanmıştır. Bir bağlantıyı veya seçili metni kodlamak için sağ tıklayın."
+      },
+      "presets": {
+        "title": "16 tasarım şablonu",
+        "body": "qr-cow.com ile aynı degradeler, nokta şekilleri ve renkler; ayrıca baskıdan önce canlı taranabilirlik kontrolü."
+      },
+      "types": {
+        "title": "13 içerik türü",
+        "body": "URL, Wi-Fi, vCard, e-posta, SMS, etkinlik, konum, kripto ve daha fazlası, stüdyoyla aynı kodlayıcılarla."
+      },
+      "privacy": {
+        "title": "Tasarım gereği gizli",
+        "body": "Sıfır ağ isteği. Kodladığınız hiçbir şey cihazınızdan çıkmaz: hesap yok, izleme yok, analitik yok."
+      }
+    },
+    "shotMainAlt": "Geçerli sayfa için şık bir QR kod gösteren qr-cow eklenti penceresi",
+    "shotStyleAlt": "Okyanus degrade şablonu uygulanmış eklenti penceresi",
+    "shotStyleCaption": "Şablonlar ve özel renkler",
+    "shotRtlAlt": "Farsça, sağdan sola düzenli eklenti penceresi",
+    "shotRtlCaption": "10 dil, RTL dahil",
+    "howTitle": "Nasıl çalışır",
+    "how1": "Eklentiyi kurun ve herhangi bir sayfada qr-cow düğmesine tıklayın.",
+    "how2": "Veya bir bağlantıya ya da seçili metne sağ tıklayıp QR kod menü öğesini seçin.",
+    "how3": "Bir şablon seçin, ardından PNG veya SVG indirin ya da görseli panoya kopyalayın.",
+    "faqTitle": "Sorular",
+    "faq1q": "Ücretsiz mi?",
+    "faq1a": "Evet. Eklenti ücretsizdir ve hesap gerektirmeden sınırsız statik QR kod üretir.",
+    "faq2q": "Veri topluyor mu?",
+    "faq2a": "Hayır. Hiçbir ağ isteği yapmaz. Kodlar tarayıcınızda yerel olarak üretilir ve cihazınızdan asla çıkmaz.",
+    "faq3q": "Kodlar qr-cow.com'dakiyle aynı mı?",
+    "faq3a": "Evet. Eklenti, stüdyoyla aynı işleme motorunu ve aynı 16 şablonu içerir; çıktı birebir aynıdır.",
+    "faq4q": "Dinamik QR kod üretebilir mi?",
+    "faq4a": "Statik kodlar eklentide sınırsız ve ücretsizdir. Baskıdan sonra düzenlenebilen ve tarama istatistikleri sunan dinamik kodlar, ayda 3 dolardan başlayan tam stüdyodadır.",
+    "dynamicNotePrefix": "Tarama istatistikli, düzenlenebilir kodlar mı gerekiyor?",
+    "dynamicNoteLink": "Dinamik QR fiyatlarına bakın"
+  },
+  "offlinePage": {
+    "metaTitle": "Çevrimdışı",
+    "metaDescription": "qr-cow, özelliklerinin çoğu için internet bağlantısına ihtiyaç duyar.",
+    "title": "Çevrimdışısınız",
+    "body": "qr-cow'un yeni kodlar oluşturmak ve kontrol panelinizi yüklemek için ağa ihtiyacı var. Yeniden bağlanıp tekrar deneyin, tasarımlarınız, senkronize edebileceğimiz ana kadar cihazınızda saklı kalır.",
+    "retry": "Tekrar dene",
+    "home": "Ana sayfa"
+  },
+  "privacyPage": {
+    "metaTitle": "Gizlilik Politikası",
+    "metaDescription": "qr-cow gizlilik politikası: hangi verileri topladığımız, neden topladığımız, kimlerle paylaştığımız ve nasıl sileceğiniz. Sade dil; karanlık desen yok.",
+    "ogTitle": "qr-cow Gizlilik Politikası",
+    "ogDescription": "Sade dille gizlilik politikası. Veri satışı yok, reklam teknolojisi yok, yapay zeka eğitimi yok. Ne topluyoruz ve nasıl silersiniz.",
+    "governingNote": "Bu çeviri size kolaylık olması için sunulmuştur; bağlayıcı metin İngilizce sürümdür.",
+    "eyebrow": "Gizlilik",
+    "h1": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: {date}",
+    "intro": "qr-cow'un çalışması için mümkün olan en az veriyi topluyoruz. Statik QR kodlar hesap gerektirmez. Dinamik kodlar bir e-posta ve parola ister. Verilerinizi satmıyoruz, reklam göstermiyoruz ve her şeyi tek tıkla silebilirsiniz.",
+    "whoWeAre": "Biz kimiz",
+    "whoWeAreBody": "qr-cow, siteyi bağımsız olarak geliştiren küçük bir mühendis grubu olan HSN ailesi tarafından işletilmektedir. Bir ana şirket yoktur. GDPR kapsamında, aşağıda açıklanan her şey için veri sorumlusu biziz.",
+    "whatWeCollect": "Neler topluyoruz",
+    "freeTitle": "Yalnızca ücretsiz stüdyoyu kullanıyorsanız (hesapsız)",
+    "free1Title": "Kişisel hiçbir şey.",
+    "free1Body": "Tasarladığınız QR kod tarayıcınızda oluşturulur ve bize asla gönderilmez. Kim olduğunuzu bilmiyoruz.",
+    "free2Title": "Sunucu tarafı önizleme yedeği.",
+    "free2Body": "Tarayıcınız stilize önizlemeyi oluşturamazsa, kodlanmış dize bir PNG üretmek için bize bir kez gönderilir. İsteği, istenmeyen kullanımı önleme amacıyla IP + user-agent ile günlüğe kaydeder ve her ikisini de 30 gün sonra sileriz. Kodlanan içerik saklanmaz.",
+    "accountTitle": "Bir hesap oluşturursanız",
+    "acc1Title": "E-posta + parola hash'i.",
+    "acc1Body": "Oturum açmanız ve erişiminizi kaybederseniz size ulaşmamız için kullanılır. Parola bcrypt ile hash'lenir; düz metnini asla görmeyiz.",
+    "acc2Title": "OAuth tanımlayıcısı",
+    "acc2Body": "(Google veya Facebook ile kaydolduysanız). Yalnızca sağlayıcının kullanıcı kimliği; kişilerinizi, fotoğraflarınızı veya başka hiçbir şeyi asla istemeyiz.",
+    "acc3Title": "Kaydettiğiniz QR kodlar.",
+    "acc3Body": "İçerikleri, tasarımları, adları ve dinamik bir kodsa dinamik yönlendirme hedefi.",
+    "scanTitle": "Dinamik kodlarınızdaki tarama olayları",
+    "scanIntro": "Sahip olduğunuz bir dinamik QR kod her tarandığında, şunları içeren tek bir satır kaydederiz:",
+    "scan1": "QR kodun kimliği (size ait olduğunu bilmemiz için).",
+    "scan2": "Zaman damgası.",
+    "scan3": "Ülke kodu, cihaz türü (telefon / tablet / masaüstü) ve işletim sistemi ailesi, tarayan kişinin user-agent'ı + IP'sinden türetilir, ham IP olarak saklanmaz. Kaba bir IP'den ülkeye eşleme kullanır ve IP'yi hemen sileriz.",
+    "scanOutro": "Tarayan kişinin IP adresini, kesin konumunu, tarayıcı parmak izini, reklam kimliğini veya herhangi bir siteler arası tanımlayıcıyı <strong>saklamayız</strong>. Kontrol panelinde gördüğünüz analitik bu verilerden toplulaştırılır.",
+    "payTitle": "Bir plan için ödeme yaparsanız",
+    "pay1Title": "Ödeme üst verileri.",
+    "pay1Body": "Plan kodu, tutar, işlem durumu ve NowPayments fatura kimliği. Cüzdan adresinizi, bakiyenizi veya ödediğiniz belirli faturanın ötesindeki işlem geçmişinizi <strong>görmeyiz</strong>.",
+    "pay2Title": "Kart verisi yok.",
+    "pay2Body": "qr-cow yalnızca kripto ile çalışır; dolayısıyla kötüye kullanılabilecek bir kart numarası yoktur.",
+    "whatWeDo": "Bunlarla ne yapıyoruz",
+    "do1": "Hesabınızı çalıştırırız.",
+    "do2": "QR kodlarınızı oluşturur ve sunarız.",
+    "do3": "Dinamik kodlarınız için size analitik gösteririz.",
+    "do4": "İşlemsel e-posta göndeririz, kayıt onayı, parola sıfırlama, ödeme makbuzu. Ayrılabileceğiniz bir pazarlama listesi yok, çünkü pazarlama e-postası göndermiyoruz.",
+    "do5": "Kötüye kullanımı ve başarısız ödemeleri teşhis ederiz. Kimlik doğrulamadaki taşma koruması, bir dakika sonra silinen kısa ömürlü bir hız sınırlama sinyali kullanır.",
+    "whatWeDont": "Neler yapmıyoruz",
+    "dont1Title": "Reklam teknolojisi yok, veri simsarı yok.",
+    "dont1Body": "Meta Pixel, LinkedIn Insight ya da herhangi bir reklam veya yeniden hedefleme ağı asla kullanılmaz. Ancak üç analitik ve güvenilirlik aracı kullanıyoruz: trafik için Google Analytics, anonim ısı haritaları ve oturum tekrarları için Microsoft Clarity, çökme raporları için Sentry. Stüdyoya yazdığınız her şey (URL'ler, Wi-Fi parolaları, cüzdan adresleri, iletişim bilgileri) tarayıcınızdan çıkmadan önce maskelenir; bu araçlar onu hiçbir zaman görmez.",
+    "dont2Title": "Veri satışı yok.",
+    "dont2Body": "Tarama istatistikleriniz sizinle bizim aramızda kalır. Toplulaştırılmış \"sektör verisi\" de satmıyoruz.",
+    "dont3Title": "Yapay zekâ eğitimi yok.",
+    "dont3Body": "QR içeriğiniz, tarama verileriniz ve hesap verileriniz hiçbir makine öğrenimi modelini eğitmek için kullanılmaz, ne bizimkini ne de başkasınınkini.",
+    "dont4Title": "Açıklanmamış alt işleyici yok.",
+    "dont4Body": "Aşağıdaki liste, listenin tamamıdır.",
+    "whoElse": "Verilere başka kimler erişiyor",
+    "whoElseIntro": "Adıyla belirtilmiş dört alt işleyici, hepsi bu:",
+    "privacyLabel": "Gizlilik:",
+    "sub1Name": "Cloudflare",
+    "sub1Body": "DNS, CDN, DDoS koruması. Aktarım sırasında istek üst verilerini görür.",
+    "sub2Name": "NowPayments",
+    "sub2Body": "kripto ödeme. Fatura kimliğini, tutarı ve ödeme yaptığınız cüzdanı görür.",
+    "sub3Name": "Google / Facebook OAuth",
+    "sub3Body": "(yalnızca onlarla oturum açmayı seçerseniz), qr-cow'a giriş yaptığınızı görürler. Kendi gizlilik politikaları geçerlidir.",
+    "sub4Name": "Brevo (veya SMTP sağlayıcımız)",
+    "sub4Body": "işlemsel e-postaların alıcı adresini + konu satırını görür. Gövde yukarıdaki standart şablondur; konuda hassas hiçbir şey yoktur.",
+    "cookies": "Çerezler + yerel depolama",
+    "cookie1Title": "Kimlik doğrulama token'ları",
+    "cookie1Body": "(qc.access, qc.refresh), sayfa yenilemelerinde oturumunuzun açık kalması için localStorage'da tutulur. JWT tabanlıdır; çıkış yapmak ikisini de siler.",
+    "cookie2Title": "Tema tercihi",
+    "cookie2Body": "(qc.theme), açık/koyu mod, anahtarı değiştirdiğinizde bir kez ayarlanır. Cihazınızda kalır.",
+    "cookie3Title": "Cloudflare Turnstile",
+    "cookie3Body": "yalnızca giriş + kayıt sırasında ayarlanan bir bot önleme çerezi. İstekten sonra Cloudflare tarafından silinir.",
+    "cookiesOutro": "Reklam çerezi ve siteler arası reklam kimliği yok. Google Analytics ve Microsoft Clarity ziyaretleri saymak ve bir oturumu birleştirmek için kendi çerezlerini ayarlar. Ölçülmek istemiyorsanız herhangi bir izleyici engelleyici veya Do Not Track ayarı bunları durdurur ve site tamamen aynı şekilde çalışır.",
+    "retention": "Ne kadar süre saklıyoruz",
+    "keep1Title": "Hesap verileri:",
+    "keep1Body": "hesabınız var olduğu sürece. Hesabı kontrol panelinizden silin; 24 saat içinde yok olur.",
+    "keep2Title": "Tarama olayları:",
+    "keep2Body": "dinamik QR kodun ömrü boyunca tutulur, sonra kodu sildiğinizde silinir. Geçici olarak silinen kodlar 30 gün sonra kalıcı olarak temizlenir.",
+    "keep3Title": "Sunucu tarafı önizleme günlükleri:",
+    "keep3Body": "30 gün, ardından döngüyle silinir.",
+    "keep4Title": "Ödeme kayıtları:",
+    "keep4Body": "7 yıl. AB vergi mevzuatına uymak için zorunludur (aksi halde vereceğimiz bir karar değil).",
+    "keep5Title": "Yedekler:",
+    "keep5Body": "her gece anlık görüntü alınır, 30 gün saklanır, sonra döngüyle silinir. Silme işlemi bu süre içinde yedeklere de yansır.",
+    "rights": "Haklarınız",
+    "rightsIntro": "GDPR (AB/BK), CCPA (Kaliforniya) ve başka yerlerdeki eşdeğerleri kapsamında şunları yapabilirsiniz:",
+    "right1Title": "Erişim",
+    "right1Body": "hakkınızda sahip olduğumuz her şeyin JSON dışa aktarımını isteyin. Kontrol panelinin zaten gösterdiği verilerin aynısı.",
+    "right2Title": "Düzeltme",
+    "right2Body": "e-postanızı, ad soyadınızı veya QR içeriğinizi doğrudan kontrol panelinden değiştirin.",
+    "right3Title": "Silme",
+    "right3Body": "Panel → Hesap içinde tek bir düğme. 24 saat içinde kalıcı olarak siler; yedekler 30 gün içinde döngüyle temizlenir.",
+    "right4Title": "İtiraz",
+    "right4Body": "haksız olduğunu düşündüğünüz her türlü işlemeye itiraz edin. Bize e-posta gönderin; ya nedenini açıklarız ya da dururuz.",
+    "right5Title": "Şikayette bulunma",
+    "right5Body": "bir hata yaptığımızı düşünüyorsanız yerel denetim makamınıza şikayette bulunun.",
+    "rightsOutro": "Bu haklardan herhangi birini kullanmak için <email>privacy@qr-cow.com</email> adresine e-posta gönderin. 7 gün içinde yanıtlamayı hedefliyoruz; yasal süre 30 gündür.",
+    "whereData": "Veriler nerede duruyor",
+    "whereDataBody": "Birincil veritabanı AB'dedir. Cloudflare trafiği küresel olarak yönlendirir ve statik varlıkları önbelleğe alır. NowPayments, sitesinde beyan edilen yargı bölgesinde çalışır. Yargı bölgeniz açık bir sınır ötesi aktarım dili gerektiriyorsa, standart sözleşme maddelerine eşdeğer düzenlememiz yukarıdaki her alt işleyiciyle yürürlüktedir.",
+    "children": "Çocuklar",
+    "childrenBody": "qr-cow 13 yaş altı kullanıcılar için tasarlanmamıştır. Ebeveynseniz ve çocuğunuz bir hesap oluşturduysa bize e-posta gönderin; hesabı sileriz.",
+    "changes": "Değişiklikler",
+    "changesBody": "Önemli değişiklikler, yürürlüğe girmeden en az 14 gün önce tüm hesap sahiplerine e-postayla bildirilir ve yukarıdaki \"Son güncelleme\" tarihi ileri alınır. Önemsiz düzenlemeler (yazım düzeltmeleri, bağlantı güncellemeleri) yalnızca sessiz bir tarih güncellemesi alır.",
+    "contact": "İletişim",
+    "contactBody": "Gizlilikle ilgili her şey için <privacyEmail>privacy@qr-cow.com</privacyEmail>, genel sorular için <hiEmail>hi@qr-cow.com</hiEmail>. Her şeyi okuyoruz; birkaç iş günü içinde yanıt bekleyebilirsiniz.",
+    "seeAlso": "Ayrıca bakın:",
+    "termsLink": "Hizmet Koşulları",
+    "aboutLink": "qr-cow hakkında"
+  },
+  "termsPage": {
+    "metaTitle": "Hizmet Koşulları",
+    "metaDescription": "qr-cow Hizmet Koşulları: hesap sorumlulukları, kabul edilebilir kullanım, yalnızca kripto ödeme koşulları, iadeler, sorumluluk. Sade dil, sürpriz yok.",
+    "ogTitle": "qr-cow Hizmet Koşulları",
+    "ogDescription": "Sade dilde koşullar. Hesap sorumlulukları, kabul edilebilir kullanım, kripto ödemeler, iadeler, iptal, sorumluluk.",
+    "governingNote": "Bu çeviri size kolaylık olması için sunulmuştur; bağlayıcı metin İngilizce sürümdür.",
+    "eyebrow": "Koşullar",
+    "h1": "Hizmet Koşulları",
+    "lastUpdated": "Son güncelleme: {date}",
+    "intro": "Bu koşullar qr-cow kullanımınızı düzenler. Bir hesap oluşturarak veya stüdyoyu kullanarak bunları kabul etmiş olursunuz. Bilerek sade bir dille yazılmıştır; herhangi bir yer hukuk jargonu gibi geliyorsa, o maddenin sade bir açıklaması için bize e-posta gönderebilirsiniz.",
+    "s1Title": "1. qr-cow nedir",
+    "s1Body": "qr-cow; QR kodlar tasarlamak, barındırmak ve izlemek için bir web hizmetidir. Statik kodlar ücretsizdir ve hesap gerektirmez. Dinamik kodlar (düzenlenebilir hedef + tarama analitiği) ücretli abonelik gerektirir. Özelliklerin tam listesi <pricingLink>/pricing</pricingLink> sayfasındadır.",
+    "s2Title": "2. Hesabınız",
+    "s2Item1": "Parolanızı ve tüm API token'larınızı gizli tutmaktan siz sorumlusunuz. Bir token'ın başkası tarafından görüldüğünü düşündüğünüz anda onu <apiLink>/dashboard/api</apiLink> sayfasından iptal edin.",
+    "s2Item2": "Bir insan, bir hesap. Giriş bilgilerinizi iş arkadaşlarınızla paylaşmayın, ayrı hesaplar oluşturun. Koltuk başına ücret almıyoruz; kural yalnızca bir şeyler ters gittiğinde doğru kişiyi sorumlu tutabilmemiz içindir.",
+    "s2Item3": "Kaydolmak için en az 13 yaşında olmalısınız. Daha yüksek dijital rıza yaşı olan bir yargı bölgesindeyseniz (bazı AB ülkelerinde 16), sizin için o yaş geçerlidir.",
+    "s2Item4": "Parolanızı verdiğiniz kişiler dahil, hesabınız üzerinden yapılan her şeyden siz sorumlusunuz.",
+    "s3Title": "3. Kabul edilebilir kullanım",
+    "s3Intro": "qr-cow QR kodlarını şunlara yönlendirmemeyi veya hizmeti şunlar için kullanmamayı kabul edersiniz:",
+    "s3Item1": "Kötü amaçlı yazılım, virüs veya bir cihaza zarar vermek üzere tasarlanmış başka herhangi bir şey dağıtmak.",
+    "s3Item2": "Oltalama kampanyaları veya her türlü kimlik bilgisi toplama düzeni yürütmek. Meşru bir markanın giriş sayfasını taklit eden dinamik yönlendirmeler, hesabın feshine giden hızlı bir yoldur.",
+    "s3Item3": "CSAM, terör içeriği veya kullanıcının ya da qr-cow'un yargı bölgesinde yasa dışı olan başka herhangi bir şeyi dağıtmak.",
+    "s3Item4": "Spam, istenmeyen mesajlar göndermek, veri toplamak için API'yi kazımak veya hız sınırlı uç noktaları başka şekillerde kötüye kullanmak.",
+    "s3Item5": "Yazılı bir anlaşma olmadan qr-cow'u kendi hizmetiniz olarak yeniden satmak (qr-cow üzerine kurulan entegrasyonlar için <docsLink>API</docsLink> + ücretli abonelik kullanın, bu serbesttir ve teşvik edilir).",
+    "s3Item6": "Güvenlik önlemlerini aşmak: hız sınırlarını tersine mühendislikle çözmek, kimlik doğrulama kapısının arkasını kazımak vb.",
+    "s3Outro": "Yukarıdakilerden herhangi birine dair güvenilir kanıt elde ettiğimiz anda hesapları askıya alır, ücretli dönemin kullanılmayan kısmını iade eder ve yasa dışı içeriği ilgili makama bildiririz.",
+    "s4Title": "4. İçeriğiniz",
+    "s4Item1": "Yüklediğiniz her şey size aittir, QR içeriği, tasarım yapılandırmaları, logolar. Bunlar üzerinde hiçbir mülkiyet iddiamız yoktur.",
+    "s4Item2": "qr-cow'u işletmek amacıyla bu içeriği barındırmamız, oluşturmamız ve sunmamız için bize münhasır olmayan bir lisans verirsiniz. Aboneliğinizi iptal etmek veya QR kodu silmek lisansı geri alır.",
+    "s4Item3": "Kodlarınızı toplulaştırılmış istatistiklerde anonim olarak gösterebiliriz (örn. \"qr-cow bu ay X tarama sundu\") ama asla tanımlayıcı verilerle değil. İçeriğinizi asla makine öğrenimi modellerini eğitmek için kullanmayız.",
+    "s5Title": "5. Ücretli planlar",
+    "s5PricingTitle": "Fiyatlandırma:",
+    "s5PricingBody": "abone olduğunuz sırada <pricingLink>/pricing</pricingLink> sayfasında listelendiği gibidir. Yeni kayıtlar için fiyatları istediğimiz zaman değiştirebiliriz; mevcut aboneler abone kaldıkları sürece mevcut fiyatlarını korur.",
+    "s5PaymentTitle": "Ödeme:",
+    "s5PaymentBody": "yalnızca kripto (USDT, BTC, ETH, LTC, DOGE, TRX), NowPayments üzerinden. Ödemeniz zincir üzerinde onaylandığında planınız etkinleşir ve 30 gün sürer.",
+    "s5RenewalTitle": "Yenileme:",
+    "s5RenewalBody": "manuel. Otomatik yenileme yapmıyoruz, çünkü kripto abonelikleri makul biçimde otomatik tahsil edilemez. Döneminiz bitmeden birkaç gün önce bir hatırlatma e-postası alırsınız.",
+    "s5CancelTitle": "İptal:",
+    "s5CancelBody": "ödemeyi bırakmanız yeterli. Dinamik kodlarınız, ödenmiş sürenizin sonuna kadar yönlendirmeye devam eder; sonrasında yönlendirme 410 Gone döner. Analitik, sürenin bitiminden sonra 30 gün boyunca salt okunur erişim için birikmeye devam eder, ardından silinir.",
+    "s5RefundsTitle": "İadeler:",
+    "s5RefundsBody": "her yeni aboneliğin ilk 7 günü, sorgusuz sualsiz tam iade hakkına sahiptir. <billingEmail>billing@qr-cow.com</billingEmail> adresine e-posta gönderin; tutarı aynı cüzdana geri göndeririz. 7. günden sonra iade yapılmaz.",
+    "s5TaxTitle": "Vergi:",
+    "s5TaxBody": "fiyatlar KDV hariçtir. Yargı bölgenizin gerektirdiği durumlarda faturanız geçerli yerel vergiyi içerir.",
+    "s6Title": "6. Hizmet kullanılabilirliği",
+    "s6Body1": "Aylık ölçülen %99,9 çalışma süresi hedefliyoruz. Tüketici seviyesindeki planlarda sözleşmesel SLA veya hizmet kredisi sunmuyoruz; bu, yılda yaşadığımız birkaç saatlik kesintiyi anlamlı bir ürün özelliğiymiş gibi göstermemize izin verirdi, ki değil. Durum: sitenin çöktüğünü düşünüyorsanız <hiEmail>bize e-posta gönderin</hiEmail>.",
+    "s6Body2": "Planlı bakım, Avrupa'nın yoğun olmayan saatlerinde yapılır ve bir gün önceden kontrol panelinde duyurulur.",
+    "s7Title": "7. Fesih",
+    "s7YouTitle": "Siz feshedebilirsiniz",
+    "s7YouBody": "istediğiniz zaman, hesabınızı Panel → Hesap içinden silin. Kalıcı silme 24 saat içinde çalışır. Yedekler 30 gün içinde döngüyle temizlenir.",
+    "s7WeTitle": "Biz feshedebiliriz",
+    "s7WeBody": "yukarıdaki kabul edilebilir kullanım ihlallerinden herhangi biri, uzun süreli ödeme yapılmaması (sürenin bitiminden 90 gün sonrası) veya çalışanlarımıza kötü davranmanız halinde. İhlal derhal harekete geçmemizi gerektirecek kadar ağır olmadıkça, size 7 gün önceden bildirim + JSON dışa aktarma fırsatı veririz.",
+    "s8Title": "8. Fikri mülkiyet",
+    "s8Body": "qr-cow adı, maskotu, pazarlama sitesi ve kaynak kodu bize aittir (kendi lisanslarını koruyan açık kaynak kısımlar hariç). Hizmeti amaçlandığı gibi kullanmak dışında bunlar üzerinde hiçbir hak elde etmezsiniz. QR içeriğiniz sizindir; bkz. bölüm 4.",
+    "s9Title": "9. Üçüncü taraf hizmetleri",
+    "s9Body": "Hesabınızı Google veya Facebook OAuth'a bağladığınızda, bunları kullanımınız kendi koşullarına tabidir. NowPayments üzerinden ödeme yaptığınızda ödemeniz onların koşullarına tabidir. Alt işleyicilerin tam listesi için <privacyLink>Gizlilik Politikası</privacyLink>'na bakın.",
+    "s10Title": "10. Garanti reddi",
+    "s10Body": "qr-cow \"olduğu gibi\" sunulur. Doğru, erişilebilir ve güvenli kalması için çok çabalıyoruz ama her zaman öyle olacağına söz vermiyoruz. Yasaların izin verdiği azami ölçüde, tüm zımni garantileri reddediyoruz, ticarete elverişlilik, belirli bir amaca uygunluk, ihlal etmeme ve kalıp listenin geri kalanı. Bu hakları tanıyan bir yargı bölgesinde yaşıyorsanız, yasal tüketici haklarınız bu maddeden etkilenmez.",
+    "s11Title": "11. Sorumluluğun sınırlandırılması",
+    "s11Intro": "Yasaların izin verdiği azami ölçüde, bu koşullardan veya qr-cow kullanımınızdan doğan herhangi bir talep için size karşı toplam sorumluluğumuz şunlardan büyük olanıyla sınırlıdır:",
+    "s11Item1": "Talepten önceki 12 ay içinde bize ödediğiniz tutar veya",
+    "s11Item2": "50 ABD doları.",
+    "s11Body2": "Dolaylı, arızi, sonuçsal veya cezai zararlardan, kâr kaybı, veri kaybı veya itibar zararı dahil, mümkün oldukları konusunda uyarılmış olsak bile sorumlu değiliz. QR kodlarınızı tarayan kişilerin yol açtığı kayıplardan veya raporladığımız analitiğe dayanarak verdiğiniz herhangi bir ticari karardan sorumlu değiliz.",
+    "s11Body3": "Bu maddedeki hiçbir şey, hukuken hariç tutamayacağımız sorumluluğu (örn. dolandırıcılık, ağır ihmal veya tüketici hukuku kapsamında kusurlu dijital içeriğin yol açtığı zarar) sınırlamaz.",
+    "s12Title": "12. Bu koşullardaki değişiklikler",
+    "s12Body": "Bu koşulları değiştirebiliriz. Önemli değişiklikler 14 gün önceden e-posta bildirimi alır + yukarıdaki \"Son güncelleme\" tarihi ileri alınır. Yürürlük tarihinden sonra qr-cow'u kullanmaya devam etmeniz yeni koşulları kabul ettiğiniz anlamına gelir; kabul etmiyorsanız o süre içinde hesabınızı silin, kullanılmayan abonelik sürenizi iade edelim.",
+    "s13Title": "13. Geçerli hukuk + uyuşmazlıklar",
+    "s13Body": "Bu koşullar, qr-cow'un işletildiği yargı bölgesinin yasalarına tabidir. E-postayla çözülemeyen uyuşmazlıklar o yargı bölgesinin yetkili mahkemelerine götürülmelidir. Yerel tüketici koruma hukukunun bunun önüne geçtiği yerlerde (AB'nin çoğu, BK, ABD'nin bazı bölgeleri) onun yerine o üstün hukuk uygulanır.",
+    "s14Title": "14. İletişim",
+    "s14Body": "Genel sorular için <hiEmail>hi@qr-cow.com</hiEmail>, iadeler veya fatura sorunları için <billingEmail>billing@qr-cow.com</billingEmail>, bölüm 3'ü ihlal eden bir QR kodu bildirmek için <abuseEmail>abuse@qr-cow.com</abuseEmail> ve GDPR / CCPA talepleri için <privacyEmail>privacy@qr-cow.com</privacyEmail>.",
+    "seeAlso": "Ayrıca bakın:",
+    "privacyLink": "Gizlilik Politikası",
+    "aboutLink": "qr-cow hakkında"
+  },
+  "blogPost": {
+    "makeHeading": "Kendi QR kodunuzu oluşturun",
+    "chipGenerator": "Ücretsiz QR kod oluşturucu",
+    "chipTypes": "Tüm QR türleri",
+    "chipPricing": "Fiyatlandırma",
+    "chipSolutions": "Çözümler",
+    "writtenBy": "Yazan",
+    "comments": {
+      "title": "Yorumlar",
+      "closed": "Bu gönderide yorumlar kapalı.",
+      "placeholder": "Düşüncelerinizi paylaşın…",
+      "posting": "Gönderiliyor…",
+      "post": "Yorumu gönder",
+      "loginLink": "Giriş yapın",
+      "loginSuffix": "ve sohbete katılın.",
+      "loading": "Yükleniyor…",
+      "beFirst": "İlk yorumu siz yazın.",
+      "anonymous": "Kullanıcı",
+      "cancel": "Vazgeç",
+      "reply": "Yanıtla",
+      "deleteConfirm": "Yorumunuz silinsin mi?",
+      "deleteFailed": "Silinemedi.",
+      "delete": "Sil",
+      "replyTo": "{name} kişisine yanıt…",
+      "postReply": "Yanıtı gönder",
+      "errDepth": "Yanıtlar en fazla 3 seviye iç içe geçebilir.",
+      "errDuplicate": "Bu yorumu az önce zaten gönderdiniz.",
+      "errLogin": "Yorum yapmak için giriş yapın.",
+      "errGeneric": "Yorumunuz gönderilemedi."
+    }
+  },
+  "notFoundPage": {
+    "eyebrow": "404, sayfa kayboldu",
+    "h1": "Bu adres hiçbir yere gitmiyor.",
+    "body": "Sayfa taşınmış, bağlantı yanlış yazılmış ya da hiç var olmamış olabilir. İnek özür diler. Aşağıdan en yakınını seçin, iki saniyede yerinize varın.",
+    "ctaHome": "Ana sayfaya dön",
+    "ctaStudio": "Stüdyoyu aç",
+    "maybeTitle": "Belki de şunlardan birini arıyordunuz",
+    "blogPrefix": "Rehber mi arıyorsunuz?",
+    "blogLink": "Bloga göz atın",
+    "dest": {
+      "studio": {
+        "label": "QR stüdyosu",
+        "hint": "30 saniyede QR kod oluşturun"
+      },
+      "pricing": {
+        "label": "Fiyatlar",
+        "hint": "Statik ücretsiz, dinamik ayda 3 dolardan"
+      },
+      "qrTypes": {
+        "label": "Tüm QR türleri",
+        "hint": "URL, Wi-Fi, vCard ve 10 tür daha"
+      },
+      "solutions": {
+        "label": "Çözümler",
+        "hint": "Restoran, etkinlik, perakende"
+      },
+      "useCases": {
+        "label": "Kullanım örnekleri",
+        "hint": "40 gerçek örnek"
+      },
+      "docs": {
+        "label": "API ve MCP",
+        "hint": "Claude veya curl ile kod üretin"
+      }
+    }
+  },
+  "pwa": {
+    "title": "qr-cow'u yükleyin",
+    "iosBody": "<share>Paylaş</share>'a dokunun, ardından <strong>Ana Ekrana Ekle</strong>'yi seçin; qr-cow'u yerel uygulama gibi kullanın.",
+    "body": "qr-cow'u cihazınıza ekleyin: çevrimdışı çalışır, kendi penceresinde açılır ve QR kod oluşturup taramak için uygulama kısayolları sunar.",
+    "install": "Yükle",
+    "gotIt": "Anladım",
+    "notNow": "Şimdi değil"
+  },
+  "a11y": {
+    "downloadPng": "QR kodu PNG olarak indir",
+    "qrKind": "QR kod türü",
+    "contentTypes": "QR içerik türleri",
+    "previewEmpty": "QR kod önizlemesi, oluşturmak için formu doldurun",
+    "moreFormats": "Başka indirme biçimi seç",
+    "livePreview": "{type} içeriği için canlı QR önizlemesi",
+    "templates": "QR şablonları",
+    "designSection": "Tasarım bölümü",
+    "chartScans": "Günlük tarama örnek grafiği",
+    "chartHeatmap": "Saatlik tarama örnek ısı haritası",
+    "scrollLeft": "Sekmeleri sola kaydır",
+    "scrollRight": "Sekmeleri sağa kaydır",
+    "step": "Adım {n}"
+  }
+}
