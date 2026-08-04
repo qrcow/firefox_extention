@@ -104,6 +104,7 @@ body.window-mode { width: auto; max-height: none; min-width: 320px; }
 }
 .preview svg, .preview canvas { width: 180px; height: 180px; display: block; }
 .preview-empty { color: var(--ink-muted); font-size: 12px; padding: 0 20px; }
+#preview-canvas { display: contents; }
 .scannability { margin: 6px 0 0; font-size: 11px; }
 .scannability[data-level="excellent"], .scannability[data-level="good"] { color: var(--ink-muted); }
 .scannability[data-level="low"] { color: var(--danger); font-weight: 600; }

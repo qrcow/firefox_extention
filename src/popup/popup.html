@@ -21,6 +21,10 @@
   <section class="preview-wrap">
     <div id="preview" class="preview">
       <p id="preview-empty" class="preview-empty"></p>
+      <!-- renderPreview wipes THIS node, never #preview itself — clearing the
+           parent destroyed #preview-empty after the first render and every
+           later refresh crashed on empty.hidden (frozen popup). -->
+      <div id="preview-canvas"></div>
     </div>
     <p id="scannability" class="scannability" hidden></p>
   </section>

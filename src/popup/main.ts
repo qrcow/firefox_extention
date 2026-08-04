@@ -45,11 +45,12 @@ function refreshPreview(): void {
   clearTimeout(renderTimer);
   renderTimer = setTimeout(() => {
     encoded = encode(contentType, currentFields());
-    const host = $("preview");
+    const host = $("preview-canvas");
     const empty = $("preview-empty");
     const hasData = encoded.length > 0;
     empty.hidden = hasData;
     if (hasData) renderPreview(host, encoded, design);
+    else host.textContent = "";
     updateScannability($("scannability"), design, hasData);
     const disabled = !hasData;
     ($("download-png") as HTMLButtonElement).disabled = disabled;

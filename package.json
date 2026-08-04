@@ -1,6 +1,6 @@
 {
   "name": "qr-cow-browser-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "qr-cow browser extension (Firefox + Chrome) \u2014 generate styled QR codes from any page, link, selection, or typed content. Fully offline.",
   "scripts": {
