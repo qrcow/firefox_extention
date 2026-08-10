@@ -109,17 +109,18 @@ body.window-mode { width: auto; max-height: none; min-width: 320px; }
 .scannability[data-level="excellent"], .scannability[data-level="good"] { color: var(--ink-muted); }
 .scannability[data-level="low"] { color: var(--danger); font-weight: 600; }
 
+/* Wrap instead of a hidden horizontal scroller — every preset is visible
+   at a glance; the popup body already scrolls vertically when needed. */
 .presets {
-  display: flex; gap: 6px; overflow-x: auto;
+  display: flex; gap: 6px; flex-wrap: wrap;
   padding: 10px 14px 4px;
-  scrollbar-width: thin;
 }
 .preset-pill {
   flex: 0 0 auto;
   display: inline-flex; align-items: center; gap: 5px;
   border: 1px solid var(--line); border-radius: 999px;
   background: var(--surface); color: var(--ink-soft);
-  padding: 4px 9px 4px 5px; font-size: 11px; font-weight: 600;
+  padding: 3px 8px 3px 4px; font-size: 11px; font-weight: 600;
   cursor: pointer;
 }
 .preset-pill[aria-pressed="true"] { border-color: var(--brand); color: var(--ink); }
@@ -157,6 +158,12 @@ body.window-mode { width: auto; max-height: none; min-width: 320px; }
   background: var(--surface); border: 1px solid var(--line); color: var(--ink);
 }
 .btn-outline:hover { border-color: var(--brand); }
+/* Square icon button (copy): icon inherits text color via currentColor. */
+.btn-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  inline-size: 38px; padding: 9px 0;
+}
+.btn-icon svg { display: block; }
 .btn:disabled { opacity: 0.45; cursor: default; }
 
 .app-footer {

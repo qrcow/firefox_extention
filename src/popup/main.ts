@@ -18,9 +18,9 @@ import { defaultDesign, type DesignConfig } from "../shared/types";
 const msg = (key: string) => ext.i18n.getMessage(key) || key;
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 
-const CHIP_TYPES: ContentType[] = ["url", "text", "wifi", "vcard"];
+const CHIP_TYPES: ContentType[] = ["url", "text", "wifi", "vcard", "crypto"];
 const MORE_TYPES: ContentType[] = [
-  "email", "sms", "phone", "mecard", "event", "location", "social", "crypto", "app",
+  "email", "sms", "phone", "mecard", "event", "location", "social", "app",
 ];
 const SITE = "https://qr-cow.com";
 
@@ -175,6 +175,32 @@ function wireColorControls(): void {
 }
 
 // -------------------------------------------------------------- actions
+/** Two-rects clipboard icon, built via DOM APIs (web-ext lint bans innerHTML). */
+function clipboardIcon(): SVGSVGElement {
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("width", "18");
+  svg.setAttribute("height", "18");
+  svg.setAttribute("fill", "none");
+  svg.setAttribute("stroke", "currentColor");
+  svg.setAttribute("stroke-width", "2");
+  svg.setAttribute("stroke-linecap", "round");
+  svg.setAttribute("stroke-linejoin", "round");
+  svg.setAttribute("aria-hidden", "true");
+  const back = document.createElementNS(NS, "path");
+  back.setAttribute("d", "M8 8V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-3");
+  const front = document.createElementNS(NS, "rect");
+  front.setAttribute("x", "3");
+  front.setAttribute("y", "8");
+  front.setAttribute("width", "13");
+  front.setAttribute("height", "13");
+  front.setAttribute("rx", "2");
+  svg.appendChild(back);
+  svg.appendChild(front);
+  return svg;
+}
+
 function flashCopied(text: string): void {
   const toast = $("copied-toast");
   toast.textContent = text;
@@ -235,8 +261,11 @@ async function init(): Promise<void> {
   $("download-png").textContent = msg("downloadPng");
   $("download-svg").textContent = msg("downloadSvg");
   const copyBtn = $("copy");
-  copyBtn.textContent = "⧉";
+  // A real clipboard icon (currentColor, themes with light/dark) — the old
+  // "⧉" glyph rendered faint/boxy on many systems and read as noise.
+  copyBtn.appendChild(clipboardIcon());
   copyBtn.title = msg("copy");
+  copyBtn.setAttribute("aria-label", msg("copy"));
 
   const prefill = parsePrefill(location.search);
   if (prefill.mode === "window") document.body.classList.add("window-mode");
@@ -254,8 +283,11 @@ async function init(): Promise<void> {
     if (Object.keys(prefill.values).length) {
       fields[prefill.type] = { ...(fields[prefill.type] ?? {}), ...prefill.values };
     }
-  } else if (contentType === "url" && !fields.url?.url) {
-    // Toolbar-open with an empty URL form: seed from the active tab.
+  } else if (!saved && contentType === "url" && !fields.url?.url) {
+    // FIRST-EVER open only (no persisted state yet): seed from the active
+    // tab as an onboarding touch. Later opens restore what the user last
+    // had and never auto-overwrite it — the "Use current tab" button in
+    // the URL form is the explicit opt-in from then on.
     try {
       const [tab] = await ext.tabs.query({ active: true, currentWindow: true });
       if (isPrefillableUrl(tab?.url)) fields.url = { url: tab.url };

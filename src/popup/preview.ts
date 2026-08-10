@@ -87,7 +87,15 @@ export function clearPreview(host: HTMLElement): void {
   host.textContent = "";
 }
 
-/** Render at export size and return the bytes. */
+/**
+ * Render at export size and return the bytes.
+ *
+ * BOTH formats export through the SVG renderer — the exact pipeline the
+ * preview uses — and PNG is rasterized from that SVG here. The library's
+ * canvas renderer was a second, divergent code path: styles the user saw
+ * in the preview (dot shapes, gradients) could come out plain in the
+ * downloaded PNG. One pipeline = what you see is exactly what you save.
+ */
 export async function renderBlob(
   data: string,
   design: DesignConfig,
@@ -97,11 +105,39 @@ export async function renderBlob(
     ...buildStyleOptions(data, design),
     width: EXPORT_SIZE,
     height: EXPORT_SIZE,
-    type: format === "svg" ? "svg" : "canvas",
+    type: "svg",
   } as ConstructorParameters<typeof QRCodeStyling>[0];
   const qr = new QRCodeStyling(opts);
-  const raw = await qr.getRawData(format);
-  return raw instanceof Blob ? raw : raw ? new Blob([raw as unknown as BlobPart]) : null;
+  const raw = await qr.getRawData("svg");
+  const svgBlob =
+    raw instanceof Blob ? raw : raw ? new Blob([raw as unknown as BlobPart], { type: "image/svg+xml" }) : null;
+  if (!svgBlob || format === "svg") return svgBlob;
+  return rasterizeSvg(svgBlob, EXPORT_SIZE);
+}
+
+/** SVG blob → PNG blob at `size` px (the emitted SVG carries width/height,
+ *  which Firefox requires to draw an SVG image onto a canvas). */
+async function rasterizeSvg(svgBlob: Blob, size: number): Promise<Blob | null> {
+  const url = URL.createObjectURL(svgBlob);
+  try {
+    const img = new Image();
+    await new Promise<void>((resolve, reject) => {
+      img.onload = () => resolve();
+      img.onerror = () => reject(new Error("svg decode failed"));
+      img.src = url;
+    });
+    const canvas = document.createElement("canvas");
+    canvas.width = size;
+    canvas.height = size;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return null;
+    ctx.drawImage(img, 0, 0, size, size);
+    return await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, "image/png"));
+  } catch {
+    return null;
+  } finally {
+    URL.revokeObjectURL(url);
+  }
 }
 
 export function triggerDownload(blob: Blob, filename: string): void {

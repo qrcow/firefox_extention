@@ -1,6 +1,6 @@
 /**
- * Preset strip (16 pills with CSS swatches — no mini-QR renders) plus the
- * color/transparent controls and the scannability badge.
+ * Preset picker (wrapping pill grid with CSS swatches — no mini-QR renders)
+ * plus the color/transparent controls and the scannability badge.
  */
 import { ext } from "../compat";
 import { PRESETS } from "../shared/presets";
@@ -40,10 +40,6 @@ export function renderPresetStrip(
     pill.addEventListener("click", () => onPick(preset.id));
     host.appendChild(pill);
   }
-  // RTL-safe initial scroll position: logical start is handled by the
-  // browser; nothing to do — but keep the active pill in view.
-  const active = host.querySelector<HTMLElement>('[aria-pressed="true"]');
-  active?.scrollIntoView({ inline: "center", block: "nearest" });
 }
 
 export function markActivePreset(host: HTMLElement, activeId: string | null): void {
